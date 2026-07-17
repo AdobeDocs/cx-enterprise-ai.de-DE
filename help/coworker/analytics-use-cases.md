@@ -23,7 +23,7 @@ Bevor Sie mit der Analyse beginnen, greifen Sie auf den Coworker chat zu, indem 
 
 1. Navigieren Sie zu https://coworker.experience.adobe.io/chat/.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei ](https://experience.adobe.com)[Adobe CX Enterprise an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com)Adobe CX Enterprise an.
 
 1. Und was dann?
 
