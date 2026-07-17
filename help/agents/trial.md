@@ -40,9 +40,9 @@ Die Berechtigung des Kunden für die Testversion liegt vollständig im Ermessen 
 Berechtigte Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für:
 
 - Kollege-Chat: Eingaben, die im Kollege-Chat eingegeben wurden. Für einen begrenzten Einführungszeitraum verbrauchen Eingänge KI-Credits mit einer Rate von 25 KI-Credits pro Eingabe. Dieser Tarif ist nur für begrenzte Zeit verfügbar und kann sich ändern.
-- Experience Platform-Agenten: Jede Kombination von Aufträgen, die mit Experience Platform-Agenten ausgeführt werden (je nach Ihrer bestehenden Lizenz(en) für CX Enterprise-Anwendungen), aufgeführt in der [KI-Kreditverbrauchstabelle](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+- Experience Platform-Agenten: Jede Kombination von Aufträgen, die mit Experience Platform-Agenten ausgeführt werden (je nach Ihrer bestehenden Lizenz(en) für CX Enterprise-Anwendungen), aufgeführt in der [KI-Kreditverbrauchstabelle](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption).
 
-Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage).
 
 Das Dashboard für die Überwachung der Agent-KI bietet einen klaren Überblick darüber, wie Agent-KI in Ihrer gesamten Organisation übernommen und verwendet wird. Autorisierte Benutzer können Interaktionen einfach verfolgen, Feedback einholen, die KI-Kreditnutzung überwachen und Schlüsselmetriken überprüfen. Nutzen Sie diese Einblicke, um Optimierungsmöglichkeiten zu entdecken und Ihre Governance- und Adoptionsbemühungen zu unterstützen. Weitere Informationen finden Sie im [Handbuch zur Überwachung der Nutzung von Agent AI](https://experienceleague.adobe.com/de/docs/core-services/interface/features/monitoring).
 
@@ -102,7 +102,7 @@ Die Testversion wird schrittweise für bestimmte berechtigte Adobe Experience Cl
 
 ### Wie viele KI-Credits erhalte ich und was passiert, wenn diese KI-Credits verwendet werden?
 
-Berechtigte Kunden erhalten bis zu 10.000 KI-Credits für die Testversion, die als Coworker Chat (oder Experience Platform-Agenten) verwendet werden, um Aufgaben auszuführen. Bitte beachten Sie, dass diese KI-Credits nur für die Dauer des Testerlebnisses existieren und nicht verlängert werden können, wenn Sie zusätzliche KI-Credits lizenzieren, bevor Sie die vollständigen 10.000 KI-Credits verwenden. Weitere Informationen zur Verwendung von KI-Krediten finden Sie im [Handbuch zu Agentenvorgängen und KI-Kreditkonsum](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+Berechtigte Kunden erhalten bis zu 10.000 KI-Credits für die Testversion, die als Coworker Chat (oder Experience Platform-Agenten) verwendet werden, um Aufgaben auszuführen. Bitte beachten Sie, dass diese KI-Credits nur für die Dauer des Testerlebnisses existieren und nicht verlängert werden können, wenn Sie zusätzliche KI-Credits lizenzieren, bevor Sie die vollständigen 10.000 KI-Credits verwenden. Weitere Informationen zur Verwendung von KI-Krediten finden Sie im [Handbuch zu Agentenvorgängen und KI-Kreditkonsum](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption).
 
 ### Kostet das irgendetwas?
 
@@ -110,7 +110,7 @@ Für diese Testversion ist kein zusätzlicher Kauf erforderlich. Es findet keine
 
 ### Wer kann die Nutzung sehen und wie?
 
-Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage). Verwenden Sie das Dashboard, um Ihre KI-Guthaben-Nutzung und -Berichte anzuzeigen. Nur Administratoren und Benutzer mit den entsprechenden Berechtigungen können Ihre Nutzungsinformationen anzeigen.
+Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage). Verwenden Sie das Dashboard, um Ihre KI-Guthaben-Nutzung und -Berichte anzuzeigen. Nur Administratoren und Benutzer mit den entsprechenden Berechtigungen können Ihre Nutzungsinformationen anzeigen.
 
 Kunden behalten die Kontrolle darüber, wer Nutzung und Reporting sehen kann. Nur Administratoren und Benutzer mit den entsprechenden Berechtigungen können diese Informationen sehen.
 
