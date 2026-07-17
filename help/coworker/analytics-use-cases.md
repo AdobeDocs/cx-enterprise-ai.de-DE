@@ -23,7 +23,7 @@ Bevor Sie mit der Analyse beginnen, greifen Sie auf den Coworker Chat zu, indem 
 
 1. Navigieren Sie zu https://coworker.experience.adobe.io/chat/.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei ](https://experience.adobe.com)[Adobe CX Enterprise an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com)Adobe CX Enterprise an.
 
 1. Wählen Sie [!UICONTROL **Mitarbeiter**] aus der CX Enterprise-Produktauswahl aus. <!--not sure what this step should say-->
 
@@ -43,7 +43,7 @@ Möglicherweise haben Sie Zugriff auf verschiedene Datenansichten in Customer Jo
 
 ### Festlegen, welche Datenansichten verwendet werden sollen
 
-Teilen Sie Coworker mit, welche Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, damit Sie diese Informationen am besten bereitstellen können. Sie können [ auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
+Teilen Sie Coworker mit, welche Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, damit Sie diese Informationen am besten bereitstellen können. Sie können [&#x200B; auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
 
 **Sie:**
 
