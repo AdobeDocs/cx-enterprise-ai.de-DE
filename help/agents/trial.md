@@ -1,6 +1,6 @@
 ---
-title: Adobe Experience Platform Agents-Testversion
-description: Erfahren Sie mehr über die kostenlose Testversion für Adobe Experience Platform Agents.
+title: CX Enterprise Coworker Trial
+description: Erfahren Sie mehr über die kostenlose Testversion für CX Enterprise Coworker.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -12,53 +12,77 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
 workflow-type: tm+mt
-source-wordcount: 1243
-ht-degree: 5%
+source-wordcount: 1483
+ht-degree: 4%
 
 ---
 
-# Adobe Experience Platform Agents-Testversion
+# CX Enterprise Coworker Trial
 
 >[!AVAILABILITY]
 >
->Bestimmte berechtigte Experience Cloud-Kunden haben möglicherweise Zugriff auf die Adobe Experience Platform-Agenten-Testversion, um den Wert der Agenten in ihrer eigenen Umgebung zu erleben, bevor sie sich zur Lizenzierung verpflichten.
+>Bestimmte berechtigte CX Enterprise-Kunden haben möglicherweise Zugriff auf eine nutzungsgebundene Testversion, um den Wert der Agenten-KI-Angebote von Adobe in ihrer eigenen Umgebung zu erleben, bevor sie sich zum Kauf verpflichten.
 
-Das folgende Video soll Ihnen dabei helfen, die Testversion für Adobe Experience Platform-Agenten zu verstehen.
+Nach Ermessen von Adobe erhalten Kunden an der Testversion Zugriff auf **Coworker Chat**, eine Weiterentwicklung des KI-Assistenten-Gesprächserlebnisses. Der Coworker Chat ermöglicht es Teams, CXO-Produktaufgaben durch natürliche Sprache zu automatisieren und Ideen schnell in Aktionen mit flexibler Planung, anpassbaren Fähigkeiten und intelligenter Ausführung zu verwandeln.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480237?captions=ger&learn=on)
+Alle berechtigten Kundinnen und Kunden werden fortlaufend von KI-Assistent und Adobe Experience Platform-Agenten zu Coworker Chat umgestellt. In der Zwischenzeit behalten bestimmte Kunden möglicherweise den Zugriff auf den KI-Assistenten und die Experience Platform-Agenten, bis sie für den Coworker Chat aktiviert sind. Bitte beachten Sie, dass Co-Worker-Kampagnen nicht in den Umfang dieser Testversion fallen.
 
-## Was mit der Testversion verfügbar ist
+**KI-Assistent**: Eine ganzseitige, interaktive Gesprächsoberfläche, die von Agent Orchestrator unterstützt wird und produktübergreifend funktioniert. Dadurch können Anwender, die aktivierte Experience Cloud-Produkte verwenden, GenAI- und AgentAI-Funktionen nutzen. Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
 
-- **KI-Assistent**: Eine ganzseitige, interaktive Gesprächsoberfläche, die von Agent Orchestrator unterstützt wird und produktübergreifend funktioniert. Dadurch können Anwender, die aktivierte Experience Cloud-Produkte verwenden, GenAI- und AgentAI-Funktionen nutzen. Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
-- **Adobe Experience Platform-Agenten**: Spezifische KI-Agenten, die in der Lage sind, gängige Aufträge über Kategorien von Customer Experience Domains hinweg bereitzustellen. Sie können Agenten nutzen, um Ihre Kapazität zu erweitern und Erlebnisse schneller und mit größerer Wirkung zu erstellen und bereitzustellen, wodurch Produktivität und Effizienz der nächsten Ebene erreicht werden. Um zu verstehen, welche Agenten mit den einzelnen Experience Cloud-Programmen genutzt werden können, lesen Sie die Dokumentation unter [Agent-KI in Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai).
+**Adobe Experience Platform-Agenten**: Spezifische KI-Agenten, die in der Lage sind, gängige Aufträge über Kategorien von Customer Experience Domains hinweg bereitzustellen. Sie können Agenten nutzen, um Ihre Kapazität zu erweitern und Erlebnisse schneller und mit größerer Wirkung zu erstellen und bereitzustellen, wodurch Produktivität und Effizienz der nächsten Ebene erreicht werden. Um zu verstehen, welche Agenten mit den einzelnen Experience Cloud-Programmen genutzt werden können, lesen Sie die Dokumentation unter [Agent-KI in Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai).
 
 ## Details zum Testprogramm
 
-Adobe entscheidet nach eigenem Ermessen über Ihren Anspruch auf die Testversion. Kunden, die derzeit oder zuvor eine Promotion-Lizenz für Adobe Experience Platform Agent Orchestrator oder eine AI-Credits-Lizenz für Experience Platform-Agenten besitzen, sind nicht berechtigt, die Testversion zu nutzen.
+Die Berechtigung des Kunden für die Testversion liegt vollständig im Ermessen von Adobe. Die Testversion steht Kundinnen und Kunden, die eine Lizenz für Experience Platform Agents AI Credits haben oder besaßen, nicht zur Verfügung.
 
-Berechtigte Kundinnen und Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für eine beliebige Kombination von Aufträgen (abhängig von Ihren bestehenden Lizenzen für Experience Cloud-Programme), die in der Tabelle [KI-Kreditnutzung](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption) aufgeführt sind. Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage).
+Berechtigte Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für:
 
-Das Dashboard für die Überwachung der Agent-KI bietet einen klaren Überblick darüber, wie Agent-KI in Ihrer gesamten Organisation übernommen und verwendet wird. Als autorisierter Benutzer können Sie Interaktionen einfach verfolgen, Feedback einholen, die KI-Kreditnutzung überwachen und Schlüsselmetriken überprüfen. Nutzen Sie diese Einblicke, um Optimierungsmöglichkeiten zu entdecken und Ihre Governance- und Adoptionsbemühungen zu unterstützen. Weitere Informationen finden Sie im [Handbuch zur Überwachung der Nutzung von Agent AI](https://experienceleague.adobe.com/de/docs/core-services/interface/features/monitoring).
+- Kollege-Chat: Eingaben, die im Kollege-Chat eingegeben wurden. Für einen begrenzten Einführungszeitraum verbrauchen Eingänge KI-Credits mit einer Rate von 25 KI-Credits pro Eingabe. Dieser Tarif ist nur für begrenzte Zeit verfügbar und kann sich ändern.
+- Experience Platform-Agenten: Jede Kombination von Aufträgen, die mit Experience Platform-Agenten ausgeführt werden (je nach Ihrer bestehenden Lizenz(en) für CX Enterprise-Anwendungen), aufgeführt in der [KI-Kreditverbrauchstabelle](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption).
+
+Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage).
+
+Das Dashboard für die Überwachung der Agent-KI bietet einen klaren Überblick darüber, wie Agent-KI in Ihrer gesamten Organisation übernommen und verwendet wird. Autorisierte Benutzer können Interaktionen einfach verfolgen, Feedback einholen, die KI-Kreditnutzung überwachen und Schlüsselmetriken überprüfen. Nutzen Sie diese Einblicke, um Optimierungsmöglichkeiten zu entdecken und Ihre Governance- und Adoptionsbemühungen zu unterstützen. Weitere Informationen finden Sie im [Handbuch zur Überwachung der Nutzung von Agent AI](https://experienceleague.adobe.com/de/docs/core-services/interface/features/monitoring).
 
 >[!IMPORTANT]
 >
->KI-Credits gibt es nur für die Dauer der Testversion und **nicht verlängern** wenn Sie zusätzliche KI-Credits lizenzieren, bevor Sie die vollständige Berechtigung für 10.000 KI-Credits nutzen.
+>- Die Testversion endet, wenn der Kunde die anfängliche einmalige Zuteilung von 10.000 KI-Credits nutzt oder separat eine Lizenz für zusätzliche KI-Credits erwirbt (je nachdem, was früher eintritt). KI-Credits sind nur für die Dauer des Testerlebnisses vorhanden und werden nicht verlängert, wenn der Kunde zusätzliche KI-Credits kauft, bevor er die volle Zuteilung von 10.000 KI-Credits für die Testversion verwendet.  Auch wenn der Kunde möglicherweise nicht sofort den Zugriff verliert oder Überschussbeträge in Rechnung gestellt werden, liegt die Verlängerung dieser Leistungen im Ermessen von Adobe. Der Kunde muss zusätzliche KI-Credits erwerben, sobald die Testversion abgeschlossen ist, um den Coworker Chat (oder Adobe Experience Platform-Agenten) ohne Unterbrechung weiter verwenden zu können.
+>
+>- Adobe behält sich das Recht vor, den Zugriff des Kunden auf den Coworker Chat (oder Adobe Experience Platform-Agenten) jederzeit und aus beliebigem Grund auszusetzen oder zu beenden. Adobe kann die Testversion nach eigenem Ermessen jederzeit widerrufen oder anderweitig ändern.
 
-Die Testversion endet, sobald Sie die ursprüngliche einmalige Berechtigung von 10.000 KI-Credits oder Lizenzen für zusätzliche KI-Credits verbrauchen. Auch wenn Sie nicht sofort den Zugang verlieren oder Ihnen ein Überschuss in Rechnung gestellt wird, liegt die Verlängerung dieser Leistungen im Ermessen von Adobe. Sie müssen zusätzliche KI-Credits lizenzieren, sobald die Testversion abgeschlossen ist, um Experience Platform-Agenten ohne Unterbrechung weiter verwenden zu können. Wenden Sie sich an Ihr Adobe-Accountteam, um Anleitungen zur Lizenzierung zusätzlicher KI-Credits zu erhalten.
+## Anleitung für den Zugriff
 
-## Zugreifen auf und Beginnen mit dem von Agent Orchestrator unterstützten KI-Assistenten
+### Zugriff auf Coworker Chat
 
-Benutzer zugelassener Kundinnen und Kunden haben im Rahmen der Testversion Zugriff auf KI-Assistenten und -Agenten, sodass keine Aktion erforderlich ist. Experience Platform-Agenten orientieren sich an der Benutzereingabe und der Aufsicht. Agenten berücksichtigen auch zuvor definierte Zugriffssteuerungen auf Produktebene, sodass Benutzer nur Aufträge ausführen oder Aktionen ausführen können, für die sie über Berechtigungen in den entsprechenden zugrunde liegenden Experience Cloud-Produkten verfügen. Wenn Sie den Zugriff auf diese Funktionen von Agent deaktivieren und den Testzugriff deaktivieren möchten, senden Sie eine Anfrage an [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
+Benutzer zugelassener Kunden haben im Rahmen der Testversion Standardzugriff auf den Coworker Chat, sodass keine Aktion erforderlich ist. Der Coworker Chat arbeitet unter der Anleitung und Aufsicht von Benutzern und respektiert die vorhandenen Zugriffssteuerungen auf Produktebene Ihres Unternehmens. Benutzer können nur Aktionen ausführen, die sie bereits innerhalb der zugrunde liegenden CX Enterprise-Produkte ihres Unternehmens ausführen dürfen.
+
+Benutzer können auf Mitarbeiter zugreifen, indem sie ihn in der Anwendungsauswahl in der oberen Kopfzeile von CX Enterprise auswählen.
+
+![Der Anwendungsselektor, in dem sich der Coworker befindet.](../agents/images/coworker.png)
+
+Wenn eine Kundin oder ein Kunde den Zugriff ihres Unternehmens auf **Coworker Chat** widerrufen und/oder zu **AI Assistant** und **Experience Platform Agents** zurückkehren möchte, senden Sie eine Anfrage an [cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com).
+
+Für Kunden, die noch nicht auf den Coworker Chat umgestellt wurden:
+
+### Zugriff auf Experience Platform-Agenten über den von Agent Orchestrator unterstützten KI-Assistenten
+
+Benutzer zugelassener Kunden haben im Rahmen der Testversion Standardzugriff auf KI-Assistenten und Agenten, sodass keine Aktion erforderlich ist. Experience Platform-Agenten orientieren sich an der Benutzereingabe und der Aufsicht. Agenten berücksichtigen auch zuvor definierte Zugriffssteuerungen auf Produktebene, sodass Benutzer nur Aufträge ausführen oder Aktionen ausführen können, für die sie über Berechtigungen in den entsprechenden zugrunde liegenden CX Enterprise-Produkten verfügen.
 
 Sobald Sie Zugriff haben, navigieren Sie zur Startseite von Adobe Experience Cloud , um mit dem KI-Assistenten zu beginnen. Sie können die [Erkennungsaufforderungen“ verwenden](../ai-assistant/ai-assistant-ui.md#discovery-prompts) um Vorschläge für Aufforderungen und allgemeine Workflows anzuzeigen. Verwenden Sie diese Funktion, um das Onboarding mit dem KI-Assistenten zu beschleunigen. Lesen Sie außerdem die [Eingabeaufforderungsbibliothek](../ai-assistant/prompt-library.md), um eine Vielzahl von Eingabeaufforderungen anzuzeigen, die Sie mit verschiedenen Agenten verwenden können. Ausführlichere Informationen finden Sie im Handbuch [Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
 
-Informationen zu den verfügbaren Agenten finden Sie in der [Übersicht über Agent Orchestrator](agent-orchestrator.md).
+Wenn der Kunde den Zugriff auf diese Agentenfunktionen deaktivieren und den Testzugriff deaktivieren möchte, senden Sie eine Anfrage an [cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com).
 
->[!TIP]
->
->Hilfe anfordern - Eine Anfrage an [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com) senden.
+## Zusätzliche Ressourcen
+
+Lesen Sie die folgenden Handbücher, um weitere Informationen zu Coworker, Agent Orchestrator und AI Assistant zu erhalten:
+
+- [CX Enterprise-Mitarbeiter](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- [Übersicht über Agent Orchestrator](agent-orchestrator.md)
+- [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md)
+- [Bibliothek mit Eingabeaufforderungen des KI-Assistenten](../ai-assistant/prompt-library.md)
+- [KI in Experience Cloud](../home.md)
 
 ## Häufig gestellte Fragen {#faq}
 
@@ -66,7 +90,7 @@ Im Folgenden finden Sie Antworten auf häufig gestellte Fragen zur Experience Pl
 
 ### Was ist die Adobe Experience Platform Agents-Testversion?
 
-Mit der Adobe Experience Platform Agents-Testversion können berechtigte Kunden bestimmte Agenten ohne zusätzliche Kosten bis zu 10.000 KI-Credits verwenden. Das Ziel besteht darin, einen reibungsarmen, risikoarmen Weg zum Erlebniswert dieser Agenten zu bieten, bevor Kunden eine geschäftliche Entscheidung treffen.
+Mit der nutzungsgebundenen Testversion für Agenten können berechtigte Kunden den Coworker Chat (oder ausgewählte Experience Platform-Agenten) ohne zusätzliche Kosten bis zu 10.000 KI-Credits verwenden. Das Ziel besteht darin, einen reibungsarmen, risikoarmen Weg zum Erlebniswert dieser Agenten zu bieten, bevor Kunden eine geschäftliche Entscheidung treffen.
 
 ### Welche Agenten sind in dieser Studie enthalten?
 
@@ -78,17 +102,17 @@ Die Testversion wird schrittweise für bestimmte berechtigte Adobe Experience Cl
 
 ### Wie viele KI-Credits erhalte ich und was passiert, wenn diese KI-Credits verwendet werden?
 
-Berechtigte Kunden erhalten bis zu 10.000 KI-Credits für die Testversion, die als Agenten für die Ausführung von Aufträgen genutzt werden. Bitte beachten Sie, dass diese KI-Credits nur für die Dauer des Testerlebnisses existieren und nicht verlängert werden können, wenn Sie zusätzliche KI-Credits lizenzieren, bevor Sie die vollständigen 10.000 KI-Credits verwenden. Weitere Informationen zur Verwendung von KI-Krediten finden Sie im [Handbuch zu Agentenvorgängen und KI-Kreditkonsum](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption).
+Berechtigte Kunden erhalten bis zu 10.000 KI-Credits für die Testversion, die als Coworker Chat (oder Experience Platform-Agenten) verwendet werden, um Aufgaben auszuführen. Bitte beachten Sie, dass diese KI-Credits nur für die Dauer des Testerlebnisses existieren und nicht verlängert werden können, wenn Sie zusätzliche KI-Credits lizenzieren, bevor Sie die vollständigen 10.000 KI-Credits verwenden. Weitere Informationen zur Verwendung von KI-Krediten finden Sie im [Handbuch zu Agentenvorgängen und KI-Kreditkonsum](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption).
 
 ### Kostet das irgendetwas?
 
-Für die Testversion ist kein zusätzlicher Kauf erforderlich. Es findet keine automatische Konvertierung in ein kostenpflichtiges Angebot statt. Wenn Sie sich entscheiden, Agenten auch über die Testphase hinaus zu verwenden, wird Ihr Adobe Account Team mit Ihnen zusammenarbeiten, um auf ein kostenpflichtiges Angebot umzustellen.
+Für diese Testversion ist kein zusätzlicher Kauf erforderlich. Es findet keine automatische Konvertierung in ein kostenpflichtiges Angebot statt. Wenn eine Kundin oder ein Kunde beschließt, den Coworker Chat (oder Experience Platform-Agenten) auch nach der Testversion zu verwenden, arbeitet das Adobe-Account-Team mit der Kundin bzw. dem Kunden zusammen, um zum kostenpflichtigen Angebot zu wechseln.
 
 ### Wer kann die Nutzung sehen und wie?
 
 Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage). Verwenden Sie das Dashboard, um Ihre KI-Guthaben-Nutzung und -Berichte anzuzeigen. Nur Administratoren und Benutzer mit den entsprechenden Berechtigungen können Ihre Nutzungsinformationen anzeigen.
 
-Sie können auch das Dashboard für die Überwachung der agenten KI verwenden, um insight in die Akzeptanz, Interaktion, Feedback und KI-Kreditnutzung der agenten KI in Ihrem Unternehmen einzubinden. Autorisierte Benutzer können das Dashboard verwenden, um Schlüsselmetriken zu verfolgen, Optimierungsmöglichkeiten zu identifizieren und Governance- und Adoptionsinitiativen zu unterstützen. Weitere Informationen finden Sie im Handbuch unter [AI-Überwachung](https://experienceleague.adobe.com/de/docs/core-services/interface/features/monitoring).
+Kunden behalten die Kontrolle darüber, wer Nutzung und Reporting sehen kann. Nur Administratoren und Benutzer mit den entsprechenden Berechtigungen können diese Informationen sehen.
 
 ### Was passiert nach Ablauf des Prozesses?
 
@@ -97,18 +121,9 @@ Die Testversion endet, wenn Sie die anfängliche einmalige Berechtigung von bis 
 Nach Ablauf der Testversion haben Sie folgende Möglichkeiten:
 
 - Nicht vorwärts bewegen
-   - Dadurch läuft die Testversion ab
-   - Ihre bestehenden Adobe-Produkte funktionieren weiterhin wie bisher, ohne Strafen für die Nichtkonvertierung der Testversion
-- Weiter gehende Nutzung des Agenten
-   - Sie können mit Ihrem Adobe Account Team zusammenarbeiten, um auf ein kostenpflichtiges Angebot umzustellen.
+  - Zugriff auf die Testversion läuft ab.
+  - Ihre bestehenden Adobe-Produkte funktionieren weiterhin wie bisher, ohne Strafen für die Nichtkonvertierung der Testversion
+- Setzen Sie die Nutzung des Coworker Chat (oder des Experience Platform-Agenten) fort
+  - Sie können mit Ihrem Adobe Account Team zusammenarbeiten, um auf ein kostenpflichtiges Angebot umzustellen.
 
 Es gibt keinen automatischen ausgeblendeten Schalter, um Kunden zu konvertieren, deren Testversion beendet wurde, um bezahlt zu werden.
-
-## Zusätzliche Ressourcen
-
-Weitere Informationen zu Agent Orchestrator und AI Assistant finden Sie in den folgenden Handbüchern:
-
-- [Übersicht über Agent Orchestrator](agent-orchestrator.md)
-- [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md)
-- [Bibliothek mit Eingabeaufforderungen des KI-Assistenten](../ai-assistant/prompt-library.md)
-- [KI in Experience Cloud](../home.md)
