@@ -2,16 +2,10 @@
 title: Handbuch zur Benutzeroberfläche des KI-Assistenten
 description: Erfahren Sie, wie Sie in der Benutzeroberfläche auf den KI-Assistenten zugreifen und ihn nutzen können.
 TQID: https://experienceleague.adobe.com/MWhVCqUFt5Qze4mQp-G85OF81Mk1OL4xY8Jygm-B4PI
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 2162
 ht-degree: 3%
@@ -30,15 +24,15 @@ In der folgenden Tabelle finden Sie einen Vergleich von KI-Assistent (veraltet) 
 | --- | --- | --- |
 | Benutzererlebnis | Der KI-Assistent (veraltet) ist nur in einem Bereich der rechten Leiste verfügbar. | Der KI-Assistent (der nächsten Generation) ist sowohl im Bereich der rechten Leiste als auch im immersiven Vollbilderlebnis verfügbar. |
 | Funktionsumfang | Sie können den KI-Assistenten (frühere Version) sowohl für Produktkenntnisse als auch für betriebliche Einblicke verwenden. | Sie können den KI-Assistenten (der nächsten Generation) für Produktkenntnisse, operative Einblicke sowie erweiterte agentische Fähigkeiten und die Ausführung mehrstufiger Aufgaben verwenden. |
-| Architektur von Platform | Der KI-Assistent (veraltet) wurde nicht auf dem Agent Orchestrator-Stack erstellt. | Der KI-Assistent (der nächsten Generation) wird von [Adobe Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) unterstützt und ermöglicht Erweiterbarkeit und erweiterte Koordinierung über Funktionen hinweg. |
-| Anwendungsbereich | Der KI-Assistent (veraltet) ist eine anwendungsspezifische Implementierung. | Sie können den KI-Assistenten (der nächsten Generation) für ein einheitliches KI-Assistentenerlebnis in allen Adobe Experience Cloud-Programmen verwenden. |
-| Zugriffs- und Berechtigungsmodell | Auf einzelne Produktgrenzen abgestimmtes Zugriffsmodell für die Anwendung. | Alle Benutzer erhalten Zugriff auf den KI-Assistenten (der nächsten Generation) und die zugehörigen Experience Platform-Agenten. **Hinweis**: <ul><li>**Adobe Experience Manager**: Ihr Administrator muss Ihnen über die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) die Berechtigung für den Zugriff auf den KI-Assistenten (der nächsten Generation) erteilen.</li><li>**Customer Journey Analytics**: Ihr Administrator muss Ihnen die Berechtigung für den Zugriff auf den KI-Assistenten über die [Customer Journey Analytics-Zugriffssteuerung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/access-control?lang=en) erteilen. Auf diese Weise können Sie Fragen zu Produktwissen und Dateneinblicken stellen. |
+| Architektur von Platform | Der KI-Assistent (veraltet) wurde nicht auf dem Agent Orchestrator-Stack erstellt. | Der KI-Assistent (der nächsten Generation) wird von [Adobe Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) unterstützt und ermöglicht Erweiterbarkeit und erweiterte Koordinierung über Funktionen hinweg. |
+| Anwendungsbereich | Der KI-Assistent (veraltet) ist eine anwendungsspezifische Implementierung. | Sie können den KI-Assistenten (der nächsten Generation) für ein einheitliches KI-Assistentenerlebnis in allen Adobe CX Enterprise-Anwendungen verwenden. |
+| Zugriffs- und Berechtigungsmodell | Auf einzelne Produktgrenzen abgestimmtes Zugriffsmodell für die Anwendung. | Alle Benutzer erhalten Zugriff auf den KI-Assistenten (der nächsten Generation) und die zugehörigen Experience Platform-Agenten. **Hinweis**: <ul><li>**Adobe Experience Manager**: Ihr Administrator muss Ihnen über die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) die Berechtigung für den Zugriff auf den KI-Assistenten (der nächsten Generation) erteilen.</li><li>**Customer Journey Analytics**: Ihr Administrator muss Ihnen die Berechtigung für den Zugriff auf den KI-Assistenten über die [Customer Journey Analytics-Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en) erteilen. Auf diese Weise können Sie Fragen zu Produktwissen und Dateneinblicken stellen. |
 
 AI Assistant ist ein interaktives, generatives KI-Tool, das die Produktivität steigert und die Arbeit in Adobe Experience Platform-basierten Anwendungen neu definiert. Sie können den KI-Assistenten verwenden, um auf Adobe Experience Platform-Agenten und andere KI-Funktionen zuzugreifen.
 
 Lesen Sie dieses Handbuch, um zu erfahren, wie Sie den KI-Assistenten verwenden können.
 
-![Die Benutzeroberfläche des KI-Assistenten im Vollbildmodus.](./images/ai-assistant/blank-home.png)
+![Die Benutzeroberfläche des KI-Assistenten im Vollbildmodus.](./assets/ai-assistant/blank-home.png)
 
 >[!SLIDE](agent-orchestrator-ui)
 
@@ -46,19 +40,19 @@ Lesen Sie dieses Handbuch, um zu erfahren, wie Sie den KI-Assistenten verwenden 
 
 Es gibt mehrere Möglichkeiten, auf den KI-Assistenten zuzugreifen.
 
-Wählen Sie auf der Startseite von Experience Cloud **[!UICONTROL linken Navigationsbereich die Option]** KI-Assistent“ aus, um eine Vollbildansicht des KI-Assistenten zu öffnen.
+Wählen Sie in der Startseite von CX Enterprise die Option **[!UICONTROL KI-Assistent]** aus der linken Navigation, um eine Vollbildansicht des KI-Assistenten zu starten.
 
 +++Zum Anzeigen auswählen
 
-![Die Experience Cloud-Startseite mit dem im linken Navigationsbereich ausgewählten Symbol „KI-Assistent“.](./images/ai-assistant/from-experience-cloud.png)
+![Die Startseite von CX Enterprise mit dem im linken Navigationsbereich ausgewählten Symbol „KI-Assistent“.](./assets/ai-assistant/from-experience-cloud.png)
 
 +++
 
-Sie können den KI-Assistenten auch über die Startseiten von Experience Cloud-Programmen wie Experience Platform, Adobe Journey Optimizer und Customer Journey Analytics starten. Navigieren Sie zu Ihrer Produkt-Startseite und wählen Sie dann in der oberen **das Symbol** KI-Assistent“ aus, um das Chat-Bedienfeld des KI-Assistenten in der rechten Leiste zu starten.
+Sie können den KI-Assistenten auch über die Startseiten von CX Enterprise-Anwendungen wie Experience Platform, Adobe Journey Optimizer und Customer Journey Analytics starten. Navigieren Sie zu Ihrer Produkt-Startseite und wählen Sie dann in der oberen **das Symbol** KI-Assistent“ aus, um das Chat-Bedienfeld des KI-Assistenten in der rechten Leiste zu starten.
 
 +++Zum Anzeigen auswählen
 
-![Die Produkt-Startseite mit dem im linken Navigationsbereich ausgewählten Symbol „KI-Assistent“.](./images/ai-assistant/from-product.png)
+![Die Produkt-Startseite mit dem im linken Navigationsbereich ausgewählten Symbol „KI-Assistent“.](./assets/ai-assistant/from-product.png)
 
 +++
 
@@ -76,7 +70,7 @@ Die Benutzeroberfläche des KI-Assistenten umfasst mehrere wichtige Elemente, di
 4. **Kontexteinstellung**: Wählen Sie das Symbol Kontexteinstellung aus, um Informationsquellen für den KI-Assistenten zu konfigurieren. Sie können dieses Tool verwenden, um die Anwendung, Sandbox und Datenansicht zu konfigurieren, auf die der KI-Assistent verweist, um Ihre Abfrage zu beantworten. Weitere Informationen finden Sie im Abschnitt zu [Kontexteinstellungen](#context-setting).
 5. **Discovery**: Wählen Sie **[!UICONTROL Lernen]**, **[!UICONTROL Analysieren]** und **[!UICONTROL Optimieren]**, um Beispielabfragen anzuzeigen, mit denen Sie beginnen können. Weitere Informationen finden Sie im Abschnitt zu [Entdeckungsaufforderungen](#discoverability-prompts).
 
-![Der KI-Assistent im Vollbildmodus.](./images/ai-assistant/ui-home.png)
+![Der KI-Assistent im Vollbildmodus.](./assets/ai-assistant/ui-home.png)
 
 ### Leistenansicht
 
@@ -90,7 +84,7 @@ Die Leistenansicht bietet schnellen Zugriff auf Chat, Erkennungsaufforderungen, 
 1. **Automatische Vervollständigung von Daten und Objekten**: Wählen Sie das Pluszeichen, um Daten- und Objektvorschläge zu verwenden und die automatische Vervollständigung durchzuführen. Wenn ausgewählt, können Sie ein Popup-Fenster verwenden, um vorgeschlagene Entitäten auszuwählen. Weitere Informationen finden Sie im Abschnitt zu [automatische Vervollständigung von Daten und Objekten](#autocomplete).
 1. **Kontexteinstellung**: Wählen Sie das Symbol Kontexteinstellung aus, um Informationsquellen für den KI-Assistenten zu konfigurieren. Sie können dieses Tool verwenden, um die Anwendung, Sandbox und Datenansicht zu konfigurieren, auf die der KI-Assistent verweist, um Ihre Abfrage zu beantworten. Weitere Informationen finden Sie im Abschnitt zu [Kontexteinstellungen](#context-setting).
 
-![Der KI-Assistent in der Leistenansicht](./images/ai-assistant/rail-mode.png)
+![Der KI-Assistent in der Leistenansicht](./assets/ai-assistant/rail-mode.png)
 
 ## Handbuch zur Benutzeroberfläche des KI-Assistenten
 
@@ -108,19 +102,19 @@ Im Vollbildmodus sind Erkennungsaufforderungen in drei Kategorien unterteilt: **
 
 Um die Erkennungsaufforderungen zum Erweitern des Produktwissens zu verwenden, wählen Sie **[!UICONTROL Lernen]** und dann im angezeigten Dropdown-Fenster eine Eingabeaufforderung aus.
 
-![Die Auswahl der Erkennungsaufforderung in der Vollbildansicht.](./images/ai-assistant/inputs/discover.png)
+![Die Auswahl der Erkennungsaufforderung in der Vollbildansicht.](./assets/ai-assistant/inputs/discover.png)
 
 >[!TAB Verwenden Sie Discover in der Leistenansicht]
 
 Wählen Sie **[!UICONTROL Discovery]** in der Leistenansicht aus, um auf eine umfassende Liste von Erkennungsaufforderungen zuzugreifen, die Sie verwenden können, um zu beginnen und Ihren Chat mit dem KI-Assistenten zu füllen.
 
-![Das Discovery-Bedienfeld in der Leistenansicht.](./images/ai-assistant/inputs/discover-rail.png)
+![Das Discovery-Bedienfeld in der Leistenansicht.](./assets/ai-assistant/inputs/discover-rail.png)
 
 >[!ENDTABS]
 
 Wählen Sie eine Eingabeaufforderung aus, um das Eingabefeld zu füllen. Von hier aus können Sie die Eingabeaufforderung entsprechend Ihrem jeweiligen Anwendungsfall bearbeiten. Wenn Sie bereit sind, klicken Sie auf das Symbol Senden rechts, um Ihre Abfrage zu senden.
 
-![Die Erkennungsaufforderung im Eingabefeld.](./images/ai-assistant/inputs/question-input.png)
+![Die Erkennungsaufforderung im Eingabefeld.](./assets/ai-assistant/inputs/question-input.png)
 
 ## Interagieren mit Antworten
 
@@ -130,23 +124,23 @@ Der KI-Assistent fragt dann seine Wissensdatenbank ab und berechnet eine Antwort
 
 Um den zugrunde liegenden Argumentationsprozess besser zu verstehen, wählen Sie **[!UICONTROL Argumentation abgeschlossen]** aus.
 
-![Die Antwort des KI-Assistenten.](./images/ai-assistant/inputs/answer.png)
+![Die Antwort des KI-Assistenten.](./assets/ai-assistant/inputs/answer.png)
 
 Das *[!UICONTROL Reasoning complete]* wird erweitert und zeigt eine Zusammenfassung Ihrer Anfrage und Details zur Erstellung der Antwort an.
 
-![Das erweiterte Argumentationsbedienfeld in einer Antwort des KI-Assistenten.](./images/ai-assistant/inputs/reasoning-complete.png)
+![Das erweiterte Argumentationsbedienfeld in einer Antwort des KI-Assistenten.](./assets/ai-assistant/inputs/reasoning-complete.png)
 
 ### Verwandte Vorschläge verwenden
 
 Navigieren Sie dann nach unten zum Ende der Antwort und wählen Sie **[!UICONTROL Verknüpfte Vorschläge]** aus, um eine Liste mit Eingabeaufforderungen bezüglich Ihrer ursprünglichen Abfrage zu erhalten. Sie können diese Eingabeaufforderungen verwenden, um Ihr Gespräch mit dem KI-Assistenten fortzusetzen.
 
-![Das Fenster mit den zugehörigen Vorschlägen im KI-Assistenten.](./images/ai-assistant/inputs/related-suggestions.png)
+![Das Fenster mit den zugehörigen Vorschlägen im KI-Assistenten.](./assets/ai-assistant/inputs/related-suggestions.png)
 
 ### Quellen anzeigen
 
 Um die Antwort des KI-Assistenten zu überprüfen, wählen Sie **[!UICONTROL Quellen]** aus, um eine Liste der Informationsquellen anzuzeigen, auf die der KI-Assistent bei der Berechnung seiner Antwort verwiesen hat.
 
-![Die Liste der Quellen, auf die vom KI-Assistenten verwiesen wird.](./images/ai-assistant/inputs/sources.png)
+![Die Liste der Quellen, auf die vom KI-Assistenten verwiesen wird.](./assets/ai-assistant/inputs/sources.png)
 
 ### Feedback geben
 
@@ -154,7 +148,7 @@ Mithilfe der mit der Antwort bereitgestellten Optionen können Sie Feedback zu I
 
 Um Feedback zu geben, wählen Sie entweder Daumen hoch oder Daumen runter aus, nachdem Sie eine Antwort vom KI-Assistenten erhalten haben, und geben Sie dann Ihr Feedback in das bereitgestellte Textfeld ein.
 
-![Die Symbole „Daumen hoch“ und „Daumen runter“ im KI-Assistenten.](./images/ai-assistant/inputs/feedback.png)
+![Die Symbole „Daumen hoch“ und „Daumen runter“ im KI-Assistenten.](./assets/ai-assistant/inputs/feedback.png)
 
 >[!BEGINTABS]
 
@@ -164,11 +158,11 @@ Wählen Sie **[!UICONTROL Daumen hoch]**, um positives Feedback zu geben. Sie k�
 
 +++Zum Anzeigen auswählen
 
-![Das Feedback-Fenster mit dem Daumen nach oben.](./images/ai-assistant/inputs/thumbs-up.png)
+![Das Feedback-Fenster mit dem Daumen nach oben.](./assets/ai-assistant/inputs/thumbs-up.png)
 
 Sie können auch **[!UICONTROL Detailliertes Feedback]** auswählen, um Ihr Feedback weiter auszuarbeiten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Absenden]**..
 
-![Das detaillierte Feedback-Fenster für Daumen hoch.](./images/ai-assistant/inputs/thumbs-up-detailed.png)
+![Das detaillierte Feedback-Fenster für Daumen hoch.](./assets/ai-assistant/inputs/thumbs-up-detailed.png)
 
 +++
 
@@ -178,11 +172,11 @@ Wählen Sie **[!UICONTROL Daumen runter]** um konstruktives Feedback zu geben. S
 
 +++Zum Anzeigen auswählen
 
-![Das Feedback-Fenster mit den Daumen nach unten.](./images/ai-assistant/inputs/thumbs-down.png)
+![Das Feedback-Fenster mit den Daumen nach unten.](./assets/ai-assistant/inputs/thumbs-down.png)
 
 Ebenso können Sie auch **[!UICONTROL Detailliertes Feedback]** auswählen, um Ihr Feedback weiter auszuarbeiten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Absenden]**..
 
-![Das detaillierte Feedback-Fenster für die Daumen nach unten.](./images/ai-assistant/inputs/thumbs-down-detailed.png)
+![Das detaillierte Feedback-Fenster für die Daumen nach unten.](./assets/ai-assistant/inputs/thumbs-down-detailed.png)
 
 +++
 
@@ -192,59 +186,59 @@ Ebenso können Sie auch **[!UICONTROL Detailliertes Feedback]** auswählen, um I
 
 Wenn die Antwort des KI-Assistenten ein Bild enthält, können Sie das Pfadsymbol auswählen, um einen Aufspaltungsmodus zu starten. Auf diese Weise können Sie die gesamte Antwort des KI-Assistenten mit dem kontextuellen Bild, das auf der rechten Seite angezeigt wird, lesen.
 
-![Der Aufspaltungsmodus im KI-Assistenten.](./images/ai-assistant/inputs/split-view.png)
+![Der Aufspaltungsmodus im KI-Assistenten.](./assets/ai-assistant/inputs/split-view.png)
 
 ### Unterhaltungen
 
 Sie können das Bedienfeld *[!UICONTROL Alle Konversationen]* verwenden, um Konversationen mit dem KI-Assistenten zurückzusetzen und erneut aufzurufen. Wählen Sie das Symbol **[!UICONTROL Konversationen]** aus, um das Fenster *[!UICONTROL Alle Konversationen]* anzuzeigen.
 
-![Das Fenster „Konversationen“ im KI-Assistenten.](./images/ai-assistant/conversations/select-conversations.png)
+![Das Fenster „Konversationen“ im KI-Assistenten.](./assets/ai-assistant/conversations/select-conversations.png)
 
 Um eine frühere Konversation erneut aufzurufen, wählen Sie das Konversationsthema aus der bereitgestellten Liste aus.
 
-![Die Liste der früheren Konversationen, die im KI-Assistenten aufgezeichnet wurden.](./images/ai-assistant/conversations/revisit-conversation.png)
+![Die Liste der früheren Konversationen, die im KI-Assistenten aufgezeichnet wurden.](./assets/ai-assistant/conversations/revisit-conversation.png)
 
 Um eine neue Unterhaltung zu beginnen, wählen Sie **[!UICONTROL Neue Unterhaltung]** aus.
 
-![Die Option „Neue Konversation“ ist ausgewählt.](./images/ai-assistant/conversations/new-conversation.png)
+![Die Option „Neue Konversation“ ist ausgewählt.](./assets/ai-assistant/conversations/new-conversation.png)
 
 ### Kontexteinstellung {#context-setting}
 
 Verwenden Sie die Kontexteinstellungsfunktion des KI-Assistenten, um die **Anwendung**, **Sandbox** und **Datenansicht** zu konfigurieren, auf die der KI-Assistent zur Beantwortung Ihrer Abfrage verweist. Um auf die Kontexteinstellung zuzugreifen, wählen Sie **[!UICONTROL Symbol „Kontexteinstellung]** aus dem Eingabefeld aus.
 
-![Das Symbol für die Kontexteinstellung ist ausgewählt.](./images/ai-assistant/inputs/context-selection.png)
+![Das Symbol für die Kontexteinstellung ist ausgewählt.](./assets/ai-assistant/inputs/context-selection.png)
 
 Das *[!UICONTROL Antwort von…]* Popup-Fenster wird angezeigt. Verwenden Sie dieses Fenster, um die Informationsquellen zu konfigurieren, die Sie verwenden möchten, und wählen Sie dann **[!UICONTROL Kontext festlegen]**.
 
 | Informationsquelle | Beschreibung | Beispiele |
 | --- | --- | --- |
-| App | Die Experience Cloud-Anwendung, zu der Ihre Abfrage gehört. | Experience Platform, Journey Optimizer, Customer Journey Analytics usw. |
+| App | Die CX Enterprise-Anwendung, auf die sich Ihre Abfrage bezieht. | Experience Platform, Journey Optimizer, Customer Journey Analytics usw. |
 | Sandbox | Die Sandbox, die die Datensätze oder Informationen enthält, auf die sich Ihre Abfrage bezieht. | Prod (VA7), Dev. |
 | Datenansicht | Wenn Sie den KI-Assistenten mit Customer Journey Analytics verwenden, hilft Ihnen die Datenansichtseinstellung beim Verständnis von Data Insights Agent: <ul><li>Zu abfragende Datensätze</li><li>Welche Datenkomponenten verfügbar sind</li><li>Strukturieren von Antworten auf Ihre Daten</li><li>Welche Visualisierungen in Analysis Workspace erstellt werden sollen</li></ul> | |
 
-![Das Bedienfeld „Antwort von“, in dem Informationsquellen konfiguriert werden können.](./images/ai-assistant/inputs/answer-from.png)
+![Das Bedienfeld „Antwort von“, in dem Informationsquellen konfiguriert werden können.](./assets/ai-assistant/inputs/answer-from.png)
 
 ### Daten und Objekt automatisch vervollständigen
 
 Sie können die Funktion zur automatischen Vervollständigung verwenden, um eine Liste von Datenobjekten zu erhalten, die in Ihrer Sandbox vorhanden sind. Um die automatische Vervollständigung zu verwenden, geben Sie in Ihrer Abfrage das Pluszeichen (+) ein. Alternativ können Sie auch das Pluszeichen (+) unten im Texteingabefeld auswählen. Es wird ein Fenster mit einer Liste empfohlener Datenobjekte aus Ihrer Sandbox angezeigt.
 
-![Die Schaltfläche zur automatischen Vervollständigung von Daten und Objekt wurde ausgewählt.](./images/ai-assistant/autocomplete/autocomplete.png)
+![Die Schaltfläche zur automatischen Vervollständigung von Daten und Objekt wurde ausgewählt.](./assets/ai-assistant/autocomplete/autocomplete.png)
 
 ### Überprüfen von Antworten
 
 Es gibt eine Reihe von Möglichkeiten, Antworten des KI-Assistenten zu überprüfen. Wählen Sie **[!UICONTROL Abfragebegriff, der mit Objekten]** wurde) aus, um eine Zusammenfassung der Begriffe in Ihrer Abfrage anzuzeigen, die mit bestimmten Objekten in Ihrer Organisation abgeglichen wurden.
 
-![Die Abfragebegriffe entsprechen Ihrer Antwort.](./images/ai-assistant/autocomplete/query-terms.png)
+![Die Abfragebegriffe entsprechen Ihrer Antwort.](./assets/ai-assistant/autocomplete/query-terms.png)
 
 Wählen Sie **[!UICONTROL Hier habe ich die Ergebnisse erhalten]** um eine detaillierte, schrittweise Erklärung zu erhalten, wie der KI-Assistent zu seiner Antwort gelangt ist. Darüber hinaus können Sie auch die SQL-Abfrage anzeigen, die zur Beantwortung Ihrer Frage ausgeführt wurde. Diese Abfrage ist schreibgeschützt und wird für die Verwendung im Abfrage-Service nicht unterstützt.
 
-![Die SQL-Verifizierungs-Tools im KI-Assistenten.](./images/ai-assistant/autocomplete/verifications.png)
+![Die SQL-Verifizierungs-Tools im KI-Assistenten.](./assets/ai-assistant/autocomplete/verifications.png)
 
 ### Konfigurieren der Datenvisualisierung
 
 Sie können die Datenvisualisierungsfunktionen des KI-Assistenten verwenden, um Ihre Daten besser zu verstehen. Sie können auch den Diagrammtyp angeben, den Sie in Ihrer Abfrage verwenden möchten. Senden Sie beispielsweise eine Abfrage mit folgendem Inhalt: **Nach Produktname für letzten Monat (Balken) Gewinn anzeigen“**, um ein Balkendiagramm für den Gewinn im letzten Monat zu erhalten, sortiert nach Produktname.
 
-![Ein Balkendiagramm wird im KI-Assistenten angezeigt](./images/ai-assistant/visualization/graph.png)
+![Ein Balkendiagramm wird im KI-Assistenten angezeigt](./assets/ai-assistant/visualization/graph.png)
 
 Wählen Sie anschließend **[!UICONTROL Eigenschaften]**, um den Diagrammtyp zu ändern und Werte für Ihre X- und Y-Achse zu konfigurieren.
 
@@ -256,24 +250,24 @@ Der KI-Assistent unterstützt verschiedene Diagrammtypen für die Datenvisualisi
 
 Um ein Liniendiagramm anzuzeigen, wählen Sie **[!UICONTROL Eigenschaften]** und anschließend **[!UICONTROL Linie]** aus.
 
-![Ein Liniendiagramm im KI-Assistenten.](./images/ai-assistant/visualization/line.png)
+![Ein Liniendiagramm im KI-Assistenten.](./assets/ai-assistant/visualization/line.png)
 
 >[!TAB Bereich]
 
 Um ein Flächendiagramm anzuzeigen, wählen Sie **[!UICONTROL Eigenschaften]** und dann **[!UICONTROL Bereich]** aus.
 
-![Ein Flächendiagramm im KI-Assistenten.](./images/ai-assistant/visualization/area.png)
+![Ein Flächendiagramm im KI-Assistenten.](./assets/ai-assistant/visualization/area.png)
 
 >[!TAB Streuung]
 
 Um ein Streudiagramm anzuzeigen, wählen Sie **[!UICONTROL Eigenschaften]** und dann **[!UICONTROL Streudiagramm]** aus.
 
-![Ein Streudiagramm im KI-Assistenten.](./images/ai-assistant/visualization/scatter.png)
+![Ein Streudiagramm im KI-Assistenten.](./assets/ai-assistant/visualization/scatter.png)
 
 >[!TAB Ringdiagramm]
 
 Um ein Ringdiagramm anzuzeigen, wählen Sie **[!UICONTROL Eigenschaften]** und dann **[!UICONTROL Ringdiagramm]** aus.
 
-![Ein Ringdiagramm im KI-Assistenten.](./images/ai-assistant/visualization/donut.png)
+![Ein Ringdiagramm im KI-Assistenten.](./assets/ai-assistant/visualization/donut.png)
 
 >[!ENDTABS]

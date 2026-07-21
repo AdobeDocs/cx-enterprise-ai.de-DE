@@ -1,9 +1,9 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Erfahren Sie, wie Sie die Adobe Marketing Agent for Microsoft 365 Copilot verwenden können.
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1832'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Bevor Sie Adobe Marketing Agent für [!DNL Microsoft 365 Copilot] verwenden kön
 - [!DNL Microsoft 365] mit [!DNL Microsoft Teams] oder [!DNL Microsoft Copilot Chat].
 - Experience Platform und/oder mindestens eines der folgenden: Real-Time CDP, Adobe Journey Optimizer und/oder Customer Journey Analytics.
 - Berechtigung für die Experience Platform Agent Orchestrator und Agenten.
-- Zugriff auf das Adobe Experience Cloud-Konto Ihres Unternehmens (Anmeldung und Produktberechtigungen) für die verwendeten Lösungen und Daten. Wenn Sie keinen Zugriff auf Adobe haben, wenden Sie sich an Ihren Adobe-Administrator.
+- Zugriff auf das Adobe CX Enterprise-Konto Ihres Unternehmens (Anmeldung und Produktberechtigungen) für die von Ihnen verwendeten Lösungen und Daten. Wenn Sie keinen Zugriff auf Adobe haben, wenden Sie sich an Ihren Adobe-Administrator.
 
 ## Aktivieren des Agenten für Ihre Organisation {#enable-the-agent-for-your-organization}
 
@@ -67,45 +67,45 @@ Informationen zu Administratorschritten und Richtlinienoptionen im [!DNL Microso
 
 Nachdem Ihr Unternehmen den Agenten aktiviert hat (siehe [Aktivieren des Agenten für Ihr Unternehmen](#enable-the-agent-for-your-organization)), navigieren Sie in der Anwendung Ihrer Wahl zu [!DNL Microsoft 365 Copilot] und wählen Sie **[!DNL All Agents]** über die linke Navigation aus.
 
-![Linker Navigationsbereich des Microsoft 365 Copilot mit allen ausgewählten Agenten.](../agents/images/ama/all-agents.png)
+![Linker Navigationsbereich des Microsoft 365 Copilot mit allen ausgewählten Agenten.](../agents/assets/ama/all-agents.png)
 
 Suchen Sie die Karte für [!DNL Adobe Marketing Agent] oder suchen Sie in der Suchleiste manuell nach dem Agenten. Sobald Sie den Agenten haben, wählen Sie die Karte aus.
 
-![Adobe Marketing Agent-Karte oder Suchergebnis in der Agentengalerie.](../agents/images/ama/select-ama.png)
+![Adobe Marketing Agent-Karte oder Suchergebnis in der Agentengalerie.](../agents/assets/ama/select-ama.png)
 
 Verwenden Sie das Popup-Fenster, um mehr über den Agenten zu erfahren. Wenn Sie fertig sind, wählen Sie **[!DNL Add]** aus.
 
-![Popup mit Adobe Marketing Agent-Details mit hervorgehobener Schaltfläche „Hinzufügen“.](../agents/images/ama/add-ama.png)
+![Popup mit Adobe Marketing Agent-Details mit hervorgehobener Schaltfläche „Hinzufügen“.](../agents/assets/ama/add-ama.png)
 
 Das [!DNL Microsoft 365 Copilot]-Dashboard wird nun mit dem [!DNL Adobe Marketing Agent]-Branding auf der Hauptseite aktualisiert.
 
-![Startseite von Microsoft 365 Copilot, auf der Adobe Marketing Agent im Haupt-Dashboard angezeigt wird.](../agents/images/ama/home.png)
+![Startseite von Microsoft 365 Copilot, auf der Adobe Marketing Agent im Haupt-Dashboard angezeigt wird.](../agents/assets/ama/home.png)
 
 ### Anmelden und Kontext festlegen
 
 Fordern Sie als Nächstes den Agenten auf, sich anzumelden, und führen Sie die folgenden Schritte aus, die zur Authentifizierung Ihres Kontos erforderlich sind. In diesem Schritt müssen Sie einen numerischen Code kopieren, den der Agent zurückgibt, und sich dann bei Ihrem Adobe-Unternehmen anmelden. Wenn Sie die Anmeldung nicht abschließen können oder keinen Zugriff auf Adobe-Lösungen für Ihr Unternehmen haben, wenden Sie sich an Ihren **Adobe-Administrator**.
 
-![Anmeldung bei Adobe mit einem zu kopierenden numerischen Code und Anweisungen zur Authentifizierung bei Ihrer Adobe-Organisation.](../agents/images/ama/sign-in.png)
+![Anmeldung bei Adobe mit einem zu kopierenden numerischen Code und Anweisungen zur Authentifizierung bei Ihrer Adobe-Organisation.](../agents/assets/ama/sign-in.png)
 
 Verwenden Sie bei Erfolg den Kontextsetter, um die Dokumentationsquelle, Sandbox und Datenansicht festzulegen, die Sie für Ihre Abfragen verwenden werden.
 
-![Benutzeroberfläche „Kontextsetter“ zum Auswählen der Dokumentationsquelle, Sandbox und Datenansicht für Abfragen.](../agents/images/ama/context.png)
+![Benutzeroberfläche „Kontextsetter“ zum Auswählen der Dokumentationsquelle, Sandbox und Datenansicht für Abfragen.](../agents/assets/ama/context.png)
 
 ### Verwenden des Agenten zum Abrufen operativer Erkenntnisse
 
 Sobald Sie angemeldet sind, können Sie die auf der Hauptseite bereitgestellten Eingabeaufforderungen verwenden, um zu beginnen. Sie können auch eine Starteraufforderung nutzen, die sich auf die Analyse von Marketing-Audiences, die Überprüfung der Kampagnenleistung und die Überwachung der Kampagnen-Journey erstreckt. Wählen Sie beispielsweise **[!DNL Review campaign performance]** und dann **[!DNL Analyze engagement - Show web visitors for top 10 products last week]** aus.
 
-![Starteraufforderungen auf der Agenten-Startseite, einschließlich der Optionen Kampagnenleistung überprüfen und Interaktion analysieren.](../agents/images/ama/starter-guide.png)
+![Starteraufforderungen auf der Agenten-Startseite, einschließlich der Optionen Kampagnenleistung überprüfen und Interaktion analysieren.](../agents/assets/ama/starter-guide.png)
 
 Warten Sie einige Augenblicke, bis der Agent berechnet hat, und dann antwortet der Agent mit einer visualisierten Darstellung Ihrer Daten. Sie können das dargestellte Balkendiagramm verwenden oder **[!DNL View data]** auswählen, um die Daten in Tabellen anzuzeigen.
 
-![Agentenantwort mit einem Balkendiagramm, das Web-Besucher für die wichtigsten Produkte visualisiert, und Option „Daten anzeigen“.](../agents/images/ama/response.png)
+![Agentenantwort mit einem Balkendiagramm, das Web-Besucher für die wichtigsten Produkte visualisiert, und Option „Daten anzeigen“.](../agents/assets/ama/response.png)
 
-![Dieselben Einblicke werden als Datentabelle angezeigt, nachdem Sie auf „Daten anzeigen“ geklickt haben.](../agents/images/ama/tables.png)
+![Dieselben Einblicke werden als Datentabelle angezeigt, nachdem Sie auf „Daten anzeigen“ geklickt haben.](../agents/assets/ama/tables.png)
 
 Sie können weitere Nachforschungen anstellen, indem Sie Folgefragen auswählen, die der Agent empfiehlt. Alternativ können Sie auch verschiedene Starter-Eingabeaufforderungen drehen und ausprobieren, die Informationsquellen überprüfen, auf die der Agent verwiesen hat, oder Feedback mithilfe des Feedback-Mechanismus geben.
 
-![Vorgeschlagene Folgefragen unter der Antwort des Agenten für weitere Untersuchungen.](../agents/images/ama/follow-up.png)
+![Vorgeschlagene Folgefragen unter der Antwort des Agenten für weitere Untersuchungen.](../agents/assets/ama/follow-up.png)
 
 Weitere Informationen zu den Funktionen der Benutzeroberfläche des KI-Assistenten finden Sie im Handbuch unter [Verwenden des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
 
@@ -125,7 +125,7 @@ Die erste Version ist als englischsprachige Version verfügbar. Die Funktionen s
 
 >[!IMPORTANT]
 >
->Die Adobe Marketing Agent ruft je nach den gesendeten Eingabeaufforderungen verschiedene Adobe-Agenten und -Aufträge auf. Dieser zugrunde liegende Adobe-Agent, der aufgerufen wird, verwendet KI-Credits, wie auf der Seite [Vorgänge für Adobe Experience Platform-Agenten und Nutzung von KI-](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption) angegeben.
+>Die Adobe Marketing Agent ruft je nach den gesendeten Eingabeaufforderungen verschiedene Adobe-Agenten und -Aufträge auf. Dieser zugrunde liegende Adobe-Agent, der aufgerufen wird, verwendet KI-Credits, wie auf der Seite [Vorgänge für Adobe Experience Platform-Agenten und Nutzung von KI-](../overview/ai-credit-consumption.md) angegeben.
 
 ## Anhang
 
@@ -152,7 +152,7 @@ Bevor Sie externe Agenten bereitstellen können, muss die Richtlinie Ihrer Organ
 Normalerweise finden Sie externe Agenten im [[!DNL Microsoft Commercial Marketplace]](https://appsource.microsoft.com/).
 
 - **Vom Marketplace**: Suchen Sie den gewünschten Agenten und wählen Sie **Jetzt abrufen**. Dadurch werden Sie oft zurück zur Seite „Integrierte Apps **Ihres Admin Centers**.
-- **Berechtigungen überprüfen**: Wählen Sie in der Liste [Integrierte &#x200B;](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide)&quot; den externen Agenten aus.
+- **Berechtigungen überprüfen**: Wählen Sie in der Liste [Integrierte ](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide)&quot; den externen Agenten aus.
 - Überprüfen Sie die **Daten und Tools** und **Sicherheit und**), um zu sehen, auf welche Daten der externe Anbieter zugreifen wird.
 - Wählen Sie **Genehmigen** oder **Aktivieren** aus, um es in das Inventar Ihrer Organisation zu verschieben.
 
@@ -160,7 +160,7 @@ Normalerweise finden Sie externe Agenten im [[!DNL Microsoft Commercial Marketpl
 
 Nach der Genehmigung können Sie genau steuern, wer den Agenten in der Seitenleiste des Copiloten sehen kann.
 
-- Navigieren [[!DNL Microsoft 365]  im &#x200B;](https://admin.microsoft.com/) zu **Agenten** > **Alle Agenten**.
+- Navigieren [[!DNL Microsoft 365]  im ](https://admin.microsoft.com/) zu **Agenten** > **Alle Agenten**.
 - Wählen Sie den externen Agenten aus der Liste aus.
 - Wählen **Bereitstellen** (oder **Zuweisung bearbeiten**) aus.
 - Wählen Sie **Spezifische Benutzer/Gruppen** und suchen Sie nach den Einzelpersonen oder [!DNL Entra ID] Gruppen, die es haben sollen.

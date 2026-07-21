@@ -2,7 +2,7 @@
 title: Durchführen einer Customer Journey Analytics-Datenanalyse mit einem Kollegen
 description: Erfahren Sie, wie Sie mit einem Kollegen eine Datenanalyse in Customer Journey Analytics durchführen.
 hold: true
-source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 5%
@@ -23,7 +23,7 @@ Bevor Sie mit der Analyse beginnen, greifen Sie auf den Coworker Chat zu, indem 
 
 1. Navigieren Sie zu https://coworker.experience.adobe.io/chat/.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com)Adobe CX Enterprise an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei ](https://experience.adobe.com)[Adobe CX Enterprise an.
 
 1. Wählen Sie [!UICONTROL **Mitarbeiter**] aus der CX Enterprise-Produktauswahl aus. <!--not sure what this step should say-->
 
@@ -31,7 +31,7 @@ Bevor Sie mit der Analyse beginnen, greifen Sie auf den Coworker Chat zu, indem 
 
    1. Wählen Sie das MCP-Symbol in der linken Leiste aus und stellen Sie sicher, dass [!UICONTROL **cja-**]) in Ihrer Liste der verbundenen MCP-Server verfügbar ist.
 
-      ![Das hervorgehobene MCP-Symbol in der linken Leiste „Mitarbeiter“](images/data-validation-aa-cja/coworker-mcp-cja.png)
+      ![Das hervorgehobene MCP-Symbol in der linken Leiste „Mitarbeiter“](assets/data-validation-aa-cja/coworker-mcp-cja.png)
 
    1. (Bedingt) Wenn [!UICONTROL **cja-mcp**] noch nicht verbunden ist, wählen Sie [!UICONTROL **MCP-Server hinzufügen**], geben Sie cja im Feld [!UICONTROL **Server-Name**] an und wählen Sie es aus, wenn es angezeigt wird. Wählen Sie dann [!UICONTROL **Server hinzufügen**].
 
@@ -43,7 +43,7 @@ Möglicherweise haben Sie Zugriff auf verschiedene Datenansichten in Customer Jo
 
 ### Festlegen, welche Datenansichten verwendet werden sollen
 
-Teilen Sie Coworker mit, welche Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, damit Sie diese Informationen am besten bereitstellen können. Sie können [&#x200B; auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
+Teilen Sie Coworker mit, welche Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, damit Sie diese Informationen am besten bereitstellen können. Sie können [ auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
 
 **Sie:**
 
@@ -85,7 +85,7 @@ Der Coworker Chat enthält eine Speicherfunktion, mit der Sie Zugriff auf Inform
 
 1. Geben Sie auf der Speicherseite im Abschnitt „Gespeicherte Voreinstellungen“ eine oder mehrere Datenansichten an, die der Coworker Chat in Ihren Chats verwenden soll.
 
-   ![Speicherabschnitt in der linken Leiste](images/data-validation-aa-cja/coworker-memory.png)
+   ![Speicherabschnitt in der linken Leiste](assets/data-validation-aa-cja/coworker-memory.png)
 
 ## Anwendungsfall: Finden Sie heraus, wo Kunden abbrechen
 
@@ -125,7 +125,7 @@ Beachten Sie, dass im Coworker Chat die richtige Visualisierung ausgewählt wird
 
 >[!BEGINSHADEBOX]
 
-![Das hervorgehobene MCP-Symbol in der linken Leiste „Mitarbeiter“](images/data-validation-aa-cja/coworker-funnel-response.png)
+![Das hervorgehobene MCP-Symbol in der linken Leiste „Mitarbeiter“](assets/data-validation-aa-cja/coworker-funnel-response.png)
 
 Dies ist eine funnel-Frage. Lassen Sie mich die funnel-Konversion ausführen, um zu sehen, wo es auf dem Kaufpfad zu einer Abnahme kommt.
 
@@ -136,7 +136,7 @@ Hier verliert man Menschen:
 | Sessions | 137,476 | 45,0 % Produkt ansehen | 55% verlassen, ohne Produkte zu durchsuchen |
 | Produktansichten | 61,845 | 55,0 % In den Warenkorb | 45 % durchsuchen, aber nicht hinzufügen |
 | Hinzufügungen zum Warenkorb | 34,045 | 16,4 % Kauf | 83,6 % Warenkorbabbruch |
-| Käufe | 5,582 | — | – |
+| Käufe | 5,582 | – | – |
 
 **Die große Erkenntnis: Der zu kaufende Warenkorb ist Ihr größtes Leck**
 
@@ -176,7 +176,7 @@ Okay, lassen Sie uns nach Marketing-Kanal aufschlüsseln
 
 >[!BEGINSHADEBOX]
 
-![Das hervorgehobene MCP-Symbol in der linken Leiste „Mitarbeiter“](images/data-validation-aa-cja/coworker-funnel-response2.png)
+![Das hervorgehobene MCP-Symbol in der linken Leiste „Mitarbeiter“](assets/data-validation-aa-cja/coworker-funnel-response2.png)
 
 Es gibt eine benutzerdefinierte Dimension **Marketing** Kanal. Lassen Sie mich den funnel daran entnehmen, dann die Konversionsraten pro Kanal berechnen und feststellen, wo jeder Kanal undicht ist.
 
@@ -227,7 +227,7 @@ Interessant. Versuchen wir, nach Gerätetyp aufzuschlüsseln.
 
 >[!BEGINSHADEBOX]
 
-![Das hervorgehobene MCP-Symbol in der linken Leiste „Mitarbeiter“](images/data-validation-aa-cja/coworker-funnel-response3.png)
+![Das hervorgehobene MCP-Symbol in der linken Leiste „Mitarbeiter“](assets/data-validation-aa-cja/coworker-funnel-response3.png)
 
 **Gefunden: Der mobile Checkout ist defekt**
 
@@ -244,7 +244,7 @@ Der funnel ist geräteübergreifend bis zum Checkout identisch - dann fällt Mob
 | Metrik | Desktop | Mobile | Lücke |
 | --- | --- | --- | --- |
 | Warenkorb zur Kaufrate | 23.2% | 8.1% | 15 Prozentpunkte |
-| Mobile ist | – | 2,8fach schlechter | – |
+| Mobile ist | — | 2,8fach schlechter | — |
 | Transaktionsabbrüche | 13,274 | 12,178 | Nahezu das gleiche absolute Volumen |
 
 Das Browsen und Hinzufügen zum Warenkorb funktioniert auf Mobilgeräten einwandfrei (identische Browser-Rate von ~45 %, ~55 % Quote von Hinzufügungen zum Warenkorb). Die Menschen sind gleichermaßen interessiert und engagiert. Aber irgendetwas im mobilen Checkout-Fluss bringt Konversionen zum Erliegen.
