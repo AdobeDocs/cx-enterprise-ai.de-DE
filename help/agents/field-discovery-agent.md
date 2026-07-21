@@ -31,7 +31,7 @@ Um den Field Discovery Agent zu verwenden, benötigen Sie Folgendes:
 - Die richtige Organisation und Sandbox
 - Zugriff auf die Schemata und Datensätze, die Sie abfragen möchten
 
-Eine grundlegende Vertrautheit mit XDM-Schemata und der Verwendung von Feldern in Segmentierungs- oder Daten-Workflows kann Ihnen dabei helfen, die Ergebnisse effektiver zu interpretieren. Weitere Informationen finden Sie unter [XDM-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) und [Dokumentation zum Schema-Editor](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui).
+Eine grundlegende Vertrautheit mit XDM-Schemata und der Verwendung von Feldern in Segmentierungs- oder Daten-Workflows kann Ihnen dabei helfen, die Ergebnisse effektiver zu interpretieren. Weitere Informationen finden Sie unter [XDM-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) und [Dokumentation zum Schema-Editor](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/tutorials/create-schema-ui).
 
 Anweisungen zum Aktivieren des Zugriffs auf den KI-Assistenten und zum Gewähren der erforderlichen Berechtigungen finden Sie im [Agent Orchestrator-Zugriffshandbuch](./agent-orchestrator.md#access).
 
