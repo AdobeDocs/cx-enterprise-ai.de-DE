@@ -4,9 +4,9 @@ description: Suchen, Auswerten und Auswählen von XDM-Feldern in Adobe Experienc
 keywords: Felderkennung, XDM, KI-Assistent, Experience Platform-Agenten, Entitätsverknüpfung, Felderempfehlungen, Zielgruppenerstellung, Segmentierung
 solution: Experience Platform
 role: User, Admin, Developer
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '3534'
+source-wordcount: '3367'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Der Felderkennungsagent gibt Ergebnisse in einem Bedienfeld **[!UICONTROL Felder
 - **[!UICONTROL Relevanz]** — Die dem Feld zugewiesene Relevanzkennzeichnung (**[!UICONTROL Sehr relevant]**, **[!UICONTROL Mäßig relevant]** oder **[!UICONTROL Relevant]**)
 - **[!UICONTROL Nutzungskontexte]** - Links, die zeigen, wo das Feld in Ihrem gesamten Daten-Ökosystem angezeigt wird. Wählen Sie **[!UICONTROL Audience]**, **[!UICONTROL Datensatz]**, **[!UICONTROL Ziel]** oder **[!UICONTROL Schema]** aus, um einen Seitenbereich zu öffnen, der anzeigt, wo das Feld verwendet wird.
 
-![Das Bedienfeld „Identifizierte Felder“ im KI-Assistenten, das Kandidatenfelderzeilen mit Relevanzkennzeichnungen und Links zu Nutzungskontexten anzeigt.](./images/field-discovery/fields-identified-panel-in-chat.png)
+![Das Bedienfeld „Identifizierte Felder“ im KI-Assistenten, das Kandidatenfelderzeilen mit Relevanzkennzeichnungen und Links zu Nutzungskontexten anzeigt.](./assets/field-discovery/fields-identified-panel-in-chat.png)
 
 Ein **[!UICONTROL Ergebnisse erläutert]** wird unterhalb der Tabelle **[!UICONTROL Felder]** angezeigt und bietet zusätzlichen Kontext auf Feldebene, einschließlich Erläuterungen und unterstützenden Details für jedes Ergebnis. Eine Anleitung zum Navigieren in der Benutzeroberfläche des KI-Assistenten finden Sie im [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
 
@@ -118,7 +118,7 @@ So verwenden Sie den Felderkennungsagenten:
 3. Überprüfen Sie die Ergebnisse der Rangfolge im Bedienfeld **[!UICONTROL Identifizierte Felder]**. Jede Zeile enthält eine Relevanzbeschriftung und einen XDM-Feldpfad in der Spalte **[!UICONTROL Feldname]**.
 4. Wählen Sie **[!UICONTROL Audience]**, **[!UICONTROL Dataset]**, **[!UICONTROL Destination]** oder **[!UICONTROL schema]** in der Spalte **[!UICONTROL Usage Contexts]** aus, um einen Seitenbereich zu öffnen, in dem das Feld verwendet wird. Weitere Informationen zu Kontext auf Feldebene finden Sie im Abschnitt **[!UICONTROL Ergebnisse]** Erklärung) unter der Ergebnistabelle.
 
-   ![Seitenbereich im KI-Assistenten, der Nutzungskontexte für ein ausgewähltes Feld anzeigt, einschließlich Zielgruppen-, Datensatz-, Ziel- und Schemaverknüpfungen.](./images/field-discovery/fields-identified-panel-expanded.png)
+   ![Seitenbereich im KI-Assistenten, der Nutzungskontexte für ein ausgewähltes Feld anzeigt, einschließlich Zielgruppen-, Datensatz-, Ziel- und Schemaverknüpfungen.](./assets/field-discovery/fields-identified-panel-expanded.png)
 
 5. Verwenden Sie den **[!UICONTROL Feldname]**-Pfad je nach Anwendungsfall in nachgelagerten Tools wie Segment Builder, Abfrage-Service oder Datenaufnahme-Workflows. Der Field Discovery Agent stellt die Feldreferenz bereit, fügt sie jedoch nicht in andere Tools ein.
 
@@ -138,7 +138,9 @@ In den folgenden Abschnitten werden die drei Funktionen des Field Discovery Agen
 
 Wenn Sie ein bestimmtes Datenkonzept oder -attribut beschreiben, gibt der Felderkennungsagent eine Rangliste von Feldern zurück, die semantisch Ihrer Beschreibung entsprechen.
 
-> „Welche Felder repräsentieren den Bundesstaat oder die Provinz eines Kunden?“„Suchen Sie Felder, die sich auf das Kauftransaktionsdatum beziehen.“„Welche Felder enthalten Informationen zum E-Mail-Marketing-Einverständnis?“
+> „Welche Felder repräsentieren den Bundesstaat oder die Provinz eines Kunden?“
+> „Felder für das Kauftransaktionsdatum suchen“
+> „Welche Felder enthalten Informationen zum E-Mail-Marketing-Einverständnis?“
 
 Die Antwort listet mögliche Felder mit ihrer Relevanzbezeichnung und dem XDM-Pfad im Bedienfeld **[!UICONTROL Felder identifiziert]** auf. Die mit **[!UICONTROL Sehr relevant]** gekennzeichneten Felder entsprechen am ehesten Ihrem angegebenen Konzept. Wenn die obersten Ergebnisse eher als **[!UICONTROL mäßig relevant]** oder **[!UICONTROL relevant]** und nicht **[!UICONTROL hoch relevant]** gekennzeichnet sind, verfeinern Sie Ihre Abfrage mithilfe einer spezifischeren Terminologie oder eines Kontexts auf Feldebene.
 
@@ -146,7 +148,9 @@ Die Antwort listet mögliche Felder mit ihrer Relevanzbezeichnung und dem XDM-Pf
 
 Wenn Sie ein Workflow-Ziel oder einen Anwendungsfall beschreiben - z. B. das Erstellen eines Segments, das Onboarding eines Datensatzes oder das Vorbereiten einer Abfrage - empfiehlt der Felderkennungs-Agent Felder, die an diesem Ziel ausgerichtet sind und nach Relevanz priorisiert sind.
 
-> „Ich möchte eine Audience mit hochwertigen Kunden aufbauen. Welche Felder sollte ich verwenden?“„Empfehlen Sie Felder zur Modellierung der Kaufneigung.“„Welche Felder sollte ich beim Onboarding eines Einzelhandelstransaktionsdatensatzes einbeziehen?“
+> „Ich möchte eine Audience mit hochwertigen Kunden aufbauen. Welche Felder sollte ich verwenden?“
+>  „Empfehlen Sie Felder zur Modellierung der Kaufneigung.“
+>  „Welche Felder sollte ich beim Onboarding eines Einzelhandelstransaktionsdatensatzes einbeziehen?“
 
 Die Antwort gibt eine priorisierte Liste von Feldern mit Relevanzkontext zurück. Überprüfen Sie den Nutzungskontext für jedes empfohlene Feld, um sicherzustellen, dass es aktiv in Ihrer Umgebung verwendet wird.
 
@@ -154,7 +158,9 @@ Die Antwort gibt eine priorisierte Liste von Feldern mit Relevanzkontext zurück
 
 Wenn Sie ein bestimmtes Feld nach Name oder Pfad fragen, gibt der Felderkennungs-Agent einen detaillierten Kontext für dieses Feld zurück, einschließlich Beispielwerten, Schemaspeicherort und Verwendung in Datensätzen, Zielgruppen und Zielen.
 
-> „Erzähl mir mehr über die `person.name.lastName`.“„Welche Beispielwerte gibt es für `homeAddress.stateProvince`?“„Wo wird das Feld in meinen Datensätzen und Audiences verwendet`commerce.purchases.value`&quot;
+> „Erzähl mir mehr über die `person.name.lastName`.“
+>  „Welche Beispielwerte gibt es für `homeAddress.stateProvince`?“
+>  „Wo wird das Feld `commerce.purchases.value` meinen Datensätzen und Zielgruppen verwendet?“
 
 Die Antwort gibt die Beispielwerte des Felds, den Speicherort des Schemas, die zugehörigen Datensätze und alle Zielgruppen oder Ziele zurück, in denen das Feld angezeigt wird. Überprüfen Sie diesen Kontext, um zu bestätigen, dass das Feld die erwarteten Daten enthält.
 
@@ -235,19 +241,31 @@ Verwenden Sie diesen Abschnitt als Bibliothek mit einer Eingabeaufforderung als 
 
 Verwenden Sie diese Eingabeaufforderungen, wenn Sie das benötigte Datenkonzept kennen, aber nicht wissen, welches Feld es enthält.
 
-> „Welches Feld enthält den Bundesstaat oder die Region eines Kunden?“„Felder zum E-Mail-Abonnementstatus finden.“„Welches Feld enthält das Datum des ersten Kaufs eines Kunden?“„Identifizieren Sie Felder, die den Kundenlebenszeitwert darstellen.“„Welche Felder in meinem Profilschema beziehen sich auf die Mitgliedschaft im Treueprogramm?“
+> „Welches Feld enthält den Bundesstaat oder die Region eines Kunden?“
+> Suchen von Feldern zum E-Mail-Abonnementstatus.“
+>  „Welches Feld enthält das Datum des ersten Kaufs eines Kunden?“
+> „Identifizieren Sie Felder, die für den Kundenlebenszeitwert stehen.“
+> „Welche Felder in meinem Profilschema beziehen sich auf die Mitgliedschaft im Treueprogramm?“
 
 ### Eingabeaufforderungen zur Empfehlung
 
 Verwenden Sie diese Eingabeaufforderungen, wenn Sie einen Workflow starten und Anleitungen benötigen, welche Felder für ein bestimmtes Ziel eingeschlossen werden sollen.
 
-> „Welche Felder sollte ich verwenden, um eine Zielgruppe für die erneute Interaktion zu erstellen?“„Empfehlungsfelder für eine Zielgruppe, die sich an Kunden richten, die seit 90 Tagen keinen Kauf getätigt haben.“„Welche Felder sind am nützlichsten für die Modellierung des Abwanderungsrisikos?“„Vorschläge für Felder, die ich bei der Erstellung einer geografischen Segmentierung einbeziehen sollte.“„Ich baue ein Modell mit einer Kaufneigung auf. Mit welchen Feldern soll ich beginnen?“
+> „Welche Felder sollte ich verwenden, um eine Zielgruppe für die erneute Interaktion zu erstellen?“
+> „Empfehlungsfelder für eine Zielgruppe, die sich an Kunden richten, die seit 90 Tagen keinen Kauf getätigt haben.“
+>  „Welche Felder sind am nützlichsten für die Modellierung des Abwanderungsrisikos?“
+> Vorschlagen von Feldern, die bei der Erstellung einer geografischen Segmentierung einbezogen werden sollen“
+> „Ich baue ein Modell mit einer Kaufneigung auf. Mit welchen Feldern soll ich beginnen?“
 
 ### Eingabeaufforderungen zur Anreicherung
 
 Verwenden Sie diese Eingabeaufforderungen, wenn Sie ein Kandidatenfeld haben und es überprüfen möchten, bevor Sie es in einem Segment, einer Abfrage oder einer Zuordnung verwenden.
 
-> „Erzähl mir mehr über `homeAddress.stateProvince`.“„Beispielwerte für `commerce.purchases.value` anzeigen.“„Wo wird `person.name.lastName` in meinen Datensätzen und Audiences verwendet?“„Welche Datensätze enthalten die `web.webPageDetails.URL`?“„Ist `segmentMembership` aktiven Zielen zugeordnet?“
+> „Erzähl mir mehr über `homeAddress.stateProvince`.“
+>  „Beispielwerte für `commerce.purchases.value` anzeigen“
+>  „Wo wird `person.name.lastName` in meinen Datensätzen und Audiences verwendet?“
+>  „Welche Datensätze enthalten die `web.webPageDetails.URL`?“
+>  „Ist `segmentMembership` aktiven Zielen zugeordnet?“
 
 ## Fehlerbehebung {#troubleshooting}
 

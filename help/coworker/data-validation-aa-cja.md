@@ -2,7 +2,7 @@
 title: Validieren von Daten mit einem Kollegen beim Upgrade von Adobe Analytics auf Customer Journey Analytics
 description: Erfahren Sie, wie Analytics-Admins die Datenvalidierungsfähigkeiten von CX Enterprise Coworker verwenden, um Adobe Analytics- und Customer Journey Analytics-Daten während des Upgrades zu vergleichen.
 hide: true
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 0%
@@ -89,10 +89,10 @@ Sie können einzelne Metriken oder Dimensionen oder alle Metriken und Dimensione
 
    | Ergebnis | Rating | Bedeutung |
    |---------|----------|----------|
-   | 97 %-100 % | ![Grünes Quadrat](./images/data-validation-aa-cja/excellent-square.svg) [!UICONTROL Hervorragend] | Alle Eigenschaften sind hochgradig ausgerichtet. Keine Aktion erforderlich. |
-   | 90 %-96 % | ![Gelber Kreis](./images/data-validation-aa-cja/good-circle.svg) [!UICONTROL Gut] | Geringfügige Lücken sind vorhanden. Trends überwachen und untersuchen, ob sie abnehmen. |
-   | 75 %-89 % | ![Orange circle](./images/data-validation-aa-cja/review-circle.svg) [!UICONTROL review] | Es gibt bedeutende Lücken. Untersuchen Sie die Grundursachen, bevor Sie Customer Journey Analytics-Daten verwenden. |
-   | Weniger als 75 % | ![Roter Kreis](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Schlecht] | Deutliche Fehlausrichtung. Ergreifen Sie sofort Maßnahmen, bevor Sie Customer Journey Analytics-Daten verwenden. |
+   | 97 %-100 % | ![Grünes Quadrat](./assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL Hervorragend] | Alle Eigenschaften sind hochgradig ausgerichtet. Keine Aktion erforderlich. |
+   | 90 %-96 % | ![Gelber Kreis](./assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL Gut] | Geringfügige Lücken sind vorhanden. Trends überwachen und untersuchen, ob sie abnehmen. |
+   | 75 %-89 % | ![Orange circle](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL review] | Es gibt bedeutende Lücken. Untersuchen Sie die Grundursachen, bevor Sie Customer Journey Analytics-Daten verwenden. |
+   | Weniger als 75 % | ![Roter Kreis](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Schlecht] | Deutliche Fehlausrichtung. Ergreifen Sie sofort Maßnahmen, bevor Sie Customer Journey Analytics-Daten verwenden. |
 
 1. Wählen Sie die Registerkarte [!UICONTROL **Wichtige Einblicke**] aus, um zwei bis vier kurze Legendenfelder anzuzeigen, von denen jedes ein Ergebnis der Analyse in einem einzigen Satz zusammenfasst. Callouts sind nach Schweregrad farbcodiert, sodass Sie die wichtigsten Ergebnisse zuerst erkennen können.
 
@@ -102,23 +102,23 @@ Sie können einzelne Metriken oder Dimensionen oder alle Metriken und Dimensione
 
    Bei Metriken handelt es sich um ein Liniendiagramm, in dem der tägliche Trend verglichen wird.
 
-   ![Registerkarte „Täglicher Trend“ mit einem Liniendiagramm](./images/data-validation-aa-cja/trend-line.png)
+   ![Registerkarte „Täglicher Trend“ mit einem Liniendiagramm](./assets/data-validation-aa-cja/trend-line.png)
 
    Bei Dimensionen handelt es sich um ein Balkendiagramm, in dem die höchsten Werte verglichen werden.
 
-   ![Tägliche Trendregisterkarte mit einem horizontalen Balkendiagramm](./images/data-validation-aa-cja/trend-bar.png)
+   ![Tägliche Trendregisterkarte mit einem horizontalen Balkendiagramm](./assets/data-validation-aa-cja/trend-bar.png)
 
 1. (Bedingt) Bei einem Vergleich mit einer Dimension oder einer Metrik auf einmal können Sie Details auf Zeilenebene auf der Registerkarte [!UICONTROL **Datumsdetails**] anzeigen. In dieser Tabelle werden das Datum, der Adobe Analytics-Wert, der Customer Journey Analytics-Wert, der Varianzprozentsatz und ein Statusabzeichen für jede verglichene Metrik oder jeden Dimensionswert aufgeführt.
 
-   ![Registerkarte „Datumsdetails“ mit einer Tabelle der Abweichungsprozentsätze und Statusabzeichen](./images/data-validation-aa-cja/date-detail.png)
+   ![Registerkarte „Datumsdetails“ mit einer Tabelle der Abweichungsprozentsätze und Statusabzeichen](./assets/data-validation-aa-cja/date-detail.png)
 
    Die Spalten Varianz und Status verwenden die folgende Skala:
 
    | Variance | Status | Bedeutung |
    |---------|----------|----------|
-   | Weniger als 3 % | ![Grünes Häkchen](./images/data-validation-aa-cja/pass-check.svg) [!UICONTROL Bestanden] | Die Daten sind gut aufeinander abgestimmt. Keine Aktion erforderlich. |
-   | 3 %-10 % | ![Gelbes Warndreieck](./images/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Flagge] | Überwachen Sie den Unterschied und untersuchen Sie, ob er anhält oder sich verschlimmert. |
-   | Mehr als 10 % | ![Roter Kreis](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Kritisch] | Untersuchen Sie sofort. Dies verweist normalerweise auf ein Schema, eine Aufnahme oder ein Zuordnungsproblem. |
+   | Weniger als 3 % | ![Grünes Häkchen](./assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL Bestanden] | Die Daten sind gut aufeinander abgestimmt. Keine Aktion erforderlich. |
+   | 3 %-10 % | ![Gelbes Warndreieck](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Flagge] | Überwachen Sie den Unterschied und untersuchen Sie, ob er anhält oder sich verschlimmert. |
+   | Mehr als 10 % | ![Roter Kreis](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Kritisch] | Untersuchen Sie sofort. Dies verweist normalerweise auf ein Schema, eine Aufnahme oder ein Zuordnungsproblem. |
 
 1. (Bedingt) Bei der Ausführung eines Audit mit vollständiger Report Suite und Datenansicht werden die Registerkarten [!UICONTROL **Täglicher Trend**] und [!UICONTROL **Tägliche Details**] durch eine Scorecard ersetzt, die die Zahlen „Bestanden“, „Markiert“ und „Kritisch“ sowie separate Tabellen mit den fünf am besten übereinstimmenden und den fünf am wenigsten übereinstimmenden Metriken und Dimensionen anzeigt.
 

@@ -1,21 +1,28 @@
 ---
 audience: user
-user-guide-title: KI-Assistent in Adobe Experience Cloud
+user-guide-title: KI-Assistent in Adobe CX Enterprise
 user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workflow mit Adobe Experience Platform und Real-Time Customer Data Platform beschleunigen können.
-description: Erfahren Sie mehr über den KI-Assistenten in Experience Cloud. Erweitern Sie Ihr Produktwissen und gewinnen Sie betriebliche Erkenntnisse mithilfe von KI in Experience Cloud.
+description: Erfahren Sie mehr über den KI-Assistenten in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+dummy: true
+source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 31%
+source-wordcount: '211'
+ht-degree: 18%
 
 ---
 
 
-# KI in Experience Cloud {#experience-cloud-ai}
+# KI in CX Enterprise {#experience-cloud-ai}
 
-- [KI in Experience Cloud-Anwendungen](home.md)
+- [KI in CX Enterprise-Anwendungen](home.md)
+- Über KI in CX Enterprise {#overview}
+  - [Generative KI](./overview/generative-ai.md)
+  - [Agent-basierte KI](./overview/agentic-ai.md)
+  - [AI-Überwachung](./overview/monitoring.md)
+  - [Agent-Vorgänge und KI-Kreditverbrauch](./overview/ai-credit-consumption.md)
+  - [Agent-Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
 - KI-Assistent {#ai-assistant}
   - [Handbuch zur Benutzeroberfläche des KI-Assistenten](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothek der Eingabeaufforderung](./ai-assistant/prompt-library.md)
@@ -52,4 +59,4 @@ ht-degree: 31%
 - Kollegin {#coworker}
   - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validieren der Migrationsdaten von AA zu CJA](./coworker/data-validation-aa-cja.md)
-  - {hide-from-toc}[Konversionsabbruch analysieren](./coworker/analytics-use-cases.md)
+  - [Analysieren von CJA-Daten](./coworker/analytics-chat.md)
