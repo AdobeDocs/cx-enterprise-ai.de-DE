@@ -22,7 +22,7 @@ ht-degree: 16%
   - [Agent-basierte KI](./overview/agentic-ai.md)
   - [AI-Überwachung](./overview/monitoring.md)
   - [Agent-Vorgänge und KI-Kreditverbrauch](./overview/ai-credit-consumption.md)
-  - [Agent-Tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Agent-Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
 - KI-Assistent {#ai-assistant}
   - [Handbuch zur Benutzeroberfläche des KI-Assistenten](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothek der Eingabeaufforderung](./ai-assistant/prompt-library.md)
@@ -55,7 +55,7 @@ ht-degree: 16%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Kollegin {#coworker}
   - [Kollegen-Kampagnen](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
   - [Kollege-Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
