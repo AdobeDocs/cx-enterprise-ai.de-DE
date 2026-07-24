@@ -5,10 +5,10 @@ user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workf
 description: Erfahren Sie mehr über den KI-Assistenten in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: db9cc53acf4631273b7dab96c503d5c174fe106c
+source-git-commit: 2f0d068bb46de297561a71ec728d614dce7166b7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 16%
+source-wordcount: '219'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 16%
   - [Agent-basierte KI](./overview/agentic-ai.md)
   - [AI-Überwachung](./overview/monitoring.md)
   - [Agent-Vorgänge und KI-Kreditverbrauch](./overview/ai-credit-consumption.md)
-  - [Agent-Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Agent-Tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - KI-Assistent {#ai-assistant}
   - [Handbuch zur Benutzeroberfläche des KI-Assistenten](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothek der Eingabeaufforderung](./ai-assistant/prompt-library.md)
@@ -54,10 +54,9 @@ ht-degree: 16%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Kollegin {#coworker}
-  - [Kollegen-Kampagnen](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
-  - [Kollege-Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
+  - [Mitarbeiter - Startseite](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validieren der Migrationsdaten von AA zu CJA](./coworker/data-validation-aa-cja.md)
-  - [Analysieren von CJA-Daten](./coworker/analytics-chat.md)
+
