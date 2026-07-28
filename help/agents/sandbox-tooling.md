@@ -50,15 +50,15 @@ So verwenden Sie Agentenfertigkeiten der Sandbox-Tools:
 
 ![Die Anfrage zeigt die Ergebnisse mit der Option „Fortfahren“ an und markiert „Senden“.](./assets/sandbox-tooling/results-proceed.png)
 
-4. Wählen Sie ein oder mehrere Objekte aus, die Sie migrieren möchten, und wählen Sie dann **[!UICONTROL Senden]**.
+&#x200B;4. Wählen Sie ein oder mehrere Objekte aus, die Sie migrieren möchten, und wählen Sie dann **[!UICONTROL Senden]**.
 
 ![Objektauswahlseite mit hervorgehobener Option „Senden“](./assets/sandbox-tooling/object-selection.png)
 
-5. Überprüfen Sie die Objekte und Abhängigkeiten, die der Agent identifiziert, und bestätigen Sie die Aktionen des Vorgangs *Neu erstellen* oder *Vorhandene verwenden*. Wenn Sie bereit sind, die Migration zu starten, klicken Sie auf **[!UICONTROL Fortfahren]** und wählen Sie dann **[!UICONTROL Senden]** aus, um zu bestätigen. Es kann mehrere Minuten dauern, bis die Migration abgeschlossen ist.
+&#x200B;5. Überprüfen Sie die Objekte und Abhängigkeiten, die der Agent identifiziert, und bestätigen Sie die Aktionen des Vorgangs *Neu erstellen* oder *Vorhandene verwenden*. Wenn Sie bereit sind, die Migration zu starten, klicken Sie auf **[!UICONTROL Fortfahren]** und wählen Sie dann **[!UICONTROL Senden]** aus, um zu bestätigen. Es kann mehrere Minuten dauern, bis die Migration abgeschlossen ist.
 
 ![Die Seite „Aktionsplan bestätigen“ mit hervorgehobener Option „Senden“.](./assets/sandbox-tooling/action-plan.png)
 
-6. Nach Abschluss der Migration sind die ausgewählten Objekte in der Ziel-Sandbox verfügbar.
+&#x200B;6. Nach Abschluss der Migration sind die ausgewählten Objekte in der Ziel-Sandbox verfügbar.
 
 ![Seite „Transfer abgeschlossen“ mit dem Anforderungsstatus.](./assets/sandbox-tooling/transfer-complete.png)
 
