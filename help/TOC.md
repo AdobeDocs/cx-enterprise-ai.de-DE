@@ -5,9 +5,9 @@ user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workf
 description: Erfahren Sie mehr über den KI-Assistenten in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 2f0d068bb46de297561a71ec728d614dce7166b7
+source-git-commit: 8648fc2b3c36c2e017ba122a46931cdc14b04160
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 17%
 
 ---
@@ -55,8 +55,8 @@ ht-degree: 17%
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Kollegin {#coworker}
-  - [Mitarbeiter - Startseite](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- Hilfe für Kollegen {#coworker}
+  - [Hilfe für Kollegen](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validieren der Migrationsdaten von AA zu CJA](./coworker/data-validation-aa-cja.md)
 
