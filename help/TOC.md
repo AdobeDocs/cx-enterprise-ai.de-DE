@@ -5,10 +5,10 @@ user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workf
 description: Erfahren Sie mehr über den KI-Assistenten in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
+source-git-commit: c4d93fc0c799e8bb73cb355a53ae8d8167f7659d
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 17%
+source-wordcount: '237'
+ht-degree: 21%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
   - [Agent-basierte KI](./overview/agentic-ai.md)
   - [AI-Überwachung](./overview/monitoring.md)
   - [Agent-Vorgänge und KI-Kreditverbrauch](./overview/ai-credit-consumption.md)
-  - [Agent-Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Agent-Tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - KI-Assistent {#ai-assistant}
   - [Handbuch zur Benutzeroberfläche des KI-Assistenten](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothek der Eingabeaufforderung](./ai-assistant/prompt-library.md)
@@ -54,10 +54,21 @@ ht-degree: 17%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Hilfe für Kollegen {#coworker}
-  - [Hilfe für Kollegen](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- Kollegin {#coworker}
+  - [Über einen Kollegen](./coworker/overview.md)
+  - Kampagnen {#coworker-campaigns}
+    - [Überblick](./coworker/campaigns/overview.md)
+    - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
+    - [Anwendungsszenarien](./coworker/campaigns/use-cases.md)
+    - [Best Practices bei der Eingabeaufforderung](./coworker/campaigns/prompting-best-practices.md)
+    - [Connectoren](./coworker/campaigns/connectors.md)
+    - [Versionshinweise](./coworker/campaigns/release-notes.md)
+  - Chat {#coworker-chat}
+    - [Überblick](./coworker/chat/overview.md)
+    - [Anwendungsfälle](./coworker/chat/use-cases.md)
+    - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
+    - [Analysieren von CJA-Daten](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validieren der Migrationsdaten von AA zu CJA](./coworker/data-validation-aa-cja.md)
-  - [Analysieren von CJA-Daten](./coworker/analytics-chat.md)
   - [Sandbox Tooling Agent Skills](./agents/sandbox-tooling.md)
