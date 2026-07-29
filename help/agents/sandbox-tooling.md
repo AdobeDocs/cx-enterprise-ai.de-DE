@@ -1,7 +1,7 @@
 ---
 title: Sandbox Tooling Agent Skills
 description: Erfahren Sie, wie Sie mit Sandbox Tooling Agent Skills Objektmetadaten in Sandbox-Umgebungen replizieren können.
-source-git-commit: 1fec24983eff50e6d0215c576049d9a80105bfc0
+source-git-commit: 7790447877fa20321321ce5561d8ff61b28c572e
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -42,23 +42,23 @@ Interagieren Sie mit Sandbox Tooling Agent Skills über CX Coworker mit natürli
 So verwenden Sie Agentenfertigkeiten der Sandbox-Tools:
 
 1. Navigieren Sie zu **[!UICONTROL CX Coworker]**.
-2. Geben Sie eine klare Beschreibung dessen ein, was Sie erreichen möchten. Beispiel:
+1. Geben Sie eine klare Beschreibung dessen ein, was Sie erreichen möchten. Beispiel:
 
    *„Verschieben des Schema Loyalty Member Platinum aus der aktuellen Sandbox in die Sandbox der Acme-Demo“*
 
-3. Überprüfen Sie die Ergebnistabelle, in der die Quell- und Ziel-Sandboxes angezeigt werden. Wenn Sie bereit sind, fortzufahren, klicken Sie auf **[!UICONTROL Fortfahren]** und wählen Sie dann **[!UICONTROL Senden]** aus, um fortzufahren.
+1. Überprüfen Sie die Ergebnistabelle, in der die Quell- und Ziel-Sandboxes angezeigt werden. Wenn Sie bereit sind, fortzufahren, klicken Sie auf **[!UICONTROL Fortfahren]** und wählen Sie dann **[!UICONTROL Senden]** aus, um fortzufahren.
 
-![Die Anfrage zeigt die Ergebnisse mit der Option „Fortfahren“ an und markiert „Senden“.](./assets/sandbox-tooling/results-proceed.png)
+   ![Die Anfrage zeigt die Ergebnisse mit der Option „Fortfahren“ an und markiert „Senden“.](./assets/sandbox-tooling/results-proceed.png)
 
-&#x200B;4. Wählen Sie ein oder mehrere Objekte aus, die Sie migrieren möchten, und wählen Sie dann **[!UICONTROL Senden]**.
+1. Wählen Sie ein oder mehrere Objekte aus, die Sie migrieren möchten, und wählen Sie dann **[!UICONTROL Senden]**.
 
-![Objektauswahlseite mit hervorgehobener Option „Senden“](./assets/sandbox-tooling/object-selection.png)
+   ![Objektauswahlseite mit hervorgehobener Option „Senden“](./assets/sandbox-tooling/object-selection.png)
 
-&#x200B;5. Überprüfen Sie die Objekte und Abhängigkeiten, die der Agent identifiziert, und bestätigen Sie die Aktionen des Vorgangs *Neu erstellen* oder *Vorhandene verwenden*. Wenn Sie bereit sind, die Migration zu starten, klicken Sie auf **[!UICONTROL Fortfahren]** und wählen Sie dann **[!UICONTROL Senden]** aus, um zu bestätigen. Es kann mehrere Minuten dauern, bis die Migration abgeschlossen ist.
+1. Überprüfen Sie die Objekte und Abhängigkeiten, die der Agent identifiziert, und bestätigen Sie die Aktionen des Vorgangs *Neu erstellen* oder *Vorhandene verwenden*. Wenn Sie bereit sind, die Migration zu starten, klicken Sie auf **[!UICONTROL Fortfahren]** und wählen Sie dann **[!UICONTROL Senden]** aus, um zu bestätigen. Es kann mehrere Minuten dauern, bis die Migration abgeschlossen ist.
 
-![Die Seite „Aktionsplan bestätigen“ mit hervorgehobener Option „Senden“.](./assets/sandbox-tooling/action-plan.png)
+   ![Die Seite „Aktionsplan bestätigen“ mit hervorgehobener Option „Senden“.](./assets/sandbox-tooling/action-plan.png)
 
-&#x200B;6. Nach Abschluss der Migration sind die ausgewählten Objekte in der Ziel-Sandbox verfügbar.
+1. Nach Abschluss der Migration sind die ausgewählten Objekte in der Ziel-Sandbox verfügbar.
 
 ![Seite „Transfer abgeschlossen“ mit dem Anforderungsstatus.](./assets/sandbox-tooling/transfer-complete.png)
 
@@ -108,4 +108,4 @@ Verwenden Sie diese Eingabeaufforderungen, wenn Sie den Namen der Zielgruppe ken
 
 Nach dem Lesen dieses Handbuchs sollten Sie wissen, wie Sie mit den Agentenfertigkeiten der Sandbox-Tools unterstützte Objekte zwischen Sandboxes finden, verpacken und migrieren können.
 
-Weitere Informationen zum Sandbox-Tooling finden Sie im [Handbuch zum Sandbox-Tooling](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/ui/sandbox-tooling).
+Weitere Informationen zum Sandbox-Tooling finden Sie im [Handbuch zum Sandbox-Tooling](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling).
