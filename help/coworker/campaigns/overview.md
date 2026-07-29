@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Adobe CX Enterprise Coworker Campaign ist eine KI-native Marketing-Anwendung, die Sie von einer einzigen Eingabeaufforderung bis hin zu einer kompletten Kampagne zur Überprüfung bereit hält.
 
-Zu diesem Zeitpunkt werden Sie bei allen Interaktionen mit der KI auf die [Kampagnenerstellung](./) geleitet. Weitere Funktionen folgen in Kürze.
+Zu diesem Zeitpunkt werden Sie bei allen Interaktionen mit der KI auf die [Kampagnenerstellung] (./) geleitet. Weitere Funktionen folgen in Kürze.
 
 ## Zugriff
 
