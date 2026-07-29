@@ -5,7 +5,7 @@ user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workf
 description: Erfahren Sie mehr über den KI-Assistenten in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: c4d93fc0c799e8bb73cb355a53ae8d8167f7659d
+source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 21%
@@ -21,7 +21,7 @@ ht-degree: 21%
   - [Agent-basierte KI](./overview/agentic-ai.md)
   - [AI-Überwachung](./overview/monitoring.md)
   - [Agent-Vorgänge und KI-Kreditverbrauch](./overview/ai-credit-consumption.md)
-  - [Agent-Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Agent-Tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - KI-Assistent {#ai-assistant}
   - [Handbuch zur Benutzeroberfläche des KI-Assistenten](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothek der Eingabeaufforderung](./ai-assistant/prompt-library.md)
@@ -54,17 +54,17 @@ ht-degree: 21%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Kollegin {#coworker}
   - [Über einen Kollegen](./coworker/overview.md)
-  - Kampagnen {#coworker-campaigns}
+  - Kampagnen {#campaigns}
     - [Überblick](./coworker/campaigns/overview.md)
     - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
     - [Anwendungsszenarien](./coworker/campaigns/use-cases.md)
     - [Best Practices bei der Eingabeaufforderung](./coworker/campaigns/prompting-best-practices.md)
     - [Connectoren](./coworker/campaigns/connectors.md)
     - [Versionshinweise](./coworker/campaigns/release-notes.md)
-  - Chat {#coworker-chat}
+  - Chat {#chat}
     - [Überblick](./coworker/chat/overview.md)
     - [Anwendungsfälle](./coworker/chat/use-cases.md)
     - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
