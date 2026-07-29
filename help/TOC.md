@@ -5,9 +5,9 @@ user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workf
 description: Erfahren Sie mehr über den KI-Assistenten in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 8648fc2b3c36c2e017ba122a46931cdc14b04160
+source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '227'
 ht-degree: 17%
 
 ---
@@ -59,4 +59,5 @@ ht-degree: 17%
   - [Hilfe für Kollegen](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validieren der Migrationsdaten von AA zu CJA](./coworker/data-validation-aa-cja.md)
-
+  - [Analysieren von CJA-Daten](./coworker/analytics-chat.md)
+  - [Sandbox Tooling Agent Skills](./agents/sandbox-tooling.md)
