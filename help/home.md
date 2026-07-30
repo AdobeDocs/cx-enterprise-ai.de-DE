@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
+source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: 872
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-
 
 Um den Coworker Chat in Aktion zu sehen, gehen Sie durch [Coworker Chat in Playground](./coworker/playground-coworker-chat.md) oder lesen Sie reale Anwendungsfälle wie [Validieren von AA zu CJA-](./coworker/data-validation-aa-cja.md) und [Analysieren von CJA-Daten](./coworker/analytics-chat.md).
 
-Eine vollständige Produktdokumentation zu Coworker Chat, Kampagnen und Projekten finden Sie unter [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home).
+Eine vollständige Produktdokumentation zu Coworker Chat, Kampagnen und Projekten finden Sie unter [Adobe CX Enterprise Coworker](./coworker/overview.md).
 
 ## MCP
 
@@ -99,3 +99,4 @@ Befolgen Sie die folgenden Best Practices, um die Erfahrungen Ihres KI-Assistent
 ## Rechtliche Erwägungen
 
 Der KI-Assistent unterstützt Antworten derzeit nur auf Englisch, und Sprachmodelle können gelegentlich Fehler machen. Überprüfen Sie immer die bereitgestellten Informationen und verwenden Sie die in den einzelnen Antworten enthaltenen Begründungsschritte, um zu verstehen, wie sie generiert wurden. Ausführliche Informationen finden Sie im [Haftungsausschluss](./ai-assistant/legal-disclaimer.md).
+

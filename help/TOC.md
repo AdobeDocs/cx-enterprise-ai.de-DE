@@ -5,10 +5,10 @@ user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workf
 description: Erfahren Sie mehr über den KI-Assistenten in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
+source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 17%
+source-wordcount: '237'
+ht-degree: 21%
 
 ---
 
@@ -55,9 +55,20 @@ ht-degree: 17%
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Hilfe für Kollegen {#coworker}
-  - [Hilfe für Kollegen](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- Kollegin {#coworker}
+  - [Über einen Kollegen](./coworker/overview.md)
+  - Kampagnen {#campaigns}
+    - [Überblick](./coworker/campaigns/overview.md)
+    - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
+    - [Anwendungsszenarien](./coworker/campaigns/use-cases.md)
+    - [Best Practices bei der Eingabeaufforderung](./coworker/campaigns/prompting-best-practices.md)
+    - [Connectoren](./coworker/campaigns/connectors.md)
+    - [Versionshinweise](./coworker/campaigns/release-notes.md)
+  - Chat {#chat}
+    - [Überblick](./coworker/chat/overview.md)
+    - [Anwendungsfälle](./coworker/chat/use-cases.md)
+    - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
+    - [Analysieren von CJA-Daten](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validieren der Migrationsdaten von AA zu CJA](./coworker/data-validation-aa-cja.md)
-  - [Analysieren von CJA-Daten](./coworker/analytics-chat.md)
   - [Sandbox Tooling Agent Skills](./agents/sandbox-tooling.md)
