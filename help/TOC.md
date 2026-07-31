@@ -5,10 +5,10 @@ user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workf
 description: Erfahren Sie mehr über den KI-Assistenten in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
+source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 21%
+ht-degree: 26%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
   - [Agent-basierte KI](./overview/agentic-ai.md)
   - [AI-Überwachung](./overview/monitoring.md)
   - [Agent-Vorgänge und KI-Kreditverbrauch](./overview/ai-credit-consumption.md)
-  - [Agent-Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Agent-basierte Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
 - KI-Assistent {#ai-assistant}
   - [Handbuch zur Benutzeroberfläche des KI-Assistenten](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothek der Eingabeaufforderung](./ai-assistant/prompt-library.md)
@@ -62,7 +62,7 @@ ht-degree: 21%
     - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
     - [Anwendungsszenarien](./coworker/campaigns/use-cases.md)
     - [Best Practices bei der Eingabeaufforderung](./coworker/campaigns/prompting-best-practices.md)
-    - [Connectoren](./coworker/campaigns/connectors.md)
+    - {hide-from-toc}[Connectoren](./coworker/campaigns/connectors.md)
     - [Versionshinweise](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Überblick](./coworker/chat/overview.md)

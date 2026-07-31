@@ -15,10 +15,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
+source-git-commit: 325bdc7452557cf9a2b448b5e6afa613b87b4544
 workflow-type: tm+mt
-source-wordcount: 872
-ht-degree: 2%
+source-wordcount: 929
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 Dieses Handbuch behandelt die KI-Funktionen, die in Adobe CX Enterprise-Anwendungen verfügbar sind: Generative KI und KI-Assistent für Produktkenntnisse und operative Einblicke, Agent Orchestrator und Experience Platform-Agenten für die Automatisierung von Aufträgen, CX Enterprise-Mitarbeiter für ein vollständig konversatives, agentenorientiertes Erlebnis und MCP für die Verbindung Ihrer eigenen KI-Tools mit CX Enterprise-Daten.
 
-## Über KI in CX Enterprise
+## KI-Funktionen - Übersicht
 
 Beginnen Sie hier mit einem Überblick darüber, wo und wie KI in CX Enterprise verwendet wird:
 
@@ -34,6 +34,7 @@ Beginnen Sie hier mit einem Überblick darüber, wo und wie KI in CX Enterprise 
 - [Agentic AI](./overview/agentic-ai.md) erläutert, wie Experience Platform-Agenten sowohl in bestehenden CX Enterprise-Anwendungen als auch in AI-First-Anwendungen funktionieren, und listet die in den einzelnen Programmen verfügbaren Agenten auf.
 - [Überwachung der agenten KI](./overview/monitoring.md) umfasst die Dashboards, die die Akzeptanz, Nutzung, Feedback und Nutzung von KI-Krediten durch Agenten verfolgen.
 - [Agentenaufträge und KI-](./overview/ai-credit-consumption.md): Erläutert, wie KI-Gutschriften von Agentenaufträgen mit geschätzten Verbrauchsraten nach Agent und Vorgangstyp genutzt werden.
+- [CX Enterprise Agent Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview) behandelt zusätzliche agentische Fähigkeiten und Tools, die CX Enterprise Agents erweitern.
 
 ## KI-Assistent
 
@@ -55,6 +56,7 @@ Die folgenden Experience Platform-Agenten sind in diesem Handbuch dokumentiert:
 - [Benachrichtigungsagent](./agents/notifications.md)
 - [Produktsupport-Agent](./agents/product-support.md)
 - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
+- [Daten validieren](./agents/data-validation.md)
 
 Eine vollständige Liste der Agenten, der von ihnen unterstützten Programme und der Eignungsanforderungen finden Sie unter [Agent AI in CX Enterprise](./overview/agentic-ai.md).
 
@@ -62,19 +64,21 @@ Eine vollständige Liste der Agenten, der von ihnen unterstützten Programme und
 
 CX Enterprise Coworker ist eine agentenorientierte Weiterentwicklung des KI-Assistenten, die Kundenerlebnis- und Marketing-Workflows automatisiert, sodass sich Ihr Team auf Geschäftsziele statt auf die routinemäßige Ausführung konzentrieren kann. Anstatt eine Frage nach der anderen zu stellen, beschreiben Sie ein Ziel in natürlicher Sprache, und ein Mitarbeiter plant die Arbeit, führt sie in Ihrem Adobe und den verbundenen Systemen aus, validiert die Ergebnisse und gibt die fertige Arbeit zur Genehmigung zurück. Coworker includes:
 
-- **[Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)**: Eine Gesprächsoberfläche, mit der Sie Ihre Daten untersuchen, Zielgruppen und Journey validieren und mehrstufige Aufgaben in allen CX Enterprise-Anwendungen ausführen können.
-- **[Coworker Campaign](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)**: Eine KI-native Anwendung, mit der Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing mithilfe integrierter Vorlagen, Best Practices und Eingabeaufforderungen in einem einzigen Gesprächserlebnis zusammengefasst werden, sodass kleine, agile Teams schnell Kampagnen starten können.
+- **[Coworker Chat](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/chat/overview)**: Eine Gesprächsoberfläche, mit der Sie Ihre Daten untersuchen, Zielgruppen und Journey validieren und mehrstufige Aufgaben in allen CX Enterprise-Anwendungen ausführen können.
+- **[Coworker Campaign](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/campaigns/overview)**: Eine KI-native Anwendung, mit der Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing mithilfe integrierter Vorlagen, Best Practices und Eingabeaufforderungen in einem einzigen Gesprächserlebnis zusammengefasst werden, sodass kleine, agile Teams schnell Kampagnen starten können.
 - **Coworker Projects** (in Kürze verfügbar): Ein einheitlicher Arbeitsbereich zur Automatisierung von End-to-End-Orchestrierungs-Workflows für das Kundenerlebnis, der Teams bei der Koordinierung von Aufgaben, Genehmigungen und Ausführungen unterstützt, um Ergebnisse von der Strategie bis zur Bereitstellung zu erzielen. Die Dokumentation für Projekte wird in Kürze verfügbar sein.
 
 Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-Agenten auf den Coworker Chat umgestellt. Lesen Sie [CX Enterprise Coworker Trial](./agents/trial.md), um mehr über die Testeignung, die Verwendung von KI-Gutschriften und den Zugriff darauf zu erfahren.
 
-Um den Coworker Chat in Aktion zu sehen, gehen Sie durch [Coworker Chat in Playground](./coworker/playground-coworker-chat.md) oder lesen Sie reale Anwendungsfälle wie [Validieren von AA zu CJA-](./coworker/data-validation-aa-cja.md) und [Analysieren von CJA-Daten](./coworker/analytics-chat.md).
+Um den Coworker Chat in Aktion zu sehen, gehen Sie durch [Coworker Chat in Playground](./coworker/playground-coworker-chat.md) oder lesen Sie reale Anwendungsfälle wie [Validieren von AA zu CJA-](./coworker/data-validation-aa-cja.md) und [Analysieren von CJA-Daten](./coworker/chat/analytics-chat.md).
 
-Eine vollständige Produktdokumentation zu Coworker Chat, Kampagnen und Projekten finden Sie unter [Adobe CX Enterprise Coworker](./coworker/overview.md).
+Eine vollständige Produktdokumentation zu Coworker Chat, Kampagnen und Projekten finden Sie unter [Adobe CX Enterprise Coworker](./coworker/overview.md). Informationen zur Replikation von Sandbox-zu-Sandbox-Objekten finden Sie unter [Sandbox Tooling Agent Skills](./agents/sandbox-tooling.md).
 
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md) ist der Unified Model Context Protocol (MCP)-Endpunkt für CX Enterprise. Dadurch erhalten MCP-kompatible Clients wie [!DNL Claude], [!DNL ChatGPT] und [!DNL Cursor] eine einzige geregelte Verbindung zu den Produkt-Tools, die Ihr Unternehmen verwenden darf, einschließlich Real-Time CDP, Experience Platform, Journey Optimizer, Customer Journey Analytics und Adobe Analytics.
+[Adobe CX Coworker Gateway](./mcp/overview.md) ist der Unified Model Context Protocol (MCP)-Endpunkt für CX Enterprise. Dadurch erhalten MCP-kompatible Clients wie [!DNL Claude], [!DNL ChatGPT] und [!DNL Cursor] eine einzige geregelte Verbindung zu den Produkt-Tools, die Ihr Unternehmen verwenden darf, einschließlich Real-Time CDP, Experience Platform, Journey Optimizer, Customer Journey Analytics, Adobe Analytics und Workfront.
+
+Neu bei CX Coworker Gateway? Siehe [Zugriff auf CX Coworker Gateway-Tools](./mcp/access.md) und [Installieren von CX Coworker Gateway](./mcp/install.md), um eine Verbindung herzustellen.
 
 ## Erste Schritte
 
