@@ -40,13 +40,13 @@ Bevor Sie den Coworker Chat mit Ihren Customer Journey Analytics-Daten verwenden
 
 * Und mehr
 
-Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche für den Coworker-Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
+Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche für den Coworker-Chat](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/chat/ui-guide).
 
 ### Anwendungsbeispiele für Customer Journey Analytics
 
 Sie können Customer Journey Analytics-Anwendungsfälle und Beispielaufforderungen sehen, die Anwender im Adobe CX Enterprise Coworker Chat verwenden. Jede Eingabeaufforderung wird so erstellt, dass sie kopiert, mit Ihren eigenen Daten und Kontexten angepasst und durch Konversation verfeinert wird.
 
-Weitere Informationen finden Sie unter [Anwendungsbeispiele](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/use-cases).
+Weitere Informationen finden Sie unter [Anwendungsbeispiele](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/chat/use-cases).
 
 ## Überprüfen, ob der Coworker Chat mit Customer Journey Analytics verbunden ist
 
