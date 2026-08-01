@@ -78,7 +78,7 @@ Wenn der Kunde den Zugriff auf diese Agentenfunktionen deaktivieren und den Test
 
 Lesen Sie die folgenden Handbücher, um weitere Informationen zu Coworker, Agent Orchestrator und AI Assistant zu erhalten:
 
-- [CX Enterprise-Mitarbeiter](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- [CX Enterprise-Mitarbeiter](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
 - [Übersicht über Agent Orchestrator](agent-orchestrator.md)
 - [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md)
 - [Bibliothek mit Eingabeaufforderungen des KI-Assistenten](../ai-assistant/prompt-library.md)
