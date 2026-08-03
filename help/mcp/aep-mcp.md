@@ -3,8 +3,8 @@ title: Adobe Experience Platform-Tools in CX Coworker Gateway
 description: Erfahren Sie, welche Adobe Experience Platform-Tools über CX Coworker Gateway verfügbar sind.
 source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 8%
+source-wordcount: '1354'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können die Adobe Experience Platform-Produkt-Tools verwenden, um Schemata, 
 
 | Tool | Beschreibung | Ressource | Funktionen | Status |
 | --- | --- | --- | --- | --- |
-| `search_allowed_ip_ranges` | Abrufen von IP-Zugriffsbeschränkungen für den Abfrage-Service | Data Distiller-Authentifizierung ・ IP-Bereiche | list | Aktiv |
+| `search_allowed_ip_ranges` | Abrufen von IP-Zugriffsbeschränkungen für den Abfrage-Service | Data Distiller-Authentifizierung ・ IP-Bereiche | Liste | Aktiv |
 | `search_audit` | Auflisten von Benutzeraktivitäts-Audit-Ereignissen in Experience Platform | Audit-Abfrage ・ Audit-Ereignisse | Liste, Filtern nach Asset-Typ, Aktion, Status, Zeitbereich | Aktiv |
 | `search_datasets` | Abfragen von Datensatz- und Batch-Aufnahme-Metadaten | Katalog-API ・ Datensätze, Batches | list, get, filter, list, last, list files | Aktiv |
 | `search_class_relations` | Experience Platform Business-Class-Beziehungen durchsuchen | Klassenbeziehungen ・ statischer YAML-Index | Suche nach Token, Multi-Term, teilweise Übereinstimmung | Aktiv |
