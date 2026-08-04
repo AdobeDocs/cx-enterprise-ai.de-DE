@@ -1,10 +1,10 @@
 ---
 title: Analysieren von Customer Journey Analytics-Daten mit dem Coworker Chat
 description: Erfahren Sie, wie Sie mit dem Adobe CX Enterprise Coworker Chat Customer Journey Analytics-Daten analysieren, Trichter erstellen und herausfinden können, wo Kundinnen und Kunden ihre Journey abgeben.
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 4c615d3c844049e47edde3b4c4dd7f77a788c268
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -21,21 +21,21 @@ Bevor Sie mit der Analyse beginnen, informieren Sie sich über die Oberfläche u
 Bevor Sie den Coworker Chat mit Ihren Customer Journey Analytics-Daten verwenden, erfahren Sie, wie Sie sich anmelden und Konfigurationsoptionen für die folgenden Funktionen verwalten:
 
 * Chat-Eingaben
-* Unterhaltungen
-* Marktplätze
+* Konversationen
+* Marketplaces
 * MCP-Server
-* Arbeitsspeicher
+* Speicher
 * Plug-ins
-* Kenntnisse
+* Skills
 * Und mehr
 
-Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche für den Coworker-Chat] (./).
+Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche für den Coworker-Chat](./).
 
 ### Anwendungsbeispiele für Customer Journey Analytics
 
 Sie können Customer Journey Analytics-Anwendungsfälle und Beispielaufforderungen sehen, die Anwender im Adobe CX Enterprise Coworker Chat verwenden. Jede Eingabeaufforderung wird so erstellt, dass sie kopiert, mit Ihren eigenen Daten und Kontexten angepasst und durch Konversation verfeinert wird.
 
-Weitere Informationen finden Sie unter [Anwendungsbeispiele] (./).
+Weitere Informationen finden Sie unter [Anwendungsbeispiele](./).
 
 ## Überprüfen, ob der Coworker Chat mit Customer Journey Analytics verbunden ist
 
@@ -55,38 +55,38 @@ Möglicherweise haben Sie Zugriff auf verschiedene Datenansichten in Customer Jo
 
 ### Festlegen, welche Datenansichten verwendet werden sollen
 
-Teilen Sie Coworker mit, welche Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, damit Sie diese Informationen am besten bereitstellen können. Sie können [&#x200B; auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
+Teilen Sie Coworker mit, welche Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, damit Sie diese Informationen am besten bereitstellen können. Sie können [ auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
 
 **Sie:**
 
 >[!BEGINSHADEBOX]
->
->Ich bin daran interessiert zu erfahren, wo Kunden auf der Kunden-Journey abbrechen. Auf welche Datenansichten in Customer Journey Analytics habe ich Zugriff, die diese Frage für mich beantworten können?
->
+
+Ich bin daran interessiert zu erfahren, wo Kunden auf der Kunden-Journey abbrechen. Auf welche Datenansichten in Customer Journey Analytics habe ich Zugriff, die diese Frage für mich beantworten können?
+
 >[!ENDSHADEBOX]
 
 **Chat-Antwort eines Kollegen:**
 
 >[!BEGINSHADEBOX]
->
->Sie haben Zugriff auf drei Datenansichten. Die `Customer lifecycle` Datenansicht enthält die folgenden Dimensionen und Metriken, die am besten für die Beantwortung Ihrer Frage geeignet sind.
->
+
+Sie haben Zugriff auf drei Datenansichten. Die `Customer lifecycle` Datenansicht enthält die folgenden Dimensionen und Metriken, die am besten für die Beantwortung Ihrer Frage geeignet sind.
+
 >[!ENDSHADEBOX]
 
 **Sie:**
 
 >[!BEGINSHADEBOX]
->
->Toll, verwenden wir diese Datenansicht.
->
+
+Toll, verwenden wir diese Datenansicht.
+
 >[!ENDSHADEBOX]
 
 **Chat-Antwort eines Kollegen:**
 
 >[!BEGINSHADEBOX]
->
->Okay, ich werde die `Customer lifecycle` Datenansicht verwenden, um zukünftige Fragen in dieser Chat-Sitzung zu beantworten.
->
+
+Okay, ich werde die `Customer lifecycle` Datenansicht verwenden, um zukünftige Fragen in dieser Chat-Sitzung zu beantworten.
+
 >[!ENDSHADEBOX]
 
 ### Hinzufügen einer Datenansichtseinstellung im Speicher
@@ -138,9 +138,9 @@ Sie müssen nicht wissen, was eine „Fallout-Visualisierung“ ist oder welche 
 **Sie:**
 
 >[!BEGINSHADEBOX]
->
->Wo verlieren wir Menschen auf dem Weg zum Kauf?
->
+
+Wo verlieren wir Menschen auf dem Weg zum Kauf?
+
 >[!ENDSHADEBOX]
 
 **Chat-Antwort eines Kollegen:**
@@ -189,9 +189,9 @@ Hier verliert man Menschen:
 **Sie:**
 
 >[!BEGINSHADEBOX]
->
->Okay, lassen Sie uns nach Marketing-Kanal aufschlüsseln
->
+
+Okay, lassen Sie uns nach Marketing-Kanal aufschlüsseln
+
 >[!ENDSHADEBOX]
 
 **Chat-Antwort eines Kollegen:**
@@ -240,9 +240,9 @@ Die Marketing-Kanäle machen ihren Job - sie alle bringen die Leute dazu sich zu
 **Sie:**
 
 >[!BEGINSHADEBOX]
->
->Interessant. Versuchen wir, nach Gerätetyp aufzuschlüsseln.
->
+
+Interessant. Versuchen wir, nach Gerätetyp aufzuschlüsseln.
+
 >[!ENDSHADEBOX]
 
 **Chat-Antwort eines Kollegen:**
@@ -266,7 +266,7 @@ Der funnel ist geräteübergreifend bis zum Checkout identisch - dann fällt Mob
 | Metrik | Desktop | Mobile | Lücke |
 | --- | --- | --- | --- |
 | Warenkorb zur Kaufrate | 23.2% | 8.1% | 15 Prozentpunkte |
-| Mobile ist | — | 2,8fach schlechter | — |
+| Mobile ist | – | 2,8fach schlechter | – |
 | Transaktionsabbrüche | 13,274 | 12,178 | Nahezu das gleiche absolute Volumen |
 
 Das Browsen und Hinzufügen zum Warenkorb funktioniert auf Mobilgeräten einwandfrei (identische Browser-Rate von ~45 %, ~55 % Quote von Hinzufügungen zum Warenkorb). Die Menschen sind gleichermaßen interessiert und engagiert. Aber irgendetwas im mobilen Checkout-Fluss bringt Konversionen zum Erliegen.
@@ -299,20 +299,20 @@ Das Datenmuster (gleiches Engagement, katastrophaler Checkout-Rückgang) ist ein
 **Sie:**
 
 >[!BEGINSHADEBOX]
->
->Was soll ich also tun?
->
+
+Was soll ich also tun?
+
 >[!ENDSHADEBOX]
 
 **Chat-Antwort eines Kollegen:**
 
 >[!BEGINSHADEBOX]
->
->Basierend auf dem, was die Daten zeigen, würde ich mich hier konzentrieren:
->
->* **Reparieren Sie den mobilen Checkout - es ist kein Kanalproblem.** Jeder Kanal konvertiert Personen zu einem ähnlichen, gesunden Tempo in den Warenkorb, sodass die Anzeigenausgaben überall funktionieren. Der Umsatz geht insbesondere im Mobile-Checkout-Fluss verloren, in den die Fehlerbehebung gehört.
->* **Beginnen Sie mit der Zahlung und Formularreibung.** Dies sind die häufigsten Gründe dafür, dass vorsätzliche Mobilkäufer ihren Warenkorb verlassen. Mobile Wallet-Optionen anzubieten und das Formular zu kürzen sind in der Regel die schnellsten Gewinne.
->* **Überprüfen Sie nach der Behebung erneut.** Sobald die Checkout-Änderungen versendet werden, sollten Sie überprüfen, ob sich die Warenkorb-Kaufrate von Mobile auf die Desktop-Rate von 23,2 % zubewegt.
+
+Basierend auf dem, was die Daten zeigen, würde ich mich hier konzentrieren:
+
+* **Reparieren Sie den mobilen Checkout - es ist kein Kanalproblem.** Jeder Kanal konvertiert Personen zu einem ähnlichen, gesunden Tempo in den Warenkorb, sodass die Anzeigenausgaben überall funktionieren. Der Umsatz geht insbesondere im Mobile-Checkout-Fluss verloren, in den die Fehlerbehebung gehört.
+* **Beginnen Sie mit der Zahlung und Formularreibung.** Dies sind die häufigsten Gründe dafür, dass vorsätzliche Mobilkäufer ihren Warenkorb verlassen. Mobile Wallet-Optionen anzubieten und das Formular zu kürzen sind in der Regel die schnellsten Gewinne.
+* **Überprüfen Sie nach der Behebung erneut.** Sobald die Checkout-Änderungen versendet werden, sollten Sie überprüfen, ob sich die Warenkorb-Kaufrate von Mobile auf die Desktop-Rate von 23,2 % zubewegt.
 
 Soll ich das als Projekt speichern, damit Sie es verfolgen können, oder einen Warnhinweis einrichten, wenn der Kauf von Mobilgeräten per Warenkorb unter einen Schwellenwert fällt?
 
