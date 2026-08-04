@@ -1,9 +1,9 @@
 ---
 title: Sandbox Tooling Agent Skills
 description: Erfahren Sie, wie Sie mit Sandbox Tooling Agent Skills Objektmetadaten in Sandbox-Umgebungen replizieren können.
-source-git-commit: 7790447877fa20321321ce5561d8ff61b28c572e
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '706'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Sandbox Tooling Agent Skills stehen allen Kunden mit Zugriff auf Adobe CX Enterprise Coworker zur Verfügung. Um alle verfügbaren Funktionen zu verwenden, benötigen Sie die folgenden Berechtigungen:
+>Sandbox Tooling Agent Skills stehen allen Kunden mit Zugriff auf Adobe Coworker zur Verfügung. Um alle verfügbaren Funktionen zu verwenden, benötigen Sie die folgenden Berechtigungen:
 >
 >**Manage-sandbox** oder **View-sandbox**: Mit diesen Berechtigungen können Sie Sandbox Tooling Agent Skills verwenden, um Sandboxes direkt in Kollegen anzuzeigen.
 >
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >Sie können derzeit Sandbox Tooling Agent Skills verwenden, um Schema- und Zielgruppenobjekte zu entdecken, zu verpacken und zu migrieren. In zukünftigen Versionen wird die Unterstützung für zusätzliche Objekttypen hinzugefügt.
 
-Verwenden Sie die Agentenfertigkeiten der Sandbox-Werkzeuge, um Objektmetadaten - einschließlich Schemata und Zielgruppen - in Adobe Experience Platform-Umgebungen zu verschieben, indem Sie beschreiben, was Sie in natürlicher Sprache erreichen möchten. Mithilfe von CX Coworker können Sie die erforderlichen Metadaten ermitteln, Abhängigkeiten automatisch identifizieren, Migrationspakete erstellen und Objekte durch ein Gesprächserlebnis migrieren.
+Verwenden Sie die Agentenfertigkeiten der Sandbox-Werkzeuge, um Objektmetadaten - einschließlich Schemata und Zielgruppen - in Adobe Experience Platform-Umgebungen zu verschieben, indem Sie beschreiben, was Sie in natürlicher Sprache erreichen möchten. Mithilfe von Coworker können Sie die erforderlichen Metadaten ermitteln, Abhängigkeiten automatisch identifizieren, Migrationspakete erstellen und Objekte durch ein Gesprächserlebnis migrieren.
 
 ## Voraussetzungen {#prerequisites}
 
@@ -31,13 +31,13 @@ Bevor Sie beginnen, stellen Sie Folgendes sicher:
 
 - Zugriff auf Adobe Experience Platform und die entsprechende Organisation und Sandbox.
 - Zugriff auf die Objekte, die Sie suchen oder migrieren möchten.
-- Das in CX Coworker installierte Adobe CXO-Plug-in.
+- Das in Coworker installierte CRX-Plug-in für Adobe.
 
-Anweisungen zum Installieren von Plug-ins finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/chat/ui-guide).
+Anweisungen zum Installieren von Plug-ins finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
 
 ## Sandbox-Tools für agentische Fähigkeiten verwenden {#use-sandbox-tooling-agentic-skills}
 
-Interagieren Sie mit Sandbox Tooling Agent Skills über CX Coworker mit natürlicher Sprache. Beschreiben Sie Ihr Ziel so klar wie möglich. Spezifische Anfragen liefern die besten Ergebnisse, während vage oder zu kurze Eingabeaufforderungen Ergebnisse von schlechterer Qualität zurückgeben oder den Agenten nicht aufrufen können.
+Interagieren Sie mit Sandbox Tooling Agent Skills durch Kollegen mit natürlicher Sprache. Beschreiben Sie Ihr Ziel so klar wie möglich. Spezifische Anfragen liefern die besten Ergebnisse, während vage oder zu kurze Eingabeaufforderungen Ergebnisse von schlechterer Qualität zurückgeben oder den Agenten nicht aufrufen können.
 
 So verwenden Sie Agentenfertigkeiten der Sandbox-Tools:
 
@@ -62,7 +62,7 @@ So verwenden Sie Agentenfertigkeiten der Sandbox-Tools:
 
 ![Seite „Transfer abgeschlossen“ mit dem Anforderungsstatus.](./assets/sandbox-tooling/transfer-complete.png)
 
-Weitere Informationen zur Verwendung von CX Coworker finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/chat/ui-guide).
+Weitere Informationen zur Verwendung von Coworker finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
 
 ## Unterstützte Anwendungsfälle {#supported-use-cases}
 
@@ -72,7 +72,7 @@ Entdecken Sie gängige Möglichkeiten, Sandbox Tooling Agent Skills zu verwenden
 
 Als Sandbox-Administrator, der mehrere Adobe Experience Platform-Sandboxes verwaltet, können Sie Objektmetadaten mithilfe von Anforderungen in natürlicher Sprache migrieren, anstatt manuell in der Benutzeroberfläche zu navigieren.
 
-Mithilfe von CX Coworker können Sie Objektmetadaten - einschließlich Schemata, Zielgruppen und zugehörigen Konfigurations-Assets - von einer Sandbox in eine andere migrieren, indem Sie die Migration in natürlicher Sprache beschreiben. Sandbox Tooling Agent Skills identifizieren und verpacken automatisch die erforderlichen Abhängigkeiten, um eine zuverlässige Migration sicherzustellen.
+Mit Coworker können Sie Objektmetadaten - einschließlich Schemata, Zielgruppen und zugehörigen Konfigurations-Assets - von einer Sandbox in eine andere migrieren, indem Sie die Migration in natürlicher Sprache beschreiben. Sandbox Tooling Agent Skills identifizieren und verpacken automatisch die erforderlichen Abhängigkeiten, um eine zuverlässige Migration sicherzustellen.
 
 Beispiel:
 
@@ -108,4 +108,4 @@ Verwenden Sie diese Eingabeaufforderungen, wenn Sie den Namen der Zielgruppe ken
 
 Nach dem Lesen dieses Handbuchs sollten Sie wissen, wie Sie mit den Agentenfertigkeiten der Sandbox-Tools unterstützte Objekte zwischen Sandboxes finden, verpacken und migrieren können.
 
-Weitere Informationen zum Sandbox-Tooling finden Sie im [Handbuch zum Sandbox-Tooling](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/ui/sandbox-tooling).
+Weitere Informationen zum Sandbox-Tooling finden Sie im [Handbuch zum Sandbox-Tooling](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling).

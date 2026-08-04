@@ -1,16 +1,16 @@
 ---
-description: Erfahren Sie mehr über Funktionsverbesserungen und -korrekturen in den Versionshinweisen zu Adobe CX Enterprise Coworker Campaign.
-title: Versionshinweise zu Adobe CX Enterprise Coworker Campaign
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: Erfahren Sie mehr über Funktionsverbesserungen und -korrekturen in den Versionshinweisen zu Adobe Coworker Campaign.
+title: Versionshinweise zu Adobe Coworker Campaign
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
 
-# Versionshinweise zu Adobe CX Enterprise Coworker Campaign {#release-notes}
+# Versionshinweise zu Adobe Coworker Campaign {#release-notes}
 
-Adobe CX Enterprise Coworker Campaign-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht.
+Coworker Campaign-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht.
 
 ## Juli 2026 {#july-2026}
 
@@ -130,7 +130,7 @@ Adobe CX Enterprise Coworker Campaign-Versionen basieren auf einem kontinuierlic
 
 **Veröffentlichungsdatum: 10. Juni 2026**
 
-* Die App heißt jetzt CX Enterprise Coworker-Kampagnen mit aktualisierter Benennung in
+* Die App heißt jetzt Coworker-Kampagnen mit aktualisierten Namen im gesamten
 * Eine Onboarding-Tour führt Sie durch den Aufbau einer Demo-Marke
 * Starten Sie Kampagnen über ein dediziertes Dialogfeld, wenn Ihr Plan startbereit ist.
 * Verbinden von HubSpot mit einem API-Schlüssel aus dem Integrationskatalog

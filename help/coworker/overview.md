@@ -1,16 +1,16 @@
 ---
-title: Adobe CX Enterprise-Mitarbeiter
-description: Erfahren Sie, wie Sie Ihr Marketing mit Adobe CX Enterprise Coworker auf ein höheres Niveau bringen können.
-source-git-commit: 0a56fd8cc38258e764f4cf97ff67ae4dde2e4d56
+title: Adobe-Mitarbeiter
+description: Erfahren Sie, wie Sie Ihr Marketing mit Adobe Coworker auf ein höheres Niveau bringen können.
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 4%
+source-wordcount: '194'
+ht-degree: 5%
 
 ---
 
-# Über Adobe CX Enterprise Coworker
+# Über Adobe Coworker
 
-Adobe CX Enterprise Coworker ist ein KI-basierter Teamkollege, der die Art der Arbeit für Unternehmen, Teams und Einzelpersonen neu definiert. Coworker automatisiert auf elegante Weise Kundenerlebnis- und Marketing-Workflows, damit sich Unternehmen auf die Umsetzung ihrer Geschäftsziele und die Transformation von Ergebnissen konzentrieren können, anstatt Aufgaben zu koordinieren. Als Agent-Engine verfolgt Coworker einen neuen innovativen Ansatz zur Automatisierung von Geschäftsprozessen. Es erhöht die Leistung und Genauigkeit des KI-Modells, indem Daten, Intelligenz, Zusammenarbeit und agentische Fähigkeiten mit dem Unternehmenskontext, der Governance und der integrierten menschlichen Aufsicht zusammengeführt werden.
+Coworker ist ein KI-basierter Teamkollege, der die Art der Arbeit für Organisationen, Teams und Einzelpersonen neu definiert. Coworker automatisiert auf elegante Weise Kundenerlebnis- und Marketing-Workflows, damit sich Unternehmen auf die Umsetzung ihrer Geschäftsziele und die Transformation von Ergebnissen konzentrieren können, anstatt Aufgaben zu koordinieren. Als Agent-Engine verfolgt Coworker einen neuen innovativen Ansatz zur Automatisierung von Geschäftsprozessen. Es erhöht die Leistung und Genauigkeit des KI-Modells, indem Daten, Intelligenz, Zusammenarbeit und agentische Fähigkeiten mit dem Unternehmenskontext, der Governance und der integrierten menschlichen Aufsicht zusammengeführt werden.
 
 ## Kampagnen
 
