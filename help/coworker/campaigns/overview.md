@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Coworker Campaign ist eine KI-native Marketing-Anwendung, die Sie von einer einzigen Eingabeaufforderung zu einer vollständigen Kampagne für die Bearbeitung bis zur vollständigen Überprüfung führt.
 
-Zu diesem Zeitpunkt werden Sie bei allen Interaktionen mit der KI auf die [Kampagnenerstellung](./) geleitet. Weitere Funktionen folgen in Kürze.
+Zu diesem Zeitpunkt werden Sie bei allen Interaktionen mit der KI auf die [Kampagnenerstellung] (./) geleitet. Weitere Funktionen folgen in Kürze.
 
 ## Zugriff
 

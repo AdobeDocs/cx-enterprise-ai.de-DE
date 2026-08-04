@@ -17,7 +17,7 @@ Mit Adobe Coworker Campaign können Sie eine Verbindung zu Ihrem Marketo Engage-
 >
 >Weitere Connectoren folgen in Kürze.
 
-1. Klicken Sie auf der [Startseite von Campaign ](https://coworker-campaigns.experience.adobe.com/) auf **Anpassen** und wählen Sie **Connectoren** aus.
+1. Klicken Sie auf der [Startseite von Campaign &#x200B;](https://coworker-campaigns.experience.adobe.com/) auf **Anpassen** und wählen Sie **Connectoren** aus.
 
 SCREENSHOT
 
