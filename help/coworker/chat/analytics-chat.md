@@ -29,13 +29,13 @@ Bevor Sie den Coworker Chat mit Ihren Customer Journey Analytics-Daten verwenden
 * Skills
 * Und mehr
 
-Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche für den Coworker-Chat](./).
+Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche für den Coworker-Chat] (./).
 
 ### Anwendungsbeispiele für Customer Journey Analytics
 
 Sie können Customer Journey Analytics-Anwendungsfälle und Beispielaufforderungen sehen, die Anwender im Adobe CX Enterprise Coworker Chat verwenden. Jede Eingabeaufforderung wird so erstellt, dass sie kopiert, mit Ihren eigenen Daten und Kontexten angepasst und durch Konversation verfeinert wird.
 
-Weitere Informationen finden Sie unter [Anwendungsbeispiele](./).
+Weitere Informationen finden Sie unter [Anwendungsbeispiele] (./).
 
 ## Überprüfen, ob der Coworker Chat mit Customer Journey Analytics verbunden ist
 
@@ -55,7 +55,7 @@ Möglicherweise haben Sie Zugriff auf verschiedene Datenansichten in Customer Jo
 
 ### Festlegen, welche Datenansichten verwendet werden sollen
 
-Teilen Sie Coworker mit, welche Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, damit Sie diese Informationen am besten bereitstellen können. Sie können [ auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
+Teilen Sie Coworker mit, welche Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, damit Sie diese Informationen am besten bereitstellen können. Sie können [&#x200B; auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
 
 **Sie:**
 
