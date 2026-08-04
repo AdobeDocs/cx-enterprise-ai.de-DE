@@ -5,10 +5,10 @@ user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workf
 description: Erfahren Sie mehr über den KI-Assistenten in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 26%
 - Über KI in CX Enterprise {#overview}
   - [Generative KI](./overview/generative-ai.md)
   - [Agent-basierte KI](./overview/agentic-ai.md)
-  - [AI-Überwachung](./overview/monitoring.md)
+  - [Agent-basierte KI-Überwachung](./overview/monitoring.md)
   - [Agent-Vorgänge und KI-Kreditverbrauch](./overview/ai-credit-consumption.md)
   - [Agent-basierte Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
 - KI-Assistent {#ai-assistant}
@@ -54,7 +54,7 @@ ht-degree: 26%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Kollegin {#coworker}
   - [Über einen Kollegen](./coworker/overview.md)
   - Kampagnen {#campaigns}
@@ -66,7 +66,7 @@ ht-degree: 26%
     - [Versionshinweise](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Überblick](./coworker/chat/overview.md)
-    - [Anwendungsfälle](./coworker/chat/use-cases.md)
+    - [Anwendungsszenarien](./coworker/chat/use-cases.md)
     - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
     - [Analysieren von CJA-Daten](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
