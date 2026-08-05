@@ -1,10 +1,10 @@
 ---
 description: Durchsuchen Sie die Anwendungsfälle und Beispielaufforderungen des Coworker Chat, sortiert nach Bereichen wie Dateneinblicke, Zielgruppen, Journey und Plattformvorgänge.
 title: Anwendungsfälle
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 58fc8c37c1bf26a6da3bc69e307931a7680c4490
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 3%
+source-wordcount: '1143'
+ht-degree: 4%
 
 ---
 
@@ -33,10 +33,10 @@ Im Folgenden finden Sie Anwendungsfälle und Beispielaufforderungen, die Anwende
 | Zielgruppen aus natürlicher Sprache erstellen | Orchestrieren der schrittweisen Zielgruppenerstellung mit Benutzergenehmigung in jeder Phase | `audience-creation-flow` | Real-Time CDP (RTCDP) | „Erstellen Sie eine Audience von Benutzern, die in den letzten 30 Tagen gekauft haben“ ・ „Erstellen Sie ein Segment für hochwertige Mitglieder des Treueprogramms in Kalifornien“ |
 | Erstellen von PQL-Definitionen | Zusammenstellen von Zielgruppendefinitionen aus XDM-Eigenschaften, Verhaltensereignissen oder vorhandenen Zielgruppen; Unterstützung von Aggregation und Zeitfenstern | `segment-definition-assembly` | Real-Time CDP (RTCDP) | „Erstellen Sie eine PQL für Personen, die mehr als 3 Produkte angesehen, aber keinen Kauf getätigt haben“ ・ „Hinzufügen eines 7-Tage-Zeitfensters zu meiner Veranstaltungsbedingung“ |
 | Zielgruppen suchen und finden | Zielgruppen nach ID, Name und semantischer Suche suchen, Duplikate erkennen und Überschneidungen analysieren | `audience-search` | Real-Time CDP (RTCDP) | „Alle Loyalitäts-Zielgruppen suchen“ ・ „Gibt es ein Duplikat meines Segments „Holiday Shoppers“?“ |
-| Zielgruppengröße schätzen | Schätzen der Profilreichweite für einen PQL-Ausdruck mithilfe der AEP-Vorschau-API mit Abfrage | `audience-size-estimate` | Real-Time CDP (RTCDP) | „Wie groß ist diese Zielgruppe?“ ・ „Geschätzte Reichweite für diesen PQL-Ausdruck“ |
+| Zielgruppengröße schätzen | Schätzen der Profilreichweite für einen PQL-Ausdruck mithilfe der Adobe Experience Platform-Vorschau-API mit Abfrage | `audience-size-estimate` | Real-Time CDP (RTCDP) | „Wie groß ist diese Zielgruppe?“ ・ „Geschätzte Reichweite für diesen PQL-Ausdruck“ |
 | Audience-Größe - Wasserfall | Unterprädikate für eine PQL erstellen und zeigen, wie jede Bedingung zur endgültigen Zielgruppengröße beiträgt | `audience-size-waterfall` | Real-Time CDP (RTCDP) | „Show me the waterfall for this PQL&quot; ・ „Aufschlüsselung, wie die einzelnen Bedingungen die Zielgruppe reduzieren“ |
 | XDM-Felder für das Targeting entdecken | Suchen Sie Felder nach Name, Beschreibung oder Datenwert; sehen Sie, wo sie sich befinden und wo sie bereits verwendet werden | `field-discovery` | Real-Time CDP (RTCDP) | „Welche Felder kann ich verwenden, um Kundinnen und Kunden von Treueprogrammen anzusprechen?“ ・ „Suchen von Feldern im Zusammenhang mit dem Kaufverlauf“ |
-| Veröffentlichen/Speichern von Zielgruppen | Beibehalten von Zielgruppendefinitionen im Segmentierungs-Service von AEP mit Benennungskonventionen und Kompatibilitätsprüfungen | `audience-publish` | Real-Time CDP (RTCDP) | „Als Entwurf speichern“ ・ „Die Zielgruppe mit dem Namen „Frühlingsverkaufskäufer“ veröffentlichen“ |
+| Veröffentlichen/Speichern von Zielgruppen | Beibehalten von Zielgruppendefinitionen im Segmentierungs-Service von Experience Platform mit Benennungskonventionen und Kompatibilitätsprüfungen | `audience-publish` | Real-Time CDP (RTCDP) | „Als Entwurf speichern“ ・ „Die Zielgruppe mit dem Namen „Frühlingsverkaufskäufer“ veröffentlichen“ |
 
 ## Journeys
 
@@ -52,17 +52,14 @@ Im Folgenden finden Sie Anwendungsfälle und Beispielaufforderungen, die Anwende
 | Anwendungsfall | Beschreibung | Kenntnisse | Anwendung | Eingabeaufforderungen |
 | --- | --- | --- | --- | --- |
 | Produktkenntnisse und Dokumentation | Antworten auf Fragen zu Anleitungen, Konzepten, Fehlerbehebung und Best Practices aus offiziellen Adobe-Dokumenten | `product-knowledge` | Alle infrage kommenden Anträge | „Wie richte ich ein Streaming-Ziel ein?“ ・ „Was ist der Unterschied zwischen Batch- und Streaming-Segmentierung?“ |
-| Abfragen von AEP-/AJO-Entitäten | Dient als primärer Einstiegspunkt für Fragen zu Ihren Platform-Entitäten; Route zu KG, Felderkennung oder APIs nach Bedarf | `operational-insights` | Alle infrage kommenden Anträge | „Wie viele Datensätze habe ich?“ ・ „Alle aktiven Journey anzeigen“ ・ „Meine Ziele auflisten“ |
+| Abfragen von Experience Platform-/Journey Optimizer-Entitäten | Dient als primärer Einstiegspunkt für Fragen zu Ihren Platform-Entitäten; Route zu KG, Felderkennung oder APIs nach Bedarf | `operational-insights` | Alle infrage kommenden Anträge | „Wie viele Datensätze habe ich?“ ・ „Alle aktiven Journey anzeigen“ ・ „Meine Ziele auflisten“ |
 | Abfragen von Wissensdiagrammen | Aggregierte Zählungen, entitätsübergreifende Joins, Beziehungssuchen und Metadatenexploration über einzelne SQL-Abfragen | `knowledge-graph` | Alle infrage kommenden Anträge | „Welche Zielgruppen verwenden diesen Datensatz?“ ・ „Anzeigen von Beziehungen zwischen Schemata und Datensätzen“ |
-| API-Vorgänge für AEP/AJO/CJA | Bereitstellen eines direkten API-Gateways für Mutationen, Echtzeit-Statusprüfungen und Entitätstypen, die nicht im Wissensdiagramm enthalten sind | `cxo-api` | Alle infrage kommenden Anträge | „Datensatz X löschen“ ・ „Status meines Batch-Erfassungsvorgangs überprüfen“ |
-| Auflösung und Verknüpfung von Entitäten | Verwenden Sie die semantische und lexikalische Suche, um Entitätsbezeichnungen in tatsächliche AEP-Entitäten aufzulösen und XDM-Felder zu erkennen | `entity-linking` | Adobe Experience Platform (AEP) | „Auflösen von „Holiday Shoppers“ in eine tatsächliche Zielgruppe“ ・ „Felder zum Kaufverlauf finden“ |
-| Persönlichen Kontext erstellen | Erstellen eines personalisierten Benutzerprofils aus Ihren AEP-, CJA- und/oder Workfront-Aktivitätsprotokollen | `build-my-context` | Alle infrage kommenden Anträge | „Meinen Kontext aus der AEP- und CJA-Aktivität erstellen“ ・ „Wer bin ich in dieser Organisation?“ |
-| Organisationskontext destillieren | Extrahieren Sie organisationsweites Wissen aus einem Dokument in das Wiki mit dem gemeinsamen Organisationskontext | `distill-org-context` | Alle infrage kommenden Anträge | „Dieses Dokument in das Organisations-Wiki zerlegen“ ・ „Diese Datei zum Organisationskontext hinzufügen“ |
-| Benutzerkontext destillieren | Extrahieren von persönlichem Arbeitskontext aus einem Dokument in Ihr Benutzerkontext-Wiki | `distill-user-context` | Alle infrage kommenden Anträge | „Datei zu meinem Benutzerkontext hinzufügen“ ・ „Arbeitskontext aus diesem Dokument extrahieren“ |
+| API-Vorgänge für Experience Platform/Journey Optimizer/Customer Journey Analytics | Bereitstellen eines direkten API-Gateways für Mutationen, Echtzeit-Statusprüfungen und Entitätstypen, die nicht im Wissensdiagramm enthalten sind | `cxo-api` | Alle infrage kommenden Anträge | „Datensatz X löschen“ ・ „Status meines Batch-Erfassungsvorgangs überprüfen“ |
+| Auflösung und Verknüpfung von Entitäten | Verwenden Sie die semantische und lexikalische Suche, um Entitätsbezeichnungen in tatsächliche Experience Platform-Entitäten aufzulösen und XDM-Felder zu erkennen | `entity-linking` | Adobe Experience Platform | „Auflösen von „Holiday Shoppers“ in eine tatsächliche Zielgruppe“ ・ „Felder zum Kaufverlauf finden“ |
 | Benutzerdefinierte Fähigkeiten verwalten | Speichern, Ändern oder Löschen von benutzereigenen wiederverwendbaren Fähigkeiten, die sitzungsübergreifend bestehen bleiben | `manage-skill` | Alle infrage kommenden Anträge | „Diesen Workflow als Qualifikation speichern“ ・ „Meine wöchentlichen Berichtsqualifikationen löschen“ ・ „Diese Qualifikation wiederverwendbar machen“ |
 
 ## Sandbox-Werkzeuge
 
 | Anwendungsfall | Beschreibung | Kenntnisse | Anwendung | Eingabeaufforderungen |
 | --- | --- | --- | --- | --- |
-| Verschieben von Metadatenobjekten über Sandboxes hinweg | Nahtlose Migration von Schemas, Zielgruppen und anderen Objektkonfigurationen über Sandboxes hinweg, wobei Abhängigkeiten automatisch aufgelöst werden | `sandbox-tooling-workflow` | Adobe Experience Platform (AEP) | „Schema-Luma-Platin-Mitglieder des Treueprogramms aus der aktuellen Sandbox in die Produktions-Sandbox verschieben“ ・ „Die Zielgruppe der US-amerikanischen Mitglieder des Treueprogramms für Gold-Mitglieder zur Staging-Umgebung bewerben“ |
+| Verschieben von Metadatenobjekten über Sandboxes hinweg | Nahtlose Migration von Schemas, Zielgruppen und anderen Objektkonfigurationen über Sandboxes hinweg, wobei Abhängigkeiten automatisch aufgelöst werden | `sandbox-tooling-workflow` | Adobe Experience Platform | „Schema-Luma-Platin-Mitglieder des Treueprogramms aus der aktuellen Sandbox in die Produktions-Sandbox verschieben“ ・ „Die Zielgruppe der US-amerikanischen Mitglieder des Treueprogramms für Gold-Mitglieder zur Staging-Umgebung bewerben“ |
