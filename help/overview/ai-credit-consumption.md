@@ -75,4 +75,4 @@ Informationen dazu, welche AEP-Agenten und Agentenaufträge in den lizenzierten 
 
 * [GenAI in CX Enterprise](generative-ai.md)
 * [Agent-basierte KI in CX Enterprise](agentic-ai.md)
-* [Benutzergebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
+* [Benutzergebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
