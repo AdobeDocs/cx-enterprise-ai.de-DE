@@ -5,10 +5,10 @@ user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workf
 description: Erfahren Sie mehr über den KI-Assistenten in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 26%
+source-wordcount: '235'
+ht-degree: 28%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 26%
 - Über KI in CX Enterprise {#overview}
   - [Generative KI](./overview/generative-ai.md)
   - [Agent-basierte KI](./overview/agentic-ai.md)
-  - [AI-Überwachung](./overview/monitoring.md)
+  - [Agent-basierte KI-Überwachung](./overview/monitoring.md)
   - [Agent-Vorgänge und KI-Kreditverbrauch](./overview/ai-credit-consumption.md)
   - [Agent-basierte Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
 - KI-Assistent {#ai-assistant}
@@ -37,7 +37,7 @@ ht-degree: 26%
   - [Produktsupport-Agent](./agents/product-support.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Benachrichtigungsagent](./agents/notifications.md)
-  - [CX Enterprise Coworker Trial](./agents/trial.md)
+  - [Amtsgericht](./agents/trial.md)
   - [Daten validieren](./agents/data-validation.md)
   - Data Engineering {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -66,9 +66,9 @@ ht-degree: 26%
     - [Versionshinweise](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Überblick](./coworker/chat/overview.md)
-    - [Anwendungsfälle](./coworker/chat/use-cases.md)
+    - [Anwendungsszenarien](./coworker/chat/use-cases.md)
     - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
     - [Analysieren von CJA-Daten](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[Validieren der Migrationsdaten von AA zu CJA](./coworker/data-validation-aa-cja.md)
+  - [Validieren der Migrationsdaten von AA zu CJA](./coworker/data-validation-aa-cja.md)
   - [Sandbox Tooling Agent Skills](./agents/sandbox-tooling.md)

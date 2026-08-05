@@ -1,14 +1,14 @@
 ---
 description: Erfahren Sie, wie der Coworker Chat eine Gesprächsoberfläche verwendet, um Kundenerlebnisarbeit in Adobe und verbundenen Systemen in Minutenschnelle zu planen, auszuführen und abzuschließen.
-title: Adobe CX Enterprise Coworker Chat - Übersicht
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Adobe Coworker Chat - Übersicht
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
-# Adobe CX Enterprise Coworker Chat - Überblick {#overview}
+# Adobe Coworker Chat - Übersicht {#overview}
 
 Der Coworker Chat ist eine Gesprächsoberfläche, um Kundenerlebnisaufgaben zu erledigen. Sie beschreiben ein Ziel in verständlicher Sprache (z. B. „Erstellen einer Zielgruppe für die Frühjahrs-Yoga-Promotion“ oder „Sagen Sie mir, warum diese Zielgruppe letzte Woche geschrumpft ist„) und Coworker Chat plant die Arbeit, führt sie in Ihrem Adobe und verbundenen Systemen aus, validiert die Ergebnisse und bringt die fertige Arbeit zur Genehmigung an Sie zurück.
 
@@ -20,7 +20,7 @@ Der Wert: Arbeit, die sich über mehrere Bildschirme, Teams und Tage erstreckte,
 
 >[!NOTE]
 >
->Der Coworker Chat ist ein Modul von Adobe CX Enterprise Coworker. Zwei weitere Module erweitern dieselbe Grundlage: Coworker Campaign (stehen bereit und starten eine vollständige Kampagne aus einem Gespräch) und Coworker Projects (ein jederzeit verfügbarer Arbeitsbereich für End-to-End-Workflows mit mehreren Teams). Diese Seite behandelt den Coworker Chat.
+>Der Coworker Chat ist ein Modul von Adobe Coworker. Zwei weitere Module erweitern dieselbe Grundlage: Coworker Campaign (stehen bereit und starten eine vollständige Kampagne aus einem Gespräch) und Coworker Projects (ein jederzeit verfügbarer Arbeitsbereich für End-to-End-Workflows mit mehreren Teams). Diese Seite behandelt den Coworker Chat.
 
 ## Eine Weiterentwicklung des KI-Assistenten
 

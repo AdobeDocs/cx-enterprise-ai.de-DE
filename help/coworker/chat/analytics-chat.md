@@ -1,45 +1,80 @@
 ---
 title: Analysieren von Customer Journey Analytics-Daten mit dem Coworker Chat
-description: Erfahren Sie, wie Sie mit dem Adobe CX Enterprise Coworker Chat Customer Journey Analytics-Daten analysieren, Trichter erstellen und herausfinden können, wo Kundinnen und Kunden ihre Journey abgeben.
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: Erfahren Sie, wie Sie mit dem Adobe Coworker Chat Customer Journey Analytics-Daten analysieren, Trichter erstellen und herausfinden können, wo Kundinnen und Kunden ihre Journey abgeben.
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '3239'
 ht-degree: 4%
 
 ---
 
 # Analysieren von Customer Journey Analytics-Daten mit dem Coworker Chat
 
-Adobe CX Enterprise Coworker Chat kann erweiterte Datenanalysen durchführen, die zuvor nur in Analysis Workspace möglich waren. Coworker Chat greift auf Daten aus Ihren Customer Journey Analytics-Datenansichten zu, sodass Sie diese Daten untersuchen und Antworten auf Eingabeaufforderungen in natürlicher Sprache erhalten können.
+Der Adobe Coworker Chat kann erweiterte Datenanalysen durchführen, die zuvor nur in Analysis Workspace möglich waren. Coworker Chat greift auf Daten aus Ihren Customer Journey Analytics-Datenansichten zu, sodass Sie diese Daten untersuchen und Antworten auf Eingabeaufforderungen in natürlicher Sprache erhalten können.
+
+Sie können den Coworker Chat auf zwei Arten verwenden, je nachdem, wie viel Analyse Sie benötigen:
+
+* **Schnelle Antworten** - Stellen Sie eine direkte, verständliche Frage und erhalten Sie eine sofortige Antwort. Business-Anwender nutzen den Coworker Chat oft auf diese Weise, und Analysten verwenden ihn auch, wenn sie eine schnelle Antwort für einen Stakeholder benötigen.
+* **Tief greifende Gedankenarbeit** - Führen Sie ein ausgedehntes, mehrgängiges Gespräch mit Coworker Chat, um ein Geschäftsproblem zu untersuchen, Ursachen auszuschließen und eine Empfehlung zu erhalten. Analysten verwenden diesen Ansatz normalerweise, um Daten eingehend zu untersuchen, bevor sie eine Empfehlung abgeben.
 
 Bevor Sie mit der Analyse beginnen, informieren Sie sich über die Oberfläche und die Konfigurationsoptionen für den Coworker-Chat und stellen Sie dann sicher, dass Coworker mit Customer Journey Analytics und der Datenansicht verbunden ist, die die Daten enthält, die Sie verwenden möchten.
 
 ## Erste Schritte mit dem Coworker Chat
+
+### Datenzugriff und Berechtigungen
+
+Coworker Chat erbt Berechtigungen von Customer Journey Analytics. Sie können nur auf die Datenansichten, Dimensionen, Metriken und Segmente zugreifen, die Ihnen in Analysis Workspace zur Verfügung stehen.
 
 ### Schnittstellen- und Konfigurationsoptionen
 
 Bevor Sie den Coworker Chat mit Ihren Customer Journey Analytics-Daten verwenden, erfahren Sie, wie Sie sich anmelden und Konfigurationsoptionen für die folgenden Funktionen verwalten:
 
 * Chat-Eingaben
-* Unterhaltungen
-* Marktplätze
+* Konversationen
+* Marketplaces
 * MCP-Server
-* Arbeitsspeicher
+* Speicher
 * Plug-ins
-* Kenntnisse
+* Skills
 * Und mehr
 
-Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche für den Coworker-Chat] (./).
+Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche für den Coworker-Chat](/help/coworker/chat/ui-guide.md).
 
-### Anwendungsbeispiele für Customer Journey Analytics
+### Best Practices bei der Datenanalyse mit dem Coworker Chat
 
-Sie können Customer Journey Analytics-Anwendungsfälle und Beispielaufforderungen sehen, die Anwender im Adobe CX Enterprise Coworker Chat verwenden. Jede Eingabeaufforderung wird so erstellt, dass sie kopiert, mit Ihren eigenen Daten und Kontexten angepasst und durch Konversation verfeinert wird.
+#### Best Practices auf Unternehmensebene
 
-Weitere Informationen finden Sie unter [Anwendungsbeispiele] (./).
+* Benennen Sie einen Analysten aus Ihrer Organisation als Champion einer Kollegin oder eines Kollegen.
+
+* Erstellen Sie eine Bibliothek mit überprüften Eingabeaufforderungen und Kenntnissen, die mit den Daten und Komponenten korrelieren, die den Benutzern zur Verfügung stehen.
+
+* Erstellen Sie eine oder mehrere Fähigkeiten, die den Coworker Chat anweisen, nur die Komponenten zu verwenden, die Sie in Analysen verwenden möchten. Dies hilft Coworker Chat, Benutzern in Ihrer Organisation die relevantesten Daten zu geben.
+
+* Bringen Sie Benutzer in Erfahrung, wann sie den Coworker Chat um eine schnelle Antwort bitten sollten, anstatt ihn für eine gründliche Gedankenarbeit zu verwenden.
+
+#### Best Practices auf Benutzerebene
+
+* Planmodus verwenden. Dies ist besonders für komplexe Aufgaben nützlich, kann aber auch bessere Ergebnisse für einfache Aufgaben liefern, da es Mitarbeitern ermöglicht, Folgefragen zu stellen, bevor sie handeln. Weitere Informationen finden Sie unter [Planmodus](/help/coworker/chat/ui-guide.md#plan-mode).
+
+* Achten Sie beim Erstellen einer Eingabeaufforderung auf eine möglichst präzise Vorgehensweise:
+
+  * Benennen Sie die Dimensionen, Metriken und den Datumsbereich, die analysiert werden sollen.
+  * Verweisen Sie auf Datenansichtskomponenten wie Dimensionen, Metriken und Segmente anhand ihres genauen Namens.
+  * Geben Sie alle Segmente, Zielgruppen, Kanäle oder Geräte an, die Sie einbeziehen, ausschließen oder vergleichen möchten.
+  * Geben Sie an, ob Sie einen bestimmten Visualisierungstyp wünschen, z. B. eine funnel-, Trend- oder Kohortentabelle.
+  * Fragen Sie nach den empfohlenen nächsten Schritten, wenn Sie im Coworker Chat weitere Fragen vorschlagen möchten.
+  * Fordern Sie bei der Projektion von Metriken einen Prognosehorizont an, z. B. „Nächste 30 Tage“.
+  * Erwähnen Sie jede Hypothese, die Sie bereits haben, sodass Coworker Chat sie validieren oder ausschließen kann.
+  * Fragen Sie nach den beitragenden Dimensionen, wenn Sie eine Aufschlüsselung einer Metrikänderung wünschen.
+  * Geben Sie die Zielgruppe für eine Zusammenfassung an, z. B. die Führung oder das Marketing-Team, und fordern Sie einen Folienüberblick an, wenn Sie die Ergebnisse präsentieren möchten.
+  * Benennen Sie die spezifische Report Suite und Datenansicht, die Sie bei der Datenvalidierung vergleichen möchten.
+  * Führen Sie zuerst eine Analyse durch und bitten Sie dann den Coworker Chat, diese als Qualifikation zu speichern, ihr einen klaren, beschreibenden Namen zu geben und zu notieren, wie oft Sie sie wiederverwenden möchten.
+
+* Fügen Sie Standardanweisungen zum Arbeitsspeicher des Kollegen-Chats hinzu. Wenn Sie beispielsweise immer Daten aus denselben Datenansichten verwenden, fügen Sie diese dem Speicher hinzu.
 
 ## Überprüfen, ob der Coworker Chat mit Customer Journey Analytics verbunden ist
 
-1. Stellen Sie im Coworker Chat sicher, dass Coworker mit Customer Journey Analytics verbunden ist.
+Stellen Sie im Coworker Chat sicher, dass Coworker mit Customer Journey Analytics verbunden ist:
 
 1. Wählen Sie das MCP-Symbol in der linken Leiste aus und stellen Sie sicher, dass [!UICONTROL **cja-**]) in Ihrer Liste der verbundenen MCP-Server verfügbar ist.
 
@@ -60,33 +95,33 @@ Teilen Sie Coworker mit, welche Fragen Sie beantwortet haben möchten, und frage
 **Sie:**
 
 >[!BEGINSHADEBOX]
->
->Ich bin daran interessiert zu erfahren, wo Kunden auf der Kunden-Journey abbrechen. Auf welche Datenansichten in Customer Journey Analytics habe ich Zugriff, die diese Frage für mich beantworten können?
->
+
+Ich bin daran interessiert zu erfahren, wo Kunden auf der Kunden-Journey abbrechen. Auf welche Datenansichten in Customer Journey Analytics habe ich Zugriff, die diese Frage für mich beantworten können?
+
 >[!ENDSHADEBOX]
 
 **Chat-Antwort eines Kollegen:**
 
 >[!BEGINSHADEBOX]
->
->Sie haben Zugriff auf drei Datenansichten. Die `Customer lifecycle` Datenansicht enthält die folgenden Dimensionen und Metriken, die am besten für die Beantwortung Ihrer Frage geeignet sind.
->
+
+Sie haben Zugriff auf drei Datenansichten. Die `Customer lifecycle` Datenansicht enthält die folgenden Dimensionen und Metriken, die am besten für die Beantwortung Ihrer Frage geeignet sind.
+
 >[!ENDSHADEBOX]
 
 **Sie:**
 
 >[!BEGINSHADEBOX]
->
->Toll, verwenden wir diese Datenansicht.
->
+
+Toll, verwenden wir diese Datenansicht.
+
 >[!ENDSHADEBOX]
 
 **Chat-Antwort eines Kollegen:**
 
 >[!BEGINSHADEBOX]
->
->Okay, ich werde die `Customer lifecycle` Datenansicht verwenden, um zukünftige Fragen in dieser Chat-Sitzung zu beantworten.
->
+
+Okay, ich werde die `Customer lifecycle` Datenansicht verwenden, um zukünftige Fragen in dieser Chat-Sitzung zu beantworten.
+
 >[!ENDSHADEBOX]
 
 ### Hinzufügen einer Datenansichtseinstellung im Speicher
@@ -95,7 +130,7 @@ Der Coworker Chat enthält eine Speicherfunktion, mit der Sie Zugriff auf Inform
 
 1. Wählen Sie im Coworker Chat in der linken Navigationsleiste das Speichersymbol aus.
 
-1. Geben Sie auf der Speicherseite im Abschnitt „Gespeicherte Voreinstellungen“ eine oder mehrere Datenansichten an, die der Coworker Chat in Ihren Chats verwenden soll.
+1. Geben Sie auf der Speicherseite im Abschnitt [!UICONTROL **Gespeicherte Voreinstellungen**] eine oder mehrere Datenansichten an, die der Coworker Chat in Ihren Chats verwenden soll.
 
    ![Speicherabschnitt in der linken Leiste](./assets/coworker-memory.png)
 
@@ -110,6 +145,143 @@ Nachdem ein Mitarbeiter eine Visualisierung erstellt hat, können Sie die Visual
 1. Wenn die Visualisierung in Customer Journey Analytics geöffnet ist, können Sie die Analysis Workspace-Browser-Benutzeroberfläche per Drag-and-Drop verwenden, um Änderungen vorzunehmen, Ihre Analyse weiter zu erstellen, eine Zielgruppe zu erstellen und vieles mehr. Sie können Ihr Workspace-Projekt sogar für jeden freigeben, den Sie auswählen.
 
    Weitere Informationen zu Analysis Workspace finden Sie unter [Übersicht über Analysis Workspace](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home).
+
+### Anwendungsbeispiele für Customer Journey Analytics
+
+Sie können Customer Journey Analytics-Anwendungsfälle und Beispielaufforderungen sehen, die Anwender im Adobe CX Enterprise Coworker Chat verwenden, von schnellen Antworten bis hin zu gründlichen Überlegungen und Untersuchungen. Jede Eingabeaufforderung wird so erstellt, dass sie kopiert, mit Ihren eigenen Daten und Kontexten angepasst und durch Konversation verfeinert wird.
+
+Weitere Informationen finden Sie unter [Anwendungsbeispiele](/help/coworker/chat/use-cases.md).
+
+## Analytics-Fähigkeiten
+
+Die folgenden Kenntnisse stehen für die Analyse von Customer Journey Analytics-Daten zur Verfügung.
+
+### Abfragen und Analysieren von Daten
+
+Mit dieser Fähigkeit (`cja`) können Sie Customer Journey Analytics in Echtzeit abfragen und die Ergebnisse analysieren, ohne die Anfrage selbst in Analysis Workspace zu erstellen.
+
+#### Erforderliche Berechtigungen
+
+* Anzeigen des Zugriffs auf die Datenansicht, die Sie abfragen möchten
+
+#### Häufige Anwendungsfälle
+
+| Anwendungsfall | Funktion | Eingabeaufforderungen im Beispiel |
+|---------|----------|---------|
+| **Abrufen von Berichten und Metriken** | Abfragen von Customer Journey Analytics in Echtzeit, um Metriken, Dimensionen, Segmente und Datenansichten abzurufen. | <ul><li>„Anzeigen der Seitenansichten für die letzten 30 Tage“</li><li>„Auflisten der wichtigsten Segmente in der Master-Datenansicht“</li></ul> |
+| **Vergleichende Analyse** | Vergleichen Sie Metriken kanalübergreifend, über Zeiträume hinweg oder segmentübergreifend. | <ul><li>„Umsatz nach Kanal und Monat vergleichen“</li><li>„Wie sieht die Konversion von Mobilgeräten und Desktops in diesem Quartal aus?“</li></ul> |
+| **Funnel-Analyse** | Gehen Sie in jedem Schritt durch mehrstufige Konversionstrichter mit Abbruch. | <ul><li>„Führen Sie mich durch die Kasse funnel&quot;</li><li>„Konversions-funnel von PDP zu Kauf anzeigen“</li></ul> |
+| **Prognosen** | Zukünftige Metrikwerte des Projekts auf der Grundlage historischer Daten | <ul><li>„Prognostizierte Sitzungen für die nächsten 30 Tage“</li><li>„Sind wir auf dem richtigen Weg, um unser Umsatzziel zu erreichen?“</li></ul> |
+
+#### Im Umfang
+
+* Echtzeitabfragen von Metriken, Dimensionen, Segmenten und Datenansichten
+* Parallele Vergleiche über Kanäle, Zeiträume oder Segmente hinweg
+* Mehrstufige funnel- und Fallout-Analyse
+* Metrikprognosen basierend auf historischen Trends
+
+#### Außerhalb des Geltungsbereichs
+
+* Erstellen oder Bearbeiten von Datenansichtskomponenten
+* Daten außerhalb der Datenansichten, auf die Sie Zugriff haben
+* Prädiktive Modellierung über Metrikvorhersagen hinaus
+
+### Ursachenanalyse
+
+Diese Fähigkeit (`cja-root-cause-analysis`) untersucht, warum sich eine Metrik geändert hat, anstatt nur die Änderung zu melden.
+
+#### Erforderliche Berechtigungen
+
+* Ansichtszugriff auf die zu analysierende Datenansicht
+
+#### Häufige Anwendungsfälle
+
+| Anwendungsfall | Funktion | Eingabeaufforderungen im Beispiel |
+|---------|----------|---------|
+| **Metrikänderungen diagnostizieren** | Untersuchen Sie, warum sich eine Metrik geändert hat, einschließlich Tropfen, Spitzen und Anomalien. | <ul><li>„Warum sind die Konversionen letzte Woche zurückgegangen?“</li><li>„Was verursachte die Umsatzspitze am 15. Januar?“</li></ul> |
+
+#### Im Umfang
+
+* Untersuchen einer Änderung an einer bekannten Metrik über einen bekannten Zeitraum
+* Aufdecken der Dimensionen und Segmente, die zu der Änderung beigetragen haben
+
+#### Außerhalb des Geltungsbereichs
+
+* Erkennen von Anomalien, nach denen Sie nicht gefragt haben (keine automatisierten oder Echtzeitwarnungen)
+* Ursachenanalyse für Metriken außerhalb einer Datenansicht, auf die Sie Zugriff haben
+
+### Zusammenfassung für Führungskräfte und Leistungsauszüge
+
+Diese Qualifikation (`cja-executive-summary`) erstellt für Stakeholder geeignete Zusammenfassungen Ihrer Customer Journey Analytics-Daten.
+
+#### Erforderliche Berechtigungen
+
+* Anzeigen des Zugriffs auf die Datenansicht oder die Datenansichten, die in der Zusammenfassung behandelt werden
+
+#### Häufige Anwendungsfälle
+
+| Anwendungsfall | Funktion | Eingabeaufforderungen im Beispiel |
+|---------|----------|---------|
+| **Leistungszusammenfassungen** | Erstellen Sie Stakeholder-gerechte Leistungszusammenfassungen, präskriptive Empfehlungen und Folien-Deck-Entwürfe. | <ul><li>„Gib mir eine Zusammenfassung des letzten Monats“</li><li>„Erstellen Sie einen Folienüberblick aus den Daten dieses Quartals“</li></ul> |
+
+#### Im Umfang
+
+* Zusammenfassen der Leistung über einen bestimmten Zeitraum
+* Erstellung präskriptiver Empfehlungen auf Basis der Daten
+* Skizzieren von Inhalten für das Auslesen von Folien- oder Stakeholdern
+
+#### Außerhalb des Geltungsbereichs
+
+* Erstellen des endgültigen Foliendecks oder der Präsentationsdatei
+* Zusammenfassungen, die sich über Datenansichten erstrecken, auf die Sie keinen Zugriff haben
+
+### Datenvalidierung mit Adobe Analytics
+
+Diese Qualifikation (`aa-cja-validation`) vergleicht, prüft und gleicht Daten zwischen [!DNL Adobe Analytics] und Customer Journey Analytics ab.
+
+#### Erforderliche Berechtigungen
+
+* Anzeigen des Zugriffs auf die [!DNL Adobe Analytics] Report Suite und die zu vergleichende Customer Journey Analytics-Datenansicht
+
+#### Häufige Anwendungsfälle
+
+| Anwendungsfall | Funktion | Eingabeaufforderungen im Beispiel |
+|---------|----------|---------|
+| **Validieren von Daten beim Upgrade von Adobe Analytics auf Customer Journey Analytics** | Vergleichen, Überprüfen und Abstimmung von Daten zwischen [!DNL Adobe Analytics] und Customer Journey Analytics.<p>Weitere Informationen finden Sie unter [Validieren von Daten mit einem Kollegen beim Upgrade von Adobe Analytics auf Customer Journey Analytics](/help/coworker/data-validation-aa-cja.md).</p> | <ul><li>„Meine Adobe Analytics Report Suite mit meiner Customer Journey Analytics-Datenansicht vergleichen“</li><li>„Validieren von Seitenansichten zwischen Adobe Analytics und Customer Journey Analytics&quot;</li></ul> |
+
+#### Im Umfang
+
+* Vergleichen von Metrikwerten zwischen einer Report Suite und einer Datenansicht
+* Kennzeichnen von Diskrepanzen zwischen den beiden Datenquellen
+
+#### Außerhalb des Geltungsbereichs
+
+* Beheben der zugrunde liegenden Ursache einer Datendiskrepanz
+* Validieren von anderen Datenquellen als [!DNL Adobe Analytics] und Customer Journey Analytics
+
+### Benutzerdefinierte Fähigkeiten erstellen
+
+Diese Fähigkeit (`cja-skill-creator`) wandelt eine Analyse, die Sie bereits durchgeführt haben, in eine wiederverwendbare Fähigkeit um, die sitzungsübergreifend bestehen bleibt.
+
+#### Erforderliche Berechtigungen
+
+* Kenntnisse verwalten, um wiederverwendbare Kenntnisse zu speichern
+
+#### Häufige Anwendungsfälle
+
+| Anwendungsfall | Funktion | Eingabeaufforderungen im Beispiel |
+|---------|----------|---------|
+| **Wiederverwendbare Analysemuster** | Verwandeln Sie analytische Muster in wiederverwendbare, wiederholbare Fähigkeiten, die sitzungsübergreifend bestehen bleiben. | <ul><li>„Diese wöchentliche Umsatzanalyse in wiederverwendbare Kenntnisse umwandeln“</li><li>„Speichern Sie dies als Kenntnisse für die monatliche funnel-Berichterstellung.“</li></ul> |
+
+#### Im Umfang
+
+* Konvertieren einer abgeschlossenen Analyse in eine benannte, wiederverwendbare Kenntnisse
+* Bereitstellen einer gespeicherten Qualifikation für Ihre zukünftigen Chat-Sitzungen
+
+#### Außerhalb des Geltungsbereichs
+
+* Automatisches Freigeben einer gespeicherten Qualifikation für andere Benutzer (Qualifikationsbibliotheken auf Unternehmensebene erfordern die Einrichtung durch Administratoren)
+* Bearbeiten der Datenansichtskomponenten, auf die eine Qualifikation verweist
 
 ## Beispiel: Finden Sie heraus, wo Kunden abbrechen
 
@@ -138,9 +310,9 @@ Sie müssen nicht wissen, was eine „Fallout-Visualisierung“ ist oder welche 
 **Sie:**
 
 >[!BEGINSHADEBOX]
->
->Wo verlieren wir Menschen auf dem Weg zum Kauf?
->
+
+Wo verlieren wir Menschen auf dem Weg zum Kauf?
+
 >[!ENDSHADEBOX]
 
 **Chat-Antwort eines Kollegen:**
@@ -189,9 +361,9 @@ Hier verliert man Menschen:
 **Sie:**
 
 >[!BEGINSHADEBOX]
->
->Okay, lassen Sie uns nach Marketing-Kanal aufschlüsseln
->
+
+Okay, lassen Sie uns nach Marketing-Kanal aufschlüsseln
+
 >[!ENDSHADEBOX]
 
 **Chat-Antwort eines Kollegen:**
@@ -240,9 +412,9 @@ Die Marketing-Kanäle machen ihren Job - sie alle bringen die Leute dazu sich zu
 **Sie:**
 
 >[!BEGINSHADEBOX]
->
->Interessant. Versuchen wir, nach Gerätetyp aufzuschlüsseln.
->
+
+Interessant. Versuchen wir, nach Gerätetyp aufzuschlüsseln.
+
 >[!ENDSHADEBOX]
 
 **Chat-Antwort eines Kollegen:**
@@ -266,7 +438,7 @@ Der funnel ist geräteübergreifend bis zum Checkout identisch - dann fällt Mob
 | Metrik | Desktop | Mobile | Lücke |
 | --- | --- | --- | --- |
 | Warenkorb zur Kaufrate | 23.2% | 8.1% | 15 Prozentpunkte |
-| Mobile ist | — | 2,8fach schlechter | — |
+| Mobile ist | – | 2,8fach schlechter | – |
 | Transaktionsabbrüche | 13,274 | 12,178 | Nahezu das gleiche absolute Volumen |
 
 Das Browsen und Hinzufügen zum Warenkorb funktioniert auf Mobilgeräten einwandfrei (identische Browser-Rate von ~45 %, ~55 % Quote von Hinzufügungen zum Warenkorb). Die Menschen sind gleichermaßen interessiert und engagiert. Aber irgendetwas im mobilen Checkout-Fluss bringt Konversionen zum Erliegen.
@@ -299,20 +471,20 @@ Das Datenmuster (gleiches Engagement, katastrophaler Checkout-Rückgang) ist ein
 **Sie:**
 
 >[!BEGINSHADEBOX]
->
->Was soll ich also tun?
->
+
+Was soll ich also tun?
+
 >[!ENDSHADEBOX]
 
 **Chat-Antwort eines Kollegen:**
 
 >[!BEGINSHADEBOX]
->
->Basierend auf dem, was die Daten zeigen, würde ich mich hier konzentrieren:
->
->* **Reparieren Sie den mobilen Checkout - es ist kein Kanalproblem.** Jeder Kanal konvertiert Personen zu einem ähnlichen, gesunden Tempo in den Warenkorb, sodass die Anzeigenausgaben überall funktionieren. Der Umsatz geht insbesondere im Mobile-Checkout-Fluss verloren, in den die Fehlerbehebung gehört.
->* **Beginnen Sie mit der Zahlung und Formularreibung.** Dies sind die häufigsten Gründe dafür, dass vorsätzliche Mobilkäufer ihren Warenkorb verlassen. Mobile Wallet-Optionen anzubieten und das Formular zu kürzen sind in der Regel die schnellsten Gewinne.
->* **Überprüfen Sie nach der Behebung erneut.** Sobald die Checkout-Änderungen versendet werden, sollten Sie überprüfen, ob sich die Warenkorb-Kaufrate von Mobile auf die Desktop-Rate von 23,2 % zubewegt.
+
+Basierend auf dem, was die Daten zeigen, würde ich mich hier konzentrieren:
+
+* **Reparieren Sie den mobilen Checkout - es ist kein Kanalproblem.** Jeder Kanal konvertiert Personen zu einem ähnlichen, gesunden Tempo in den Warenkorb, sodass die Anzeigenausgaben überall funktionieren. Der Umsatz geht insbesondere im Mobile-Checkout-Fluss verloren, in den die Fehlerbehebung gehört.
+* **Beginnen Sie mit der Zahlung und Formularreibung.** Dies sind die häufigsten Gründe dafür, dass vorsätzliche Mobilkäufer ihren Warenkorb verlassen. Mobile Wallet-Optionen anzubieten und das Formular zu kürzen sind in der Regel die schnellsten Gewinne.
+* **Überprüfen Sie nach der Behebung erneut.** Sobald die Checkout-Änderungen versendet werden, sollten Sie überprüfen, ob sich die Warenkorb-Kaufrate von Mobile auf die Desktop-Rate von 23,2 % zubewegt.
 
 Soll ich das als Projekt speichern, damit Sie es verfolgen können, oder einen Warnhinweis einrichten, wenn der Kauf von Mobilgeräten per Warenkorb unter einen Schwellenwert fällt?
 

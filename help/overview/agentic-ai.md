@@ -12,20 +12,20 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 1da893e900542a62e836250d9b38464016734740
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: 1142
 ht-degree: 10%
 
 ---
 
 # Agent-KI in Adobe CX Enterprise
 
-Adobe Experience Platform Agents basiert auf [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home), um die Funktionen der Agent-KI in CX Enterprise-Anwendungen zu aktivieren.
+Adobe [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/home) unterstützt die agentischen KI-Funktionen in CX Enterprise-Anwendungen.
 
-Diese Agenten helfen bei der Automatisierung von Aufgaben, liefern schneller Erkenntnisse und optimieren Workflows. Dadurch können Teams effizienter arbeiten und mehr Nutzen aus CX Enterprise ziehen.
+Agenten helfen bei der Automatisierung von Aufgaben, liefern schneller Erkenntnisse und optimieren Workflows. Dadurch können Teams effizienter arbeiten und mehr Nutzen aus CX Enterprise ziehen.
 
-Der Zugriff auf KI-Agenten in CX Enterprise ist in folgenden Umgebungen verfügbar:
+CX Enterprise-KI-Agenten sind in den folgenden Modellen verfügbar:
 
 * [Bestehende CX Enterprise-Anwendungen](#existing-apps)
 * [KI-First CX Enterprise-Anwendungen](#ai-first-apps)
@@ -34,7 +34,7 @@ In den folgenden Abschnitten werden diese beiden Möglichkeiten beschrieben, um 
 
 ## Bestehende CX Enterprise-Anwendungen {#existing-apps}
 
-In bestehenden Programmen können Sie natürliche Sprache verwenden, um Adobe Experience Platform-Agenten über die [KI-Assistent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home) Konversationsoberfläche anzuweisen. Der KI-Assistent ist sowohl in der Vollbild- als auch in der Rechtsleistenansicht verfügbar.
+In bestehenden Programmen können Sie natürliche Sprache verwenden, um Adobe Experience Platform-Agenten über die Konversationsoberfläche im [KI-Assistenten](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/home) anzuweisen. Der KI-Assistent ist sowohl in der Vollbild- als auch in der Rechtsleistenansicht verfügbar.
 
 Agenten können in vorhandenen CX Enterprise-Apps für Kunden in einer der folgenden Kategorien aktiviert werden:
 
@@ -44,7 +44,7 @@ Agenten können in vorhandenen CX Enterprise-Apps für Kunden in einer der folge
 
 Die Verwendung von KI-Agenten für _Agentenaufträge_ nutzt KI-Credits. Erfahren Sie mehr über Agentenaufträge und KI-Credits in _[Agentenaufträge und KI-](ai-credit-consumption.md)_).
 
-KI-Agenten befolgen _Ihre_ Eingabe, Aufsicht und berücksichtigen die Zugriffskontrollen auf Produktebene. Sie können nur Aufträge ausführen oder auf Daten zugreifen, die Sie in der zugrunde liegenden CX Enterprise-Anwendung verwenden dürfen.
+KI-Agenten befolgen _Ihre_ Eingabe und Aufsicht und berücksichtigen die Zugriffskontrollen auf Produktebene. Sie können nur Aufträge ausführen oder auf Daten zugreifen, die Sie in der zugrunde liegenden CX Enterprise-Anwendung verwenden dürfen.
 
 ### KI-Agenten in vorhandenen CX Enterprise-Apps {#existing-apps-table}
 
@@ -63,9 +63,9 @@ In der folgenden Tabelle sind Experience Platform-Agenten aufgeführt, die in be
 
 ## KI-First CX Enterprise-Anwendungen {#ai-first-apps}
 
-KI-First-Anwendungen werden mit generativem oder agentem Al als Kern erstellt. Sie nutzen generative oder agentische AL für wichtige Aufgaben, und die agentischen Funktionen sind bereits in der AL-FIRST-Anwendungslizenz enthalten. Daher benötigen sie keine Experience Platform Agent Orchestrator-Lizenz.
+KI-First-Anwendungen werden mit generativer oder agenter KI als Hauptkomponente erstellt. Sie verwenden generative oder agentische KI für wichtige Aufgaben, und die agentischen Funktionen sind bereits in der Lizenz für die KI-First-Anwendung enthalten. Daher benötigen sie keine Experience Platform Agent Orchestrator-Lizenz.
 
-In der folgenden Tabelle sind Experience Platform-Agenten aufgeführt, die als Al-First-Anwendungen verfügbar sind. Sie werden durch die Lizenzierung dieser Al-First-Anwendungen aktiviert:
+In der folgenden Tabelle sind Experience Platform-Agenten aufgeführt, die als KI-First-Anwendungen verfügbar sind. Sie werden durch die Lizenzierung dieser KI-First-Anwendungen aktiviert:
 
 | Agent-Name | Funktionen | Unterstützte Anwendungen |
 |---|----------|----------|

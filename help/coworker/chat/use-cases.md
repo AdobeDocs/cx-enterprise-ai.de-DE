@@ -1,16 +1,16 @@
 ---
 description: Durchsuchen Sie die Anwendungsfälle und Beispielaufforderungen des Coworker Chat, sortiert nach Bereichen wie Dateneinblicke, Zielgruppen, Journey und Plattformvorgänge.
 title: Anwendungsfälle
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1232'
 ht-degree: 3%
 
 ---
 
 # Anwendungsszenarien {#use-cases}
 
-Im Folgenden finden Sie Anwendungsfälle und Beispielaufforderungen, die Anwender im Adobe CX Enterprise Coworker Chat verwenden, sortiert nach Arbeitsbereich. Jede Eingabeaufforderung wird so erstellt, dass sie kopiert, mit Ihren eigenen Daten und Kontexten angepasst und durch Konversation verfeinert wird.
+Im Folgenden finden Sie Anwendungsbeispiele und Beispielaufforderungen, die Fachleute im Adobe Coworker Chat verwenden, sortiert nach Arbeitsbereich. Jede Eingabeaufforderung wird so erstellt, dass sie kopiert, mit Ihren eigenen Daten und Kontexten angepasst und durch Konversation verfeinert wird.
 
 ## Dateneinblicke
 
@@ -44,6 +44,8 @@ Im Folgenden finden Sie Anwendungsfälle und Beispielaufforderungen, die Anwende
 | --- | --- | --- | --- | --- |
 | Erstellen von Journey aus natürlicher Sprache | Orchestrieren der Journey-Erstellung in AJO über eine Textaufforderung oder ein hochgeladenes Bild/Flussdiagramm | `journey-create` | Adobe Journey Optimizer (AJO) | „Erstellen Sie eine Begrüßungs-Journey, die nach der Anmeldung eine E-Mail sendet, 3 Tage wartet und dann eine Folgenachricht sendet“ ・ „Erstellen Sie eine Journey aus diesem hochgeladenen Flussdiagrammbild.“ |
 | Journey-Konflikte analysieren | Erkennung von Zielgruppenüberschneidungen, Terminkollisionen und Deduplizierungsproblemen zwischen aktiven Journeys | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | „Steht mein Warenkorbabbruch-Journey in Konflikt mit anderen Journey?“ ・ „Prüfen Sie, ob sich die Zielgruppen meiner aktiven Journey überschneiden.“ |
+| Analysieren von Journey-Fallout | Identifizieren Sie, wo und warum Kunden während eines Journey abbrechen, und erkennen Sie Verhaltensmuster, die zu einer Abmeldung führen | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | „Wo kommen die Leute auf meiner Re-Engagement-Journey vorbei?“ ・ „Welche Knoten in Journey X haben den höchsten Fallout?“ |
+| Analysieren von Fehlern bei benutzerdefinierten Aktionen | Ermitteln Sie, wann benutzerdefinierte Aktionen fehlschlagen oder Fehlerquoten innerhalb eines Journey in die Höhe schießen, und diagnostizieren Sie die Grundursachen, bevor Fehler in umfassendere Unterbrechungen übergehen. | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | „Warum schlagen benutzerdefinierte Aktionen in meiner Treue-Anmelde-Journey fehl?“ ・ „Fehlerrate für benutzerdefinierte Aktion „ExternalPush“ auf meiner Begrüßungs-Journey anzeigen.“ |
 
 ## Grundlegende Elemente
 

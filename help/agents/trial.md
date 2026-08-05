@@ -1,6 +1,6 @@
 ---
-title: CX Enterprise Coworker Trial
-description: Erfahren Sie mehr über die kostenlose Testversion für CX Enterprise Coworker.
+title: Adobe Coworker Trial
+description: Erfahren Sie mehr über die kostenlose Testversion für Adobe Coworker.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -12,14 +12,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1430
 ht-degree: 0%
 
 ---
 
-# CX Enterprise Coworker Trial
+# Adobe Coworker Trial
 
 >[!AVAILABILITY]
 >
@@ -78,7 +78,7 @@ Wenn der Kunde den Zugriff auf diese Agentenfunktionen deaktivieren und den Test
 
 Lesen Sie die folgenden Handbücher, um weitere Informationen zu Coworker, Agent Orchestrator und AI Assistant zu erhalten:
 
-- [CX Enterprise-Mitarbeiter](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
+- [Kollegin](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Übersicht über Agent Orchestrator](agent-orchestrator.md)
 - [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md)
 - [Bibliothek mit Eingabeaufforderungen des KI-Assistenten](../ai-assistant/prompt-library.md)
