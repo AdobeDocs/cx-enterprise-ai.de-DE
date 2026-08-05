@@ -1,9 +1,9 @@
 ---
-description: Eine schrittweise Anleitung zum Generieren einer E-Mail-Kampagne in Adobe Coworker Campaign, von der Eingabe von Eingabeaufforderungen bis zur Überprüfung und zum Export Ihrer Kampagne.
+description: Eine schrittweise Anleitung zum Generieren einer E-Mail-Kampagne in Adobe CX Enterprise Coworker Campaign, vom Schreiben von Eingabeaufforderungen bis zum Überprüfen und Exportieren Ihrer Kampagne.
 title: Erstellen einer E-Mail-Kampagne
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Erfahren Sie, wie Sie in Minuten vollständige E-Mail-Kampagnen generieren und �
 
 Vergewissern Sie sich, dass Sie Folgendes haben:
 
-* Ein gültiges Adobe Coworker Campaign-Konto ([hier anmelden](https://coworker-campaigns.experience.adobe.com/){target="_blank"} falls noch nicht geschehen).
+* Ein gültiges Adobe CX Enterprise Coworker Campaign-Konto ([hier anmelden](https://coworker-campaigns.experience.adobe.com/){target="_blank"} falls noch nicht geschehen).
 
 * Ihre Marke wurde unter **Ihre**&quot; > **Marken** hinzugefügt.
 

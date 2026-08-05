@@ -1,16 +1,16 @@
 ---
-description: Durchsuchen Sie echte Eingabeaufforderungsmuster für Adobe-Coworker-Kampagnen, sortiert nach Anwendungsfällen für Akquise, Interaktion, Veranstaltungen, Konversion und Aufbewahrungskampagnen.
+description: Durchsuchen Sie echte Eingabeaufforderungsmuster für Adobe CX Enterprise Coworker-Kampagnen, sortiert nach Anwendungsfällen für Akquise, Interaktion, Veranstaltungen, Konversion und Aufbewahrungskampagnen.
 title: Anwendungsszenarien
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
 
 # Anwendungsszenarien {#use-cases}
 
-Im Folgenden finden Sie echte Eingabeaufforderungsmuster, die Marketing-Experten für Lebenszyklus und Wachstum in Adobe-Coworker-Kampagnen verwenden. Jeder wird kopiert, mit Ihrer eigenen Audience und Ihren Markendetails ausgetauscht und in der Konversation verfeinert.
+Im Folgenden finden Sie echte Eingabeaufforderungsmuster, die Marketing-Experten für Lebenszyklus und Wachstum in Adobe CX Enterprise Coworker-Kampagnen verwenden. Jeder wird kopiert, mit Ihrer eigenen Audience und Ihren Markendetails ausgetauscht und in der Konversation verfeinert.
 
 ## Informationen zur Verwendung
 
