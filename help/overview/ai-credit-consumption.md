@@ -1,40 +1,42 @@
 ---
-title: Agent-Vorgänge und KI-Kreditverbrauch
-description: Erfahren Sie mehr über Agent-Aufträge und KI-Kreditverbrauchsraten in CX Enterprise-Anwendungen.
+title: KI-Kreditnutzung
+description: Erfahren Sie mehr über die Verwendung von KI-Guthaben in CX Enterprise-Anwendungen.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 9b744e4c60afcd0533d52c11ba65463f8ffb5b0e
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 8%
+source-wordcount: 966
+ht-degree: 5%
 
 ---
 
-# Nutzung von Adobe Experience Platform-Agentenvorgängen und KI-Credits
+# Konsum von KI-Guthaben
 
-Erfahren Sie mehr über agentische KI-Aufträge und die Verwendung von KI-Krediten in CX Enterprise-Anwendungen. Informationen zur Aktivierung der Agent-KI-Funktionen in vorhandenen CX Enterprise-Anwendungen finden Sie unter [Agent-KI in CX Enterprise](agentic-ai.md#existing-apps).
-
-## Neue Funktionen
-
-| Funktion | Beschreibung |
-| --- | --- |
-| [CX Enterprise Agent KI-Funktionskatalog](https://agentic-capability-explorer.entapp.adproto.com/) | Erfahren Sie, welche Agent-basierten KI-Aufträge in Ihren lizenzierten CX Enterprise-Anwendungen verfügbar sind. |
-
-## Agentenaufträge
-
-Ein _Agentenauftrag_ ist eine Reihe von Aufgaben und Aktionen, die ein Agent ausführt, um ein bestimmtes Ergebnis zu erzielen, wie durch Kundeneingaben angewiesen.
-
-Mithilfe natürlicher Eingabeaufforderungen über den KI-Assistenten können Sie Agenten bitten, bestimmte Aufträge auszuführen. Basierend auf diesen Eingaben koordiniert Agent Orchestrator die entsprechenden Agenten, um jeden Schritt in den entsprechenden CX Enterprise-Anwendungen auszuführen.
+Erfahren Sie mehr über die Verwendung von KI-Guthaben in CX Enterprise-Anwendungen.
 
 ## KI-Credits
 
-Ein _KI-_) ist eine nutzungsbasierte Metrik, die die Ausführung von Agentenvorgängen quantifiziert. KI-Credits gelten nicht für [KI-First-Anwendungen](agentic-ai.md).
+Ein _KI-_) ist eine nutzungsbasierte Metrik, die die Ausführung von Aktionen oder Aufträgen quantifiziert.
 
-## KI-Kreditnutzung
+## Mögliche Services, die KI-Gutschriften nutzen
+
+* CX Enterprise Coworker
+* AEP-Agenten
+
+### Kreditzinssatz für CX Enterprise-Mitarbeiter
+
+Für einen begrenzten Einführungszeitraum verbrauchen Coworker-Eingaben KI-Credits mit einer Rate von 25 KI-Credits pro Eingabe. Dieser Tarif ist nur für begrenzte Zeit verfügbar und kann sich ändern.
+
+### Kreditrate für AEP-Agenten
+
+Ein _Agentenauftrag_ ist eine Reihe von Aufgaben und Aktionen, die ein AEP-Agent ausführt, um ein bestimmtes Ergebnis zu erzielen, wie durch Kundeneingaben angewiesen.
+
+Mithilfe natürlicher Eingabeaufforderungen über den KI-Assistenten können Sie Agenten bitten, bestimmte Aufträge auszuführen. Basierend auf diesen Eingaben koordiniert Agent Orchestrator die entsprechenden Agenten, um jeden Schritt in den entsprechenden CX Enterprise-Anwendungen auszuführen.
 
 Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführten Auftrags variieren:
 
@@ -42,9 +44,9 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 * Komplexe (oft mehrstufige) Aufgaben verbrauchen mehr Guthaben
 * Aufgaben mit erweitertem Argumentieren, Validierung, Koordination mit mehreren Agenten oder Integration verbrauchen mehr Credits
 
-**Hinweis:** Der [CX Enterprise Agent AI Capability Catalog](https://agentic-capability-explorer.entapp.adproto.com/) hilft Ihnen auch dabei, herauszufinden, welche agentischen KI-Aufträge in Ihren lizenzierten CX Enterprise-Apps verfügbar sind.
+Informationen dazu, welche AEP-Agenten und Agentenaufträge in den lizenzierten CX Enterprise-Apps verfügbar sind, finden Sie im [CX Enterprise Agent AI-Funktionskatalog](https://agentic-capability-explorer.entapp.adproto.com/).
 
-### Geschätzte KI-Kreditverbrauchsraten
+#### Geschätzte Kreditraten für Agentenaufträge
 
 | Agent | Job | Unterstützte Anwendungen | Geschätzte KI-Guthaben | Eingabeaufforderungen im Beispiel |
 | ------ | ----- | ------------------------ | ----------------------- | ----------------- |
@@ -72,4 +74,4 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 
 * [GenAI in CX Enterprise](generative-ai.md)
 * [Agent-basierte KI in CX Enterprise](agentic-ai.md)
-* [Benutzergebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Benutzergebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
