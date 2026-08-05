@@ -7,9 +7,8 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 9b744e4c60afcd0533d52c11ba65463f8ffb5b0e
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 34a3227d726a6249a6dedea420828b84ad1547a7
 workflow-type: tm+mt
 source-wordcount: 966
 ht-degree: 5%
@@ -26,8 +25,8 @@ Ein _KI-_) ist eine nutzungsbasierte Metrik, die die Ausführung von Aktionen od
 
 ## Mögliche Services, die KI-Gutschriften nutzen
 
-* CX Enterprise Coworker
-* AEP-Agenten
+* [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [AEP-Agenten](#aep-agents-credit-rate)
 
 ### Kreditzinssatz für CX Enterprise-Mitarbeiter
 
@@ -75,4 +74,4 @@ Informationen dazu, welche AEP-Agenten und Agentenaufträge in den lizenzierten 
 
 * [GenAI in CX Enterprise](generative-ai.md)
 * [Agent-basierte KI in CX Enterprise](agentic-ai.md)
-* [Benutzergebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Benutzergebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
