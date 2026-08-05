@@ -1,14 +1,14 @@
 ---
-description: Erfahren Sie mehr über Funktionsverbesserungen und -korrekturen in den Versionshinweisen zu Adobe Coworker Campaign.
-title: Versionshinweise zu Adobe Coworker Campaign
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: Erfahren Sie mehr über Funktionsverbesserungen und -korrekturen in den Versionshinweisen zu Adobe CX Enterprise Coworker Campaign.
+title: Versionshinweise zu Adobe CX Enterprise Coworker Campaign
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
-# Versionshinweise zu Adobe Coworker Campaign {#release-notes}
+# Versionshinweise zu Adobe CX Enterprise Coworker Campaign {#release-notes}
 
 Coworker Campaign-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht.
 

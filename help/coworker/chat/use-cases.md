@@ -1,16 +1,16 @@
 ---
 description: Durchsuchen Sie die Anwendungsfälle und Beispielaufforderungen des Coworker Chat, sortiert nach Bereichen wie Dateneinblicke, Zielgruppen, Journey und Plattformvorgänge.
 title: Anwendungsfälle
-source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1234'
 ht-degree: 3%
 
 ---
 
 # Anwendungsszenarien {#use-cases}
 
-Im Folgenden finden Sie Anwendungsbeispiele und Beispielaufforderungen, die Fachleute im Adobe Coworker Chat verwenden, sortiert nach Arbeitsbereich. Jede Eingabeaufforderung wird so erstellt, dass sie kopiert, mit Ihren eigenen Daten und Kontexten angepasst und durch Konversation verfeinert wird.
+Im Folgenden finden Sie Anwendungsfälle und Beispielaufforderungen, die Anwender im Adobe CX Enterprise Coworker Chat verwenden, sortiert nach Arbeitsbereich. Jede Eingabeaufforderung wird so erstellt, dass sie kopiert, mit Ihren eigenen Daten und Kontexten angepasst und durch Konversation verfeinert wird.
 
 ## Dateneinblicke
 
