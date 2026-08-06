@@ -26,7 +26,7 @@ ht-degree: 2%
 
 # Agent-KI-Überwachungs-Dashboard
 
-Das Dashboard [!UICONTROL Monitoring] der Agent AI bietet Mitgliedern des Center of Excellence (COE) und anderen Governance-Stakeholdern Einblick in die Nutzung und Akzeptanz der Agent AI. Zeigen Sie 7- oder 30-Tage-Trends an, um zu sehen, wer [!DNL AI Assistant] oder andere Oberflächen (wie [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) verwendet, um mit [!DNL Experience Platform Agents] und deren Wert zu interagieren. Zusammen helfen diese Ansichten Ihnen, die Akzeptanz von Agenten mit Daten anstelle von Annahmen zu steuern.
+Das Dashboard [!UICONTROL Monitoring] der Agent AI bietet Mitgliedern des Center of Excellence (COE) und anderen Governance-Stakeholdern Einblick in die Nutzung und Akzeptanz der Agent AI. Zeigen Sie 7- oder 30-Tage-Trends an, um zu sehen, wer [!DNL AI Assistant] oder andere Oberflächen (wie [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) verwendet, um mit [!DNL Experience Platform Agents] und deren Wert zu interagieren. Zusammen helfen diese Ansichten Ihnen, die Akzeptanz von Agenten mit Daten anstelle von Annahmen zu steuern.
 
 **Verfügbarkeit**
 
@@ -155,7 +155,7 @@ Das Dashboard „KI-Guthaben“ zeigt an, wie die Verwendung von [!DNL Experienc
 
 ## Weitere Hilfe zu diesem Thema
 
-* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
+* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
 * [Agent-KI in Adobe CX Enterprise](agentic-ai.md)
 * [Agent-Vorgänge und KI-Kreditverbrauch](ai-credit-consumption.md)
-* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
