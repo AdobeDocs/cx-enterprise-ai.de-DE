@@ -1,9 +1,9 @@
 ---
 title: Validieren von Daten mit einem Kollegen beim Upgrade von Adobe Analytics auf Customer Journey Analytics
 description: Erfahren Sie, wie Analytics-Admins die Datenvalidierungsfähigkeiten von CX Enterprise Coworker verwenden, um Adobe Analytics- und Customer Journey Analytics-Daten während des Upgrades zu vergleichen.
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 8a9f8413f2993e99cf7452bc720500f4823b62a8
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 > 
 >Befolgen Sie die Schritte auf dieser Seite erst, nachdem Sie alle vorherigen Upgrade-Schritte abgeschlossen haben. Sie können die empfohlenen Upgrade-Schritte (empfohlen für die meisten Unternehmen) oder die für Ihr Unternehmen dynamisch generierten Schritte mit dem Customer Journey Analytics Upgrade Guide ausführen. <ul><li>**Empfohlene Upgrade-Schritte** (für die meisten Unternehmen empfohlen)<p>Eine Reihe von Schritten, die zu einer optimalen Customer Journey Analytics-Implementierung führen.</p><p>Detaillierte Informationen finden Sie unter [Upgrade von Adobe Analytics auf Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Customer Journey Analytics-Aktualisierungshandbuch** (Benutzerdefinierte Schritte, die auf die spezifischen Anforderungen Ihres Unternehmens zugeschnitten sind)<p>Es ist ein neues Upgrade-Handbuch verfügbar, in dem dynamisch Upgrade-Schritte generiert werden, die für Ihr Unternehmen und Ihre individuellen Bedingungen maßgeschneidert sind.</p><p>Um über Customer Journey Analytics auf das Handbuch zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL Workspace]** und dann **[!UICONTROL Upgrade auf Customer Journey Analytics]** im linken Bereich aus. Befolgen Sie die Anweisungen auf dem Bildschirm.</p></li></ul>
 
-CX Enterprise Coworker verfügt über eine Validierungsfertigkeit, mit der Sie Daten beim Upgrade von Adobe Analytics auf Customer Journey Analytics validieren können. Die Datenvalidierung wird in einer einzigen Konversation abgeschlossen.
+Der -Mitarbeiter verfügt über eine Validierungsfertigkeit, mit der Sie Daten beim Upgrade von Adobe Analytics auf Customer Journey Analytics validieren können. Die Datenvalidierung wird in einer einzigen Konversation abgeschlossen.
 
 Diese Qualifikation vergleicht automatisch:
 
@@ -50,7 +50,9 @@ Sie müssen nicht wissen, wie Ihre Implementierung aufgebaut ist. Die Qualifikat
 
    Ihre Anfrage wird an die Datenvalidierungsfertigkeit weitergeleitet, die einen interaktiven Einrichtungsprozess startet.
 
-1. Der Einrichtungsprozess umfasst die Fragen in der folgenden Tabelle. Wählen Sie für jede Frage eine Antwort aus und klicken Sie dann auf [!UICONTROL **Senden**].
+1. Wählen Sie für jede Frage im Einrichtungsprozess eine Antwort aus und klicken Sie dann auf [!UICONTROL **Senden**].
+
+   Der Einrichtungsprozess umfasst die Fragen in der folgenden Tabelle.
 
    >[!NOTE]
    >
@@ -62,7 +64,9 @@ Sie müssen nicht wissen, wie Ihre Implementierung aufgebaut ist. Die Qualifikat
    | [!UICONTROL **Report Suite auswählen**] <!--In the UI, recommend change to "Select your Adobe Analytics report suite"--> | Dies ist die Report Suite in Adobe Analytics, die die Daten enthält, die Sie mit den Customer Journey Analytics-Daten überprüfen möchten. |
    | [!UICONTROL **Customer Journey Analytics-Datenansicht auswählen**] | Dies ist die Datenansicht in Customer Journey Analytics, die dieselben Daten enthält wie die von Ihnen ausgewählte Adobe Analytics Report Suite. |
 
-1. Überprüfen Sie die Setup-Zusammenfassung, um zu bestätigen, dass Sie die richtigen Daten validieren, bevor Sie fortfahren. Die Zusammenfassung enthält das ausgewählte Unternehmen, die Report Suite und die Datenansicht sowie eine Vorschau der wichtigsten Metriken und Dimensionen in jedem System.
+1. Überprüfen Sie die Setup-Zusammenfassung, um zu bestätigen, dass Sie die richtigen Daten validieren, bevor Sie fortfahren.
+
+   Die Zusammenfassung enthält das ausgewählte Unternehmen, die Report Suite und die Datenansicht sowie eine Vorschau der wichtigsten Metriken und Dimensionen in jedem System.
 
 1. Fahren Sie mit dem folgenden Abschnitt fort: [Wählen Sie die zu validierenden Daten aus](#choose-the-data-to-validate).
 
@@ -82,7 +86,9 @@ Sie können einzelne Metriken oder Dimensionen oder alle Metriken und Dimensione
 
 ## Analyse überprüfen
 
-1. Wählen Sie die Registerkarte [!UICONTROL **Gesamtabgleichrate**], um einen Prozentsatz anzuzeigen, der angibt, wie stark die Daten aus der Adobe Analytics Report Suite mit denen der Customer Journey Analytics-Datenansicht übereinstimmen. Dieser Wert wird immer zuerst angezeigt, vor allen anderen Ergebnissen. Er wiegt jede verglichene Metrik und Dimension gleich, um sicherzustellen, dass Metriken mit hohem Volumen, wie Seitenansichten, den Score nicht verfälschen.
+1. Wählen Sie die Registerkarte [!UICONTROL **Gesamtabgleichrate**], um einen Prozentsatz anzuzeigen, der angibt, wie stark die Daten aus der Adobe Analytics Report Suite mit denen der Customer Journey Analytics-Datenansicht übereinstimmen.
+
+   Dieser Wert wird immer zuerst angezeigt, vor allen anderen Ergebnissen. Er wiegt jede verglichene Metrik und Dimension gleich, um sicherzustellen, dass Metriken mit hohem Volumen, wie Seitenansichten, den Score nicht verfälschen.
 
    Verwenden Sie die folgende Skala, um die Bewertung zu interpretieren:
 
@@ -93,11 +99,27 @@ Sie können einzelne Metriken oder Dimensionen oder alle Metriken und Dimensione
    | 75 %-89 % | ![Orange circle](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL review] | Es gibt bedeutende Lücken. Untersuchen Sie die Grundursachen, bevor Sie Customer Journey Analytics-Daten verwenden. |
    | Weniger als 75 % | ![Roter Kreis](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Schlecht] | Deutliche Fehlausrichtung. Ergreifen Sie sofort Maßnahmen, bevor Sie Customer Journey Analytics-Daten verwenden. |
 
-1. Wählen Sie die Registerkarte [!UICONTROL **Wichtige Einblicke**] aus, um zwei bis vier kurze Legendenfelder anzuzeigen, von denen jedes ein Ergebnis der Analyse in einem einzigen Satz zusammenfasst. Callouts sind nach Schweregrad farbcodiert, sodass Sie die wichtigsten Ergebnisse zuerst erkennen können.
+1. Wählen Sie die Registerkarte [!UICONTROL **Wichtige Einblicke**] aus, um zwei bis vier kurze Legendenfelder anzuzeigen, von denen jedes ein Ergebnis der Analyse in einem einzigen Satz zusammenfasst.
 
-1. Wählen Sie die Registerkarte [!UICONTROL **Zusammenfassung**], um Adobe Analytics-Gesamtwerte, Customer Journey Analytics-Gesamtwerte, Gesamtabweichung, vergangene Tage und kritische Tage anzuzeigen, wobei vergangene Tage und kritische Tage widerspiegeln, wie viele Tage im Datumsbereich in die unten beschriebenen Varianzstatus [!UICONTROL **Bestanden**] und [!UICONTROL **Kritisch**] fallen.
+   Callouts sind nach Schweregrad farbcodiert, sodass Sie zuerst die wichtigsten Ergebnisse identifizieren können.
 
-1. (Bedingt) Bei einem eindimensionalen Vergleich oder einem einmetrischen Vergleich können Sie die Daten von Adobe Analytics und Customer Journey Analytics auf der Registerkarte [!UICONTROL **Täglicher Trend**] nebeneinander vergleichen.
+1. Wählen Sie die [!UICONTROL **Zusammenfassung**] aus, um die folgenden Informationen anzuzeigen:
+
+   * Gesamtwerte für Adobe Analytics
+
+   * Gesamtwerte für Customer Journey Analytics
+
+   * Gesamtabweichung
+
+   * Tage vergehen
+
+     Gibt an, wie viele Tage im Datumsbereich in den unten beschriebenen Varianzstatus [!UICONTROL **Bestanden**] fallen.
+
+   * Tage kritisch
+
+     Gibt an, wie viele Tage im Datumsbereich in den unten beschriebenen [!UICONTROL **Kritisch**] Varianzstatus fallen.
+
+1. (Bedingt) Wählen Sie bei einem eindimensionalen Vergleich oder einem Einzelmetrikvergleich die Registerkarte [!UICONTROL **Täglicher Trend**], um einen Seitenvergleich der Adobe Analytics-Daten und der Customer Journey Analytics-Daten anzuzeigen.
 
    Bei Metriken handelt es sich um ein Liniendiagramm, in dem der tägliche Trend verglichen wird.
 
@@ -107,7 +129,17 @@ Sie können einzelne Metriken oder Dimensionen oder alle Metriken und Dimensione
 
    ![Tägliche Trendregisterkarte mit einem horizontalen Balkendiagramm](./assets/data-validation-aa-cja/trend-bar.png)
 
-1. (Bedingt) Bei einem Vergleich mit einer Dimension oder einer Metrik auf einmal können Sie Details auf Zeilenebene auf der Registerkarte [!UICONTROL **Datumsdetails**] anzeigen. In dieser Tabelle werden das Datum, der Adobe Analytics-Wert, der Customer Journey Analytics-Wert, der Varianzprozentsatz und ein Statusabzeichen für jede verglichene Metrik oder jeden Dimensionswert aufgeführt.
+1. (Bedingt) Wählen Sie bei einem Vergleich mit einer Dimension oder einem Vergleich mit einer Metrik die Registerkarte [!UICONTROL **Datumsdetails**], um die folgenden Informationen für jede verglichene Metrik oder jeden Wert der Dimension anzuzeigen:
+
+   * Datum
+
+   * Adobe Analytics-Wert
+
+   * Customer Journey Analytics-Wert
+
+   * Abweichung in Prozent
+
+   * Status-Badge
 
    ![Registerkarte „Datumsdetails“ mit einer Tabelle der Abweichungsprozentsätze und Statusabzeichen](./assets/data-validation-aa-cja/date-detail.png)
 
@@ -119,9 +151,17 @@ Sie können einzelne Metriken oder Dimensionen oder alle Metriken und Dimensione
    | 3 %-10 % | ![Gelbes Warndreieck](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Flagge] | Überwachen Sie den Unterschied und untersuchen Sie, ob er anhält oder sich verschlimmert. |
    | Mehr als 10 % | ![Roter Kreis](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Kritisch] | Untersuchen Sie sofort. Dies verweist normalerweise auf ein Schema, eine Aufnahme oder ein Zuordnungsproblem. |
 
-1. (Bedingt) Bei der Ausführung eines Audit mit vollständiger Report Suite und Datenansicht werden die Registerkarten [!UICONTROL **Täglicher Trend**] und [!UICONTROL **Tägliche Details**] durch eine Scorecard ersetzt, die die Zahlen „Bestanden“, „Markiert“ und „Kritisch“ sowie separate Tabellen mit den fünf am besten übereinstimmenden und den fünf am wenigsten übereinstimmenden Metriken und Dimensionen anzeigt.
+1. (Bedingt) Wenn Sie eine vollständige Report Suite und eine Prüfung der Datenansicht ausführen, wählen Sie die Registerkarte [!UICONTROL **Scorecard**] aus, um die folgenden Informationen anzuzeigen:
 
-1. Scrollen Sie in der Analyse nach unten, um zusätzliche Muster und Probleme anzuzeigen, die während der Analyse entdeckt wurden, wahrscheinliche Ursachen für diese Muster und vorgeschlagene Aktionen, die Sie ausführen können, um Datendiskrepanzen zu beheben.
+   * Anzahl der Durchgänge
+
+   * Markierte Zählungen
+
+   * Kritische Zahlen
+
+   * Tabellen mit den fünf am besten übereinstimmenden und den fünf am wenigsten übereinstimmenden Metriken und Dimensionen
+
+1. Scrollen Sie in der Analyse nach unten, um zusätzliche Muster und Probleme anzuzeigen, die während der Analyse entdeckt wurden, wahrscheinliche Ursachen für diese Muster und empfohlene Aktionen zum Beheben von Datendiskrepanzen.
 
    >[!NOTE]
    >
@@ -139,7 +179,11 @@ Sie können einzelne Metriken oder Dimensionen oder alle Metriken und Dimensione
 
 1. Überprüfen Sie, ob die vorgeschlagenen Aktionen gültig sind, und lösen Sie sie dann in Adobe Experience Platform oder Adobe Analytics auf.
 
-1. (Optional) Setzen Sie Ihre Analyse fort, indem Sie eine andere Metrik analysieren, eine andere Dimension analysieren oder einen weiteren Bericht mit bis zu 40 Metriken und 20 Dimensionen ausführen, wie in [Wählen Sie die zu validierenden Daten](#choose-the-data-to-validate) beschrieben. Dazu müssen Sie den Einrichtungsprozess nicht wiederholen. Die Auswahl von Unternehmen, Report Suites und Datenansichten wird im gesamten Gespräch übernommen.
+1. (Optional) Setzen Sie Ihre Analyse fort, indem Sie eine andere Metrik analysieren, eine andere Dimension analysieren oder einen weiteren Bericht mit bis zu 40 Metriken und 20 Dimensionen ausführen, wie in [Wählen Sie die zu validierenden Daten](#choose-the-data-to-validate) beschrieben.
 
-1. Fahren Sie mit den [empfohlenen Upgrade-Schritten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) oder den dynamisch generierten Upgrade-Schritten im Customer Journey Analytics-Upgrade-Handbuch fort. Um über Customer Journey Analytics auf das Handbuch zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL Workspace]** und dann **[!UICONTROL Upgrade auf Customer Journey Analytics]** im linken Bereich aus. Befolgen Sie die Anweisungen auf dem Bildschirm.
+   Dazu müssen Sie den Einrichtungsprozess nicht wiederholen. Die Auswahl von Unternehmen, Report Suites und Datenansichten wird im gesamten Gespräch übernommen.
+
+1. Fahren Sie mit den [empfohlenen Upgrade-Schritten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) oder den dynamisch generierten Upgrade-Schritten im Customer Journey Analytics-Upgrade-Handbuch fort.
+
+   Um über Customer Journey Analytics auf das Customer Journey Analytics-Aktualisierungshandbuch zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL Workspace]** und dann **[!UICONTROL Upgrade auf Customer Journey Analytics]** im linken Bereich aus. Befolgen Sie die Anweisungen auf dem Bildschirm.
 

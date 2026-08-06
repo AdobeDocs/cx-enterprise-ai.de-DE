@@ -1,9 +1,9 @@
 ---
 title: Analysieren von Customer Journey Analytics-Daten mit dem Coworker Chat
 description: Erfahren Sie, wie Sie mit dem Adobe CX Enterprise Coworker Chat Customer Journey Analytics-Daten analysieren, Trichter erstellen und herausfinden können, wo Kundinnen und Kunden ihre Journey abgeben.
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 64745860140f636548155b7eda8605ffde43b75a
 workflow-type: tm+mt
-source-wordcount: '3243'
+source-wordcount: '3210'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ Sie können den Coworker Chat auf zwei Arten verwenden, je nachdem, wie viel Ana
 * **Schnelle Antworten** - Stellen Sie eine direkte, verständliche Frage und erhalten Sie eine sofortige Antwort. Business-Anwender nutzen den Coworker Chat oft auf diese Weise, und Analysten verwenden ihn auch, wenn sie eine schnelle Antwort für einen Stakeholder benötigen.
 * **Tief greifende Gedankenarbeit** - Führen Sie ein ausgedehntes, mehrgängiges Gespräch mit Coworker Chat, um ein Geschäftsproblem zu untersuchen, Ursachen auszuschließen und eine Empfehlung zu erhalten. Analysten verwenden diesen Ansatz normalerweise, um Daten eingehend zu untersuchen, bevor sie eine Empfehlung abgeben.
 
-Bevor Sie mit der Analyse beginnen, informieren Sie sich über die Oberfläche und die Konfigurationsoptionen für den Coworker-Chat und stellen Sie dann sicher, dass Coworker mit Customer Journey Analytics und der Datenansicht verbunden ist, die die Daten enthält, die Sie verwenden möchten.
+Bevor Sie beginnen, machen Sie sich mit der Oberfläche und den Konfigurationsoptionen des Coworker Chat vertraut und stellen Sie dann sicher, dass Coworker mit Customer Journey Analytics und der relevanten Datenansicht verbunden ist.
 
 ## Erste Schritte mit dem Coworker Chat
 
@@ -54,12 +54,14 @@ Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche für den C
 
 #### Best Practices auf Benutzerebene
 
-* Planmodus verwenden. Dies ist besonders für komplexe Aufgaben nützlich, kann aber auch bessere Ergebnisse für einfache Aufgaben liefern, da es Mitarbeitern ermöglicht, Folgefragen zu stellen, bevor sie handeln. Weitere Informationen finden Sie unter [Planmodus](/help/coworker/chat/ui-guide.md#plan-mode).
+* Planmodus verwenden.
+
+  Dieser Modus ist besonders für komplexe Aufgaben nützlich, kann aber auch bessere Ergebnisse für einfache Aufgaben liefern, da er es Mitarbeitern ermöglicht, Folgefragen zu stellen, bevor sie handeln. Weitere Informationen finden Sie unter [Planmodus](/help/coworker/chat/ui-guide.md#plan-mode).
 
 * Achten Sie beim Erstellen einer Eingabeaufforderung auf eine möglichst präzise Vorgehensweise:
 
   * Benennen Sie die Dimensionen, Metriken und den Datumsbereich, die analysiert werden sollen.
-  * Verweisen Sie auf Datenansichtskomponenten wie Dimensionen, Metriken und Segmente anhand ihres genauen Namens.
+  * Verweisen Sie auf Datenansichtskomponenten anhand ihres genauen Namens.
   * Geben Sie alle Segmente, Zielgruppen, Kanäle oder Geräte an, die Sie einbeziehen, ausschließen oder vergleichen möchten.
   * Geben Sie an, ob Sie einen bestimmten Visualisierungstyp wünschen, z. B. eine funnel-, Trend- oder Kohortentabelle.
   * Fragen Sie nach den empfohlenen nächsten Schritten, wenn Sie im Coworker Chat weitere Fragen vorschlagen möchten.
@@ -90,7 +92,7 @@ Möglicherweise haben Sie Zugriff auf verschiedene Datenansichten in Customer Jo
 
 ### Festlegen, welche Datenansichten verwendet werden sollen
 
-Teilen Sie Coworker mit, welche Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, damit Sie diese Informationen am besten bereitstellen können. Sie können [&#x200B; auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
+Teilen Sie Coworker mit, welche Arten von Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, die diese Informationen liefern. Sie können [&#x200B; auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
 
 **Sie:**
 
@@ -136,7 +138,7 @@ Der Coworker Chat enthält eine Speicherfunktion, mit der Sie Zugriff auf Inform
 
 ## Durchführen von Analysen in Customer Journey Analytics
 
-Nachdem ein Mitarbeiter eine Visualisierung erstellt hat, können Sie die Visualisierung in Analysis Workspace in Customer Journey Analytics öffnen, um eine tiefergehende Analyse mit detaillierterer Steuerung zu ermöglichen. Die Visualisierung wird in einem neuen Analysis Workspace-Projekt in Customer Journey Analytics geöffnet.
+Nachdem ein Kollege eine Visualisierung erstellt hat, können Sie sie in Analysis Workspace öffnen, um eine tiefere Analyse und granulare Steuerung zu ermöglichen. Die Visualisierung wird in einem neuen Analysis Workspace-Projekt in Customer Journey Analytics geöffnet.
 
 Öffnen einer Visualisierung in einem neuen Analysis Workspace-Projekt:
 
@@ -265,7 +267,7 @@ Diese Fähigkeit (`cja-skill-creator`) wandelt eine Analyse, die Sie bereits dur
 
 #### Erforderliche Berechtigungen
 
-* Kenntnisse verwalten, um wiederverwendbare Kenntnisse zu speichern
+* Kenntnisse verwalten
 
 #### Häufige Anwendungsfälle
 
@@ -490,7 +492,7 @@ Soll ich das als Projekt speichern, damit Sie es verfolgen können, oder einen W
 
 >[!ENDSHADEBOX]
 
-### Was gerade passiert ist
+### Was ist passiert?
 
 Bei vier fremdsprachigen Fragen hat uns die Kollegin geholfen:
 
