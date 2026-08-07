@@ -1,9 +1,9 @@
 ---
 title: Adobe CX Enterprise-Mitarbeiter
 description: Erfahren Sie, wie Sie Ihr Marketing mit Adobe CX Enterprise Coworker auf ein höheres Niveau bringen können.
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 05fc3688b9a3544884b5b121a43ff17a81c4df78
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '195'
 ht-degree: 5%
 
 ---
@@ -26,9 +26,8 @@ Coworker Campaign ist eine Vorlagenfunktion, mit der kleine agile Teams Kampagne
 Der Coworker Chat ermöglicht es Teams, Adobe-Produktaufgaben mithilfe natürlicher Sprache zu automatisieren und Ideen schnell in Maßnahmen mit flexibler Planung, anpassbaren Fähigkeiten und intelligenter Ausführung zu verwandeln.
 
 * [Überblick](./chat/overview.md)
-* [Anwendungsszenarien](./chat/use-cases.md)
+* [Anwendungsfälle](./chat/use-cases/overview.md)
 * [Handbuch für die -Benutzeroberfläche](./chat/ui-guide.md)
-* [Analysieren von Customer Journey Analytics-Daten](./chat/analytics-chat.md)
 
 ## Projekte (Dokumente in Kürze verfügbar)
 
