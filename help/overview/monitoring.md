@@ -17,14 +17,14 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
 source-wordcount: 996
 ht-degree: 2%
 
 ---
 
-# Dashboards zur Überwachung der agenten KI
+# Agent-KI-Überwachungs-Dashboard
 
 Das Dashboard [!UICONTROL Monitoring] der Agent AI bietet Mitgliedern des Center of Excellence (COE) und anderen Governance-Stakeholdern Einblick in die Nutzung und Akzeptanz der Agent AI. Zeigen Sie 7- oder 30-Tage-Trends an, um zu sehen, wer [!DNL AI Assistant] oder andere Oberflächen (wie [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) verwendet, um mit [!DNL Experience Platform Agents] und deren Wert zu interagieren. Zusammen helfen diese Ansichten Ihnen, die Akzeptanz von Agenten mit Daten anstelle von Annahmen zu steuern.
 

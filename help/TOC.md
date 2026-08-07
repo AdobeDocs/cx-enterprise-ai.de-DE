@@ -5,10 +5,10 @@ user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workf
 description: Erfahren Sie mehr über den KI-Assistenten in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 28%
+source-wordcount: '236'
+ht-degree: 25%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 28%
 
 - [KI in CX Enterprise-Anwendungen](home.md)
 - Über KI in CX Enterprise {#overview}
-  - [Generative KI](./overview/generative-ai.md)
-  - [Agent-basierte KI](./overview/agentic-ai.md)
-  - [Agent-basierte KI-Überwachung](./overview/monitoring.md)
-  - [Agent-Vorgänge und KI-Kreditverbrauch](./overview/ai-credit-consumption.md)
+  - [Über generative KI](./overview/generative-ai.md)
+  - [Über die agentische KI](./overview/agentic-ai.md)
+  - [Über den Konsum von KI-Guthaben](./overview/ai-credit-consumption.md)
+  - [Agent-KI-Überwachungs-Dashboard](./overview/monitoring.md)
   - [Agent-basierte Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
 - KI-Assistent {#ai-assistant}
   - [Handbuch zur Benutzeroberfläche des KI-Assistenten](./ai-assistant/ai-assistant-ui.md)
@@ -66,7 +66,7 @@ ht-degree: 28%
     - [Versionshinweise](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Überblick](./coworker/chat/overview.md)
-    - [Anwendungsszenarien](./coworker/chat/use-cases.md)
+    - [Anwendungsfälle](./coworker/chat/use-cases.md)
     - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
     - [Analysieren von CJA-Daten](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)

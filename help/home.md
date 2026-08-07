@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 4da8c6f87f4227983b19c682fdceb0db9a352122
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 4%
 
 ---
@@ -30,10 +30,10 @@ Dieses Handbuch behandelt die KI-Funktionen in Adobe CX Enterprise: generative K
 
 Beginnen Sie hier mit einem Überblick darüber, wo und wie KI in CX Enterprise verwendet wird:
 
-- [Generative KI](./overview/generative-ai.md) beschreibt, welche CX Enterprise-Anwendungen generative KI und AI Assistant unterstützen und wie sie sich vergleichen.
-- [Agentic AI](./overview/agentic-ai.md) erläutert, wie Experience Platform-Agenten sowohl in bestehenden CX Enterprise-Anwendungen als auch in AI-First-Anwendungen funktionieren, und listet die in den einzelnen Programmen verfügbaren Agenten auf.
-- [Überwachung der agenten KI](./overview/monitoring.md) umfasst die Dashboards, die die Akzeptanz, Nutzung, Feedback und Nutzung von KI-Krediten durch Agenten verfolgen.
-- [Agentenaufträge und KI-](./overview/ai-credit-consumption.md): Erläutert, wie Agentenaufträge KI-Gutschriften mit geschätzten Verbrauchsraten nach Agent und Vorgangstyp verwenden.
+- [Über generative KI](./overview/generative-ai.md) beschreibt, welche CX Enterprise-Anwendungen generative KI und KI-Assistent unterstützen und wie sie sich vergleichen.
+- [Über die agentische KI](./overview/agentic-ai.md) erläutert, wie Experience Platform-Agenten sowohl in bestehenden CX Enterprise-Anwendungen als auch in KI-First-Anwendungen funktionieren, und listet die in den einzelnen Programmen verfügbaren Agenten auf.
+- [KI-Überwachung](./overview/monitoring.md) umfasst die Dashboards, die die Akzeptanz, Nutzung, Feedback und Nutzung von KI-Krediten durch Agenten verfolgen.
+- [Verbrauch von KI](./overview/ai-credit-consumption.md)Guthaben: Erläutert, wie Agentenaufträge KI-Guthaben verwenden, wobei die geschätzten Verbrauchsraten nach Agent und Vorgangstyp aufgeschlüsselt sind.
 - [CX Enterprise Agent Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview) decken zusätzliche agentische Fähigkeiten und Tools ab, die CX Enterprise Agents erweitern (Video-Tutorials).
 
 ## KI-Assistent

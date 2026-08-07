@@ -41,14 +41,14 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
-source-wordcount: 3287
+source-wordcount: 3288
 ht-degree: 13%
 
 ---
 
-# Generative KI in CX Enterprise
+# Über generative KI in CX Enterprise
 
 Generative KI (genAI) in CX Enterprise unterstützt Sie bei der Automatisierung kreativer und kognitiver Aufgaben und steigert die Produktivität. Auf dieser Seite erfahren Sie, wo [!DNL CX Enterprise] Programme genAI und AI Assistant unterstützen. Sie enthält Links, über die Sie mehr über diese Funktionen erfahren.
 
