@@ -1,7 +1,7 @@
 ---
 title: Sandbox Tooling Agent Skills
 description: Erfahren Sie, wie Sie mit Sandbox Tooling Agent Skills Objektmetadaten in Sandbox-Umgebungen replizieren können.
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -24,6 +24,8 @@ ht-degree: 1%
 >Sie können derzeit Sandbox Tooling Agent Skills verwenden, um Schema- und Zielgruppenobjekte zu entdecken, zu verpacken und zu migrieren. In zukünftigen Versionen wird die Unterstützung für zusätzliche Objekttypen hinzugefügt.
 
 Verwenden Sie die Agentenfertigkeiten der Sandbox-Werkzeuge, um Objektmetadaten - einschließlich Schemata und Zielgruppen - in Adobe Experience Platform-Umgebungen zu verschieben, indem Sie beschreiben, was Sie in natürlicher Sprache erreichen möchten. Mithilfe von CX Coworker können Sie die erforderlichen Metadaten ermitteln, Abhängigkeiten automatisch identifizieren, Migrationspakete erstellen und Objekte durch ein Gesprächserlebnis migrieren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496715?captions=ger&learn=on)
 
 ## Voraussetzungen {#prerequisites}
 

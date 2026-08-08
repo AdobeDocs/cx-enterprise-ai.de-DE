@@ -1,7 +1,7 @@
 ---
 title: Analysieren von Customer Journey Analytics-Daten mit dem Coworker Chat
 description: Erfahren Sie, wie Sie mit dem Adobe CX Enterprise Coworker Chat Customer Journey Analytics-Daten analysieren, Trichter erstellen und herausfinden können, wo Kundinnen und Kunden ihre Journey abgeben.
-source-git-commit: 64745860140f636548155b7eda8605ffde43b75a
+source-git-commit: bfc9d04860f592093e4cab4b88463b173f6be369
 workflow-type: tm+mt
 source-wordcount: '3210'
 ht-degree: 4%
@@ -80,7 +80,7 @@ Stellen Sie im Coworker Chat sicher, dass Coworker mit Customer Journey Analytic
 
 1. Wählen Sie das MCP-Symbol in der linken Leiste aus und stellen Sie sicher, dass [!UICONTROL **cja-**]) in Ihrer Liste der verbundenen MCP-Server verfügbar ist.
 
-   ![Das hervorgehobene MCP-Symbol in der linken Leiste „Mitarbeiter“](./assets/coworker-mcp-cja.png)
+   ![Das hervorgehobene MCP-Symbol in der linken Leiste „Mitarbeiter“](../../assets/coworker-mcp-cja.png)
 
 1. (Bedingt) Wenn [!UICONTROL **cja-mcp**] noch nicht verbunden ist, wählen Sie [!UICONTROL **MCP-Server hinzufügen**], geben Sie cja im Feld [!UICONTROL **Server-Name**] an und wählen Sie es aus, wenn es angezeigt wird. Wählen Sie dann [!UICONTROL **Server hinzufügen**].
 
@@ -134,7 +134,7 @@ Der Coworker Chat enthält eine Speicherfunktion, mit der Sie Zugriff auf Inform
 
 1. Geben Sie auf der Speicherseite im Abschnitt [!UICONTROL **Gespeicherte Voreinstellungen**] eine oder mehrere Datenansichten an, die der Coworker Chat in Ihren Chats verwenden soll.
 
-   ![Speicherabschnitt in der linken Leiste](./assets/coworker-memory.png)
+   ![Speicherabschnitt in der linken Leiste](../../assets/coworker-memory.png)
 
 ## Durchführen von Analysen in Customer Journey Analytics
 
@@ -152,7 +152,7 @@ Nachdem ein Kollege eine Visualisierung erstellt hat, können Sie sie in Analysi
 
 Sie können Customer Journey Analytics-Anwendungsfälle und Beispielaufforderungen sehen, die Anwender im Adobe CX Enterprise Coworker Chat verwenden, von schnellen Antworten bis hin zu gründlichen Überlegungen und Untersuchungen. Jede Eingabeaufforderung wird so erstellt, dass sie kopiert, mit Ihren eigenen Daten und Kontexten angepasst und durch Konversation verfeinert wird.
 
-Weitere Informationen finden Sie unter [Anwendungsbeispiele](/help/coworker/chat/use-cases.md).
+Weitere Informationen finden Sie unter [Anwendungsbeispiele](/help/coworker/chat/use-cases/overview.md).
 
 ## Analytics-Fähigkeiten
 
@@ -249,7 +249,7 @@ Diese Qualifikation (`aa-cja-validation`) vergleicht, prüft und gleicht Daten z
 
 | Anwendungsfall | Funktion | Eingabeaufforderungen im Beispiel |
 |---------|----------|---------|
-| **Validieren von Daten beim Upgrade von Adobe Analytics auf Customer Journey Analytics** | Vergleichen, Überprüfen und Abstimmung von Daten zwischen [!DNL Adobe Analytics] und Customer Journey Analytics.<p>Weitere Informationen finden Sie unter [Validieren von Daten mit einem Kollegen beim Upgrade von Adobe Analytics auf Customer Journey Analytics](/help/coworker/data-validation-aa-cja.md).</p> | <ul><li>„Meine Adobe Analytics Report Suite mit meiner Customer Journey Analytics-Datenansicht vergleichen“</li><li>„Validieren von Seitenansichten zwischen Adobe Analytics und Customer Journey Analytics&quot;</li></ul> |
+| **Validieren von Daten beim Upgrade von Adobe Analytics auf Customer Journey Analytics** | Vergleichen, Überprüfen und Abstimmung von Daten zwischen [!DNL Adobe Analytics] und Customer Journey Analytics.<p>Weitere Informationen finden Sie unter [Validieren von Daten mit einem Kollegen beim Upgrade von Adobe Analytics auf Customer Journey Analytics](data-validation-aa-cja.md).</p> | <ul><li>„Meine Adobe Analytics Report Suite mit meiner Customer Journey Analytics-Datenansicht vergleichen“</li><li>„Validieren von Seitenansichten zwischen Adobe Analytics und Customer Journey Analytics&quot;</li></ul> |
 
 #### Im Umfang
 
@@ -323,7 +323,7 @@ Beachten Sie, dass im Coworker Chat die richtige Visualisierung ausgewählt wird
 
 >[!BEGINSHADEBOX]
 
-![Funnel-Tabelle mit den Sitzungszahlen, Konversionsraten und Abbrüchen bei jedem Schritt von der Sitzung bis zum Kauf](./assets/coworker-funnel-response.png)
+![Funnel-Tabelle mit den Sitzungszahlen, Konversionsraten und Abbrüchen bei jedem Schritt von der Sitzung bis zum Kauf](../../assets/coworker-funnel-response.png)
 
 Dies ist eine funnel-Frage. Lassen Sie mich die funnel-Konversion ausführen, um zu sehen, wo es auf dem Kaufpfad zu einer Abnahme kommt.
 
@@ -372,7 +372,7 @@ Okay, lassen Sie uns nach Marketing-Kanal aufschlüsseln
 
 >[!BEGINSHADEBOX]
 
-![Funnel-Tabelle mit den Konversionsraten und Abbrüchen aufgeschlüsselt nach Marketing-Kanal](./assets/coworker-funnel-response2.png)
+![Funnel-Tabelle mit den Konversionsraten und Abbrüchen aufgeschlüsselt nach Marketing-Kanal](../../assets/coworker-funnel-response2.png)
 
 Es gibt eine benutzerdefinierte Dimension **Marketing** Kanal. Lassen Sie mich den funnel daran entnehmen, dann die Konversionsraten pro Kanal berechnen und feststellen, wo jeder Kanal undicht ist.
 
@@ -423,7 +423,7 @@ Interessant. Versuchen wir, nach Gerätetyp aufzuschlüsseln.
 
 >[!BEGINSHADEBOX]
 
-![Funnel-Tabelle mit Konversionsraten und Abbrüchen aufgeschlüsselt nach Gerätetyp](./assets/coworker-funnel-response3.png)
+![Funnel-Tabelle mit Konversionsraten und Abbrüchen aufgeschlüsselt nach Gerätetyp](../../assets/coworker-funnel-response3.png)
 
 **Gefunden: Der mobile Checkout ist defekt**
 
