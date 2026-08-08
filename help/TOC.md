@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: KI-Assistent in Adobe CX Enterprise
-user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workflow mit Adobe Experience Platform und Real-Time Customer Data Platform beschleunigen können.
-description: Erfahren Sie mehr über den KI-Assistenten in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
+user-guide-title: Kollegin
+user-guide-description: Erfahren Sie anhand praktischer Dokumentation, Implementierungshandbücher und Referenzmaterialien, wie Sie KI-Assistent, Mitarbeiter, Agenten und MCPs erstellen, konfigurieren, integrieren und erweitern.
+description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
+source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 25%
+source-wordcount: '238'
+ht-degree: 17%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 25%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Kollegin {#coworker}
   - [Über einen Kollegen](./coworker/overview.md)
   - Kampagnen {#campaigns}
