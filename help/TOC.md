@@ -5,9 +5,9 @@ user-guide-description: Erfahren Sie anhand praktischer Dokumentation, Implement
 description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '253'
 ht-degree: 17%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 17%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Kollegin {#coworker}
   - [Über einen Kollegen](./coworker/overview.md)
   - Kampagnen {#campaigns}
@@ -71,7 +71,12 @@ ht-degree: 17%
       - [Überblick](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
         - [Analysieren von CJA-Daten](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Ursachenanalyse](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validieren der Migrationsdaten von AA zu CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - Zielgruppen {#audiences}
+        - [Zielgruppen in natürlicher Sprache erstellen](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - Journeys {#journeys}
+        - [Erstellen von Journey in natürlicher Sprache](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - Sandbox-Werkzeuge {#sandbox-tooling}
         - [Verschieben von Objekten über Sandboxes hinweg](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
