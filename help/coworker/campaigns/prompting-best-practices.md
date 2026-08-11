@@ -139,4 +139,4 @@ Geben Sie immer den Kontext und das Wertversprechen an, damit die KI relevante I
 
 >[!MORELIKETHIS]
 >
->Durchsuchen Sie mehr [Eingabeaufforderungsmuster](./) für Kollegen-Kampagnen.
+>Durchsuchen Sie mehr [Eingabeaufforderungsmuster] (./) für Kollegen-Kampagnen.
