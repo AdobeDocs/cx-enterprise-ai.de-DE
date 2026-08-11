@@ -1,7 +1,14 @@
 ---
 title: Validieren von Daten mit einem Kollegen beim Upgrade von Adobe Analytics auf Customer Journey Analytics
 description: Erfahren Sie, wie Analytics-Admins die Datenvalidierungsfähigkeiten von CX Enterprise Coworker verwenden, um Adobe Analytics- und Customer Journey Analytics-Daten während des Upgrades zu vergleichen.
-source-git-commit: ccdc8e69ca03630ca0964b22878cff0bd6ca4c01
+feature: AI Tools
+role: User
+level: Intermediate
+doc-type: Feature Video
+duration: null
+last-substantial-update: 2026-08-10T00:00:00Z
+jira: KT-22083
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -26,8 +33,6 @@ Nach diesen Vergleichen generiert die Qualifikation KI-gesteuerte Einblicke und 
 
 ## Voraussetzungen
 
-
-
 Zur Datenvalidierung im Rahmen des Upgrades benötigen Sie Folgendes:
 
 * Die Adobe Analytics Report Suite, die Sie validieren möchten.
@@ -35,6 +40,8 @@ Zur Datenvalidierung im Rahmen des Upgrades benötigen Sie Folgendes:
 * Die Customer Journey Analytics-Datenansicht, die dieselben Daten enthält.
 
 Sie müssen nicht wissen, wie Ihre Implementierung aufgebaut ist. Die Qualifikation erkennt automatisch, ob Ihre Customer Journey Analytics-Implementierung den Analytics Source Connector oder eine neue Implementierung der Experience Platform Web SDK verwendet.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496864/?captions=ger&learn=on&enablevpops)
 
 ## Starten einer Validierungssitzung
 

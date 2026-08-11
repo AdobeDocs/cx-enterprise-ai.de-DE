@@ -1,9 +1,9 @@
 ---
 description: Durchsuchen Sie die Anwendungsfälle und Beispielaufforderungen des Coworker Chat, sortiert nach Bereichen wie Dateneinblicke, Zielgruppen, Journey und Plattformvorgänge.
 title: Anwendungsfälle
-source-git-commit: 5a04f8fea57dcf6e50ca0040aaad904158c6edf7
+source-git-commit: 539dac230b33d4dee06c940080b48a523211d73d
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1142'
 ht-degree: 4%
 
 ---
@@ -16,13 +16,13 @@ Im Folgenden finden Sie Anwendungsfälle und Beispielaufforderungen, die Anwende
 
 | Anwendungsfall | Beschreibung | Kenntnisse | Anwendung | Eingabeaufforderungen |
 | --- | --- | --- | --- | --- |
-| Abrufen von CJA-Berichten und -Metriken | Abfragen von CJA in Echtzeit, um Metriken, Dimensionen, Segmente und Datenansichten abzurufen | `cja` | Customer Journey Analytics (CJA) | „Anzeigen von Seitenansichten für die letzten 30 Tage“ ・ „Auflisten der wichtigsten Segmente in der Stammdatenansicht“ |
+| [Abrufen von CJA-Berichten und -Metriken](data-insights/analytics-chat.md) | Abfragen von CJA in Echtzeit, um Metriken, Dimensionen, Segmente und Datenansichten abzurufen | `cja` | Customer Journey Analytics (CJA) | „Anzeigen von Seitenansichten für die letzten 30 Tage“ ・ „Auflisten der wichtigsten Segmente in der Stammdatenansicht“ |
 | Vergleichsanalyse | Vergleichen von Metriken über Kanäle, Zeiträume oder Segmente hinweg nebeneinander | `cja` | Customer Journey Analytics (CJA) | „Umsatz nach Kanal und Monat vergleichen“ ・ „Wie sieht die Konversion von Mobilgeräten und Desktops in diesem Quartal aus?“ |
 | Funnel-Analyse | Mehrstufige Konversionstrichter mit Abbruch in jeder Phase | `cja` | Customer Journey Analytics (CJA) | „Führen Sie mich durch den Checkout funnel&quot; ・ „Konversions-funnel von PDP zum Kauf anzeigen“ |
 | Prognose | Zukünftige Metrikwerte des Projekts basierend auf historischen CJA-Daten | `cja` | Customer Journey Analytics (CJA) | „Prognosesitzungen für die nächsten 30 Tage“ ・ „Sind wir auf dem richtigen Weg, unser Umsatzziel zu erreichen?“ |
-| Ursachenanalyse | Finden Sie heraus, warum sich eine Metrik geändert hat: Diagnostizieren von Abfällen, Spitzen und Anomalien | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | „Warum sind die Konversionen letzte Woche zurückgegangen?“ ・ „Was verursachte die Umsatzspitze am 15. Januar?“ |
+| [Ursachenanalyse](data-insights/root-cause-analysis.md) | Finden Sie heraus, warum sich eine Metrik geändert hat: Diagnostizieren von Abfällen, Spitzen und Anomalien | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | „Warum sind die Konversionen letzte Woche zurückgegangen?“ ・ „Was verursachte die Umsatzspitze am 15. Januar?“ |
 | Zusammenfassung für Führungskräfte und KPI-Zusammenfassung | Erstellung von einsatzbereiten Leistungszusammenfassungen für Stakeholder, präskriptiven Empfehlungen und Folienübersichten | `cja-executive-summary` | Customer Journey Analytics (CJA) | „Ich möchte eine Zusammenfassung des letzten Monats erhalten“ ・ „Erstellen Sie einen Slide-Deck-Entwurf aus den Daten dieses Quartals“ |
-| AA ↔ CJA-Datenvalidierung | Vergleichen, Überprüfen und Abstimmung von Daten zwischen Adobe Analytics und Customer Journey Analytics | `aa-cja-validation` | ADOBE ANALYTICS + CJA | „Meine AA Report Suite mit meiner CJA-Datenansicht vergleichen“ ・ „Seitenansichten zwischen AA und CJA validieren“ |
+| [AA ↔ CJA-Datenvalidierung](data-insights/data-validation-aa-cja.md) | Vergleichen, Überprüfen und Abstimmung von Daten zwischen Adobe Analytics und Customer Journey Analytics | `aa-cja-validation` | ADOBE ANALYTICS + CJA | „Meine AA Report Suite mit meiner CJA-Datenansicht vergleichen“ ・ „Seitenansichten zwischen AA und CJA validieren“ |
 | Operative Zeitreihen- und Kausalanalyse | Abfragen und Analysieren historischer Zeitreihendaten für Zielgruppen, Datensätze und Journey mit kausaler Attribution | `operational-stats-causal-analysis` | Alle infrage kommenden Anträge | „Trends bei der Zielgruppengröße in den letzten 90 Tagen anzeigen“ ・ „Warum hat die Anzahl meiner Datensatzzeilen am 3. März angezogen?“ |
 | Erstellen benutzerdefinierter CJA-Kenntnisse | Verwandeln Sie analytische Muster in wiederverwendbare, wiederholbare Fähigkeiten, die sitzungsübergreifend bestehen bleiben | `cja-skill-creator` | Customer Journey Analytics (CJA) | „Diese wöchentliche Umsatzanalyse in wiederverwendbare Kenntnisse umwandeln“ ・ „Als Kenntnisse für monatliches funnel-Reporting speichern“ |
 
@@ -30,7 +30,7 @@ Im Folgenden finden Sie Anwendungsfälle und Beispielaufforderungen, die Anwende
 
 | Anwendungsfall | Beschreibung | Kenntnisse | Anwendung | Eingabeaufforderungen |
 | --- | --- | --- | --- | --- |
-| Zielgruppen aus natürlicher Sprache erstellen | Orchestrieren der schrittweisen Zielgruppenerstellung mit Benutzergenehmigung in jeder Phase | `audience-creation-flow` | Real-Time CDP (RTCDP) | „Erstellen Sie eine Audience von Benutzern, die in den letzten 30 Tagen gekauft haben“ ・ „Erstellen Sie ein Segment für hochwertige Mitglieder des Treueprogramms in Kalifornien“ |
+| [Zielgruppen aus natürlicher Sprache erstellen](audiences/create-audience-from-natural-language.md) | Orchestrieren der schrittweisen Zielgruppenerstellung mit Benutzergenehmigung in jeder Phase | `audience-creation-flow` | Real-Time CDP (RTCDP) | „Erstellen Sie eine Audience von Benutzern, die in den letzten 30 Tagen gekauft haben“ ・ „Erstellen Sie ein Segment für hochwertige Mitglieder des Treueprogramms in Kalifornien“ |
 | Erstellen von PQL-Definitionen | Zusammenstellen von Zielgruppendefinitionen aus XDM-Eigenschaften, Verhaltensereignissen oder vorhandenen Zielgruppen; Unterstützung von Aggregation und Zeitfenstern | `segment-definition-assembly` | Real-Time CDP (RTCDP) | „Erstellen Sie eine PQL für Personen, die mehr als 3 Produkte angesehen, aber keinen Kauf getätigt haben“ ・ „Hinzufügen eines 7-Tage-Zeitfensters zu meiner Veranstaltungsbedingung“ |
 | Zielgruppen suchen und finden | Zielgruppen nach ID, Name und semantischer Suche suchen, Duplikate erkennen und Überschneidungen analysieren | `audience-search` | Real-Time CDP (RTCDP) | „Alle Loyalitäts-Zielgruppen suchen“ ・ „Gibt es ein Duplikat meines Segments „Holiday Shoppers“?“ |
 | Zielgruppengröße schätzen | Schätzen der Profilreichweite für einen PQL-Ausdruck mithilfe der Adobe Experience Platform-Vorschau-API mit Abfrage | `audience-size-estimate` | Real-Time CDP (RTCDP) | „Wie groß ist diese Zielgruppe?“ ・ „Geschätzte Reichweite für diesen PQL-Ausdruck“ |
@@ -42,7 +42,7 @@ Im Folgenden finden Sie Anwendungsfälle und Beispielaufforderungen, die Anwende
 
 | Anwendungsfall | Beschreibung | Kenntnisse | Anwendung | Eingabeaufforderungen |
 | --- | --- | --- | --- | --- |
-| Erstellen von Journey aus natürlicher Sprache | Orchestrieren der Journey-Erstellung in AJO über eine Textaufforderung oder ein hochgeladenes Bild/Flussdiagramm | `journey-create` | Adobe Journey Optimizer (AJO) | „Erstellen Sie eine Begrüßungs-Journey, die nach der Anmeldung eine E-Mail sendet, 3 Tage wartet und dann eine Folgenachricht sendet“ ・ „Erstellen Sie eine Journey aus diesem hochgeladenen Flussdiagrammbild.“ |
+| [Erschaffe Journey aus natürlicher Sprache](journeys/create-journey-from-natural-language.md) | Orchestrieren der Journey-Erstellung in AJO über eine Textaufforderung oder ein hochgeladenes Bild/Flussdiagramm | `journey-create` | Adobe Journey Optimizer (AJO) | „Erstellen Sie eine Begrüßungs-Journey, die nach der Anmeldung eine E-Mail sendet, 3 Tage wartet und dann eine Folgenachricht sendet“ ・ „Erstellen Sie eine Journey aus diesem hochgeladenen Flussdiagrammbild.“ |
 | Journey-Konflikte analysieren | Erkennung von Zielgruppenüberschneidungen, Terminkollisionen und Deduplizierungsproblemen zwischen aktiven Journeys | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | „Steht mein Warenkorbabbruch-Journey in Konflikt mit anderen Journey?“ ・ „Prüfen Sie, ob sich die Zielgruppen meiner aktiven Journey überschneiden.“ |
 | Analysieren von Journey-Fallout | Identifizieren Sie, wo und warum Kunden während eines Journey abbrechen, und erkennen Sie Verhaltensmuster, die zu einer Abmeldung führen | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | „Wo kommen die Leute auf meiner Re-Engagement-Journey vorbei?“ ・ „Welche Knoten in Journey X haben den höchsten Fallout?“ |
 | Analysieren von Fehlern bei benutzerdefinierten Aktionen | Ermitteln Sie, wann benutzerdefinierte Aktionen fehlschlagen oder Fehlerquoten innerhalb eines Journey in die Höhe schießen, und diagnostizieren Sie die Grundursachen, bevor Fehler in umfassendere Unterbrechungen übergehen. | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | „Warum schlagen benutzerdefinierte Aktionen in meiner Treue-Anmelde-Journey fehl?“ ・ „Fehlerrate für benutzerdefinierte Aktion „ExternalPush“ auf meiner Begrüßungs-Journey anzeigen.“ |
@@ -62,4 +62,4 @@ Im Folgenden finden Sie Anwendungsfälle und Beispielaufforderungen, die Anwende
 
 | Anwendungsfall | Beschreibung | Kenntnisse | Anwendung | Eingabeaufforderungen |
 | --- | --- | --- | --- | --- |
-| Verschieben von Metadatenobjekten über Sandboxes hinweg | Nahtlose Migration von Schemas, Zielgruppen und anderen Objektkonfigurationen über Sandboxes hinweg, wobei Abhängigkeiten automatisch aufgelöst werden | `sandbox-tooling-workflow` | Adobe Experience Platform | „Schema-Luma-Platin-Mitglieder des Treueprogramms aus der aktuellen Sandbox in die Produktions-Sandbox verschieben“ ・ „Die Zielgruppe der US-amerikanischen Mitglieder des Treueprogramms für Gold-Mitglieder zur Staging-Umgebung bewerben“ |
+| [Objekte über Sandboxes hinweg verschieben](/help/agents/sandbox-tooling.md) | Nahtlose Migration von Schemas, Zielgruppen und anderen Objektkonfigurationen über Sandboxes hinweg, wobei Abhängigkeiten automatisch aufgelöst werden | `sandbox-tooling-workflow` | Adobe Experience Platform | „Schema-Luma-Platin-Mitglieder des Treueprogramms aus der aktuellen Sandbox in die Produktions-Sandbox verschieben“ ・ „Die Zielgruppe der US-amerikanischen Mitglieder des Treueprogramms für Gold-Mitglieder zur Staging-Umgebung bewerben“ |

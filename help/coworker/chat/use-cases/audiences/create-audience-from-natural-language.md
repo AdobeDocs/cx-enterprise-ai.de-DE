@@ -1,0 +1,23 @@
+---
+title: Zielgruppen aus natürlicher Sprache erstellen
+description: Erfahren Sie, wie Sie mit Coworker Zielgruppen aus natürlicher Sprache erstellen.
+feature: AI Tools
+role: User
+level: Beginner
+doc-type: Feature Video
+duration: 221
+last-substantial-update: 2026-08-10T00:00:00Z
+jira: KT-22080
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 0%
+
+---
+
+
+# Bewerten der Experience Platform-Gesundheit und Aufbauen von Zielgruppen aus natürlicher Sprache mit Coworker
+
+Das Auditing der Verbindung zwischen Zielgruppen, Journey, Datensätzen und Zielen ist normalerweise eine manuelle, zeitaufwendige Übung. In diesem Video erfahren Sie, wie Coworker eine vollständige Übersicht über Ihre Adobe Experience Platform (AEP)-Umgebung erstellen, diese mit Best Practices der Branche vergleichen und diese Erkenntnisse nutzen können, um eine neue Audience zu erstellen - alles in einem einzigen Gespräch.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496874/?captions=ger&learn=on&enablevpops)
