@@ -1,7 +1,7 @@
 ---
-title: Sitzungskontext-Tools in CX Coworker Gateway
+title: Session Context Tools in CX Coworker Gateway
 description: Erfahren Sie mehr über die wichtigsten Tools, die den Organisations-, Sandbox- und Datenansichtskontext für alle Aufrufe des CX Coworker Gateway-Tools festlegen.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%

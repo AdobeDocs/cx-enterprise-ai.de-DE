@@ -1,9 +1,9 @@
 ---
-title: Customer Journey Analytics-Tools in Adobe CX Coworker Gateway
+title: Customer Journey Analytics-Tools in CX Coworker Gateway
 description: Erfahren Sie, welche Adobe Customer Journey Analytics-Tools über das Adobe CX Coworker Gateway verfügbar sind.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '673'
 ht-degree: 3%
 
 ---
@@ -84,11 +84,11 @@ Produktberechtigungen sind weiterhin gültig. Ihr Konto muss in der Lage sein, d
 
 **Übersicht**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486323/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486313/?learn=on&enablevpops)
 
 **In Aktion**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486334/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486314/?learn=on&enablevpops)
 
 ## Weitere Informationen {#mcp-more}
 

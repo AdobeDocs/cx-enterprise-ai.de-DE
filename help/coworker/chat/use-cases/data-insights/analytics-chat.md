@@ -1,7 +1,7 @@
 ---
 title: Analysieren von Customer Journey Analytics-Daten mit dem Coworker Chat
 description: Erfahren Sie, wie Sie mit dem Adobe CX Enterprise Coworker Chat Customer Journey Analytics-Daten analysieren, Trichter erstellen und herausfinden können, wo Kundinnen und Kunden ihre Journey abgeben.
-source-git-commit: bfc9d04860f592093e4cab4b88463b173f6be369
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '3210'
 ht-degree: 4%
@@ -92,7 +92,7 @@ Möglicherweise haben Sie Zugriff auf verschiedene Datenansichten in Customer Jo
 
 ### Festlegen, welche Datenansichten verwendet werden sollen
 
-Teilen Sie Coworker mit, welche Arten von Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, die diese Informationen liefern. Sie können [&#x200B; auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
+Teilen Sie Coworker mit, welche Arten von Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, die diese Informationen liefern. Sie können [ auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
 
 **Sie:**
 
