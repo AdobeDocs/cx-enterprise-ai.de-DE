@@ -6,10 +6,10 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
+source-git-commit: 6f3672e35719921b82ce5c9bdd761a2a6b610438
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 16%
+source-wordcount: '270'
+ht-degree: 17%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 16%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Kollegin {#coworker}
   - [Über einen Kollegen](./coworker/overview.md)
   - Kampagnen {#campaigns}
@@ -63,6 +63,9 @@ ht-degree: 16%
     - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
     - [Anwendungsszenarien](./coworker/campaigns/use-cases.md)
     - [Best Practices bei der Eingabeaufforderung](./coworker/campaigns/prompting-best-practices.md)
+    - Connectoren {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [HubSpot](./coworker/campaigns/connectors/hubspot.md)
     - [Versionshinweise](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Überblick](./coworker/chat/overview.md)
