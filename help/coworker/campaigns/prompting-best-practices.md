@@ -1,10 +1,10 @@
 ---
 description: Erfahren Sie mehr über Coworker-Kampagnen mit Best Practices - das CO-STAR-Framework, Aufgaben und Aufgaben, nicht unterstützte Inhalte und eine Qualitätsprüfliste für Eingabeaufforderungen.
-title: Best Practices bei der Eingabeaufforderung
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Best Practices für das Prompting
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 

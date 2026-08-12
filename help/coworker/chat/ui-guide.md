@@ -1,10 +1,10 @@
 ---
 description: Ein Referenzhandbuch für die Coworker Chat-Oberfläche, das die Navigation, das Eingabefeld, Antworten, den Chat-Verlauf und die Konfiguration von Kenntnissen, MCP-Servern und Speicher behandelt.
-title: Handbuch zur Benutzeroberfläche
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Handbuch zur Benutzeroberfläche für den Chat mit Kollegen
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 2%
+source-wordcount: '1577'
+ht-degree: 3%
 
 ---
 
@@ -77,8 +77,8 @@ Im Eingabefeld (mit der Beschriftung &#39;Alle Fragen an Kollegen&#39;) geben Si
 | Element der Benutzeroberfläche | Beschreibung |
 | --- | --- |
 | + (Anhängen) | Öffnen Sie das Menü Anhängen , um der Nachricht eine Datei oder ein Datenobjekt hinzuzufügen. |
-| Planungsmodus | Bitten Sie den Coworker Chat, einen schrittweisen Plan vorzuschlagen und eine Pause zur Genehmigung einzulegen, bevor er aktiv wird. Schalten Sie sie aus, damit Coworker Chat direkt agieren kann. |
-| Transkript-Ansicht | Legen Sie fest, wie viel von der internen Aktivität des Kollegen-Chats angezeigt wird: Normal, Fokus oder Verbose. |
+| Planmodus | Bitten Sie den Coworker Chat, einen schrittweisen Plan vorzuschlagen und eine Pause zur Genehmigung einzulegen, bevor er aktiv wird. Schalten Sie sie aus, damit Coworker Chat direkt agieren kann. |
+| Transkriptansicht | Legen Sie fest, wie viel von der internen Aktivität des Kollegen-Chats angezeigt wird: Normal, Fokus oder Verbose. |
 | Mikrofon | Diktieren Sie Ihre Nachricht mit Spracheingabe. Zur Stoppung der Aufzeichnung erneut wählen. |
 | Senden | Senden Sie die Nachricht. Während der Coworker Chat reagiert, wird dies zu einem Stopp-Steuerelement, das Sie verwenden können, um zu unterbrechen. |
 
@@ -91,13 +91,13 @@ Wählen Sie + aus, um Kontext an Ihre Nachricht anzuhängen:
 
 ![Das Menü Anhängen](./assets/ui-guide-5.png)
 
-### Planungsmodus
+### Planmodus
 
 Aktivieren Sie den Planmodus, wenn eine Aufgabe komplex ist oder Daten ändert und Sie den Ansatz zuerst überprüfen möchten. Coworker Chat antwortet mit einem Plan und wartet auf Ihre Genehmigung, bevor Sie ihn ausführen. Wenn der Planmodus deaktiviert ist, fährt der Coworker Chat direkt mit der Arbeit fort.
 
 ![Planmodus in der Symbolleiste „Eingabe“ aktiviert](./assets/ui-guide-6.png)
 
-### Transkript-Ansicht
+### Transkriptansicht
 
 Die Transkript-Ansicht legt fest, wie viel von der Logik und der Tool-Aktivität des Kollegen-Chats in der Konversation inline angezeigt wird:
 
@@ -153,8 +153,8 @@ Wählen Sie in der Navigationsleiste Chats aus, um den vollständigen Verlauf zu
 | Element der Benutzeroberfläche | Beschreibung |
 | --- | --- |
 | Nach Titel suchen | Finde ein vergangenes Gespräch mit Namen. |
-| Angeheftet anzeigen | Nur die Gespräche anzeigen, die Sie gestartet haben. |
-| Archiviert anzeigen | Zeigt archivierte Unterhaltungen an. |
+| Angeheftete anzeigen | Nur die Gespräche anzeigen, die Sie gestartet haben. |
+| Archivierte anzeigen | Zeigt archivierte Unterhaltungen an. |
 | Neuer Chat | Beginne eine neue Unterhaltung. |
 | Zeilenmenü (…) | Bei jeder Unterhaltung starten (PIN), umbenennen, archivieren oder löschen. |
 
@@ -164,7 +164,7 @@ Wählen Sie in der Navigationsleiste Chats aus, um den vollständigen Verlauf zu
 
 In den Konfigurationen können Sie anpassen, was der Coworker Chat tun kann. Es gibt fünf Registerkarten: Skills, MCP-Server, Marketplaces, Plugins und Memory.
 
-### Kenntnisse
+### Skills
 
 Kenntnisse sind spezialisierte Funktionen, die Coworker Chat automatisch aufruft, wenn sie relevant sind, oder die Sie selbst durch Eingabe von / im Chat Trigger machen können. Auf der Registerkarte Skills werden alle installierten Skills aufgelistet und Sie können weitere hinzufügen.
 
@@ -190,7 +190,7 @@ Jede Karte zeigt den Servernamen, den Endpunkt und alle Tags an, die beschreiben
 
 ![Die Registerkarte MCP-Server](./assets/ui-guide-15.png)
 
-### Marktplätze
+### Marketplaces
 
 Marketplaces sind Registraturen von Plug-ins, die Sie durchsuchen und installieren können. Auf der Registerkarte Marketplaces können Sie Registrierungseinträge hinzufügen und nach Gruppe filtern.
 
@@ -211,7 +211,7 @@ Plug-ins erweitern den Coworker Chat mit gebündelten Fähigkeiten und MCP-Serve
 
 ![Die Registerkarte „Plug-ins“](./assets/ui-guide-17.png)
 
-### Arbeitsspeicher
+### Speicher
 
 Mit dem Arbeitsspeicher können Sie Ihre Präferenzen in allen Konversationen speichern, damit die Antworten im Laufe der Zeit relevant und persönlich bleiben.
 

@@ -1,9 +1,9 @@
 ---
-title: Real-Time CDP MCP (Beta)
+title: Real-Time CDP-Tools in CX Coworker Gateway
 description: Erfahren Sie, wie Sie Adobe Real-Time CDP mithilfe des MCP-Servers mit MCP-Clients verbinden.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 4%
 
 ---
