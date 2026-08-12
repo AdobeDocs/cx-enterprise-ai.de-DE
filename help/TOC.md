@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 91ea22749d33f8d58b5eb7b41f06ea4cc0b9513e
+source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '266'
 ht-degree: 16%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 16%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Kollegin {#coworker}
   - [Über einen Kollegen](./coworker/overview.md)
   - Kampagnen {#campaigns}
@@ -77,6 +77,7 @@ ht-degree: 16%
         - [Plattformintegrität bewerten und Zielgruppen erstellen](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Journeys {#journeys}
         - [Erstellen von Journey in natürlicher Sprache](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+        - [Erstellen einer Herausforderung zur Treue und Aufdecken von Einblicken](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Sandbox-Werkzeuge {#sandbox-tooling}
         - [Sandbox Tooling Agent Kenntnisse](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
