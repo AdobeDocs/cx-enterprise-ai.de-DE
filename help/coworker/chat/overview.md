@@ -1,9 +1,9 @@
 ---
 description: Erfahren Sie, wie der Coworker Chat eine Gesprächsoberfläche verwendet, um Kundenerlebnisarbeit in Adobe und verbundenen Systemen in Minutenschnelle zu planen, auszuführen und abzuschließen.
 title: Adobe CX Enterprise Coworker Chat - Übersicht
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: e87e0cc9879629fa763ad6e5f20c484f30138a9a
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,19 @@ Wenn Sie KI-Assistent und Adobe Experience Platform Agent Orchestrator verwendet
 >[!NOTE]
 >
 >Screenshots der Benutzeroberfläche werden hinzugefügt, sobald das Erlebnis abgeschlossen ist.
+
+## Kompatible CX Enterprise-Anwendungen
+
+Die folgenden CX Enterprise-Anwendungen sind mit dem Coworker Chat kompatibel:
+
+* Real-Time CDP B2C Edition
+* Adobe Journey Optimizer B2C Edition
+* Customer Journey Analytics B2C Edition
+* _AEM (in Kürze verfügbar)_
+* _Workfront (in Kürze verfügbar)_
+* _Real-Time CDP B2B edition (in Kürze verfügbar)_
+* _Adobe Journey Optimizer B2B edition (in Kürze verfügbar)_
+* _Customer Journey Analytics B2B edition (in Kürze verfügbar)_
 
 ## Bausteine
 

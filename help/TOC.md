@@ -6,10 +6,10 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: b68e00babda4fb9f8af816ceb836367fe86cc0fa
+source-git-commit: 6f3672e35719921b82ce5c9bdd761a2a6b610438
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 16%
+source-wordcount: '270'
+ht-degree: 17%
 
 ---
 
@@ -63,7 +63,9 @@ ht-degree: 16%
     - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
     - [Anwendungsszenarien](./coworker/campaigns/use-cases.md)
     - [Best Practices bei der Eingabeaufforderung](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[Connectoren](./coworker/campaigns/connectors.md)
+    - Connectoren {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [HubSpot](./coworker/campaigns/connectors/hubspot.md)
     - [Versionshinweise](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Überblick](./coworker/chat/overview.md)
@@ -78,6 +80,7 @@ ht-degree: 16%
         - [Plattformintegrität bewerten und Zielgruppen erstellen](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Journeys {#journeys}
         - [Erstellen von Journey in natürlicher Sprache](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+        - [Erstellen einer Herausforderung zur Treue und Aufdecken von Einblicken](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Sandbox-Werkzeuge {#sandbox-tooling}
         - [Sandbox Tooling Agent Kenntnisse](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
