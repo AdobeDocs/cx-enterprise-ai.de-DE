@@ -5,11 +5,12 @@ role: User
 level: Beginner
 doc-type: Feature Video
 duration: 499
-last-substantial-update: 2026-08-12T00:00:00Z
+last-substantial-update: 2026-08-12T00:00:00.000Z
 jira: KT-22312
-source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: 90
 ht-degree: 0%
 
 ---
@@ -21,4 +22,4 @@ In dieser Demonstration erfahren Sie, wie die Treue zu Adobe Journey Optimizer (
  
 In diesem Video werden das Loyalty-Plug-in und dessen Challenge-Management-Fähigkeiten vorgestellt, eine KI-gestützte Funktion, mit der Marketing-Experten Herausforderungen im Zusammenhang mit dem Treueprogramm in natürlicher Sprache erstellen, bearbeiten und verwalten können, anstatt jede Einstellung in der Benutzeroberfläche manuell zu konfigurieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496545/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)

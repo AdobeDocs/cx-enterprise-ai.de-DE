@@ -2,9 +2,10 @@
 title: Erste Schritte mit dem Coworker Chat im Playground
 description: Erfahren Sie, wie Sie den Coworker Chat in Playground verwenden können, um zu erkunden, wie Aufforderungen in natürlicher Sprache Ihnen dabei helfen können, Ihre Arbeit zu lernen, zu untersuchen und zu verfeinern.
 hide: true
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: 1671
 ht-degree: 4%
 
 ---
