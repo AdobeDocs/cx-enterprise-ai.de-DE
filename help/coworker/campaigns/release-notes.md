@@ -1,7 +1,8 @@
 ---
 description: Erfahren Sie mehr über Funktionsverbesserungen und -korrekturen in den Versionshinweisen zu Adobe CX Enterprise Coworker Campaign.
 title: CX Enterprise Coworker Campaign - Versionshinweise
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
 source-wordcount: 2187

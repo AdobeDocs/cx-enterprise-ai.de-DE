@@ -1,7 +1,8 @@
 ---
 description: Erfahren Sie mehr über Coworker-Kampagnen mit Best Practices - das CO-STAR-Framework, Aufgaben und Aufgaben, nicht unterstützte Inhalte und eine Qualitätsprüfliste für Eingabeaufforderungen.
 title: Best Practices für das Prompting
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
 source-wordcount: 532
@@ -140,4 +141,4 @@ Geben Sie immer den Kontext und das Wertversprechen an, damit die KI relevante I
 
 >[!MORELIKETHIS]
 >
->Durchsuchen Sie mehr [Eingabeaufforderungsmuster](./) für Kollegen-Kampagnen.
+>Durchsuchen Sie mehr [Eingabeaufforderungsmuster] (./) für Kollegen-Kampagnen.
