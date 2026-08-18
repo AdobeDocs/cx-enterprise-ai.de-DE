@@ -1,10 +1,10 @@
 ---
 title: Experience Platform-Tools in CX Coworker Gateway
 description: Erfahren Sie, welche Adobe Experience Platform-Tools über CX Coworker Gateway verfügbar sind.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 3b9aa67448b5686b614e5f34019d06272837f5c6
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1537'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,7 @@ Sie können die Adobe Experience Platform-Produkt-Tools verwenden, um Schemata, 
 | `search_data_lake` | Überprüfen von Datensatzmetadaten und des Batch-Status | Data Lake API ・ Datensätze, Batches | Abrufen, Abrufen der Größe, Auflisten fehlgeschlagener Batches | Aktiv |
 | `search_dule` | Data Governance-Kennzeichnungen, -Richtlinien, -Aktionen abfragen | Data Governance ・ Kennzeichnungen, Richtlinien, Marketing_Aktionen | list, get, list enabled, evaluieren | Aktiv |
 | `search_query_service` | SQL-Abfragen, Vorlagen, Zeitpläne, Warnhinweise abfragen | Abfrage-Service ・ Abfragen, Vorlagen, Zeitpläne, Warnhinweise | Auflisten, Abrufen, Filtern, Abrufen von Verbindungsparametern | Aktiv |
+| `search_sandbox_health_assessment` | Abrufen der neuesten Ergebnisse der Konsistenzprüfungen für Ausführung und Vorgang für die aktuelle Sandbox | Ausführung und Betrieb ・ Health Check-Bewertungen | Liste, nach Schecknamen abrufen | Aktiv |
 | `search_schema_registry` | XDM-Schemata, Feldergruppen, Klassen, Typen von Abfragen | Schemaregistrierung ・ Schemata, Feldergruppen, Klassen, data_types, Deskriptoren | Auflisten, Abrufen, Filtern nach Container | Aktiv |
 
 ## Tool-Referenz
@@ -197,3 +198,18 @@ Einheitliches Tool für Abfrage-Service-Ressourcen. Auflisten und Abrufen von Ad
 | --- | --- | --- |
 | `entity_type` | Ja | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | Ja | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### search_sandbox_health_assessment
+
+**Ressource:** Ausführung und Betrieb ・ Konsistenzprüfungen
+**Status:** aktiv
+
+Rufen Sie die neuesten Ergebnisse der Konsistenzprüfungs-Ausführung und -Operation für die aktuelle Sandbox ab. Gibt Ergebnisse für jede unterstützte Kategorie zurück, einschließlich Schemata und Identitäten, Segmentierung, Aufnahme und Profil. Um die Grundursache ohne separate Suche zu identifizieren, enthält jedes Ergebnis die betroffenen Assets hinter einer fehlgeschlagenen Prüfung. Es werden nur Prüfungen mit einem veröffentlichten, für Menschen lesbaren Namen zurückgegeben. Alle Vorgänge sind schreibgeschützt.
+
+>[!NOTE]
+>
+>Dieses Tool ruft nur die Bewertungsergebnisse ab. Um ein gekennzeichnetes Problem zu beheben, verwenden Sie das Bedienfeld „Konsistenzprüfungsdetails“ in der [!DNL Experience Platform]-Benutzeroberfläche. Siehe [Konsistenzprüfungen](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Eine automatische Anleitung zur Behebung unterstützter Konsistenzprüfungen ist als Qualifikation im (CX[Coworker Chat) ](../coworker/chat/overview.md).
+
+**Funktionen:** alle Ergebnisse der Konsistenzprüfung für die aktuelle Sandbox auflisten, Ergebnisse für eine spezifische Prüfung abrufen
+
+Keine Parameter.

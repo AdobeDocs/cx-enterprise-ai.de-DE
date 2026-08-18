@@ -1,9 +1,9 @@
 ---
 title: Adobe CX Coworker Gateway - Übersicht
 description: Adobe CX Coworker Gateway ist der einheitliche MCP für Adobe CX Enterprise, der MCP-Clients eine einzige Verbindung zu unterstützten Produkt-Tools bietet.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 428291fab4c74bc49f62c65011c3336ff1609a38
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '454'
 ht-degree: 5%
 
 ---
@@ -40,11 +40,11 @@ Die folgenden Produkt-Tools sind in diesem Handbuch dokumentiert:
 | Produkt-Tools | Was sie über den Endpunkt verfügbar macht | Verfügbarkeit | Dokumentation |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | Zielgruppen, Ziele, Quellen, Identity-Namespaces und Aktivierungszustand (schreibgeschützt) | Beta | [Real-Time CDP-Tools](rtcdp-mcp.md) |
-| **Experience Platform** | Schemata, Datensätze, Data Governance, Query Service und Audit-Ereignisse (schreibgeschützt) | Beta | [Experience Platform-Tools](aep-mcp.md) |
+| **Experience Platform** | Schemata, Datensätze, Data Governance, Query Service, Audit-Ereignisse und Sandbox-Konsistenzprüfungen (schreibgeschützt) | Beta | [Experience Platform-Tools](aep-mcp.md) |
 | **Journey Optimizer** | Kampagnen und Kanalkonfigurationen (schreibgeschützt) | Beta | [Journey Optimizer-Tools](ajo-mcp.md) |
 | **Customer Journey Analytics** | Datenansichten, Dimensionen, Metriken, Berichte, Segmente, Datumsbereiche, Projekte und Zielgruppen (lesen und schreiben) | Verfügbar | [Customer Journey Analytics-Tools](cja-mcp.md) |
 | **Adobe Analytics** | Report Suites, Dimensionen, Metriken, Berichte, Segmente, Datumsbereiche und Workspace-Projekte (Lesen und Schreiben für unterstützte Komponenten) | Verfügbar | [Adobe Analytics-Tools](analytics-mcp.md) |
-| **Workfront** | Work-Management-Tools für Projekte, Aufgaben und Genehmigungs-Workflows | Vorschau | [Workfront MCP-Server](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Workfront** | Work-Management-Tools für Projekte, Aufgaben und Genehmigungs-Workflows | Vorschau | [Workfront MCP-Server](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]
