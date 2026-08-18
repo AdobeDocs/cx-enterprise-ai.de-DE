@@ -256,7 +256,7 @@ Rufen Sie die neuesten Ergebnisse der Konsistenzprüfungs-Ausführung und -Opera
 
 >[!NOTE]
 >
->Dieses Tool ruft nur die Bewertungsergebnisse ab. Um ein gekennzeichnetes Problem zu beheben, verwenden Sie das Bedienfeld „Konsistenzprüfungsdetails“ in der [!DNL Experience Platform]-Benutzeroberfläche. Siehe [Konsistenzprüfungen](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Eine automatische Anleitung zur Behebung unterstützter Konsistenzprüfungen ist als Qualifikation im (CX[Coworker Chat) ](../coworker/chat/overview.md).
+>Dieses Tool ruft nur die Bewertungsergebnisse ab. Um ein gekennzeichnetes Problem zu beheben, verwenden Sie das Bedienfeld „Konsistenzprüfungsdetails“ in der [!DNL Experience Platform]-Benutzeroberfläche. Siehe [Konsistenzprüfungen](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Eine automatische Anleitung zur Behebung unterstützter Konsistenzprüfungen ist als Qualifikation im (CX[Coworker Chat) &#x200B;](../coworker/chat/overview.md).
 
 **Funktionen:** alle Ergebnisse der Konsistenzprüfung für die aktuelle Sandbox auflisten, Ergebnisse für eine spezifische Prüfung abrufen
 
