@@ -2,10 +2,10 @@
 description: Erfahren Sie, wie Coworker Campaign automatisch C2PA-Metadaten (Content Credentials) auf KI-generierten und bearbeiteten Bildern anhängt und beibehält, ohne dass Maßnahmen erforderlich sind.
 title: C2PA-Metadaten in Coworker-Kampagnen
 hide: true
-source-git-commit: c03bdd213d3e96de1bee022b98e4809d3100a195
+source-git-commit: 2b75854bde0697971e736bd453a14a4aa44352ed
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 8%
+source-wordcount: '361'
+ht-degree: 6%
 
 ---
 
@@ -30,14 +30,14 @@ In der folgenden Tabelle wird zusammengefasst, wann C2PA-Metadaten angehängt we
 
 ## Was passiert, wenn Inhalte verschoben werden? {#cc-content-moves}
 
-Coworker Campaign behält Content Credentials bei, das mit unterstützten Bild-Assets verknüpft ist. Wenn ein Bild beim Import in Coworker Campaign Content Credentials enthält, bleiben diese Anmeldedaten erhalten, wenn das Asset in generierten Kampagneninhalten und ausgehenden E-Mail-Erlebnissen verwendet wird. [Weitere Informationen zu C2PA-Metadaten](https://helpx.adobe.com/de/firefly/using/content-credentials.html){target="_blank"}.
+Coworker Campaign behält Content Credentials bei, das mit unterstützten Bild-Assets verknüpft ist. Wenn ein Bild beim Import in Coworker Campaign Content Credentials enthält, bleiben diese Anmeldedaten erhalten, wenn das Asset in generierten Kampagneninhalten und ausgehenden E-Mail-Erlebnissen verwendet wird.
 
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
 ## Zusätzliche Ressourcen
 
+* [Weitere Informationen zu C2PA-Metadaten](https://helpx.adobe.com/de/firefly/using/content-credentials.html){target="_blank"}
+
 * [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Funktionsweise von Content Credentials in Adobe-Produkten](https://helpx.adobe.com/de/firefly/using/content-credentials.html){target="_blank"}
-
-* [Leitlinien und Einschränkungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Leitlinien und Einschränkungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
