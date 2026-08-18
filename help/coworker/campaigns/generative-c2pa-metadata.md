@@ -40,4 +40,4 @@ Coworker Campaign behält Content Credentials bei, das mit unterstützten Bild-A
 
 * [Funktionsweise von Content Credentials in Adobe-Produkten](https://helpx.adobe.com/de/firefly/using/content-credentials.html){target="_blank"}
 
-* [Leitlinien und Einschränkungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Leitlinien und Einschränkungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
