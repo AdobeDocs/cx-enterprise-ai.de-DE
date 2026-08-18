@@ -2,10 +2,10 @@
 description: Erfahren Sie, wie Coworker Campaign automatisch C2PA-Metadaten (Content Credentials) auf KI-generierten und bearbeiteten Bildern anhängt und beibehält, ohne dass Maßnahmen erforderlich sind.
 title: C2PA-Metadaten in Coworker-Kampagnen
 hide: true
-source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
+source-git-commit: cf96ff8bdb16708c6726854b92d0c2d6e681817a
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 2%
+source-wordcount: '341'
+ht-degree: 5%
 
 ---
 
@@ -22,9 +22,6 @@ In der folgenden Tabelle wird zusammengefasst, wann C2PA-Metadaten angehängt we
 | Aktion | Beschreibung | C2PA-Metadaten angehängt? | Anwendungsbeispiel |
 | --- | --- | --- | --- |
 | **Bild erstellen** | Erstellen Sie ein neues Bild aus einer Textaufforderung oder einem Referenzbild oder generieren Sie ein ähnliches Bild aus einem vorhandenen. | Immer. Das Bild wird durch generative KI generiert, sodass es immer neue C2PA-Metadaten enthält. | Aus einer Textaufforderung, die das gewünschte visuelle Element beschreibt, wird ein Bannerbild für eine E-Mail-Kampagne generiert. |
-| **Beschneiden eines Bildes** (zentriert oder smartes Zuschneiden) | Anpassen eines Bildes an die angeforderten Abmessungen | Nur wenn das Quellbild bereits C2PA-Metadaten enthielt. Beim Zuschneiden werden die Pixel des Bildes neu erstellt, die normalerweise diese C2PA-Metadaten löschen würden. Daher wird es bei der Bildgenerierung in Coworker Campaign vor dem Zuschneiden aus dem Quellbild gelesen, dann neu erstellt und dem zugeschnittenen Ergebnis wieder angefügt. Beim Zuschneiden selbst wird keine neue generative KI-Aktion hinzugefügt, sondern die vorhandene beibehalten. | Ein generiertes Bannerbild wird zugeschnitten, damit es in eine Web-Seite passt: Die C2PA-Metadaten werden durch den Zuschnitt beibehalten. <br> Ein hochgeladenes Stockfoto, das als Hintergrund für eine Push-Benachrichtigung verwendet wird, wird dem Bildschirm zugeordnet: Da das Stockfoto keine generative KI-Aktion aufweist, werden keine C2PA-Metadaten erstellt. |
-| **Hinzufügen einer Textüberlagerung** | Generierten Text über einem Hintergrundbild rendern | Nur wenn das Hintergrundbild bereits C2PA-Metadaten enthielt. Durch das Rendern der Überlagerung wird ein neues Bild aus dem Hintergrund plus Text erstellt, der diese C2PA-Metadaten normalerweise löscht. Daher wird es bei der Bildgenerierung in Coworker Campaign zuvor aus dem Hintergrundbild gelesen, dann neu erstellt und dem Ergebnis wieder angehängt. Der Überlagerungsschritt fügt keine neue generative KI-Aktion hinzu. | Eine Werbe-Überschrift wird als Textüberlagerung auf einem generierten Hintergrundbild für eine Landingpage gerendert: Die C2PA-Metadaten aus dem Hintergrundbild werden beibehalten. |
-| **Überlagerungsbilder** | Zusammensetzen von zwei oder mehr Bildern | Wenn eines der Quellbilder C2PA-Metadaten aufweist, enthält das kombinierte Bild alle diese, zusammengeführt zu einem einzigen C2PA-Metadatensatz. Beim Compositing wird ein neues Bild aus den Quellen erstellt, das normalerweise diese C2PA-Metadaten löscht. Daher liest die Bildgenerierung in Coworker Campaign jedes Bild vor dem Compositing und erstellt dann einen kombinierten C2PA-Metadatendatensatz, in dem jede Quelle aufgelistet wird, die zu einer generativen KI-Aktion beigetragen hat. | Ein generiertes Produktbild wird mit einem generierten Hintergrund für einen E-Mail-Header zusammengestellt: Das Ergebnis enthält C2PA-Metadaten, die beide generativen KI-Quellen widerspiegeln. <br> Zwei hochgeladene Markenfotos werden in einer Collage zusammengestellt: Da keine der Quellen eine generative KI-Aktion trägt, werden keine C2PA-Metadaten erstellt. |
 
 ## Inhaltstypen und ihr Umfang {#cc-content-types}
 
