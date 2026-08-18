@@ -1,9 +1,13 @@
 ---
 title: Über Adobe CX Enterprise Coworker
 description: Erfahren Sie, wie Sie Ihr Marketing mit Adobe CX Enterprise Coworker auf ein höheres Niveau bringen können.
-source-git-commit: 500932a1e705af1682a71ce460b6fa62e4ffd4ac
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: 195
 ht-degree: 5%
 
 ---
@@ -31,7 +35,7 @@ broken links
 Der Coworker Chat ermöglicht es Teams, Adobe-Produktaufgaben mithilfe natürlicher Sprache zu automatisieren und Ideen schnell in Maßnahmen mit flexibler Planung, anpassbaren Fähigkeiten und intelligenter Ausführung zu verwandeln.
 
 * [Überblick](./chat/overview.md)
-* [Anwendungsfälle](./chat/use-cases/overview.md)
+* [Anwendungsszenarien](./chat/use-cases/overview.md)
 * [Handbuch für die -Benutzeroberfläche](./chat/ui-guide.md)
 
 ## Projekte (in Kürze verfügbar)
