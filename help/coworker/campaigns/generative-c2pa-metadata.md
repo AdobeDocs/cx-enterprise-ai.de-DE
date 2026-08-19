@@ -42,4 +42,4 @@ Coworker Campaign behält Content Credentials bei, das mit unterstützten Bild-A
 
 * [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Leitlinien und Einschränkungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Leitlinien und Einschränkungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
