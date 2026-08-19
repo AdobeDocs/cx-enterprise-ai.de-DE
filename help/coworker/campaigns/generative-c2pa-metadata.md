@@ -2,10 +2,10 @@
 description: Erfahren Sie, wie Coworker Campaign C2PA-Metadaten (Content Credentials) automatisch an Bilder anhängt und beibehält, von der Generierung bis zum E-Mail-Versand.
 title: C2PA-Metadaten in Coworker-Kampagnen
 hide: true
-source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
+source-git-commit: 17acfbd783e1e70b965636b806c465be8cf73522
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 6%
+source-wordcount: '380'
+ht-degree: 4%
 
 ---
 
@@ -40,8 +40,6 @@ Coworker Campaign behält Content Credentials bei, das mit unterstützten Bild-A
 
 ## Zusätzliche Ressourcen
 
-* [Weitere Informationen zu C2PA-Metadaten](https://helpx.adobe.com/de/firefly/using/content-credentials.html){target="_blank"}
-
 * [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Leitlinien und Einschränkungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Leitlinien und Einschränkungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
