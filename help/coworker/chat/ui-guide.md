@@ -1,9 +1,8 @@
 ---
 description: Ein Referenzhandbuch für die Coworker Chat-Oberfläche, das die Navigation, das Eingabefeld, Antworten, den Chat-Verlauf und die Konfiguration von Kenntnissen, MCP-Servern und Speicher behandelt.
 title: Handbuch zur Benutzeroberfläche für den Chat mit Kollegen
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: bf7465398bd73664ebd8911450dfd1173d55d6a4
 workflow-type: tm+mt
 source-wordcount: 1577
 ht-degree: 3%
@@ -13,6 +12,8 @@ ht-degree: 3%
 # Handbuch für die -Benutzeroberfläche {#ui-guide}
 
 Orientieren Sie sich an der Oberfläche des Coworker Chat . In diesem Handbuch wird alles behandelt, vom Zugriff auf die App und der Navigation im Arbeitsbereich bis hin zur optimalen Nutzung von Unterhaltungen, der Verwaltung des Verlaufs und der Anpassung des Setups.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Zugriff auf Coworker Chat
 
