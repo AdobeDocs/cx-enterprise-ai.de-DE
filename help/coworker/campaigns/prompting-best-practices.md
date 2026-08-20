@@ -1,7 +1,8 @@
 ---
 description: Erfahren Sie mehr über Coworker-Kampagnen mit Best Practices - das CO-STAR-Framework, Aufgaben und Aufgaben, nicht unterstützte Inhalte und eine Qualitätsprüfliste für Eingabeaufforderungen.
 title: Best Practices für das Prompting
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
 workflow-type: tm+mt
 source-wordcount: 532
