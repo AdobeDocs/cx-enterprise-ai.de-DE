@@ -2,9 +2,9 @@
 description: Erfahren Sie, wie Coworker Campaign C2PA-Metadaten automatisch an Bilder anhängt und speichert, von der Generierung bis zum E-Mail-Versand.
 title: C2PA-Metadaten in Coworker-Kampagnen
 hide: true
-source-git-commit: 1c24814b92c2eb3ecd7f3a54058c9a670613d814
+source-git-commit: 639602b445cba01fce2130006f98e1e388ba7d5b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
@@ -30,16 +30,14 @@ In der folgenden Tabelle wird zusammengefasst, wann C2PA-Metadaten angehängt we
 ## Inhaltstypen und ihr Umfang {#content-types}
 
 * **Bilder**: Überdeckt. C2PA-Metadaten werden angehängt, wenn Bilder mit generativer KI generiert werden, und bleiben durch Zuschneiden, Textüberlagerung und Bildüberlagerung erhalten, die von der Bildgenerierung in Coworker-Kampagnen ausgeführt werden.
-* **Text**: Nicht zutreffend. Reine Textausgaben der Bildgenerierung in Coworker-Kampagnen, wie z. B. Kopiergenerierung, Übersetzung und Vorschläge für die Markenausrichtung, erfordern keine C2PA-Metadaten.
+* **Text**: Nicht zutreffend. Reine Textausgaben in Coworker-Kampagnen, wie z. B. Kopiergenerierung, Übersetzung und Vorschläge für die Markenausrichtung, erfordern keine C2PA-Metadaten.
 
 ## Was passiert, wenn Inhalte verschoben werden? {#content-moves}
 
 Coworker Campaign behält C2PA-Metadaten bei, die mit unterstützten Bild-Assets verknüpft sind. Wenn ein Bild C2PA-Metadaten enthält, wenn es in Coworker Campaign importiert wird, bleiben diese Anmeldeinformationen erhalten, wenn das Asset in generierten Kampagneninhalten und in ausgehenden E-Mail-Erlebnissen verwendet wird.
 
-<!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
-
 ## Zusätzliche Ressourcen {#resources}
 
 * [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Leitlinien und Einschränkungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Leitlinien und Einschränkungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
