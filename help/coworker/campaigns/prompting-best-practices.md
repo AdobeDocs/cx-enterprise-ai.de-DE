@@ -3,7 +3,7 @@ description: Erfahren Sie mehr über Coworker-Kampagnen mit Best Practices - das
 title: Best Practices für das Prompting
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
 workflow-type: tm+mt
 source-wordcount: 532
 ht-degree: 37%
@@ -141,4 +141,4 @@ Geben Sie immer den Kontext und das Wertversprechen an, damit die KI relevante I
 
 >[!MORELIKETHIS]
 >
->Durchsuchen Sie mehr [Eingabeaufforderungsmuster] (./) für Kollegen-Kampagnen.
+>Durchsuchen Sie mehr [Eingabeaufforderungsmuster](use-cases.md) für Kollegen-Kampagnen.
