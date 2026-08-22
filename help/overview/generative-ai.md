@@ -98,7 +98,7 @@ Im Folgenden finden Sie eine Zusammenfassung [!DNL CX Enterprise] Anwendungen, d
 | [LLM Optimizer](https://experienceleague.adobe.com/de/docs/llm-optimizer/using/home) | Eine generative KI-First-Anwendung, die KI-Agenten verwendet, um Sichtbarkeitslücken automatisch zu identifizieren, Verbesserungen automatisch vorzuschlagen und - in ausgewählten Fällen - das Site-Erlebnis automatisch zu optimieren. | Nein |
 | [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/landing) | KI-Assistent für Produktkenntnisse und operative Erkenntnisse. | Nein |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/ai-assistant) | KI-Assistent für Produktkenntnisse und operative Erkenntnisse. | Nein |
-| | _AJO Prime_ und _Ultimate_ bieten [Inhaltserstellung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en), um proaktive Inhaltsvariantenvorschläge für Text und Bilder einzubringen. | Ja |
+| | _AJO Prime_ und _Ultimate_ bieten [Inhaltserstellung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en), um proaktive Inhaltsvariantenvorschläge für Text und Bilder einzubringen. | Ja |
 | [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | KI-Assistent für Produktkenntnisse. | Nein |
 | [[!DNL Campaign] Managed Cloud Services](https://experienceleague.adobe.com/de/docs/campaign-web/v8/content/ai-assistant/generative-gs) | KI-Assistent für Content Accelerator zur automatischen Generierung personalisierter, ansprechender und effektiver Inhalte basierend auf Marketing-Zielen über Kanäle wie E-Mail, SMS und Push hinweg. | Ja |
 | **[!DNL Customer Journey Analytics]** | GenAI wird angewendet mit:<ul><li> [Intelligente Beschriftungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): Erhalten Sie Einblicke in die am häufigsten verwendeten Workspace-Visualisierungen.</li><li>[Content Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): Zum automatischen Zuweisen von Asset-Metadaten.</li></ul> KI-Assistent für:<ul><li>[Produktkenntnisse](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[Produktsupport-Agent](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | Nein |
@@ -251,11 +251,11 @@ Im Folgenden finden Sie eine Beispieleingabe für operative Einblicke:
 
 #### KI-Assistent für die Inhaltserstellung (AJO Prime und Ultimate)
 
-In AJO _Prime_ und _Ultimate_ können Sie die [Inhaltserstellung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) für die Inhaltserstellung verwenden, um proaktive Inhaltsvariantenvorschläge für Text und Bilder einzubringen.
+In AJO _Prime_ und _Ultimate_ können Sie die [Inhaltserstellung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) für die Inhaltserstellung verwenden, um proaktive Inhaltsvariantenvorschläge für Text und Bilder einzubringen.
 
 Diese Funktion ist für E-Mail-, Push-Benachrichtigungen, Web-Seiten-, Inhalts- und SMS-Kanäle verfügbar. Es bietet eine sofortige Text- und Bildgenerierung. Ausgabe aus der Inhaltserstellung in AJO Prime und Ultimate wird entschädigt.
 
-[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="Erfahren Sie mehr über den KI-Assistenten in AJO"}
+[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="Erfahren Sie mehr über den KI-Assistenten in AJO"}
 
 +++
 
