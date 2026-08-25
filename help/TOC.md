@@ -1,15 +1,15 @@
 ---
 audience: user
-user-guide-title: Coworker
+user-guide-title: KI in CX Enterprise
 user-guide-description: Erfahren Sie anhand praktischer Dokumentation, Implementierungshandbücher und Referenzmaterialien, wie Sie KI-Assistent, Mitarbeiter, Agenten und MCPs erstellen, konfigurieren, integrieren und erweitern.
 description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2adef3bad3a31beeedc6ae722327d7f875693584
+source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 17%
+source-wordcount: '279'
+ht-degree: 18%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 17%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Über einen Kollegen](./coworker/overview.md)
   - Kampagnen {#campaigns}
