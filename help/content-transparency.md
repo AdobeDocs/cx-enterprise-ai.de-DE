@@ -118,11 +118,11 @@ Alle Adobe CX Enterprise-Anwendungen behalten jedoch ggf. vorhandene C2PA-Metada
 
 **Welche Adobe-Apps wenden C2PA-Metadaten auf bearbeitete oder erstellte generative KI an?**
 
-Unterstützte Adobe CX Enterprise-Anwendungen fügen automatisch C2PA-Metadaten an qualifizierte, GenAI-generierte und GenAI-bearbeitete Inhalte an. Weitere Informationen zu [ CX Enterprise-Anwendungen finden ](#supported-applications) im Abschnitt „Unterstützte Anwendungen“.
+Unterstützte Adobe CX Enterprise-Anwendungen fügen automatisch C2PA-Metadaten an qualifizierte, GenAI-generierte und GenAI-bearbeitete Inhalte an. Weitere Informationen zu [&#x200B; CX Enterprise-Anwendungen finden &#x200B;](#supported-applications) im Abschnitt „Unterstützte Anwendungen“.
 
 **Zu welchen Inhaltstypen fügt Adobe C2PA-Metadaten hinzu?**
 
-Im Großen und Ganzen sind Bilder, Audio, Video, Dokumente und Text im Umfang enthalten. Weitere Informationen dazu, wie jede Anwendung C2PA-Metadaten über verschiedene Produkte [ Inhaltstypen hinweg unterstützt, finden Sie jedoch in der Dokumentation ](#supported-applications) Abschnitt „Unterstützte Anwendungen“.
+Im Großen und Ganzen sind Bilder, Audio, Video, Dokumente und Text im Umfang enthalten. Weitere Informationen dazu, wie jede Anwendung C2PA-Metadaten über verschiedene Produkte [&#x200B; Inhaltstypen hinweg unterstützt, finden Sie jedoch in der Dokumentation &#x200B;](#supported-applications) Abschnitt „Unterstützte Anwendungen“.
 
 **Welche Anwendungen in Adobe CX bewahren C2PA-Metadaten während der Bearbeitung und Veröffentlichung auf?**
 
@@ -130,7 +130,7 @@ Alle Adobe CX Enterprise-Anwendungen wurden entwickelt, um C2PA-Metadaten beizub
 
 **Was passiert, wenn mehrere GenAI-generierte Bilder zu einem einzigen Bild kombiniert werden?**
 
-Die resultierenden C2PA-Metadaten hängen von der verwendeten Anwendung und dem verwendeten Workflow ab. Sofern unterstützt, behält Adobe während des gesamten Bearbeitungsprozesses Provenienzinformationen bei. Informationen zum Workflow[spezifischen Verhalten in den einzelnen ](#supported-applications-across-adobe-cx-enterprise) finden Sie im Abschnitt „Unterstützte Programme“.
+Die resultierenden C2PA-Metadaten hängen von der verwendeten Anwendung und dem verwendeten Workflow ab. Sofern unterstützt, behält Adobe während des gesamten Bearbeitungsprozesses Provenienzinformationen bei. Informationen zum Workflow[spezifischen Verhalten in den einzelnen &#x200B;](#supported-applications-across-adobe-cx-enterprise) finden Sie im Abschnitt „Unterstützte Programme“.
 
 **Was passiert, wenn GenAI-generierte Bilder aus Adobe und Nicht-Adobe-Programmen kombiniert werden?**
 
