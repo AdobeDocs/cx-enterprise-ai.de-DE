@@ -3,10 +3,10 @@ description: Durchsuchen Sie die Anwendungsfälle und Beispielaufforderungen des
 title: Anwendungsfälle für den Chat mit Kollegen
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 9188ccfc1a01288bee775bc82d84c7f252e66615
+source-git-commit: 959d2a748bc99462a60f3ecf958db623db0ac941
 workflow-type: tm+mt
-source-wordcount: 1333
-ht-degree: 7%
+source-wordcount: 1466
+ht-degree: 9%
 
 ---
 
@@ -62,6 +62,8 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten mit nat�
 | Auflösung und Verknüpfung von Entitäten | Verwenden Sie die semantische und lexikalische Suche, um Entitätsbezeichnungen in tatsächliche Experience Platform-Entitäten aufzulösen und XDM-Felder zu erkennen | `entity-linking` | Adobe Experience Platform | „Auflösen von „Holiday Shoppers“ in eine tatsächliche Zielgruppe“ ・ „Felder zum Kaufverlauf finden“ |
 | Benutzerdefinierte Fähigkeiten verwalten | Speichern, Ändern oder Löschen von benutzereigenen wiederverwendbaren Fähigkeiten, die sitzungsübergreifend bestehen bleiben | `manage-skill` | Alle infrage kommenden Anträge | „Diesen Workflow als Qualifikation speichern“ ・ „Meine wöchentlichen Berichtsqualifikationen löschen“ ・ „Diese Qualifikation wiederverwendbar machen“ |
 | Überwachen von Streaming-Kapazität und Sicherheitslücken | Überprüfen Sie die aktuelle und frühere Streaming-Nutzung, -Kapazität und den Status der Unterbrechung in allen Sandboxes | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | „Welche aktuelle Streaming-Kapazität habe ich in meiner aktuellen Sandbox?“ ・ „Überschreitet meine aktuelle Sandbox in der letzten Woche die Kapazitätsgrenzen?“ |
+| [Anzeigen der Ergebnisse der Konsistenzprüfungen](https://experienceleague.adobe.com/de/docs/experience-platform/run-and-operate/health-checks/overview) | Zeigen Sie die neueste Bewertung der Konsistenzprüfung für Ihre Sandbox an, führen Sie eine Fehlerprüfung durch und sehen Sie sich die betroffenen Entitäten an | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | „Was stimmt nicht in meiner Sandbox?“ ・ „Erzählen Sie mir von meiner neuesten Bewertung der Konsistenzprüfung“ ・ „Was sind die Probleme bei der benutzerdefinierten Namespace-Beschreibungsüberprüfung?“ |
+| Beheben von Problemen mit Konsistenzprüfungen | Beheben Sie gekennzeichnete Identity-Namespaces, Zusammenführungsrichtlinien und Schemaprobleme direkt im Chat mit Ihrer Genehmigung, bevor Änderungen vorgenommen werden | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | „Identity-Namespace-Beschreibungen beheben“ ・ „Doppelte Zusammenführungsrichtlinien-Namen beheben“ ・ „Beheben von Schemata, denen die Audit-Feldergruppe fehlt“ ・ „Beheben der standardmäßigen Benennung von Zusammenführungsrichtlinien“ |
 
 ## Sandbox-Werkzeuge
 

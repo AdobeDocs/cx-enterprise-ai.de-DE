@@ -12,9 +12,9 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: cdf395ef366771780ee549385fa5ed6aaa6bd873
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: 1194
 ht-degree: 12%
 
 ---
@@ -69,6 +69,7 @@ In der folgenden Tabelle sind Experience Platform-Agenten aufgeführt, die als K
 
 | Agent-Name | Funktionen | Unterstützte Anwendungen |
 |---|----------|----------|
+| [CX Enterprise Coworker](../coworker/overview.md) | Fungiert als agentischer Teamkollege: plant mehrstufige Arbeit aus einem in natürlicher Sprache verfassten Ziel, führt sie in Ihrem Adobe und verbundenen Systemen aus, validiert die Ergebnisse und gibt die fertige Arbeit zur Genehmigung zurück - so wird die Notwendigkeit verringert, Aufgaben manuell zu koordinieren. | <ul><li>CX Enterprise-Mitarbeiter (Chat)</li><li>CX Enterprise-Mitarbeiter (Kampagnen)</li></ul> |
 | [Experimentation Agent](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | Automatisieren, analysieren und synthetisieren Sie Einblicke, sodass Sie wirkungsvolle Experimente und Wachstumsmöglichkeiten schnell von einem zentralen Arbeitsbereich aus identifizieren können - und das bei gleichzeitiger Reduzierung manueller Prozesse. | <ul><li>AJO Experimentation Accelerator</li></ul> |
 | [LLM-Optimierungsagent](https://experienceleague.adobe.com/de/docs/llm-optimizer/using/home) | Verbesserung der Sichtbarkeit, Genauigkeit und Einflussnahme in KI-gestützten Suchumgebungen, Bereitstellung von Einblicken in das Markenpräsenz in KI-generierte Antworten, Angebot präskriptiver Inhaltsempfehlungen und Automatisierung von Optimierungskorrekturen. | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/de/docs/experience-manager-sites-optimizer/content/home) | Maximieren Sie die geschäftliche Auswirkung, indem Sie Website-Verbesserungen automatisch erkennen und bereitstellen. Durch die Verwendung generativer KI und mehrerer Überwachungstechnologien können Sie die Erfassung und Interaktion von Website-Traffic steigern und vieles mehr | <ul><li>AEM Sites Optimizer</li></ul> |
