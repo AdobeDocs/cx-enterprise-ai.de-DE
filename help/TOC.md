@@ -1,15 +1,15 @@
 ---
 audience: user
-user-guide-title: Kollegin
+user-guide-title: Coworker
 user-guide-description: Erfahren Sie anhand praktischer Dokumentation, Implementierungshandbücher und Referenzmaterialien, wie Sie KI-Assistent, Mitarbeiter, Agenten und MCPs erstellen, konfigurieren, integrieren und erweitern.
 description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
+source-git-commit: fb1f4ed99d7a7fe4338dc44c7922889e36c5ae76
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 16%
+source-wordcount: '276'
+ht-degree: 17%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 16%
   - [Über den Konsum von KI-Guthaben](./overview/ai-credit-consumption.md)
   - [Agent-KI-Überwachungs-Dashboard](./overview/monitoring.md)
   - [Agent-basierte Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
+- [Transparenz des generativen KI-Inhalts](content-transparency.md)
 - KI-Assistent {#ai-assistant}
   - [Handbuch zur Benutzeroberfläche des KI-Assistenten](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothek der Eingabeaufforderung](./ai-assistant/prompt-library.md)
@@ -55,8 +56,8 @@ ht-degree: 16%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Kollegin {#coworker}
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- Coworker {#coworker}
   - [Über einen Kollegen](./coworker/overview.md)
   - Kampagnen {#campaigns}
     - [Überblick](./coworker/campaigns/overview.md)
