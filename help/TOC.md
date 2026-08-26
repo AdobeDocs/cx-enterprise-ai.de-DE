@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
+source-git-commit: 41dce794de5268fa6f89fcd601ee53fd4da2da5b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '284'
 ht-degree: 18%
 
 ---
@@ -64,11 +64,15 @@ ht-degree: 18%
     - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
     - [Anwendungsszenarien](./coworker/campaigns/use-cases.md)
     - [Best Practices bei der Eingabeaufforderung](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[C2PA-Metadaten](./coworker/campaigns/generative-c2pa-metadata.md)
+    - [C2PA-Metadaten](./coworker/campaigns/c2pa-metadata.md)
     - Connectoren {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [HubSpot](./coworker/campaigns/connectors/hubspot.md)
     - [Versionshinweise](./coworker/campaigns/release-notes.md)
+  - Anpassungen {#customizations}
+    - Skills {#skills}
+      - [Was sind Fähigkeiten?](./coworker/customizations/skills/what-are-skills.md)
+      - [Erstellen Ihrer ersten Kenntnisse](./coworker/customizations/skills/create-your-first-skill.md)
   - Chat {#chat}
     - [Überblick](./coworker/chat/overview.md)
     - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
@@ -85,4 +89,3 @@ ht-degree: 18%
         - [Erstellen einer Herausforderung zur Treue und Aufdecken von Einblicken](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Sandbox-Werkzeuge {#sandbox-tooling}
         - [Sandbox Tooling Agent Kenntnisse](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)

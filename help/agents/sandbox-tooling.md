@@ -1,7 +1,7 @@
 ---
 title: Sandbox Tooling Agent Skills
 description: Erfahren Sie, wie Sie mit Sandbox Tooling Agent Skills Objektmetadaten in Sandbox-Umgebungen replizieren können.
-source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
+source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -62,7 +62,7 @@ So verwenden Sie Agentenfertigkeiten der Sandbox-Tools:
 
 1. Nach Abschluss der Migration sind die ausgewählten Objekte in der Ziel-Sandbox verfügbar.
 
-![Seite „Transfer abgeschlossen“ mit dem Anforderungsstatus.](./assets/sandbox-tooling/transfer-complete.png)
+   ![Seite „Transfer abgeschlossen“ mit dem Anforderungsstatus.](./assets/sandbox-tooling/transfer-complete.png)
 
 Weitere Informationen zur Verwendung von CX Coworker finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
@@ -78,7 +78,7 @@ Mithilfe von CX Coworker können Sie Objektmetadaten - einschließlich Schemata,
 
 Beispiel:
 
-> „Verschieben Sie die Platin-Mitglieder des Schemas Luma Loyalty Members aus der aktuellen Sandbox in die Produktions-Sandbox.“
+- „Verschieben Sie die Platin-Mitglieder des Schemas Luma Loyalty Members aus der aktuellen Sandbox in die Produktions-Sandbox.“
 
 ### Fördern von Zielgruppen zwischen Sandboxes
 
@@ -86,7 +86,7 @@ Als Sandbox-Administrator können Sie Zielgruppen zwischen Umgebungen weiterleit
 
 Beispiel:
 
-> „Leiten Sie die Zielgruppe mit dem Zielgruppennamen in die Staging-Sandbox hoch.“
+- „Leiten Sie die Zielgruppe mit dem Zielgruppennamen in die Staging-Sandbox hoch.“
 
 Sandbox Tooling Agent Skills identifizieren die angegebene Zielgruppe, validieren deren Abhängigkeiten und migrieren alle erforderlichen Objekte in die Ziel-Sandbox.
 
@@ -111,3 +111,4 @@ Verwenden Sie diese Eingabeaufforderungen, wenn Sie den Namen der Zielgruppe ken
 Nach dem Lesen dieses Handbuchs sollten Sie wissen, wie Sie mit den Agentenfertigkeiten der Sandbox-Tools unterstützte Objekte zwischen Sandboxes finden, verpacken und migrieren können.
 
 Weitere Informationen zum Sandbox-Tooling finden Sie im [Handbuch zum Sandbox-Tooling](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/ui/sandbox-tooling).
+
