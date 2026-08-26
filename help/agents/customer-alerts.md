@@ -31,7 +31,7 @@ Bevor Sie beginnen, stellen Sie Folgendes sicher:
 - Berechtigung zum Anzeigen von Warnhinweisen, die für Ihre Organisation relevant sind.
 - Das in CX Coworker installierte Adobe CXO-Plug-in.
 
-Anleitungen für die Installation von Plug-ins finden Sie unter https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide.
+Anleitungen für die Installation von Plug-ins finden Sie unter https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/chat/ui-guide.
 
 ## Verwendung von Warnhinweisen für Kunden {#use-customer-alert-skills}
 
