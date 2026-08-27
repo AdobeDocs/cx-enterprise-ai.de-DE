@@ -1,11 +1,10 @@
 ---
 description: Durchsuchen Sie die Anwendungsfälle und Beispielaufforderungen des Coworker Chat, sortiert nach Bereichen wie Dateneinblicke, Zielgruppen, Journey und Plattformvorgänge.
 title: Anwendungsfälle für den Chat mit Kollegen
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 74c7d4e455b0b7079b5fe85d2b5325e32fe6642e
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
 workflow-type: tm+mt
-source-wordcount: 3050
+source-wordcount: 3344
 ht-degree: 7%
 
 ---
@@ -22,7 +21,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 >
 >Alle berechtigten Kundinnen und Kunden erhalten fortlaufend Zugriff auf die Funktionen der Adobe Experience Manager-Agenten in Coworker.
 >
->Siehe auch [KI in AEM - Überblick über die Agentenfunktionen in AEM](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Siehe auch [KI in AEM - Überblick über die Agentenfunktionen in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Markenerlebnis
 
@@ -36,7 +35,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Sites](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
 ### Erlebnisproduktion - Forms-Anwendungsfälle
 
@@ -49,7 +48,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Forms](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Entwicklung
 
@@ -63,7 +62,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenerlebnis - Entwicklung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Agentenfunktionen in AEM: Markenerlebnis - Entwicklung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Onboarding - AEM Assets-Anwendungsfälle
 
@@ -76,7 +75,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agenturfunktionen in AEM: Markenerlebnis - Onboarding](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Agenturfunktionen in AEM: Markenerlebnis - Onboarding](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Content Advisor - AEM Assets-Anwendungsfälle
 
@@ -91,7 +90,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Content Advisor - Content Discovery](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Agentenfunktionen in AEM: Content Advisor - Content Discovery](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Inhaltsoptimierung
 
@@ -103,7 +102,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Inhaltsberater - Inhaltsoptimierung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Agentenfunktionen in AEM: Inhaltsberater - Inhaltsoptimierung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Marken-Governance
 
@@ -115,7 +114,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenverwaltung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Agentenfunktionen in AEM: Markenverwaltung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Dateneinblicke
 
@@ -165,7 +164,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 | Auflösung und Verknüpfung von Entitäten | Verwenden Sie die semantische und lexikalische Suche, um Entitätsbezeichnungen in tatsächliche Experience Platform-Entitäten aufzulösen und XDM-Felder zu erkennen | `entity-linking` | Adobe Experience Platform | „Auflösen von „Holiday Shoppers“ in eine tatsächliche Zielgruppe“ ・ „Felder zum Kaufverlauf finden“ |
 | Benutzerdefinierte Fähigkeiten verwalten | Speichern, Ändern oder Löschen von benutzereigenen wiederverwendbaren Fähigkeiten, die sitzungsübergreifend bestehen bleiben | `manage-skill` | Alle infrage kommenden Anträge | „Diesen Workflow als Qualifikation speichern“ ・ „Meine wöchentlichen Berichtsqualifikationen löschen“ ・ „Diese Qualifikation wiederverwendbar machen“ |
 | Überwachen von Streaming-Kapazität und Sicherheitslücken | Überprüfen Sie die aktuelle und frühere Streaming-Nutzung, -Kapazität und den Status der Unterbrechung in allen Sandboxes | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | „Welche aktuelle Streaming-Kapazität habe ich in meiner aktuellen Sandbox?“ ・ „Überschreitet meine aktuelle Sandbox in der letzten Woche die Kapazitätsgrenzen?“ |
-| [Anzeigen der Ergebnisse der Konsistenzprüfungen](https://experienceleague.adobe.com/de/docs/experience-platform/run-and-operate/health-checks/overview) | Zeigen Sie die neueste Bewertung der Konsistenzprüfung für Ihre Sandbox an, führen Sie eine Fehlerprüfung durch und sehen Sie sich die betroffenen Entitäten an | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | „Was stimmt nicht in meiner Sandbox?“ ・ „Erzählen Sie mir von meiner neuesten Bewertung der Konsistenzprüfung“ ・ „Was sind die Probleme bei der benutzerdefinierten Namespace-Beschreibungsüberprüfung?“ |
+| [Anzeigen der Ergebnisse der Konsistenzprüfungen](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Zeigen Sie die neueste Bewertung der Konsistenzprüfung für Ihre Sandbox an, führen Sie eine Fehlerprüfung durch und sehen Sie sich die betroffenen Entitäten an | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | „Was stimmt nicht in meiner Sandbox?“ ・ „Erzählen Sie mir von meiner neuesten Bewertung der Konsistenzprüfung“ ・ „Was sind die Probleme bei der benutzerdefinierten Namespace-Beschreibungsüberprüfung?“ |
 | Beheben von Problemen mit Konsistenzprüfungen | Beheben Sie gekennzeichnete Identity-Namespaces, Zusammenführungsrichtlinien und Schemaprobleme direkt im Chat mit Ihrer Genehmigung, bevor Änderungen vorgenommen werden | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | „Identity-Namespace-Beschreibungen beheben“ ・ „Doppelte Zusammenführungsrichtlinien-Namen beheben“ ・ „Beheben von Schemata, denen die Audit-Feldergruppe fehlt“ ・ „Beheben der standardmäßigen Benennung von Zusammenführungsrichtlinien“ |
 
 ## Sandbox-Werkzeuge
@@ -173,3 +172,15 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 | Anwendungsfall | Beschreibung | Skills | Anwendung | Eingabeaufforderungen |
 | --- | --- | --- | --- | --- |
 | [Objekte über Sandboxes hinweg verschieben](/help/agents/sandbox-tooling.md) | Nahtlose Migration von Schemas, Zielgruppen und anderen Objektkonfigurationen über Sandboxes hinweg, wobei Abhängigkeiten automatisch aufgelöst werden | `sandbox-tooling-workflow` | Adobe Experience Platform | „Schema-Luma-Platin-Mitglieder des Treueprogramms aus der aktuellen Sandbox in die Produktions-Sandbox verschieben“ ・ „Die Zielgruppe der US-amerikanischen Mitglieder des Treueprogramms für Gold-Mitglieder zur Staging-Umgebung bewerben“ |
+
+## Warnhinweise für Kunden
+
+| Anwendungsfall | Beschreibung | Skills | Anwendung | Eingabeaufforderungen |
+| --- | --- | --- | --- | --- |
+| Verwalten von Warnhinweis-Abonnements | Anzeigen und Verwalten von Warnhinweis-Abonnements über Konversationen in natürlicher Sprache. | `alerts-subscribe` | Adobe Experience Platform | „Welche Warnhinweise habe ich abonniert?“<br><br>„Melde mich für diesen Warnhinweis an.“<br><br>„Entfernen Sie mein Abonnement für diesen Warnhinweis.“ |
+| Warnungsaktivität überprüfen | Überprüfen des aktuellen Warnhinweisstatus und der historischen Warnhinweisaktivität für einen bestimmten Zeitraum. | `alerts-list` | Adobe Experience Platform | „Was ist in den letzten 24 Stunden passiert?“<br><br>„Welche Warnhinweise wurden in den letzten 24 Stunden ausgelöst?“<br><br>„Anzeigen aktiver Warnhinweise aus den letzten sieben Tagen.“ |
+| Identifizieren von Mustern wiederkehrender Warnhinweise | Analysieren Sie den Warnhinweisverlauf, um häufig ausgelöste Warnhinweistypen und operative Trends zu identifizieren. | `alerts-list` | Adobe Experience Platform | „Zeigen Sie mir die drei am häufigsten ausgelösten Warnhinweistypen.“<br><br>„Welche Warnhinweistypen traten in diesem Monat am häufigsten auf?“<br><br>„Welche Warnhinweismuster sehen Sie in den letzten sieben Tagen?“ |
+| Konzentration auf Themen mit hoher Priorität | Filtern Sie die Warnungsaktivität nach Schweregrad, um Ermittlungsaktivitäten zu priorisieren. | `alerts-list` | Adobe Experience Platform | „Nur Warnhinweise mit hohem Schweregrad anzeigen.“<br><br>„Welche kritischen Warnhinweise wurden diese Woche ausgelöst?“<br><br>„Anzeigen kritischer Warnhinweise aus den letzten 30 Tagen.“ |
+| Verstehen des Auswirkungsradius von Warnhinweisen | Identifizieren Sie die Objekte, die am meisten von Warnhinweisen betroffen sind, und bestimmen Sie, wo die Ermittlung beginnen soll. | `alerts-list` | Adobe Experience Platform | „Was sind die fünf am stärksten betroffenen Objekte?“<br><br>„Welche Objekte sind den Warnhinweisen mit dem höchsten Schweregrad zugeordnet?“ |
+| Verbinden von Warnhinweistypen mit betroffenen Objekten | Analysieren Sie die Beziehungen zwischen Warnhinweistypen und betroffenen Ressourcen. | `alerts-list` | Adobe Experience Platform | „Welche Warnhinweistypen haben sich am häufigsten auf diesen Datensatz ausgewirkt?“<br><br>„Zeigt die Beziehung zwischen Warnhinweistypen und betroffenen Objekten.“<br><br>„Welcher Warnhinweistyp hat das am häufigsten betroffene Objekt am häufigsten betroffen?“ |
+| Fokus auf meine Warnhinweise | Analysieren Sie Warnhinweise, die Sie abonniert haben und für die Überwachung verantwortlich sind. | `alerts-list` | Adobe Experience Platform | „Zeigen Sie mir die Warnhinweise mit hohem Schweregrad, die ich abonniert habe.“<br><br>„Welche Warnhinweise aus meinen Warnhinweisen wurden diese Woche ausgelöst?“<br><br>„Erfordert eine meiner abonnierten Warnhinweise Aufmerksamkeit?“ |
