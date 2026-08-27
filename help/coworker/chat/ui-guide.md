@@ -1,7 +1,8 @@
 ---
 description: Ein Referenzhandbuch für die Coworker Chat-Oberfläche, das die Navigation, das Eingabefeld, Antworten, den Chat-Verlauf und die Konfiguration von Kenntnissen, MCP-Servern und Speicher behandelt.
 title: Handbuch zur Benutzeroberfläche für den Chat mit Kollegen
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
 source-git-commit: b0cea8cb64bd92c97fdd85905400fd458c842af2
 workflow-type: tm+mt
@@ -22,7 +23,7 @@ Wenn Ihr Unternehmen Zugriff auf Kollegen erhält, können Sie seine Funktionen 
 
 >[!NOTE]
 >
->Auf das produktinterne Erlebnis kann über das Symbol „Mitarbeiter![ (Symbol „Mitarbeiter](./assets/icon-coworker.png) oben rechts zugegriffen werden. Die Details des immersiven Erlebnisses sind [ unten beschrieben](#immersive).
+>Auf das produktinterne Erlebnis kann über das Symbol „Mitarbeiter![&#x200B; (Symbol „Mitarbeiter](./assets/icon-coworker.png) oben rechts zugegriffen werden. Die Details des immersiven Erlebnisses sind [&#x200B; unten beschrieben](#immersive).
 
 Die folgende Tabelle erfasst, wann diese Erlebnisse für jede CX Enterprise-Anwendung verfügbar sein werden.
 
