@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 41dce794de5268fa6f89fcd601ee53fd4da2da5b
+source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '288'
 ht-degree: 18%
 
 ---
@@ -89,3 +89,6 @@ ht-degree: 18%
         - [Erstellen einer Herausforderung zur Treue und Aufdecken von Einblicken](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Sandbox-Werkzeuge {#sandbox-tooling}
         - [Sandbox Tooling Agent Kenntnisse](./agents/sandbox-tooling.md)
+      - Warnhinweise {#alerts}
+        - [Warnhinweise für Kunden](./agents/customer-alerts.md)
+
