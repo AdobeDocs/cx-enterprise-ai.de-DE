@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 4045f52a0ff95b9b64327551388fddb5a86650ea
+source-git-commit: 2c7c8a8cd40bca2e1a3cdae08f24f56e3b00daa0
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '297'
 ht-degree: 18%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 18%
 
 - [KI in CX Enterprise-Anwendungen](home.md)
 - Über KI in CX Enterprise {#overview}
+  - [Über KI in CX Enterprise](./overview/overview-ai-cxe.md)
   - [Über generative KI](./overview/generative-ai.md)
   - [Über die agentische KI](./overview/agentic-ai.md)
   - [Über den Konsum von KI-Guthaben](./overview/ai-credit-consumption.md)
@@ -56,7 +57,7 @@ ht-degree: 18%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Über einen Kollegen](./coworker/overview.md)
   - Kampagnen {#campaigns}
