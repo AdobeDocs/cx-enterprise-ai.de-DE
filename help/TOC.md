@@ -6,18 +6,19 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 18%
+source-wordcount: '296'
+ht-degree: 19%
 
 ---
 
 
 # KI in CX Enterprise {#experience-cloud-ai}
 
-- [KI in CX Enterprise-Anwendungen](home.md)
+- [KI in CX Enterprise](home.md)
 - Über KI in CX Enterprise {#overview}
+  - [Über KI in CX Enterprise](./overview/overview-ai-cxe.md)
   - [Über generative KI](./overview/generative-ai.md)
   - [Über die agentische KI](./overview/agentic-ai.md)
   - [Über den Konsum von KI-Guthaben](./overview/ai-credit-consumption.md)
@@ -76,6 +77,7 @@ ht-degree: 18%
   - Chat {#chat}
     - [Überblick](./coworker/chat/overview.md)
     - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
+    - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
     - Anwendungsszenarien {#use-cases}
       - [Anwendungsfälle für den Chat mit Kollegen](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}

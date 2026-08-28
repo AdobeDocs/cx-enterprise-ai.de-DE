@@ -4,10 +4,10 @@ title: Handbuch zur Benutzeroberfläche für den Chat mit Kollegen
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
+source-git-commit: b0cea8cb64bd92c97fdd85905400fd458c842af2
 workflow-type: tm+mt
-source-wordcount: 1577
-ht-degree: 3%
+source-wordcount: 1718
+ht-degree: 4%
 
 ---
 
@@ -18,6 +18,25 @@ Orientieren Sie sich an der Oberfläche des Coworker Chat . In diesem Handbuch w
 >[!VIDEO](https://video.tv.adobe.com/v/3498574?captions=ger&learn=on)
 
 ## Zugriff auf Coworker Chat
+
+Wenn Ihr Unternehmen Zugriff auf Kollegen erhält, können Sie seine Funktionen entweder über das immersive Erlebnis oder über ein produktinternes Erlebnis nutzen.
+
+>[!NOTE]
+>
+>Auf das produktinterne Erlebnis kann über das Symbol „Mitarbeiter![&#x200B; (Symbol „Mitarbeiter](./assets/icon-coworker.png) oben rechts zugegriffen werden. Die Details des immersiven Erlebnisses sind [&#x200B; unten beschrieben](#immersive).
+
+Die folgende Tabelle erfasst, wann diese Erlebnisse für jede CX Enterprise-Anwendung verfügbar sein werden.
+
+| CX Enterprise-Anwendung | immersives Erlebnis | Produkterlebnis |
+|---|---|---|
+| RTCDP | Jetzt verfügbar | Bald verfügbar |
+| AJO | Jetzt verfügbar | Bald verfügbar |
+| CJA | Jetzt verfügbar | Bald verfügbar |
+| AEM | Im September 2026 verfügbar | Bald verfügbar |
+| Workfront | Im September 2026 verfügbar | Bald verfügbar:<br><br>* Anfang September 2026 im Vorschaumodus für ausgewählte Workfront-Systemadministratoren<br><br>* Mitte September 2026 im Produktionsmodus für berechtigte Kunden von Workfront mit Schnellveröffentlichung<br><br>* Mitte Oktober 2026 im Produktionsmodus für berechtigte Kunden von Workfront mit vierteljährlicher Veröffentlichung |
+| Target | Im September 2026 verfügbar | Bald verfügbar |
+
+### immersives Erlebnis {#immersive}
 
 Greifen Sie auf den Coworker Chat zu, indem Sie zu [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker) navigieren und sich mit Ihren Adobe-Anmeldeinformationen anmelden.
 
