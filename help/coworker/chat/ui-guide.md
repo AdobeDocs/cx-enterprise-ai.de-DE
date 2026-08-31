@@ -4,9 +4,9 @@ title: Handbuch zur Benutzeroberfläche für den Chat mit Kollegen
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: b0cea8cb64bd92c97fdd85905400fd458c842af2
+source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
 workflow-type: tm+mt
-source-wordcount: 1718
+source-wordcount: 1713
 ht-degree: 4%
 
 ---
@@ -32,9 +32,9 @@ Die folgende Tabelle erfasst, wann diese Erlebnisse für jede CX Enterprise-Anwe
 | RTCDP | Jetzt verfügbar | Bald verfügbar |
 | AJO | Jetzt verfügbar | Bald verfügbar |
 | CJA | Jetzt verfügbar | Bald verfügbar |
-| AEM | Im September 2026 verfügbar | Bald verfügbar |
-| Workfront | Im September 2026 verfügbar | Bald verfügbar:<br><br>* Anfang September 2026 im Vorschaumodus für ausgewählte Workfront-Systemadministratoren<br><br>* Mitte September 2026 im Produktionsmodus für berechtigte Kunden von Workfront mit Schnellveröffentlichung<br><br>* Mitte Oktober 2026 im Produktionsmodus für berechtigte Kunden von Workfront mit vierteljährlicher Veröffentlichung |
-| Target | Im September 2026 verfügbar | Bald verfügbar |
+| AEM | September 2026 | Bald verfügbar |
+| Workfront | September 2026 | Bald verfügbar:<br><br>* Anfang September 2026 in der Vorschauinstanz für ausgewählte geeignete Workfront-Systemadministratoren<br><br>* Mitte September 2026 in der Produktionsinstanz für geeignete Kunden von Workfront mit Schnellveröffentlichung<br><br>* Mitte Oktober 2026 in der Produktionsinstanz für geeignete Kunden von Workfront mit vierteljährlicher Veröffentlichung |
+| Target | September 2026 | Bald verfügbar |
 
 ### immersives Erlebnis {#immersive}
 
