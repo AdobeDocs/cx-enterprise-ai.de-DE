@@ -1,12 +1,10 @@
 ---
 title: Transparenz des generativen KI-Inhalts
 description: Erfahren Sie, wie Adobe automatisch C2PA-Metadaten an von GenAI generierte und von GenAI bearbeitete Inhalte in Adobe CX Enterprise-Anwendungen anhängt.
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 1ff44fcfab1a304b3640032d6c0985795f580e5e
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+source-git-commit: 32faffcdcaedc9ae601e601ad92d58b48743af66
 workflow-type: tm+mt
-source-wordcount: 1745
+source-wordcount: 1743
 ht-degree: 2%
 
 ---
@@ -64,7 +62,7 @@ Adobe steuert nicht, wie externe Services C2PA-Metadaten interpretieren, anzeige
 
 Unter bestimmten Umständen und in bestimmten Regionen können Unternehmen sich dafür entscheiden oder dazu verpflichtet sein, von GenAI generierte oder von GenAI bearbeitete Inhalte sichtbar zu identifizieren.
 
-Adobe bietet [Anleitungen](https://helpx.adobe.com/de/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) zur Verwendung vorhandener Wasserzeichenfunktionen, die über Adobe-Programme unterstützt werden. Ob ein sichtbares Wasserzeichen erforderlich ist, hängt von den Geschäftsanforderungen eines Unternehmens und den geltenden Gesetzen und Vorschriften in den Rechtssystemen ab, in denen Inhalte veröffentlicht werden.
+Adobe bietet [Anleitungen](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) zur Verwendung vorhandener Wasserzeichenfunktionen, die über Adobe-Programme unterstützt werden. Ob ein sichtbares Wasserzeichen erforderlich ist, hängt von den Geschäftsanforderungen eines Unternehmens und den geltenden Gesetzen und Vorschriften in den Rechtssystemen ab, in denen Inhalte veröffentlicht werden.
 
 >[!NOTE]
 >
@@ -86,7 +84,7 @@ C2PA-Metadaten werden automatisch an unterstützte GenAI-generierte und GenAI-be
 
 ### Wasserzeichenführung
 
-Adobe bietet [Dokumentation](https://helpx.adobe.com/de/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) in der beschrieben wird, wie bestehende Wasserzeichenfunktionen, die in unterstützten Adobe-Anwendungen verfügbar sind, für Organisationen verwendet werden können, die sichtbare Kennzeichnungen anwenden möchten oder müssen.
+Adobe bietet [Dokumentation](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) in der beschrieben wird, wie bestehende Wasserzeichenfunktionen, die in unterstützten Adobe-Anwendungen verfügbar sind, für Organisationen verwendet werden können, die sichtbare Kennzeichnungen anwenden möchten oder müssen.
 
 ## Unterstützte Anwendungen in Adobe CX Enterprise {#supported-applications}
 
@@ -100,34 +98,34 @@ Alle Adobe CX Enterprise-Anwendungen behalten jedoch ggf. vorhandene C2PA-Metada
 
 | application/solution | Versionshinweise/Anleitungen |
 |---|---|
-| Adobe Advertising Cloud | [Dokumentation](https://experienceleague.adobe.com/de/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
-| Adobe Experience Manager (AEM) | [Dokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
-| KI-Assistent für die Inhaltserstellung (Funktion in Adobe Journey Optimizer/Adobe Campaign) | [Dokumentation](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
-| Adobe Journey Optimizer B2B Ultimate | [Dokumentation](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2B Prime (auch bekannt als Adobe Marketo Optimizer) | [Dokumentation](https://experienceleague.adobe.com/de/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Adobe Advertising Cloud | [Dokumentation](https://experienceleague.adobe.com/en/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
+| Adobe Experience Manager (AEM) | [Dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
+| Generieren von Inhalten (Funktion in Adobe Journey Optimizer/Adobe Campaign) | [Dokumentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
+| Adobe Journey Optimizer B2B Ultimate | [Dokumentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2B Prime (auch bekannt als Adobe Marketo Optimizer) | [Dokumentation](https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2C | [Dokumentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
 | Adobe Campaign | [Dokumentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
-| Adobe Commerce | [Dokumentation](https://experienceleague.adobe.com/de/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
-| GenStudio for Performance Marketing | [Dokumentation](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
-| Adobe Marketo Engage | [Dokumentation](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
-| Adobe Workfront | [Dokumentation](https://experienceleague.adobe.com/de/docs/workfront/using/documents/c2pa-metadata-overview) |
-| CX Enterprise Coworker-Kampagnen (ehemals HALO) | [Dokumentation](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| Adobe Commerce | [Dokumentation](https://experienceleague.adobe.com/en/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
+| GenStudio for Performance Marketing | [Dokumentation](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
+| Adobe Marketo Engage | [Dokumentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
+| Adobe Workfront | [Dokumentation](https://experienceleague.adobe.com/en/docs/workfront/using/documents/c2pa-metadata-overview) |
+| CX Enterprise Coworker-Kampagnen (ehemals HALO) | [Dokumentation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
 
 ## Verwandte Links
 
-* [Anleitung für sichtbare Wasserzeichen](https://helpx.adobe.com/de/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
+* [Anleitung für sichtbare Wasserzeichen](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
 * [Adobe-Prüfung](https://contentauthenticity.adobe.com/inspect)
-* [Überblick über die Adobe GenAI Labeling Compliance Initiative](https://helpx.adobe.com/de/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
+* [Überblick über die Adobe GenAI Labeling Compliance Initiative](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
 
 ## Häufig gestellte Fragen
 
 **Welche Adobe-Apps wenden C2PA-Metadaten auf bearbeitete oder erstellte generative KI an?**
 
-Unterstützte Adobe CX Enterprise-Anwendungen fügen automatisch C2PA-Metadaten an qualifizierte, GenAI-generierte und GenAI-bearbeitete Inhalte an. Weitere Informationen zu [&#x200B; CX Enterprise-Anwendungen finden &#x200B;](#supported-applications) im Abschnitt „Unterstützte Anwendungen“.
+Unterstützte Adobe CX Enterprise-Anwendungen fügen automatisch C2PA-Metadaten an qualifizierte, GenAI-generierte und GenAI-bearbeitete Inhalte an. Weitere Informationen zu [ CX Enterprise-Anwendungen finden ](#supported-applications) im Abschnitt „Unterstützte Anwendungen“.
 
 **Zu welchen Inhaltstypen fügt Adobe C2PA-Metadaten hinzu?**
 
-Im Großen und Ganzen sind Bilder, Audio, Video, Dokumente und Text im Umfang enthalten. Weitere Informationen dazu, wie jede Anwendung C2PA-Metadaten über verschiedene Produkte [&#x200B; Inhaltstypen hinweg unterstützt, finden Sie jedoch in der Dokumentation &#x200B;](#supported-applications) Abschnitt „Unterstützte Anwendungen“.
+Im Großen und Ganzen sind Bilder, Audio, Video, Dokumente und Text im Umfang enthalten. Weitere Informationen dazu, wie jede Anwendung C2PA-Metadaten über verschiedene Produkte [ Inhaltstypen hinweg unterstützt, finden Sie jedoch in der Dokumentation ](#supported-applications) Abschnitt „Unterstützte Anwendungen“.
 
 **Welche Anwendungen in Adobe CX bewahren C2PA-Metadaten während der Bearbeitung und Veröffentlichung auf?**
 
@@ -135,7 +133,7 @@ Alle Adobe CX Enterprise-Anwendungen wurden entwickelt, um C2PA-Metadaten beizub
 
 **Was passiert, wenn mehrere GenAI-generierte Bilder zu einem einzigen Bild kombiniert werden?**
 
-Die resultierenden C2PA-Metadaten hängen von der verwendeten Anwendung und dem verwendeten Workflow ab. Sofern unterstützt, behält Adobe während des gesamten Bearbeitungsprozesses Provenienzinformationen bei. Informationen zum Workflow[spezifischen Verhalten in den einzelnen &#x200B;](#supported-applications-across-adobe-cx-enterprise) finden Sie im Abschnitt „Unterstützte Programme“.
+Die resultierenden C2PA-Metadaten hängen von der verwendeten Anwendung und dem verwendeten Workflow ab. Sofern unterstützt, behält Adobe während des gesamten Bearbeitungsprozesses Provenienzinformationen bei. Informationen zum Workflow[spezifischen Verhalten in den einzelnen ](#supported-applications-across-adobe-cx-enterprise) finden Sie im Abschnitt „Unterstützte Programme“.
 
 **Was passiert, wenn GenAI-generierte Bilder aus Adobe und Nicht-Adobe-Programmen kombiniert werden?**
 
