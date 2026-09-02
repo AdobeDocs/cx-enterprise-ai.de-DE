@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
+source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '304'
 ht-degree: 19%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 19%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Über einen Kollegen](./coworker/overview.md)
   - Kampagnen {#campaigns}
@@ -93,4 +93,6 @@ ht-degree: 19%
         - [Sandbox Tooling Agent Kenntnisse](./agents/sandbox-tooling.md)
       - Warnhinweise {#alerts}
         - [Warnhinweise für Kunden](./agents/customer-alerts.md)
-
+      - Inhaltsratgeber {#content-advisor}
+        - [Generieren von Marketing-Assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
+        - [Prüfung der Markenkonformität](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
