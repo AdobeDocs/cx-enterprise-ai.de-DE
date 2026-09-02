@@ -1,9 +1,9 @@
 ---
 description: Erfahren Sie, wie Sie Ihr Marketo Engage-Konto mit Coworker Campaign verbinden, damit Sie Smart- und Static-Listen von Marketo synchronisieren können.
 title: Verbindung mit Marketo Engage herstellen
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 311
 ht-degree: 0%
@@ -20,11 +20,11 @@ Mit Adobe Coworker-Kampagnen können Sie Ihr Marketo Engage-Konto verbinden, um 
 >
 >* Ein gültiges Marketo Engage-Konto
 >* Ihre Marketo **Instanz-URL**
->* Ein [benutzerdefinierter Service](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/rest/custom-services#custom-services-1) der für Coworker-Kampagnen in Marketo erstellt wurde, mit [Client-ID und &#x200B;](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token) Client-Geheimnis)
+>* Ein [benutzerdefinierter Service](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1) der für Coworker-Kampagnen in Marketo erstellt wurde, mit [Client-ID und ](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token) Client-Geheimnis)
 
 ## So verbinden Sie sich
 
-1. Klicken Sie auf der [Startseite von &#x200B;](https://coworker-campaigns.experience.adobe.com/)-Kampagnen auf **Anpassen** und wählen Sie **Connectoren**.
+1. Klicken Sie auf der [Startseite von ](https://coworker-campaigns.experience.adobe.com/)-Kampagnen auf **Anpassen** und wählen Sie **Connectoren**.
 
    ![Coworker-Kampagnen - linker Navigationsbereich mit hervorgehobener Option „Anpassen“ und „Connectoren“](./assets/marketo-1.png)
 

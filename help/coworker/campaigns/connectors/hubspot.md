@@ -1,9 +1,9 @@
 ---
 description: Verbinden Sie Ihr HubSpot-Konto mit Coworker Campaign, indem Sie einen Service-Schlüssel verwenden, um Kontaktlisten zu synchronisieren und dann die Integration jederzeit zu verwalten oder zu trennen.
 title: Mit HubSpot verbinden
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 258
 ht-degree: 0%
@@ -23,7 +23,7 @@ Mit Adobe Coworker Campaign können Sie Ihr HubSpot-Konto verbinden, um Kontaktl
 
 ## So verbinden Sie sich
 
-1. Klicken Sie auf der [Startseite von &#x200B;](https://coworker-campaigns.experience.adobe.com/)-Kampagnen auf **Anpassen** und wählen Sie **Connectoren**.
+1. Klicken Sie auf der [Startseite von ](https://coworker-campaigns.experience.adobe.com/)-Kampagnen auf **Anpassen** und wählen Sie **Connectoren**.
 
    ![Das Menü „Anpassen“ wurde in der Seitenleiste erweitert, wobei Connectoren ausgewählt sind](./assets/hubspot-1.png)
 

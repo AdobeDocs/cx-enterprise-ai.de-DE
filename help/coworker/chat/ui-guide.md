@@ -1,10 +1,10 @@
 ---
 description: Ein Referenzhandbuch für die Coworker Chat-Oberfläche, das die Navigation, das Eingabefeld, Antworten, den Chat-Verlauf und die Konfiguration von Kenntnissen, MCP-Servern und Speicher behandelt.
 title: Handbuch zur Benutzeroberfläche für den Chat mit Kollegen
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 1713
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Orientieren Sie sich an der Oberfläche des Coworker Chat . In diesem Handbuch wird alles behandelt, vom Zugriff auf die App und der Navigation im Arbeitsbereich bis hin zur optimalen Nutzung von Unterhaltungen, der Verwaltung des Verlaufs und der Anpassung des Setups.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498574?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Zugriff auf Coworker Chat
 
@@ -23,7 +23,7 @@ Wenn Ihr Unternehmen Zugriff auf Kollegen erhält, können Sie seine Funktionen 
 
 >[!NOTE]
 >
->Auf das produktinterne Erlebnis kann über das Symbol „Mitarbeiter![&#x200B; (Symbol „Mitarbeiter](./assets/icon-coworker.png) oben rechts zugegriffen werden. Die Details des immersiven Erlebnisses sind [&#x200B; unten beschrieben](#immersive).
+>Auf das produktinterne Erlebnis kann über das Symbol „Mitarbeiter![ (Symbol „Mitarbeiter](./assets/icon-coworker.png) oben rechts zugegriffen werden. Die Details des immersiven Erlebnisses sind [ unten beschrieben](#immersive).
 
 Die folgende Tabelle erfasst, wann diese Erlebnisse für jede CX Enterprise-Anwendung verfügbar sein werden.
 

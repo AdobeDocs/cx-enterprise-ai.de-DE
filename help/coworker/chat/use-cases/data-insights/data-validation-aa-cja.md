@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22083
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 1527
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->Befolgen Sie die Schritte auf dieser Seite erst, nachdem Sie alle vorherigen Upgrade-Schritte abgeschlossen haben. Sie können die empfohlenen Upgrade-Schritte (empfohlen für die meisten Unternehmen) oder die für Ihr Unternehmen dynamisch generierten Schritte mit dem Customer Journey Analytics Upgrade Guide ausführen. <ul><li>**Empfohlene Upgrade-Schritte** (für die meisten Unternehmen empfohlen)<p>Eine Reihe von Schritten, die zu einer optimalen Customer Journey Analytics-Implementierung führen.</p><p>Detaillierte Informationen finden Sie unter [Upgrade von Adobe Analytics auf Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Customer Journey Analytics-Aktualisierungshandbuch** (Benutzerdefinierte Schritte, die auf die spezifischen Anforderungen Ihres Unternehmens zugeschnitten sind)<p>Es ist ein neues Upgrade-Handbuch verfügbar, in dem dynamisch Upgrade-Schritte generiert werden, die für Ihr Unternehmen und Ihre individuellen Bedingungen maßgeschneidert sind.</p><p>Um über Customer Journey Analytics auf das Handbuch zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL Workspace]** und dann **[!UICONTROL Upgrade auf Customer Journey Analytics]** im linken Bereich aus. Befolgen Sie die Anweisungen auf dem Bildschirm.</p></li></ul>
+>Befolgen Sie die Schritte auf dieser Seite erst, nachdem Sie alle vorherigen Upgrade-Schritte abgeschlossen haben. Sie können die empfohlenen Upgrade-Schritte (empfohlen für die meisten Unternehmen) oder die für Ihr Unternehmen dynamisch generierten Schritte mit dem Customer Journey Analytics Upgrade Guide ausführen. <ul><li>**Empfohlene Upgrade-Schritte** (für die meisten Unternehmen empfohlen)<p>Eine Reihe von Schritten, die zu einer optimalen Customer Journey Analytics-Implementierung führen.</p><p>Detaillierte Informationen finden Sie unter [Upgrade von Adobe Analytics auf Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Customer Journey Analytics-Aktualisierungshandbuch** (Benutzerdefinierte Schritte, die auf die spezifischen Anforderungen Ihres Unternehmens zugeschnitten sind)<p>Es ist ein neues Upgrade-Handbuch verfügbar, in dem dynamisch Upgrade-Schritte generiert werden, die für Ihr Unternehmen und Ihre individuellen Bedingungen maßgeschneidert sind.</p><p>Um über Customer Journey Analytics auf das Handbuch zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL Workspace]** und dann **[!UICONTROL Upgrade auf Customer Journey Analytics]** im linken Bereich aus. Befolgen Sie die Anweisungen auf dem Bildschirm.</p></li></ul>
 
 Der -Mitarbeiter verfügt über eine Validierungsfertigkeit, mit der Sie Daten beim Upgrade von Adobe Analytics auf Customer Journey Analytics validieren können. Die Datenvalidierung wird in einer einzigen Konversation abgeschlossen.
 
@@ -43,7 +43,7 @@ Zur Datenvalidierung im Rahmen des Upgrades benötigen Sie Folgendes:
 
 Sie müssen nicht wissen, wie Ihre Implementierung aufgebaut ist. Die Qualifikation erkennt automatisch, ob Ihre Customer Journey Analytics-Implementierung den Analytics Source Connector oder eine neue Implementierung der Experience Platform Web SDK verwendet.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496864/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496846/?learn=on&enablevpops)
 
 ## Starten einer Validierungssitzung
 
@@ -192,7 +192,7 @@ Sie können einzelne Metriken oder Dimensionen oder alle Metriken und Dimensione
 
    Dazu müssen Sie den Einrichtungsprozess nicht wiederholen. Die Auswahl von Unternehmen, Report Suites und Datenansichten wird im gesamten Gespräch übernommen.
 
-1. Fahren Sie mit den [empfohlenen Upgrade-Schritten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) oder den dynamisch generierten Upgrade-Schritten im Customer Journey Analytics-Upgrade-Handbuch fort.
+1. Fahren Sie mit den [empfohlenen Upgrade-Schritten](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) oder den dynamisch generierten Upgrade-Schritten im Customer Journey Analytics-Upgrade-Handbuch fort.
 
    Um über Customer Journey Analytics auf das Customer Journey Analytics-Aktualisierungshandbuch zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL Workspace]** und dann **[!UICONTROL Upgrade auf Customer Journey Analytics]** im linken Bereich aus. Befolgen Sie die Anweisungen auf dem Bildschirm.
 
