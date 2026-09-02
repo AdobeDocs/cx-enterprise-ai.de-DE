@@ -24,7 +24,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 >
 >Alle berechtigten Kundinnen und Kunden erhalten fortlaufend Zugriff auf die Funktionen der Adobe Experience Manager-Agenten in Coworker.
 >
->Siehe auch [KI in AEM - Überblick über die Agentenfunktionen in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Siehe auch [KI in AEM - Überblick über die Agentenfunktionen in AEM](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Markenerlebnis
 
@@ -43,9 +43,9 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Sites](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Forms](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Entwicklung
 
@@ -58,7 +58,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenerlebnis - Entwicklung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Agentenfunktionen in AEM: Markenerlebnis - Entwicklung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Einstieg
 
@@ -71,7 +71,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agenturfunktionen in AEM: Markenerlebnis - Onboarding](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Agenturfunktionen in AEM: Markenerlebnis - Onboarding](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Inhaltsratgeber
 
@@ -86,7 +86,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Content Advisor - Content Discovery](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Agentenfunktionen in AEM: Content Advisor - Content Discovery](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Inhaltsoptimierung
 
@@ -98,7 +98,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Inhaltsberater - Inhaltsoptimierung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Agentenfunktionen in AEM: Inhaltsberater - Inhaltsoptimierung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Marken-Governance
 
@@ -110,7 +110,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenverwaltung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Agentenfunktionen in AEM: Markenverwaltung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Dateneinblicke
 
@@ -160,7 +160,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 | Auflösung und Verknüpfung von Entitäten | Verwenden Sie die semantische und lexikalische Suche, um Entitätsbezeichnungen in tatsächliche Experience Platform-Entitäten aufzulösen und XDM-Felder zu erkennen | `entity-linking` | Adobe Experience Platform | „Auflösen von „Holiday Shoppers“ in eine tatsächliche Zielgruppe“ <br> „Felder für „Mich finden“ im Zusammenhang mit dem Kaufverlauf“ |
 | Benutzerdefinierte Fähigkeiten verwalten | Speichern, Ändern oder Löschen von benutzereigenen wiederverwendbaren Fähigkeiten, die sitzungsübergreifend bestehen bleiben | `manage-skill` | Alle infrage kommenden Anträge | „Diesen Workflow als Qualifikation speichern“ <br> „Meine wöchentlichen Berichtsqualifikationen löschen“ <br> „Diese Qualifikation wiederverwendbar machen“ |
 | Überwachen von Streaming-Kapazität und Sicherheitslücken | Überprüfen Sie die aktuelle und frühere Streaming-Nutzung, -Kapazität und den Status der Unterbrechung in allen Sandboxes | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | „Wie hoch ist meine aktuelle Streaming-Kapazität in meiner aktuellen Sandbox?“ <br> „Überschreitet meine aktuelle Sandbox in der letzten Woche die Kapazitätsbeschränkungen?“ |
-| [Anzeigen der Ergebnisse der Konsistenzprüfungen](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Zeigen Sie die neueste Bewertung der Konsistenzprüfung für Ihre Sandbox an, führen Sie eine Fehlerprüfung durch und sehen Sie sich die betroffenen Entitäten an | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | „Was ist los in meiner Sandbox?“ <br> „Erzählen Sie mir von meiner neuesten Bewertung der Konsistenzprüfung“ <br> „Was sind die Probleme bei der benutzerdefinierten Namespace-Beschreibungsüberprüfung?“ |
+| [Anzeigen der Ergebnisse der Konsistenzprüfungen](https://experienceleague.adobe.com/de/docs/experience-platform/run-and-operate/health-checks/overview) | Zeigen Sie die neueste Bewertung der Konsistenzprüfung für Ihre Sandbox an, führen Sie eine Fehlerprüfung durch und sehen Sie sich die betroffenen Entitäten an | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | „Was ist los in meiner Sandbox?“ <br> „Erzählen Sie mir von meiner neuesten Bewertung der Konsistenzprüfung“ <br> „Was sind die Probleme bei der benutzerdefinierten Namespace-Beschreibungsüberprüfung?“ |
 | Beheben von Problemen mit Konsistenzprüfungen | Beheben Sie gekennzeichnete Identity-Namespaces, Zusammenführungsrichtlinien und Schemaprobleme direkt im Chat mit Ihrer Genehmigung, bevor Änderungen vorgenommen werden | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | „Identity-Namespace-Beschreibungen korrigieren“ <br> „Doppelte Zusammenführungsrichtlinien-Namen korrigieren“ <br> „Fehlende Überwachungsfeldgruppe in Schemas beheben“ <br> „Standardbenennung der Zusammenführungsrichtlinie korrigieren“ |
 
 ## Sandbox-Werkzeuge
