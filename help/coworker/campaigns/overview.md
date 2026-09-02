@@ -1,8 +1,10 @@
 ---
 description: Erfahren Sie mehr über Adobe CX Enterprise Coworker Campaign, eine KI-native Marketing-Anwendung, die eine einzelne Eingabeaufforderung in eine überprüfungsbereite Kampagne verwandelt.
 title: Adobe CX Enterprise-Mitarbeiter - Übersicht
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 950
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 Coworker Campaign ist eine KI-native Marketing-Anwendung, die Sie von einer einzigen Eingabeaufforderung zu einer vollständigen Kampagne für die Bearbeitung bis zur vollständigen Überprüfung führt.
 
-Zu diesem Zeitpunkt werden Sie bei allen Interaktionen mit der KI auf die [Kampagnenerstellung](./) geleitet. Weitere Funktionen folgen in Kürze.
+Zu diesem Zeitpunkt werden Sie bei allen Interaktionen mit der KI auf die [Kampagnenerstellung] (./) geleitet. Weitere Funktionen folgen in Kürze.
 
 ## Zugriff
 

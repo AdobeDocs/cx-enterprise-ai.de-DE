@@ -1,8 +1,10 @@
 ---
 description: Eine schrittweise Anleitung zum Generieren einer E-Mail-Kampagne in Adobe CX Enterprise Coworker Campaign, vom Schreiben von Eingabeaufforderungen bis zum Überprüfen und Exportieren Ihrer Kampagne.
 title: Erstellen einer E-Mail-Kampagne
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 976
@@ -111,7 +113,7 @@ Es gibt zwei Möglichkeiten, Ihre Inhalte zu aktualisieren.
 
 * Nehmen Sie die gewünschten Änderungen manuell vor, indem Sie verschiedene Abschnitte in der E-Mail auswählen (z. B. Betreffzeile ersetzen, Bild aktualisieren usw.).
 
-- oder -
+&#x200B;- oder -
 
 * Verwenden Sie die Benutzeroberfläche „Konversation“, um Änderungen vorzunehmen, indem Sie direkt mit Kollegen-Kampagnen sprechen. Einige Beispiele:
 

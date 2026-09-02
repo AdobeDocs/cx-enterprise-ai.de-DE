@@ -7,7 +7,8 @@ doc-type: Feature Video
 duration: 223
 last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 220
@@ -45,6 +46,7 @@ Viele Unternehmen führen dieselben Aufgaben wiederholt aus, darunter:
 
 Mithilfe von Kenntnissen können Teams diese Best Practices erfassen und wiederverwenden, ohne den Prozess jedes Mal manuell neu zu erklären.
  
+
 ## Qualifikationen und Data Governance
 
 Skills speichern keine Kundendaten.
