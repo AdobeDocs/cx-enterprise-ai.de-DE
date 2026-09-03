@@ -1,10 +1,12 @@
 ---
 description: Ein Referenzhandbuch für die Coworker Chat-Oberfläche, das die Navigation, das Eingabefeld, Antworten, den Chat-Verlauf und die Konfiguration von Kenntnissen, MCP-Servern und Speicher behandelt.
 title: Handbuch zur Benutzeroberfläche für den Chat mit Kollegen
+jira: KT-22106
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-jira: KT-22106
-source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 1713
 ht-degree: 4%
