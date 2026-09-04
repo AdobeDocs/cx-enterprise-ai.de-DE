@@ -6,7 +6,7 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+source-git-commit: 73f2a00a3438903f72cddb35c3a5c47196b5821a
 workflow-type: tm+mt
 source-wordcount: 1713
 ht-degree: 4%
@@ -34,9 +34,9 @@ Die folgende Tabelle erfasst, wann diese Erlebnisse für jede CX Enterprise-Anwe
 | RTCDP | Jetzt verfügbar | Bald verfügbar |
 | AJO | Jetzt verfügbar | Bald verfügbar |
 | CJA | Jetzt verfügbar | Bald verfügbar |
+| Workfront | Jetzt verfügbar | Bald verfügbar:<br><br>* Anfang September 2026 in der Vorschauinstanz für ausgewählte geeignete Workfront-Systemadministratoren<br><br>* Mitte September 2026 in der Produktionsinstanz für geeignete Kunden von Workfront mit Schnellveröffentlichung<br><br>* Mitte Oktober 2026 in der Produktionsinstanz für geeignete Kunden von Workfront mit vierteljährlicher Veröffentlichung |
+| Target | Jetzt verfügbar | Jetzt verfügbar |
 | AEM | September 2026 | Bald verfügbar |
-| Workfront | September 2026 | Bald verfügbar:<br><br>* Anfang September 2026 in der Vorschauinstanz für ausgewählte geeignete Workfront-Systemadministratoren<br><br>* Mitte September 2026 in der Produktionsinstanz für geeignete Kunden von Workfront mit Schnellveröffentlichung<br><br>* Mitte Oktober 2026 in der Produktionsinstanz für geeignete Kunden von Workfront mit vierteljährlicher Veröffentlichung |
-| Target | September 2026 | Bald verfügbar |
 
 ### immersives Erlebnis {#immersive}
 
