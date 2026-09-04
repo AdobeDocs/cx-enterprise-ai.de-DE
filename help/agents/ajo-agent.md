@@ -29,10 +29,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
 workflow-type: tm+mt
-source-wordcount: 3361
-ht-degree: 12%
+source-wordcount: 3372
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 12%
 
 >[!AVAILABILITY]
 >
->Journey Agent-Kenntnisse zum Erstellen und zur Inhaltserstellung stehen Kunden zur Verfügung, die Teil des Agent Orchestrator Explorer-Programms sind. Weitere Informationen erhalten Sie bei der Adobe-Kundenunterstützung.
+>Journey Agent-KI-Funktionen für die Erstellung und die Inhaltserstellung stehen Kunden zur Verfügung, die Teil des Agent Orchestrator Explorer-Programms sind. Weitere Informationen erhalten Sie bei der Adobe-Kundenunterstützung.
 
 ## Einführung in Journey Agent in Adobe Journey Optimizer
 
@@ -53,13 +53,13 @@ Journey Agent umfasst vier Hauptaufgaben, die zu erfüllen sind:
 - **Kanalinhalt erstellen**: Generieren, Bearbeiten und Verwalten kanalspezifischer Inhalte (E-Mail, Push, SMS) für Journey mithilfe von KI-gestützter Inhaltserstellung
 - **Journey Analyze**: Analysieren Sie Journey, erkennen Sie Probleme, entdecken Sie Erkenntnisse und optimieren Sie die Kundeninteraktion
 
-Darüber hinaus ist **Journey Simulation** eine Journey Optimizer-Funktion, die [Journey Simulate](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), eine produktinterne agentische Fähigkeit, die nicht konversativ ist, mit drei Funktionen umfasst:
+Darüber hinaus ist **Journey Simulation** eine Journey Optimizer-Funktion, die [Journey Simulate](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), eine produktinterne, nicht-konversationale KI-Funktion mit drei Unterfunktionen, umfasst:
 
 - Generieren simulierter Benutzer
 - Generieren von Ereigniswerten
 - Schnellsimulation
 
-## Journey Create: Anwendungsfälle, Agentenkenntnisse und Benutzerhandbuch
+## Journey Create: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch
 
 ## Überblick
 
@@ -111,7 +111,7 @@ Journey Create bietet Funktionen, die genutzt werden können, um die Marketing-A
 
 Für jeden dieser Anwendungsfälle übersetzt der Agent Anforderungen an natürliche Sprachen in strukturierte Journey-Konfigurationen.
 
-## In Umfang und außerhalb des Umfangs Kenntnisse
+## In Umfang und außerhalb des Umfangs liegende KI-Funktionen
 
 ### **Im Umfang**
 
@@ -195,7 +195,7 @@ Wenn ein(e) Benutzende(r) meinen Store-Speicherort betritt, senden Sie eine Will
 - **Planen des Nachrichteninhalts**: Lassen Sie Ihre Messaging-Strategie vor der Erstellung von Journey definieren.
 - **Kundenerlebnis berücksichtigen**: Entwerfen Sie Journey-Flüsse, die Kundenpräferenzen berücksichtigen und Überkommunikation vermeiden.
 
-## Kanalinhalt erstellen: Anwendungsfälle, Agentenkenntnisse und Benutzerhandbuch
+## Kanalinhalt erstellen: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch
 
 >[!AVAILABILITY]
 >
@@ -221,7 +221,7 @@ Mit der Erstellung von Kanalinhalten können Journey Optimizer-Benutzende kanals
 
 1. **Integration der Journey-Arbeitsfläche**: Wählen Sie Journey aus dem Inventar aus und zeigen Sie die zugehörigen Kanäle an.
 
-## In Umfang und außerhalb des Umfangs Kenntnisse
+## In Umfang und außerhalb des Umfangs liegende KI-Funktionen
 
 ### **Im Umfang**
 
@@ -277,7 +277,7 @@ Die folgenden Möglichkeiten werden derzeit nicht unterstützt:
 1. **Ton definieren**: Geben Sie den gewünschten Ton an (freundlich, formell, ungezwungen, dringend).
 1. **Iterieren und verfeinern**: Verwenden Sie die Aktion „Neu generieren“, um Inhalte zu verfeinern, bis sie Ihren Anforderungen entsprechen.
 
-## Journey Analyze: Anwendungsfälle, Agentenkenntnisse und Benutzerhandbuch
+## Journey Analyze: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch
 
 ## Überblick
 
@@ -329,7 +329,7 @@ Journey Analyze bietet eine Reihe von Funktionen, mit denen Marketing-Maßnahmen
 
 Bei jeder dieser Analysen erkennt der Agent nicht nur Probleme, sondern gibt auch **umsetzbare Empfehlungen zur Lösung dieser Probleme**.
 
-## Leistungsumfang
+## In Scope and Out of Scope AI-Funktionen
 
 ### **Unterstützte Funktionen**
 
@@ -425,13 +425,13 @@ Befolgen Sie die folgenden Best Practices, um die Effektivität von Journey Anal
 - **Überwachen Sie regelmäßig**: Planen Sie regelmäßige Überprüfungen der Journey-Leistung, um Trends und Anomalien zu erkennen.
 - **Optimieren Sie die Segmentierung**: Stellen Sie sicher, dass die Zielgruppensegmentierung ausgewogen ist, um Ermüdungserscheinungen zu vermeiden und Interaktionen zu maximieren.
 
-## Journey Simulieren: Anwendungsfälle, Agentenkenntnisse und Benutzerhandbuch
+## Journey Simulieren: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch
 
 ## Überblick
 
 >[!BEGINSHADEBOX]
 
-Journey-Simulation steht allen Journey Optimizer-Kunden zur Verfügung. Journey Simulate, die produktinterne Agentenfertigkeit innerhalb von Journey Simulation, steht Kunden zur Verfügung, die Teil des Agent Orchestrator Explorer-Programms sind und mindestens eine der folgenden Berechtigungen benötigen:
+Journey-Simulation steht allen Journey Optimizer-Kunden zur Verfügung. Journey Simulate, die produktinterne agentische KI-Funktion in Journey Simulation, steht Kunden zur Verfügung, die Teil des Agent Orchestrator Explorer-Programms sind und mindestens eine der folgenden Berechtigungen benötigen:
 
 - **Journey simulieren**: Führen Sie Simulations-Workflows auf der Journey-Arbeitsfläche aus.
 
@@ -445,7 +445,7 @@ Um KI in **[!UICONTROL Simulation]** (**[!UICONTROL Schnellsimulation]**, Generi
 
 >[!ENDSHADEBOX]
 
-Journey-Simulation ist eine Journey Optimizer-Funktion, mit der Journey Optimizer-Benutzende Marketing-Journey vor der Aktivierung sicher testen und validieren können. Bei der Journey-Simulation ist Journey Simulate eine produktinterne agentische Fähigkeit, nicht eine dialogische, die den Testprozess direkt von der Journey-Arbeitsfläche aus automatisiert und unterstützt.
+Journey-Simulation ist eine Journey Optimizer-Funktion, mit der Journey Optimizer-Benutzende Marketing-Journey vor der Aktivierung sicher testen und validieren können. Bei der Journey-Simulation ist Journey Simulate eine produktinterne agentische KI-Funktion, die nicht dialogorientiert ist, sondern den Testprozess direkt von der Journey-Arbeitsfläche aus automatisiert und unterstützt.
 
 Journey Simulate umfasst drei Funktionen:
 
@@ -480,7 +480,7 @@ Journey Simulate bietet drei Funktionen, die genutzt werden können, um die Test
 - Ermitteln Sie mit detailliertem Durchlaufen von Knoten zu Knoten, welcher simulierte Benutzer welchen Pfad durchläuft und warum.
 - Überprüfen Sie das Simulationsberichterstellung am Ende eines Durchgangs in der Journey Optimizer-Benutzeroberfläche, um die Ergebnisse vor der Aktivierung zu überprüfen.
 
-## In: Scope Skills and Limits
+## Im Umfang verfügbare KI-Funktionen und -Einschränkungen
 
 ### **Im Umfang**
 
@@ -493,11 +493,11 @@ Die folgenden Funktionen werden von der Journey-Simulationsfunktion unterstützt
 - **Simulationsberichte**: Anzeigen der Berichte am Ende eines Simulationsdurchgangs in der Journey Optimizer-Benutzeroberfläche.
 - **Tests für mehrere Benutzer**: Führen Sie Tests für mehrere simulierte Benutzer gleichzeitig aus und visualisieren Sie sie, wobei alle Journey-Verzweigungen abgedeckt werden.
 
-Darüber hinaus werden die folgenden Funktionen von der Fähigkeit zum Journey-Simulieren unterstützt:
+Darüber hinaus werden die folgenden Funktionen von der Journey-KI-Simulation unterstützt:
 
 - **Simulierte Benutzergenerierung**: Erstellen simulierter Benutzer basierend auf Journey-Pfaden, vorhandenen Testprofilen oder angegebenen Attributen.
 - **Generieren von Ereigniswerten**: Generieren und Zuweisen von Ereignisattributwerten zur Steuerung der Testausführung über bestimmte Journey-Pfade.
-- **Schnellsimulation**: Führen Sie eine vollständige End-to-End-Simulation mit minimalem Eingriff durch. Die Qualifikation generiert automatisch simulierte Benutzende, Ereigniswerte und vorausgefüllte Testeinstellungen und führt dann die Journey aus und zeigt die Ergebnisse zur Überprüfung an.
+- **Schnellsimulation**: Führen Sie eine vollständige End-to-End-Simulation mit minimalem Eingriff durch. Diese KI-Funktion generiert automatisch simulierte Benutzende, Ereigniswerte und vorausgefüllte Testeinstellungen und führt dann das Journey aus und zeigt die Ergebnisse zur Überprüfung an.
 
 ### **Einschränkungen**
 
