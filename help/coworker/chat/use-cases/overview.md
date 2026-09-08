@@ -1,13 +1,11 @@
 ---
 description: Durchsuchen Sie die Anwendungsfälle und Beispielaufforderungen des Coworker Chat, sortiert nach Bereichen wie Dateneinblicke, Zielgruppen, Journey und Plattformvorgänge.
 title: Anwendungsfälle für den Chat mit Kollegen
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 83cd3d9dcc9ae0c56e8d63e995b166e8ff0736d9
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: b7fb10d084209e0a34023d09f568bcbfaa314705
 workflow-type: tm+mt
-source-wordcount: 4260
+source-wordcount: 4624
 ht-degree: 6%
 
 ---
@@ -24,7 +22,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 >
 >Alle berechtigten Kundinnen und Kunden erhalten fortlaufend Zugriff auf die Funktionen der Adobe Experience Manager-Agenten in Coworker.
 >
->Siehe auch [KI in AEM - Überblick über die Agentenfunktionen in AEM](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Siehe auch [KI in AEM - Überblick über die Agentenfunktionen in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Markenerlebnis
 
@@ -43,9 +41,9 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Sites](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Forms](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Entwicklung
 
@@ -58,7 +56,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenerlebnis - Entwicklung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Agentenfunktionen in AEM: Markenerlebnis - Entwicklung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Einstieg
 
@@ -71,7 +69,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agenturfunktionen in AEM: Markenerlebnis - Onboarding](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Agenturfunktionen in AEM: Markenerlebnis - Onboarding](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Inhaltsratgeber
 
@@ -86,7 +84,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Content Advisor - Content Discovery](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Agentenfunktionen in AEM: Content Advisor - Content Discovery](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Inhaltsoptimierung
 
@@ -98,7 +96,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Inhaltsberater - Inhaltsoptimierung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Agentenfunktionen in AEM: Inhaltsberater - Inhaltsoptimierung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Marken-Governance
 
@@ -110,7 +108,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenverwaltung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Agentenfunktionen in AEM: Markenverwaltung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Dateneinblicke
 
@@ -149,6 +147,43 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 | Analysieren von Fehlern bei benutzerdefinierten Aktionen | Ermitteln Sie, wann benutzerdefinierte Aktionen fehlschlagen oder Fehlerquoten innerhalb eines Journey in die Höhe schießen, und diagnostizieren Sie die Grundursachen, bevor Fehler in umfassendere Unterbrechungen übergehen. | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | „Warum schlagen benutzerdefinierte Aktionen in meiner Treue-Anmelde-Journey fehl?“ <br> „Fehlerrate für benutzerdefinierte Aktion „ExternalPush“ in meiner Begrüßungs-Journey anzeigen.“ |
 | [Erstellen, Bearbeiten und Verwalten von Herausforderungen im Zusammenhang mit der Treue](journeys/create-loyalty-challenge.md) | Vereinfachen und Beschleunigen der Verwaltung von Treueprogrammen | `loyalty` | Adobe Journey Optimizer (AJO) | „Erstellen Sie eine Herausforderung, die Mitglieder dazu ermutigt, ein neues saisonales Getränk auszuprobieren“ <br> „Herausforderungen bezüglich der Treue mit den höchsten Abbruchraten für Mitglieder zeigen“. |
 
+## Optimierung
+
+Verwenden Sie den Kollegen-Chat, um Experimente zu durchsuchen, zu analysieren und zu planen sowie Adobe Target-Aktivitäten, -Zielgruppen und -Recommendations zu erstellen, auszuführen und zu beheben.
+
+### Experimentanalyse und -strategie
+
+| Anwendungsfall | Beschreibung | Skills | Anwendung | Eingabeaufforderungen |
+| --- | --- | --- | --- | --- |
+| Durchsuchen und Erkunden von Experimenten | Experimentübersichten, Listen, Zählungen, Rohergebnisse, Einblicke und Opportunities nachschlagen | `experiment-explorer` | Experimentation Accelerator | „Meine Experimente anzeigen“ ・ „Aktive Tests auflisten“ ・ „Wie viele Experimente werden ausgeführt?“ |
+| Analysieren der Experimentleistung | Abrufen von Portfolio-Zusammenfassungen, Konsistenzprüfungen für einzelne Experimente, Kurzbeschreibungen für Führungskräfte und experimentübergreifenden Berichten mit Metriken, optional angereichert mit CJA-Daten | `experiment-analysis` | Experimentation Accelerator | „Wie entwickeln sich meine A/B-Tests?“ ・ „Erstellen eines Berichts für meine Aktivitäten mit CJA-Metriken“ ・ „Funktioniert dieser Test?“ |
+| Planen und Entwerfen von Experimenten | Rufen Sie den wirkungsvollsten als Nächstes auszuführenden Test ab, einen Entwurf für ein benanntes Thema, eine Übersetzung von Ziel zu Metrik, eine Anleitung zur Wiederherstellung für einen fehlgeschlagenen Test oder eine sequenzierte Roadmap für mehrere Experimente | `experiment-strategist` | Experimentation Accelerator | „Was soll ich als Nächstes testen?“ ・ „Helfen Sie mir, ein Experiment zur Verbesserung der Checkout-Konversionen zu entwerfen“ ・ „Erstellen einer Test-Roadmap für das 3. Quartal“ |
+| Experimentverlauf suchen | Abrufen von Hypothesen, Lernergebnissen, Ergebnissen und Behandlungen aus früheren Experimenten, Suchen früherer Experimente nach Thema oder Aufnehmen einer externen CSV, um Ergebnisse anzureichern | `experiment-knowledge-base` | Experimentation Accelerator | „Was wissen wir über Experiment X?“ ・ „Haben wir diese Hypothese schon einmal getestet?“ ・ „Diese CSV-Datei aufnehmen“ |
+
+### Targeting von Aktivitäten und Audiences
+
+| Anwendungsfall | Beschreibung | Skills | Anwendung | Eingabeaufforderungen |
+| --- | --- | --- | --- | --- |
+| Durchsuchen von Zielentitäten | Erkennen, Überprüfen und Zählen von Aktivitäten, Angeboten, Zielgruppen, Mboxes, Eigenschaften, Arbeitsbereichen, AT.js-Konfiguration, Antwort-Token und Überarbeitungsverlauf. Sie können auch einen Screenshot der erzwungenen Erlebnisse einer Aktivität aufnehmen | `target-browse` | Adobe Target | „Listen Sie meine A/B-Tests auf“ ・ „Wie viele Aktivitäten wurden in diesem Monat gestartet?“ ・ „Details zur 12345 anzeigen“ |
+| Analysieren der Aktivitätsleistung | Ermitteln Sie Konversionsraten, Steigerung, Konfidenzintervalle, Umsatz und Anzahl der Risiken für eine einzelne Aktivität. Gibt nur Fakten an und erklärt nie den Gewinner | `target-analyze` | Adobe Target | „Wie funktioniert Activity X?“ ・ „Zeige mir die Konversionssteigerung“ ・ „Was ist die AOV für den Checkout-Test?“ |
+| Erhalten eines Schiffs- oder Stoppurteils | Abrufen einer SHIP-, WAIT-, STOP- oder FIX-Empfehlung für eine Aktivität, berechnet aus einer zweiteiligen Signifikanz der Rohwerte plus Konfigurationsfehlerprüfungen | `target-activity-verdict` | Adobe Target | „Soll ich diesen Test senden?“ ・ „Welche Variante hat gewonnen?“ ・ „Ist das schon signifikant?“ |
+| Erstellen und Konfigurieren von Aktivitäten | Aktivitäten, Angebote und Antwort-Token erstellen, aktualisieren und konfigurieren, Vorschau-URLs für die QS generieren und Angebotsinhalte erstellen oder optimieren | `target-design` | Adobe Target | „Erstellen eines A/B-Tests für die Startseite“ ・ „Aktualisieren der Traffic-Aufteilung“ ・ „JS dieses Angebots optimieren“ |
+| Erstellen von Visual Experience Composer-Aktivitäten | Erstellen und bearbeiten Sie Visual Experience Composer(VEC)-Aktivitäten und erstellen Sie Varianten als DOM-Änderungen anhand einer Live-Seiten-URL zusammen mit der sie umspannenden Zielgruppe für die Seitenbereitstellung | `target-vec` | Adobe Target | „Erstellen eines VEC A/B-Tests für die Startseite“ ・ „Ändern der Hero-Überschrift im visuellen Editor“ |
+| Einrichten eines kompletten Tests von Grund auf | Hier erhalten Sie eine Anleitung zur End-to-End-Aktivitätserstellung für A/B-, XT- und VEC-Tests, die die Anforderungen für die Erfassung, Voraussetzungen, Erstellung, Planung und Priorität, QA-Links und optionale Aktivierung behandelt. | `target-setup` | Adobe Target | „Führen Sie mich durch die Einrichtung eines vollständigen A/B-Tests.“ ・ „Ich bin neu bei Target und möchte meinen ersten Test erstellen.“ |
+| Programmzustand überprüfen | Rufen Sie ein programmweites Konsistenzaudit ab, das Risiken und Kollisionserkennungen, Fehlkonfigurationsergebnisse, Zielgruppen- und Angebotshygiene sowie Empfehlungen für eine schnelle Lösung umfasst | `target-intelligence` | Adobe Target | „Audit my Target activities“ ・ „Find Risk or misconfigurated tests“ ・ „What should I clean up?“ |
+| Gewinnmuster suchen | Vertiefen Sie Ihre Kenntnisse über Gewinnmuster, effektive Strategien und leistungsstarke Zielgruppen oder Inhalte und erhalten Sie Empfehlungen, was Sie als Nächstes testen sollten, basierend auf Ihren eigenen Daten | `target-strategist` | Adobe Target | „Was funktioniert für uns?“ ・ „Zeigen Sie mir meine Gewinnmuster“ ・ „Was sollte ich als Nächstes auf der Grundlage früherer Ergebnisse testen?“ |
+| Berechnen der Stichprobengröße und -dauer | Planen Sie die A/B/N-Stichprobengröße, Testdauer und erkennbare Steigerung für Konversionsraten- und Umsatz-pro-Besucher-Metriken mit Bonferroni-Korrektur | `target-test-calculator` | Adobe Target | „Wie lange sollten meine A/B-Tests laufen?“ ・ „Welche Stichprobengröße benötige ich?“ ・ „Ist mein Test noch aktiv?“ |
+| Abrufen einer Leistungsaggregation auf Programmebene | Hier erhalten Sie einen Überblick über das Bedienfeld, eine Tabelle zu aktuellen Launches und eine aggregierte Gewinn-/Verlust-/Steigerungszählung für alle Aktivitäten sowie Informationen zu einzelnen Aktivitäten und Trends mit Momentum | `target-portfolio-report` | Adobe Target | „Give me a health check of my Target program“ ・ „Welches sind meine Top- und Worst-Tests?“ ・ „Tendenzt Aktivität X zum Sieg?“ |
+| Zielgruppen aus natürlicher Sprache erstellen | Erstellen oder bearbeiten Sie Target-native Zielgruppen aus einer Beschreibung in natürlicher Sprache, einer expliziten Regelbedingung oder einer Inline- oder hochgeladenen Werteliste. Ordnet die Anfrage der Regelgrammatik zu und validiert die Regelstruktur vor dem Schreiben. | `target-audience-composer` | Adobe Target | „Zielgruppe der wiederkehrenden Besucher aus Kalifornien erstellen“ ・ „Zielgruppe aus diesen Postleitzahlen erstellen“ ・ „Zielgruppe auf wiederkehrende Besucher eingrenzen“ |
+
+### Recommendations
+
+| Anwendungsfall | Beschreibung | Skills | Anwendung | Eingabeaufforderungen |
+| --- | --- | --- | --- | --- |
+| Recommendations-Entitäten durchsuchen | Durchsuchen und untersuchen Sie Recommendations-Kriterien, Sammlungen, Designs, Promotions, Ausschlüsse, Kataloge und Feeds sowie Bereinigungsratschläge und Anleitungen für Katalogattribute | `target-recs` | Adobe Target | „Meine Recommendations-Kriterien auflisten“ ・ „Welche Designs habe ich?“ ・ „Welche Recs können wir bereinigen?“ |
+| Diagnostizieren von Recommendations-Problemen | Verfolgen Sie die Aktivitäts-, Kriterien-, Feed-, Sammlungs- und Design-Kette, um zu erklären, warum Recommendations leer sind, veraltet sind oder nicht angezeigt werden | `target-recs-diagnose` | Adobe Target | „Warum sind meine Empfehlungen leer?“ ・ „Warum war meine Recs-Aktivität 48 Stunden lang „Ergebnisse noch nicht bereit“?“ |
+| Empfehlungen erstellen | Erstellen und aktualisieren Sie Recommendations-Kriterien, -Sammlungen, -Designs, -Ausschlüsse, -Promotions, -Feeds und -Recs, einschließlich der Massenvorgänge mit Gates über viele Aktivitäten hinweg auf einmal | `target-recs-design` | Adobe Target | „Erstellen eines am häufigsten angezeigten Kriteriums“ ・ „Erstellen Sie eine Sammlung von Produkten auf Lager unter 50 USD“ ・ „Wenden Sie Black Friday-Daten auf alle Verkaufsaktivitäten an“ |
+
 ## Grundlegende Elemente
 
 | Anwendungsfall | Beschreibung | Skills | Anwendung | Eingabeaufforderungen |
@@ -160,7 +195,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 | Auflösung und Verknüpfung von Entitäten | Verwenden Sie die semantische und lexikalische Suche, um Entitätsbezeichnungen in tatsächliche Experience Platform-Entitäten aufzulösen und XDM-Felder zu erkennen | `entity-linking` | Adobe Experience Platform | „Auflösen von „Holiday Shoppers“ in eine tatsächliche Zielgruppe“ <br> „Felder für „Mich finden“ im Zusammenhang mit dem Kaufverlauf“ |
 | Benutzerdefinierte Fähigkeiten verwalten | Speichern, Ändern oder Löschen von benutzereigenen wiederverwendbaren Fähigkeiten, die sitzungsübergreifend bestehen bleiben | `manage-skill` | Alle infrage kommenden Anträge | „Diesen Workflow als Qualifikation speichern“ <br> „Meine wöchentlichen Berichtsqualifikationen löschen“ <br> „Diese Qualifikation wiederverwendbar machen“ |
 | Überwachen von Streaming-Kapazität und Sicherheitslücken | Überprüfen Sie die aktuelle und frühere Streaming-Nutzung, -Kapazität und den Status der Unterbrechung in allen Sandboxes | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | „Wie hoch ist meine aktuelle Streaming-Kapazität in meiner aktuellen Sandbox?“ <br> „Überschreitet meine aktuelle Sandbox in der letzten Woche die Kapazitätsbeschränkungen?“ |
-| [Anzeigen der Ergebnisse der Konsistenzprüfungen](https://experienceleague.adobe.com/de/docs/experience-platform/run-and-operate/health-checks/overview) | Zeigen Sie die neueste Bewertung der Konsistenzprüfung für Ihre Sandbox an, führen Sie eine Fehlerprüfung durch und sehen Sie sich die betroffenen Entitäten an | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | „Was ist los in meiner Sandbox?“ <br> „Erzählen Sie mir von meiner neuesten Bewertung der Konsistenzprüfung“ <br> „Was sind die Probleme bei der benutzerdefinierten Namespace-Beschreibungsüberprüfung?“ |
+| [Anzeigen der Ergebnisse der Konsistenzprüfungen](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Zeigen Sie die neueste Bewertung der Konsistenzprüfung für Ihre Sandbox an, führen Sie eine Fehlerprüfung durch und sehen Sie sich die betroffenen Entitäten an | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | „Was ist los in meiner Sandbox?“ <br> „Erzählen Sie mir von meiner neuesten Bewertung der Konsistenzprüfung“ <br> „Was sind die Probleme bei der benutzerdefinierten Namespace-Beschreibungsüberprüfung?“ |
 | Beheben von Problemen mit Konsistenzprüfungen | Beheben Sie gekennzeichnete Identity-Namespaces, Zusammenführungsrichtlinien und Schemaprobleme direkt im Chat mit Ihrer Genehmigung, bevor Änderungen vorgenommen werden | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | „Identity-Namespace-Beschreibungen korrigieren“ <br> „Doppelte Zusammenführungsrichtlinien-Namen korrigieren“ <br> „Fehlende Überwachungsfeldgruppe in Schemas beheben“ <br> „Standardbenennung der Zusammenführungsrichtlinie korrigieren“ |
 
 ## Sandbox-Werkzeuge
@@ -193,19 +228,3 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 | Erkenntnisse zur Oberflächenarbeit | Stellen Sie Sondierungsfragen, um eine gefährdete Arbeit, nicht zugewiesene Aufgaben, offene Probleme und den Status in allen Projekten zu finden | `query-workfront` | Workfront-Workflow | „Ermitteln Sie noch nicht abgeschlossene Aufgaben für aktuelle Projekte, die niemandem zugewiesen sind und diese Woche fällig sind“ <br> „Wie viele offene Probleme gibt es in allen aktuellen Projekten?“ |
 | Zusammenfassung der Projekte und Aufgaben | Listen, Tabellen und Anzahl von Projekten, Aufgaben, Problemen und Zuweisungen abrufen | `query-workfront` | Workfront-Workflow | „Zeigen Sie mir eine Tabelle mit den startbereiten Aufgaben mit dem Projektnamen, dem Fälligkeitsdatum der Aufgabe und dem zugewiesenen Benutzer“ <br> „Erhalten Sie mir alle Aufgaben zugewiesen [Benutzername]&quot; |
 | Genehmigungen und Portfoliostatus nachverfolgen | Überprüfen Sie den Status Ihrer Genehmigungen und aggregieren Sie unvollständige Arbeiten nach Portfolio. | `query-workfront` | Workfront-Workflow | „Status meiner Genehmigungen anzeigen“ <br> „Tabelle mit unvollständigen Problemen anzeigen, die Teil des [Portfolio-Namensportfolios sind]&quot; |
-
-## Experimentieren und Optimieren
-
-| Domain | Anwendungsfall | Beschreibung | Skills | Anwendung | Eingabeaufforderungen |
-| --- | --- | --- | --- | --- | --- |
-| **Experimentieren und Optimieren** | Zielentitäten durchsuchen und suchen | Identifizieren, Überprüfen, Suchen und Auflisten von Target-Entitäten: Aktivitäten (A/B, XT, AP, Automatische Zuordnung, MVT), Zielgruppen und Angebote. Beginnen Sie hier mit Ihrer Entdeckung. | `target-browse` | Adobe Target | „Alle aktiven A/B-Aktivitäten anzeigen“<br>„Welche Zielgruppen habe ich?“<br>„Aktivität suchen \&lt;Name oder ID>&quot; |
-| **Experimentieren und Optimieren, Zielgruppenanalyse, Content Performance Intelligence** | Bericht über die Aktivitätsleistung | Berichte zu Leistung und Aufträgen für alle Aktivitätstypen (einschließlich Recommendations): Konversionssteigerung, Umsatz und Bestellungen. | `target-analyze` | Adobe Target | „Wie entwickelt sich die Aktivität \&lt;name/id>?“<br>„Konversionssteigerung und -umsatz anzeigen für \&lt;activity>&quot;<br>„Welche Aktivitäten haben im letzten Monat die meisten Bestellungen verursacht?“ |
-| **Experimentieren und Optimieren, Zielgruppen-Management** | Erstellen von Aktivitäten, Angeboten und Audiences | Erstellen und konfigurieren Sie Aktivitäten, Angebote (HTML/JSON/Redirect), Zielgruppen und Antwort-Token. Die zentrale Authoring-Fähigkeit. | `target-design` | Adobe Target | „Erstellen einer A/B-Aktivität mit Targeting \&lt;audience>&quot;<br>„Erstellen eines JSON-Angebots für \&lt;Anwendungsfall>&quot;<br>„Hinzufügen eines Antwort-Tokens für \&lt;attribute>&quot; |
-| **Experimentieren und Optimieren, Inhaltserstellung** | Aktivitäten des Typs Visuelles Erstellen (WYSIWYG) | Authoring in Visual Experience Composer: Erstellen und Bearbeiten von visuellen A/B- und XT-Aktivitäten für eine Live Page-URL mithilfe von Änderungen an der CSS-Auswahl. | `target-vec` | Adobe Target | „Erstellen eines visuellen A/B-Tests auf \&lt;Seiten-URL>&quot;<br>„Ändern Sie die Hero-Überschrift auf \&lt;Seiten-URL> in \&lt;Text>&quot;<br>„Einrichten einer XT-Aktivität mit visuellen Bearbeitungen auf \&lt;Seiten-URL>&quot; |
-| **Experimentieren und Optimieren** | Empfehlungen durchsuchen und überprüfen | Schreibgeschütztes Durchsuchen und Überprüfen von Kriterien, Sammlungen, Designs, Promotions, Ausschlüssen, Katalogen und Feeds; umfasst Bereinigungsratschläge und Katalogattribut-Intelligenz. | `target-recs` | Adobe Target | „Anzeigen meiner Recommendations-Kriterien und -Sammlungen“<br>„Überprüfen des Designs für \&lt;recs activity>&quot;<br>„Überprüfen meiner Katalog-Feeds und -Ausschlüsse“ |
-| **Experimentieren und Optimieren** | Fehlerbehebung bei Recommendations | Schreibgeschützte Fehlerbehebung für Recs-Probleme wie „Ergebnisse nicht bereit“, leere Ergebnisse und fehlgeschlagene Recs. | `target-recs-diagnose` | Adobe Target | „Warum sind meine Empfehlungsergebnisse nicht bereit?“<br>„Meine Recs werden leer zurückgegeben, was ist los?“<br>„Diagnose, warum \&lt;recs activity> fehlschlägt“ |
-| **Experimentieren und Optimieren** | Empfehlungen erstellen und automatisieren | Recs-Authoring: Erstellen, Aktualisieren und Löschen von Kriterien, Sammlungen, Designs, Ausschlüssen, Promotions und Feeds; Erstellen von Recs-Aktivitäten sowie Massen-/Automatisierungsfunktionen für viele Aktivitäten. | `target-recs-design` | Adobe Target | „Erstellen eines &#39;kürzlich angezeigten&#39; Kriteriums“<br>„Erstellen einer Recommendations -Aktivität mit \&lt;criteria>&quot;<br>„Massenaktualisierung des Designs für alle meine Recs-Aktivitäten“ |
-| **Experimentieren und Optimieren** | Experimente durchsuchen und nachschlagen | Allgemeines Durchsuchen und Suchen in allen Experimenten: Auflisten, Anzeigen und Abrufen von Ergebnissen und Einblicken. | `experiment-explorer` | Experimentation Accelerator | „Show me my experiments“<br>„List active experiments“<br>„Show results for \&lt;experiment>&quot;<br>„What insights does \&lt;experiment> have?“ |
-| **Experimentieren und Optimieren, Zielgruppenanalyse, Content Performance Intelligence** | Analyse und Entscheidung über Experimente | Geführte Synthese und Entscheidungsunterstützung für alle Experimente: Konsistenzprüfungen, Schiffsentscheidungen und Zusammenfassungen für Führungskräfte. | `experiment-analysis` | Experimentation Accelerator | „Wie laufen meine Experimente?“<br>„Sollte ich ausliefern \&lt;experiment>?“<br>„Ist mein Experiment gesund?“<br>„Schreiben Sie eine Zusammenfassung unserer Experimente“ |
-| **Experimentieren und Optimieren** | Entwerfen und Planen von Experimenten | Zukunftsweisendes Design und Planung von Experimenten: Was als Nächstes getestet werden soll, wie ein Test entworfen wird und wie eine Roadmap erstellt wird. | `experiment-strategist` | Experimentation Accelerator | „Was soll ich als Nächstes testen?“<br>„Helfen Sie mir beim Entwerfen eines Experiments für \&lt;goal>&quot;<br>„Mein Experiment ist fehlgeschlagen, was kommt als Nächstes?“<br>„Erstellen einer Test-Roadmap“ |
-| **Experimentieren und Optimieren; Customer &amp; Account Journey Intelligence** | Wissen suchen und Daten aufnehmen | Abrufen und Suchen von Experimentkontextinformationen oder Aufnehmen externer CSV-Daten zur Analyse. | `experiment-knowledge-base` | Experimentation Accelerator | „Was wissen wir über das Experiment \&lt;name>?“<br>„Haben wir diese Hypothese bereits getestet?“<br>„Laden Sie eine CSV-Datei hoch und analysieren Sie diese Datei“ |
