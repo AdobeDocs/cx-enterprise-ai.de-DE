@@ -80,8 +80,9 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
----
+&#x200B;---
  
+
 ## Tor 1: Unterdrückung/Einverständnis
  
 > Bearbeiten Sie diesen Abschnitt entsprechend den Unterdrückungs- und Einverständnisanforderungen Ihrer Organisation.
@@ -109,8 +110,9 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
----
+&#x200B;---
  
+
 ## Gatter 2: Frequenzbegrenzung
 
 > Bearbeiten Sie diesen Abschnitt entsprechend den Häufigkeitsanforderungen für Sendungen Ihrer Organisation.
@@ -135,7 +137,7 @@ Our standard:
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
 
----
+&#x200B;---
 
 ## Gatter 3: Namenskonvention
  
@@ -178,7 +180,7 @@ When blocked on naming, always propose a compliant replacement name.
 
  
 
----
+&#x200B;---
 
 ## Leitlinien
 
@@ -195,7 +197,7 @@ Alles andere sollte unverändert bleiben:
 - Scorecard-Rendering
 - Urteilslogik
 
----
+&#x200B;---
 
 
 ### &#x200B;2. Voraussetzungen überprüfen
@@ -213,7 +215,7 @@ Diese Qualifikation hängt von Folgendem ab:
 
 Wenn diese Funktionen in der Umgebung des Kunden nicht verfügbar sind, kann die Kenntnisse nicht wie vorgesehen ausgeführt werden.
 
----
+&#x200B;---
 
 ### &#x200B;3. Qualifikation schreibgeschützt beibehalten
 
