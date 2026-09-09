@@ -1,17 +1,10 @@
 ---
 title: Produktsupport-Agent
 description: Erfahren Sie, wie Sie den Product Support Agent im KI-Assistenten verwenden können, um die Fehlerbehebung sowie die Einreichung von Kunden-Support-Tickets zu vereinfachen.
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -35,33 +28,33 @@ Product Support Agent umfasst die folgenden Lösungsfunktionen:
 Erhalten Sie sofortige Antworten auf häufig gestellte Support-Fragen aus von Experten kuratierter Dokumentation, z. B.:
 
 * **Wissensartikel** Kuratiert von Adobe-Supportteams.
-   * Beispielfragen:
-      * „Warum unterscheidet sich die Anzahl meiner Profile im Lizenznutzungs-Dashboard und auf der Experience Platform-Startseite?“
-      * „Was sind die Gründe dafür, dass eine Journey nicht ausgelöst wird?“
+  * Beispielfragen:
+    * „Warum unterscheidet sich die Anzahl meiner Profile im Lizenznutzungs-Dashboard und auf der Experience Platform-Startseite?“
+    * „Was sind die Gründe dafür, dass eine Journey nicht ausgelöst wird?“
 * **Produkt-Tutorials** für selbstgeleitetes Lernen und Kompetenzaufbau.
-   * Beispielfragen:
-      * „Wie erstellt Adobe Experience Platform Echtzeit-Erlebnisse?“
-      * „Wie werden Warnhinweise in Adobe Experience Platform konfiguriert und verwendet?“
+  * Beispielfragen:
+    * „Wie erstellt Adobe Experience Platform Echtzeit-Erlebnisse?“
+    * „Wie werden Warnhinweise in Adobe Experience Platform konfiguriert und verwendet?“
 * **Produktrechtliche Dokumentation** die genaue und lizenzorientierte Informationen bereitstellt.
-   * Beispielfragen:
-      * „Was ist die Beschränkung für Batch-Segmentierungsaufträge in Adobe Experience Platform Activation?“
-      * „Was ist die Grenze für den durchschnittlichen Profilreichhaltigkeit in Adobe Experience Platform Activation?“
+  * Beispielfragen:
+    * „Was ist die Beschränkung für Batch-Segmentierungsaufträge in Adobe Experience Platform Activation?“
+    * „Was ist die Grenze für den durchschnittlichen Profilreichhaltigkeit in Adobe Experience Platform Activation?“
 
 ## Erstellung von Support-Fällen {#support-case-creation}
 
 Starten Sie Support-Fälle direkt vom Produktsupport-Agenten, der automatisch kontextuelle Erkenntnisse erfasst, um die Fallauflösung zu beschleunigen.
 
 * Beispielfragen:
-   * „Erstellen Sie ein Support-Ticket.“
-   * „Können Sie mir beim Erstellen eines Support-Tickets helfen?“
+  * „Erstellen Sie ein Support-Ticket.“
+  * „Können Sie mir beim Erstellen eines Support-Tickets helfen?“
 
 ## Fallfortschritt verfolgen {#track-case-progress}
 
 Nachverfolgen des Status von Support-Problemen
 
 * Beispielfragen und Befehle:
-   * „Was ist das Neueste zu meinem Fall E-12345?“
-   * „Was ist das Update für Ticket E-67890?“
+  * „Was ist das Neueste zu meinem Fall E-12345?“
+  * „Was ist das Update für Ticket E-67890?“
 
 ## Zugriff auf den Produktsupport-Agent
 
@@ -71,5 +64,5 @@ Sobald Sie diese Schritte abgeschlossen haben, können alle Support-Administrato
 
 Weiterführende Informationen dazu, wie Sie mit dem Produktsupport-Agenten eine nahtlose Fehlerbehebung durchführen können, ohne Ihre Workflows verlassen zu müssen, finden Sie im folgenden Video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443192?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
