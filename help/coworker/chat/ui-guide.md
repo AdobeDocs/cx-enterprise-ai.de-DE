@@ -6,9 +6,9 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 73f2a00a3438903f72cddb35c3a5c47196b5821a
+source-git-commit: 5c430cb5e63575da34a51f39fe871988e4c873d0
 workflow-type: tm+mt
-source-wordcount: 1713
+source-wordcount: 1719
 ht-degree: 4%
 
 ---
@@ -36,7 +36,8 @@ Die folgende Tabelle erfasst, wann diese Erlebnisse für jede CX Enterprise-Anwe
 | CJA | Jetzt verfügbar | Bald verfügbar |
 | Workfront | Jetzt verfügbar | Bald verfügbar:<br><br>* Anfang September 2026 in der Vorschauinstanz für ausgewählte geeignete Workfront-Systemadministratoren<br><br>* Mitte September 2026 in der Produktionsinstanz für geeignete Kunden von Workfront mit Schnellveröffentlichung<br><br>* Mitte Oktober 2026 in der Produktionsinstanz für geeignete Kunden von Workfront mit vierteljährlicher Veröffentlichung |
 | Target | Jetzt verfügbar | Jetzt verfügbar |
-| AEM | September 2026 | Bald verfügbar |
+| AEM | Jetzt verfügbar | Bald verfügbar |
+| Marketo Engage | Jetzt verfügbar | Bald verfügbar |
 
 ### immersives Erlebnis {#immersive}
 
