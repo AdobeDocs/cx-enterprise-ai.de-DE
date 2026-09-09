@@ -41,7 +41,7 @@ Agent Orchestrator besteht aus mehreren Schlüsselkomponenten, darunter die KI-A
 
 ### Konversationsschnittstelle des KI-Assistenten {#ai-assistant}
 
-KI-Assistent ist ein intelligentes, in natürlicher Sprache geführtes Gesprächserlebnis, mit dem Anwender, die mit aktivierten CX Enterprise-Anwendungen arbeiten, GenAI- und AgentAI-Funktionen nutzen können, deren Umfang von den vom Kunden lizenzierten CX Enterprise-Anwendungen abhängt. Um den Zugriff zu entsperren, lesen Sie [Handbuch zum Zugriff auf den KI-Assistenten](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
+KI-Assistent ist ein intelligentes, in natürlicher Sprache geführtes Gesprächserlebnis, mit dem Anwender, die mit aktivierten CX Enterprise-Anwendungen arbeiten, GenAI- und AgentAI-Funktionen nutzen können, deren Umfang von den vom Kunden lizenzierten CX Enterprise-Anwendungen abhängt. Um den Zugriff zu entsperren, lesen Sie [Handbuch zum Zugriff auf den KI-Assistenten](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/access).
 
 Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
 

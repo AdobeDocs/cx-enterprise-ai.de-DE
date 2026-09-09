@@ -65,8 +65,8 @@ Eine vollständige Liste der Agenten, der von ihnen unterstützten Programme und
 
 Bei Coworker handelt es sich um eine agentenorientierte Weiterentwicklung des KI-Assistenten, der Kundenerlebnis- und Marketing-Workflows automatisiert, sodass sich Ihr Team auf Geschäftsziele anstatt auf die routinemäßige Ausführung konzentrieren kann. Anstatt eine Frage nach der anderen zu stellen, beschreibt man ein Ziel. Mitarbeiter plant, führt aus, validiert und gibt die abgeschlossene Arbeit zur Genehmigung zurück. Coworker includes:
 
-- **[Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Eine Gesprächsoberfläche, mit der Sie Ihre Daten untersuchen, Zielgruppen und Journey validieren und mehrstufige Aufgaben in allen CX Enterprise-Anwendungen ausführen können.
-- **[Coworker Campaign](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: Eine KI-native Anwendung, die Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen.
+- **[Coworker Chat](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Eine Gesprächsoberfläche, mit der Sie Ihre Daten untersuchen, Zielgruppen und Journey validieren und mehrstufige Aufgaben in allen CX Enterprise-Anwendungen ausführen können.
+- **[Coworker Campaign](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: Eine KI-native Anwendung, die Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen.
 - **Coworker Projects** (in Kürze verfügbar): Ein einheitlicher Arbeitsbereich zur Automatisierung von End-to-End-Orchestrierungs-Workflows für das Kundenerlebnis, der Teams bei der Koordinierung von Aufgaben, Genehmigungen und Ausführungen unterstützt, um Ergebnisse von der Strategie bis zur Bereitstellung zu erzielen. Die Dokumentation für Projekte wird in Kürze verfügbar sein.
 
 Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-Agenten auf den Coworker Chat umgestellt. Lesen Sie [Coworker Trial](./agents/trial.md), um mehr über die Testeignung, die Verwendung von KI-Guthaben und den Zugriff darauf zu erfahren.
@@ -84,7 +84,7 @@ Eine vollständige Produktdokumentation zu Coworker Chat, Kampagnen und Projekte
 - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
 - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
 - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-- [!DNL Workfront] Tools, dokumentiert im [Workfront MCP-Server-Handbuch](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Workfront] Tools, dokumentiert im [Workfront MCP-Server-Handbuch](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 
 Neu bei CX Coworker Gateway? Siehe [Zugriff auf CX Coworker Gateway-Tools](./mcp/access.md) und [Installieren von CX Coworker Gateway](./mcp/install.md), um eine Verbindung herzustellen. Verwenden Sie nach der Verbindung die [Sitzungskontext-Tools](./mcp/context-tools.md), um die aktive Organisation, Sandbox und Datenansicht festzulegen, bevor Sie die Produkt-Tools aufrufen.
 
