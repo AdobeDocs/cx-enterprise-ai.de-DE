@@ -14,7 +14,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 239
 ht-degree: 3%
@@ -30,7 +30,7 @@ Lesen Sie dieses Dokument, um mehr über die auf das Kundenvertrauen fokussierte
 * KI Assistant verwendet heute keine personenbezogenen Daten, auch nicht für Trainingszwecke.
 * Der KI-Assistent kennt keine Verbraucherdaten.
 * Alle vorhandenen [Zugriffssteuerungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) werden vom KI-Assistenten berücksichtigt.
-   * Alle neuen attributbasierten Zugriffssteuerungsrichtlinien werden nach maximal 24 Stunden im KI-Assistenten angezeigt.
+  * Alle neuen attributbasierten Zugriffssteuerungsrichtlinien werden nach maximal 24 Stunden im KI-Assistenten angezeigt.
 * Der KI-Assistent ist eine HIPAA-fähige Funktion, wenn sie in Kombination mit Adobe Experience Platform Healthcare Shield verwendet wird.
 * Sie können ein Protokoll Ihrer vorherigen Interaktionen mit dem KI-Assistenten mit einer 30-Tage-Aufbewahrungsrichtlinie anzeigen.
 * Der KI-Assistent basiert auf Sandbox-spezifischen Daten und der öffentlichen Adobe-Dokumentation, wenn auf Benutzeraufforderungen reagiert wird. Daten werden nicht über Sandboxes hinweg freigegeben.

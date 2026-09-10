@@ -12,10 +12,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 1433
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,7 @@ Wenn der Kunde den Zugriff auf diese Agentenfunktionen deaktivieren und den Test
 
 Lesen Sie die folgenden Handbücher, um weitere Informationen zu Coworker, Agent Orchestrator und AI Assistant zu erhalten:
 
-- [Kollegin](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Übersicht über Agent Orchestrator](agent-orchestrator.md)
 - [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md)
 - [Bibliothek mit Eingabeaufforderungen des KI-Assistenten](../ai-assistant/prompt-library.md)

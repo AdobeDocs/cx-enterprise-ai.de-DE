@@ -5,9 +5,9 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+source-git-commit: dcd2c251357930ae31f78e2d9460d038a0710e3d
 workflow-type: tm+mt
-source-wordcount: 2187
+source-wordcount: 3291
 ht-degree: 0%
 
 ---
@@ -16,7 +16,124 @@ ht-degree: 0%
 
 Coworker Campaign-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht.
 
+## September 2026 {#sep-2026}
+
+**Veröffentlichungsdatum: 3. September 2026**
+
+* Kopieren Sie alle Chat-Nachrichten und bewerten Sie KI-Antworten mit einem Daumen nach oben oder einem Daumen nach unten, direkt aus der Nachricht selbst
+* Die Aufgabenliste für den Kampagnenplan bleibt während der Ausführung Ihrer Kampagne nun über der Chat-Eingabe angeheftet, sodass Sie den Fortschritt verfolgen können, ohne wegzuscrollen
+* Verbinden eines DataBricks SQL Warehouse als neue Datenquelle für Ihre Kampagnen
+* Der ältere chatbasierte E-Mail-Editor wurde zugunsten des neueren E-Mail-Asset-Editors eingestellt
+* Testbenutzer-Admin ermöglicht jetzt den Ausschluss von Adobe-Benutzern, wodurch die Anzeige echter Testanmeldungen erleichtert wird
+* Es wurde ein Problem behoben, bei dem ähnliche Kampagnenvorschläge nicht geladen werden konnten
+* Chatnachrichten haben jetzt einen engeren, konsistenteren Abstand
+
+**Veröffentlichungsdatum: 1. September 2026**
+
+* Große Kampagnen-E-Mails werden jetzt vollständig im Editor angezeigt, anstatt abgeschnitten zu werden
+* Die Launch-Schaltfläche des Kampagnen-Boards heißt jetzt aus Gründen der Klarheit „Überprüfen und starten“
+* Beim Verbinden eines Salesforce-Kontos wird keine falsche Marketo-Fehlermeldung mehr angezeigt
+* Salesforce verfügt jetzt über ein eigenes Logo in der Connector-Liste
+* Verfügbare Connectoren werden jetzt vor den in Kürze erscheinenden aufgeführt
+* Beim Onboarding wird jetzt eine Fortschrittsanzeige angezeigt, während Ihr Brand Kit geladen wird
+* Die Vorschau von Zielgruppen und Wissensquellen verfügt jetzt über eine Schaltfläche zum Schließen und kann im Vollbildmodus geöffnet werden
+* Kampagnenplankarten bleiben nach dem Start der Kampagne nicht mehr mit der Anzeige „Wird erstellt“ stecken
+* Der Chat speichert keine temporären Fortschrittsmeldungen (wie „Erkunden…„) mehr in Ihrem Konversationsverlauf
+* Symbolleistensteuerelemente werden jetzt beim Anwenden von KI-Bildern oder Textvorschlägen ordnungsgemäß gesperrt
+* Es wurde ein Problem behoben, bei dem das Ersetzen eines Bildes im Asset-Editor nicht ordnungsgemäß funktionierte
+
+## August 2026 {#aug-2026}
+
+**Veröffentlichungsdatum: 26. August 2026**
+
+* Wenn Sie auf eine beliebige Stelle auf einer Kampagnenvorlagenkarte klicken, wird jetzt deren Vorschau geöffnet, nicht nur der Titel
+* Der Platzhalter für die Eingabeaufforderungsleiste in Campaign wird nach dem Löschen der Eingabe erneut korrekt angezeigt, mit klarerer Unterstützung durch die Sprachausgabe
+* Der Vorschlag „Helfen Sie mir dabei“ ersetzt nun den vorhandenen Text in der Eingabeaufforderungsleiste der Kampagne korrekt
+* Das Herunterladen von Abmeldungen als CSV-Datei spiegelt jetzt nur noch die angezeigte Kampagnenausführung wider
+* Der Testplanvergleich zeigt jetzt Launch-Kampagnen und Kampagneneinblicke als integrierte Funktionen
+* Zielgruppen, die ohne einen vollständigen Workflow erstellt wurden, werden jetzt korrekt auf der Zielgruppen -Karte des Kampagnen-Boards angezeigt
+* Empty-State-Feedback fordert dazu auf, in der gesamten App natürlicher zu lesen
+
+**Veröffentlichungsdatum: 25. August 2026**
+
+* Wenn Sie sich auf einer Browser-Registerkarte anmelden, werden jetzt die anderen automatisch synchronisiert, was Kontoverwechslungen zwischen Registerkarten behebt
+* Wenn Sie auf „Jetzt erstellen“ klicken, wird Ihr Plan zuverlässig vorwärts verschoben, anstatt ihn gelegentlich neu zu generieren
+* Workflow-Diagramme im Chat zeigen mehr von der Arbeitsfläche an, sodass die Zoom-Steuerelemente die Schritte nicht mehr abdecken
+* Die Registerkarten mit den Kampagnendetails haben ein aktualisiertes, konsistenteres Erscheinungsbild
+* Das Speichern oder Entfernen einer Versand-Domain in Domains und Absender ist jetzt schneller und zuverlässiger
+
+**Veröffentlichungsdatum: 24. August 2026**
+
+* Anzeige der erstellten Kampagnenstrategie direkt auf dem Kampagnenboard
+* Ersetzen Sie Ihre Zielgruppe direkt im Dialogfeld für die Kampagnenvalidierung
+* Die Campaign PDF- und Word-Exporte enthalten jetzt Ihr echtes Workflow-Diagramm
+* Die Registerkarte „Einblicke“ bleibt direkt nach dem Start mit einem hilfreichen leeren Status sichtbar
+* Hinzufügen oder Entfernen von Touchpoints bei der Überprüfung Ihrer Kampagnenfelder
+* Die Symbolleiste des Campaign-Boards ist einfacher, da unnötige Schaltflächen entfernt wurden.
+* Der Assistent „Domains und Absender“ bereinigt Subdomains und führt die Ersteinrichtung mit einem Coachmark durch.
+* Der Assistent „Domains und Absender“ zeigt Fehler bei der Subdomain-Validierung inline während der Eingabe an.
+* Die call-to-action für die Nachprüfungskampagne wurde aus Gründen der Sauberkeit entfernt
+* Chinesische Sprachnamen werden jetzt korrekt in der Sprachauswahl angezeigt
+* KI-generierte Variantenminiaturen werden zuverlässig ohne doppelte Beschriftungen geladen
+* Neu erstellte Kampagnen werden jetzt sofort auf der Startseite in Ihrer Liste der letzten Kampagnen angezeigt
+* Alle Kampagneneinblicke enthalten jetzt eine von KI generierte Zusammenfassung der Kampagnenleistung Ihrer Organisation
+* Wenn Sie die angeforderte Eingabe in einer Workflow-Konversation eingeben, bleibt sie nicht mehr hängen
+* Beim Onboarding von Testsendungen blinkt kein zusätzlicher Ladebildschirm mehr, wenn nach einem vorhandenen Marken-Kit gesucht wird
+* Veraltete Beispiel-Zielgruppenquellen werden jetzt automatisch aus Ihrem Workflow gelöscht
+* Layout, Design und Schriftarten werden nun innerhalb der einheitlichen Experience Cloud-Shell korrekt dargestellt
+* Ähnliche Kampagnenvorschläge zeigen kein unnötiges Kanalfeld mehr an
+
+**Veröffentlichungsdatum: 14. August 2026**
+
+* Löschen von Entwurfs-Domains, die Sie in „Domains und Absender“ nicht mehr benötigen
+* Siehe DNS-Verifizierungsstatus für jeden Datensatz während der Domain-Einrichtung
+* Domain-Details zeigen jetzt Ihren konfigurierten E-Mail-Absender an
+* DNS-Datensatzwerte mit einer QuickInfo für den Volltext sauber abschneiden
+* Gleichzeitiges Formatieren mehrerer E-Mail-Textblöcke mit Mehrfachauswahl
+* Abrufen ähnlicher Kampagnenvorschläge beim Erstellen einer neuen Kampagne
+* Kampagneneinblicke auf eine einzelne Ausführung einer wiederkehrenden Kampagne beschränken
+* Wählen Sie Ihre bevorzugte Sprache aus dem Profilmenü
+* Erhalten Sie einen Hinweis, wenn die Beschreibungen der Kampagnenvorlagen detaillierter sein müssen
+* Versionshinweise sind mit besserer Navigation und Paginierung einfacher zu durchsuchen
+* Reduzieren Sie die Liste der letzten Kampagnen der Seitenleiste, um Platz zu sparen
+* Die Ansicht des Kampagnenbestands bleibt jetzt so, wie Sie sie verlassen haben
+* Ausführungsfilter neu anordnen und aus einer Kalenderauswahl in einen Datumsbereich springen
+* Vorschau von Zielgruppendetails auch auf schreibgeschützten Zielgruppenkarten
+* Der Onboarding-Bildschirm für Testflüsse blinkt nicht mehr und es tritt kein Problem mit der Anmeldungsverzögerung auf.
+* Der Größenänderungsgriff der Chat-Leiste blockiert die Bildlaufleiste der Nachrichtenliste nicht mehr.
+* Die Erstellung eines Brand Kit zeigt jetzt den wahren Grund für das Fehlschlagen des Speichervorgangs an
+
+**Veröffentlichungsdatum: 6. August 2026**
+
+* Campaign Insights zeigt jetzt Abmeldungen mit einer herunterladbaren CSV-Datei von Benutzern an, die sich abgemeldet haben
+* Auf der Registerkarte „Insights“ wird jetzt eine Tabelle mit einer Leistungsaufschlüsselung pro E-Mail angezeigt
+* Zeigen Sie Ihre Kampagnen-Journey-Zuordnung direkt auf der Registerkarte „Insights“ an.
+* Die auf der Dauer basierenden Warteschritte sind jetzt in der Journey-Workflow-Ansicht sichtbar
+* Die gewichteten Journey-Verzweigungen werden in der Bearbeitungsansicht des Workflows angezeigt
+* Kontaktlisten sind jetzt mit Live-Daten verbunden
+* Wiederkehrende Kampagnen zeigen 0 Sendungen sofort anstelle von „Einblicke ausstehend“ an
+* Bearbeiten von Remix-Eingabeaufforderungstext direkt um Platzhalterchips
+* Verbesserte Coachmark- und Cleaner-Platzhalter-Chips im Remix-Editor
+* Campaign-Workflow-Karten zeigen jetzt einen hilfreichen leeren Status an, wenn nichts ausgeführt wird
+* Die Schaltfläche „Upgrade-Plan“ verdeckt nicht mehr die Kopfzeile der Kampagnendetails
+* Workflow-Karten haben ein einfacheres Layout mit entferntem Journey-Namen und Beschreibung
+
 ## Juli 2026 {#july-2026}
+
+**Veröffentlichungsdatum: 30. Juli 2026**
+
+* Alle Kampagnen-Insights entsprechen jetzt dem Layout der einzelnen Kampagnen-Insights sowie einem neuen täglichen Leistungsdiagramm
+* Stoppen einer Live-Kampagne direkt über die Kampagnenseite
+* Beim Duplizieren einer Kampagne wird jetzt nur noch nach einem neuen Namen gefragt
+* E-Mail-Vorlagen direkt über die Vorlagenliste bearbeiten
+* Filtern der Ansicht der wiederkehrenden Kampagnen-Journey nach Ausführung
+* Hinzufügen eines Markenbilds direkt über das Campaign-Board
+* Die Testadministratortabelle unterstützt jetzt E-Mail-Suche, Paginierung und vollständigen CSV-Export
+* Die Schaltfläche „Überraschung mich“ reagiert jetzt sofort, ohne Animationsverzögerung
+* Die Einstellungen für die Abmeldung von Kampagnen-E-Mails wurden entfernt, während wir diese Funktion überarbeiten
+* Bearbeiten des Zeitplans einer Kampagne, nachdem er bereits festgelegt wurde, ohne von vorne zu beginnen
+* Öffnen Sie den Schreibstileditor über das Menü Überlauf , um schneller darauf zuzugreifen
+* Durch Drücken der Eingabetaste werden jetzt in allen Eingabeaufforderungsleisten in der App konsistent gesendet
 
 **Veröffentlichungsdatum: 23. Juli 2026**
 
