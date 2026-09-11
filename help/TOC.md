@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: f06ee8c16052091f661f16e291767a38ac7edee9
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '317'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,8 @@ ht-degree: 19%
       - Journeys {#journeys}
         - [Erstellen von Journey in natürlicher Sprache](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [Erstellen einer Herausforderung zur Treue und Aufdecken von Einblicken](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
+      - Optimierung {#optimization}
+        - [Target-Aktivitäten starten](./coworker/chat/use-cases/optimization/target.md)
       - Sandbox-Werkzeuge {#sandbox-tooling}
         - [Sandbox Tooling Agent Kenntnisse](./agents/sandbox-tooling.md)
       - Warnhinweise {#alerts}
@@ -96,4 +98,4 @@ ht-degree: 19%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
