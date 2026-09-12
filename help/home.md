@@ -2,22 +2,12 @@
 title: KI in CX Enterprise-Anwendungen
 description: Erfahren Sie, wie CX Enterprise-Anwendungen generative KI (GenAI), CX Enterprise Coworker, KI Assistant, agentische KI und MCP-Tools verwenden.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 988
 ht-degree: 3%
 
 ---
@@ -41,8 +31,8 @@ Beginnen Sie hier mit einem Überblick darüber, wo und wie KI in CX Enterprise 
 
 Bei Coworker handelt es sich um eine agentenorientierte Weiterentwicklung des KI-Assistenten, der Kundenerlebnis- und Marketing-Workflows automatisiert, sodass sich Ihr Team auf Geschäftsziele anstatt auf die routinemäßige Ausführung konzentrieren kann. Anstatt eine Frage nach der anderen zu stellen, beschreibt man ein Ziel. Mitarbeiter plant, führt aus, validiert und gibt die abgeschlossene Arbeit zur Genehmigung zurück. Coworker includes:
 
-- **[Coworker Chat](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Eine Gesprächsoberfläche, mit der Sie Ihre Daten untersuchen, Zielgruppen und Journey validieren und mehrstufige Aufgaben in allen CX Enterprise-Anwendungen ausführen können.
-- **[Coworker Campaign](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: Eine KI-native Anwendung, die Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen.
+- **[Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Eine Gesprächsoberfläche, mit der Sie Ihre Daten untersuchen, Zielgruppen und Journey validieren und mehrstufige Aufgaben in allen CX Enterprise-Anwendungen ausführen können.
+- **[Coworker Campaign](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: Eine KI-native Anwendung, die Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen.
 - **Coworker Projects** (in Kürze verfügbar): Ein einheitlicher Arbeitsbereich zur Automatisierung von End-to-End-Orchestrierungs-Workflows für das Kundenerlebnis, der Teams bei der Koordinierung von Aufgaben, Genehmigungen und Ausführungen unterstützt, um Ergebnisse von der Strategie bis zur Bereitstellung zu erzielen. Die Dokumentation für Projekte wird in Kürze verfügbar sein.
 
 Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-Agenten auf den Coworker Chat umgestellt. Lesen Sie [Coworker Trial](./agents/trial.md), um mehr über die Testeignung, die Verwendung von KI-Guthaben und den Zugriff darauf zu erfahren.
@@ -84,7 +74,8 @@ Eine vollständige Liste der Agenten, der von ihnen unterstützten Programme und
 - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
 - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
 - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-- [!DNL Workfront] Tools, dokumentiert im [Workfront MCP-Server-Handbuch](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Workfront] Tools, dokumentiert im [Workfront MCP-Server-Handbuch](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] Tools, dokumentiert im [Target MCP Server Guide](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
 Neu bei CX Coworker Gateway? Siehe [Zugriff auf CX Coworker Gateway-Tools](./mcp/access.md) und [Installieren von CX Coworker Gateway](./mcp/install.md), um eine Verbindung herzustellen. Verwenden Sie nach der Verbindung die [Sitzungskontext-Tools](./mcp/context-tools.md), um die aktive Organisation, Sandbox und Datenansicht festzulegen, bevor Sie die Produkt-Tools aufrufen.
 
@@ -92,7 +83,7 @@ Neu bei CX Coworker Gateway? Siehe [Zugriff auf CX Coworker Gateway-Tools](./mcp
 
 ### Zugriffsanforderungen
 
-Ihr Adobe-Administrator muss Ihnen die entsprechenden Berechtigungen erteilen, bevor Sie den KI-Assistenten und die Experience Platform-Agenten verwenden können. Die Anforderungen variieren je nach Anwendung. Weitere Informationen finden [&#x200B; unter &#x200B;](./agents/agent-orchestrator.md#access) im Agent Orchestrator-Handbuch.
+Ihr Adobe-Administrator muss Ihnen die entsprechenden Berechtigungen erteilen, bevor Sie den KI-Assistenten und die Experience Platform-Agenten verwenden können. Die Anforderungen variieren je nach Anwendung. Weitere Informationen finden [ unter ](./agents/agent-orchestrator.md#access) im Agent Orchestrator-Handbuch.
 
 ### Datenschutz und Sicherheit
 
