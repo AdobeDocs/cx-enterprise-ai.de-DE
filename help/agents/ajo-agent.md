@@ -7,41 +7,54 @@ role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+    internal-label: Journey design
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+    internal-label: Audiences
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
+    internal-label: Audience segmentation
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 3372
-ht-degree: 11%
-
+source-wordcount: '3801'
+ht-degree: 10%
 ---
 
-
 # Journey Agent: Übersicht und Benutzerhandbuch
-
->[!AVAILABILITY]
->
->Journey Agent-KI-Funktionen für die Erstellung und die Inhaltserstellung stehen Kunden zur Verfügung, die Teil des Agent Orchestrator Explorer-Programms sind. Weitere Informationen erhalten Sie bei der Adobe-Kundenunterstützung.
 
 ## Einführung in Journey Agent in Adobe Journey Optimizer
 
@@ -53,21 +66,23 @@ Journey Agent umfasst vier Hauptaufgaben, die zu erfüllen sind:
 - **Kanalinhalt erstellen**: Generieren, Bearbeiten und Verwalten kanalspezifischer Inhalte (E-Mail, Push, SMS) für Journey mithilfe von KI-gestützter Inhaltserstellung
 - **Journey Analyze**: Analysieren Sie Journey, erkennen Sie Probleme, entdecken Sie Erkenntnisse und optimieren Sie die Kundeninteraktion
 
-Darüber hinaus ist **Journey Simulation** eine Journey Optimizer-Funktion, die [Journey Simulate](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), eine produktinterne, nicht-konversationale KI-Funktion mit drei Unterfunktionen, umfasst:
+Darüber hinaus ist **Journey Simulation** eine Journey Optimizer-Funktion, die [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs){target="_blank"}, eine produktinterne, nicht-konversationale KI-Funktion mit drei Unterfunktionen, umfasst:
 
 - Generieren simulierter Benutzer
 - Generieren von Ereigniswerten
 - Schnellsimulation
 
-## Journey Create: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch
+## Journey Create: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch {#journey-create}
 
 ## Überblick
 
 Mit Journey Create können Journey Optimizer-Benutzer Marketing-Journey über eine natürliche Sprachschnittstelle erstellen und konfigurieren. Mit Journey Create können Anwender schnell Journey erstellen, indem sie ihre Anforderungen in Gesprächshinweisen beschreiben. Der Agent optimiert die Journey-Erstellung, sodass sich Marketing-Fachleute auf die Strategie konzentrieren können, statt sich um die technische Konfiguration kümmern zu müssen.
 
+Weitere Informationen finden Sie unter [Journey erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-create){target="_blank"} in der Dokumentation zu Adobe Journey Optimizer.
+
 >[!AVAILABILITY]
 >
->Journey Create ist für Kunden verfügbar, die Teil des Agent Orchestrator Explorer-Programms sind. Sie benötigen außerdem die folgenden Berechtigungen, um die Funktionen von Journey Create in vollem Umfang nutzen zu können:
+>Sie benötigen die folgenden Berechtigungen, um die Funktionen von Journey Create vollständig nutzen zu können:
 >
 >**Journey** verwalten: Mit dieser Berechtigung können Sie neue Journeys direkt im KI-Assistenten erstellen.
 >
@@ -109,6 +124,11 @@ Journey Create bietet Funktionen, die genutzt werden können, um die Marketing-A
    - Erstellen Sie Entscheidungszweige basierend auf Kundenattributen.
    - Entwerfen Sie Split-Pfade, die sich an die Kundenpräferenzen anpassen.
 
+1. **Erstellen eines Journey aus einem Bild**
+
+   - Laden Sie ein Referenzbild hoch und bitten Sie den Agenten, eine Journey mit dem Bild als Referenz zu erstellen.
+   - Der Agent extrahiert eine bearbeitbare Eingabeaufforderung aus dem Referenzbild.
+
 Für jeden dieser Anwendungsfälle übersetzt der Agent Anforderungen an natürliche Sprachen in strukturierte Journey-Konfigurationen.
 
 ## In Umfang und außerhalb des Umfangs liegende KI-Funktionen
@@ -128,9 +148,14 @@ Die folgenden Funktionen werden von Journey Create unterstützt:
 Die folgenden Möglichkeiten werden derzeit nicht unterstützt:
 
 - **Erweiterte Journey-**
-- **Echtzeit-Journey-Änderungen**
 - **Cross-Journey-Orchestrierung**
 - **A/B-Testkonfiguration**
+- **InAudience-Ausdruckserstellung**
+- **Datensatz-Lookup-Knoten**
+- **Wave-Sendeeinstellungen**
+- **Optionen für Wiederholungen planen**
+- **Namespace-Auswahl für Zielgruppen**
+- **Zuordnung benutzerdefinierter Aktionsfelder**
 - **Komplexe Datenumwandlungen**
 
 ## Eingabeaufforderungen im Beispiel
@@ -195,7 +220,7 @@ Wenn ein(e) Benutzende(r) meinen Store-Speicherort betritt, senden Sie eine Will
 - **Planen des Nachrichteninhalts**: Lassen Sie Ihre Messaging-Strategie vor der Erstellung von Journey definieren.
 - **Kundenerlebnis berücksichtigen**: Entwerfen Sie Journey-Flüsse, die Kundenpräferenzen berücksichtigen und Überkommunikation vermeiden.
 
-## Kanalinhalt erstellen: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch
+## Kanalinhalt erstellen: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch {#channel-content-create}
 
 >[!AVAILABILITY]
 >
@@ -205,7 +230,9 @@ Wenn ein(e) Benutzende(r) meinen Store-Speicherort betritt, senden Sie eine Will
 
 Mit der Erstellung von Kanalinhalten können Journey Optimizer-Benutzende kanalspezifische Inhalte für Journey generieren, bearbeiten und verwalten, indem sie die KI-gestützte Inhaltserstellung verwenden.
 
-## Anwendungsfälle
+Weitere Informationen finden Sie unter [Kanalinhalt erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#channel-content-create){target="_blank"} in der Adobe Journey Optimizer-Dokumentation.
+
+## Anwendungsszenarien
 
 ### Häufige Anwendungsfälle für die Erstellung von Kanalinhalten
 
@@ -277,13 +304,15 @@ Die folgenden Möglichkeiten werden derzeit nicht unterstützt:
 1. **Ton definieren**: Geben Sie den gewünschten Ton an (freundlich, formell, ungezwungen, dringend).
 1. **Iterieren und verfeinern**: Verwenden Sie die Aktion „Neu generieren“, um Inhalte zu verfeinern, bis sie Ihren Anforderungen entsprechen.
 
-## Journey Analyze: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch
+## Journey Analyze: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch {#journey-analyze}
 
 ## Überblick
 
-Journey Agent ermöglicht es Journey Optimizer-Anwendern, Journey mithilfe einer natürlichen Sprachschnittstelle zu analysieren und zu optimieren. Mit Journey Agent können Anwendende Zeitplankonflikte und/oder Zielgruppenkonflikte schnell identifizieren und lösen, Punkte der Benutzerkündigung in einer Journey erkennen und Einblicke oder Empfehlungen liefern. Er unterstützt Marketing-Fachleute dabei, datengestützte Entscheidungen zu treffen, die Kundeninteraktion zu verbessern und die Journey-Orchestrierung zu optimieren.
+Journey Analyze ermöglicht es Journey Optimizer-Anwendern, Journey mithilfe einer natürlichen Sprachschnittstelle zu analysieren und zu optimieren. Mit Journey Analyze können Anwender Zeitplankonflikte und Zielgruppenkonflikte schnell identifizieren und lösen, Punkte für Benutzerabbrüche auf einer Journey erkennen und Einblicke oder Empfehlungen zur Leistungsverbesserung erhalten.
 
-Erfahren Sie mehr und entdecken Sie den Agenten auf einen Blick in dieser [Übersicht](https://experienceleague.adobe.com/de/slides/journey-agent-overview).
+Erfahren Sie mehr und entdecken Sie den Agenten auf einen Blick in dieser [Übersicht](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+
+Weitere Informationen finden Sie unter [Journey Analyze](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"} in der Adobe Journey Optimizer-Dokumentation.
 
 >[!AVAILABILITY]
 >
@@ -327,6 +356,19 @@ Journey Analyze bietet eine Reihe von Funktionen, mit denen Marketing-Maßnahmen
 
    - Prompt-basierte Journey-Einblicke - Erhalten Sie operative Einblicke über Journey, d. h. „Zeige mir alle Live-Journey&quot;.
 
+1. **Fehleranalyse für benutzerdefinierte Aktion beim Journey**
+
+   - Ermitteln Sie, wenn benutzerdefinierte Aktionen fehlschlagen oder die Fehlerrate innerhalb eines Journey ansteigt.
+   - Diagnose der Grundursachen, bevor Fehler zu einer größeren Journey-Unterbrechung führen.
+   - Verwenden Sie spezifische Schritte zur Behebung von Problemen, um die Zuverlässigkeit benutzerdefinierter Aktionen schnell wiederherzustellen.
+
+1. **Analysieren von Journey-Anomalien**
+
+   - Erkennen Sie unerwartete Spitzen, Abstürze oder Ausrundungen in den Ein-, Austritts- oder Nachrichtensendungszahlen einer Journey im Vergleich zu den bisherigen Baselines. Dies betrifft auch Fälle, in denen die Frage nach der Anzahl der Profile lautet, die in die Journey eintreten, sie beenden oder abschließen.
+   - Mit einer deterministischen statistischen Prüfung bestätigen Sie, ob eine markierte Änderung eine echte Anomalie ist, anstatt sich allein auf die Markierung für die unformatierte Anomalie zu verlassen.
+   - Führen Sie eine schreibgeschützte, begrenzte Diagnose für Journey-Ausführungsdaten durch, um eine wahrscheinliche Grundursache zu identifizieren. Dabei wird angezeigt, wonach jede Prüfung gesucht und zusammen mit der Empfehlung gefunden hat.
+   - Untersuchen Sie Anomalie-Warnhinweise, die auf eine bestimmte Journey-Version und einen Zeitstempel verweisen.
+
 Bei jeder dieser Analysen erkennt der Agent nicht nur Probleme, sondern gibt auch **umsetzbare Empfehlungen zur Lösung dieser Probleme**.
 
 ## In Scope and Out of Scope AI-Funktionen
@@ -338,13 +380,14 @@ Journey Analyze unterstützt die folgenden Funktionen:
 - **Reaktive Abfragen**: Mit dieser Funktion können Benutzende gezielte Fragen zur Leistung der Journey, zur Nutzung durch die Zielgruppe und zu Zeitplankonflikten stellen.
 - **Integration mit anderen Agents**: Zusammenarbeit mit Audience Agent und Data Insights Agent für eine tiefergehende Analyse.
 - **Struktur der Agent-**: Argumentation (Erläuterung der Logik), Zusammenfassung der Analyse (Hervorhebung der Schlüsselpunkte), Problemdetails (Beschreibung des Problems) und Empfehlung (Vorschlag der nächsten Schritte).
+- **Fehleranalyse für benutzerdefinierte Aktionen**: Erkennung und Diagnose von Fehlern bei benutzerdefinierten Aktionen und Fehlerspitzen innerhalb eines Journey.
+- **Anomalieerkennung**: Erkennen und bestätigen Sie statistisch signifikante Spitzen, Stürze oder Ausrundungen in einer Journey-Eintritts-, Austritts- oder Versandzählung und ermitteln Sie eine wahrscheinliche Grundursache.
 
 ### **Nicht unterstützte Funktionen**
 
 Die folgenden Möglichkeiten werden derzeit nicht unterstützt:
 
 - **Automatisierte Erstellung von Journeys**
-- **Echtzeit-Anomalieerkennung**
 - **Kanalüberschneidungen**
 - **Analyse des Journey-Eintritts**
 - **Analyse technischer Probleme**
@@ -397,8 +440,8 @@ Nutzen Sie diese Prompts, um mögliche Konflikte zwischen Journeys zu analysiere
 - „Identifizieren Sie Konflikttypen für Journey [Journey-Name] im Vergleich zu laufenden Journey.“
 - „Überschneidende Zielgruppen für das Journey von [Journey-Name] und anderen Journey anzeigen.“
 - „Zeitplanüberschneidungen zwischen Journey [Journey-Name] und Live-Journey hervorheben.“
-- „Steht die Ausführung von Journey [Journey]Name&rbrace; im Konflikt mit einer anderen Journey?“
-- „Bitte Konflikte für [Journey-Name&rbrace; erkennen und ].“
+- „Steht die Ausführung von Journey [Journey]Name} im Konflikt mit einer anderen Journey?“
+- „Bitte Konflikte für [Journey-Name} erkennen und ].“
 - „Melden Sie alle Konflikttypen für das Journey [Journey-Name].“
 - „Geben Sie mir eine Konfliktaufschlüsselung (Planung und Zielgruppe) für [Journey-Name].“
 - „Gibt es für [Journey-] Konflikte, die sich auf die Leistung auswirken können?“
@@ -408,6 +451,22 @@ Nutzen Sie diese Prompts, um mögliche Konflikte zwischen Journeys zu analysiere
 - „Finden Sie potenzielle Zielgruppenkonflikte für Journey [Journey-Name].“
 - „Analysieren des Konfliktrisikos für Journey [Journey-Name].“
 - „Stellen Sie eine Konfliktdiagnose für [Journey-Name] bereit.“
+
+### Fehleranalyse für benutzerdefinierte Aktionen
+
+- „Warum schlagen benutzerdefinierte Aktionen beim Journey von [Journey-Name fehl]&quot;
+- „Wie hoch ist die Fehlerrate für eine benutzerdefinierte Aktion [benutzerdefinierter Aktionsname] auf Journey [Journey-Name]?“
+- „Anzeige der Grundursache für Fehler bei benutzerdefinierten Aktionen beim Journey [Journey-Name]&quot;
+- „Gibt es derzeit Fehler bei benutzerdefinierten Aktionen, die sich auf den Journey [Journey-] auswirken?“
+
+### Journey-Anomalieanalyse
+
+- „Warum sind gestern Einträge für meine Begrüßungs-Journey abgelegt worden?“
+- „Hat die Spitze der Ausstiege für die Journey zu Warenkorbabbrüchen diese Woche erreicht?“
+- „Die Journey der Verlängerungserinnerung wird heute nicht gesendet. Was ist passiert?“
+- „Warum ist die Anzahl der Profile, die in den letzten 30 Tagen mein Journey zum Mitgliederjubiläum betreten haben, plötzlich gesunken?“
+- „Diesen Monat legen weniger Profile als gewöhnlich meine Journey zur Verlängerungserinnerung ab - warum?“
+- „Ein Anomalie-Warnhinweis wurde für das Journey von [Journey-Versions-ID] um [timestamp] ausgelöst — untersuchen.“
 
 ## Best Practices
 
@@ -425,7 +484,7 @@ Befolgen Sie die folgenden Best Practices, um die Effektivität von Journey Anal
 - **Überwachen Sie regelmäßig**: Planen Sie regelmäßige Überprüfungen der Journey-Leistung, um Trends und Anomalien zu erkennen.
 - **Optimieren Sie die Segmentierung**: Stellen Sie sicher, dass die Zielgruppensegmentierung ausgewogen ist, um Ermüdungserscheinungen zu vermeiden und Interaktionen zu maximieren.
 
-## Journey Simulieren: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch
+## Journey Simulieren: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch {#journey-simulate}
 
 ## Überblick
 
@@ -503,4 +562,11 @@ Darüber hinaus werden die folgenden Funktionen von der Journey-KI-Simulation un
 
 Die Simulation unterstützt möglicherweise nicht alle Aktivitäten, Kanäle oder Integrationen, die der Testmodus oder eine Live-Journey unterstützt, und das Verhalten kann sich mit zunehmender Reife der Funktion ändern.
 
-➡️ Weitere Informationen zu [Simulationsbeschränkungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) finden Sie in der Dokumentation zu Journey Optimizer.
+➡️ Weitere Informationen zu [Simulationsbeschränkungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs#limitations){target="_blank"} finden Sie in der Dokumentation zu Journey Optimizer.
+
+## Siehe auch
+
+- [Agent Orchestrator](./agent-orchestrator.md), die Agentenebene, auf der Journey Agent und andere Experience Platform-Agenten basieren.
+- [Journey Optimizer-Tools in CX Coworker Gateway](../mcp/ajo-mcp.md), einer schreibgeschützten MCP-Oberfläche zur Überprüfung der Kampagnen- und Kanalkonfiguration.
+- [Erstellen von Journey](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md) und [Erstellen, Bearbeiten und Verwalten von Herausforderungen im Zusammenhang mit der Treue](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md), Coworker Chat-Anwendungsfälle, die auf Journey Create basieren.
+- [Product Support Agent](./product-support.md) zur Fehlerbehebung bei Journey Optimizer-Problemen, die über den KI-Assistenten aufgetaucht sind.

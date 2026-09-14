@@ -1,20 +1,18 @@
 ---
 title: Zugriff auf CX Coworker Gateway-Tools
-description: Überprüfen Sie die Produktverfügbarkeit, die Aktivierung des Unternehmens und die Berechtigungen, bevor Sie die Adobe CX Coworker Gateway-Tools verwenden.
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+description: Überprüfen Sie die Produktverfügbarkeit, die Aktivierung für das Unternehmen und die Berechtigungen, bevor Sie die Adobe CX Coworker Gateway-Tools verwenden.
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 4%
-
 ---
-
 # Zugriff auf CX Coworker Gateway-Tools {#mcp-access}
 
 Adobe CX Enterprise stellt Produkttools über eine einzige MCP bereit. Der Zugriff wird von Produkt-Tools bewertet: Ihr Adobe-Unternehmen muss für die entsprechenden Produkt-Tools aktiviert sein und Ihr Benutzerkonto muss über die erforderlichen Produktberechtigungen verfügen, um die von diesen Tools bereitgestellten Produktdaten anzeigen oder ändern zu können.
 
 >[!IMPORTANT]
 >
->Ihre Adobe-Organisation muss aktiviert sein, damit Sie die CX Coworker-Gateway-Tools verwenden können. Wenn Ihr Unternehmen noch keinen Zugriff hat, wenden Sie sich an Ihr Adobe Account Team , um die Aktivierung für Ihr Unternehmen anzufordern.
+>Ihr Adobe-Unternehmen muss aktiviert sein, bevor Sie die CX Coworker Gateway-Tools verwenden können. Wenn Ihr Unternehmen noch keinen Zugriff hat, wenden Sie sich an Ihr Adobe Account Team , um die Aktivierung für Ihr Unternehmen anzufordern.
 
 ## Zugriffsanforderungen {#mcp-requirements}
 
@@ -23,11 +21,11 @@ Adobe CX Enterprise stellt Produkttools über eine einzige MCP bereit. Der Zugri
 | --- | --- | --- |
 | Real-Time CDP | Beta | Active Real-Time CDP-Lizenz, Beta-Aktivierung für Ihr Adobe-Unternehmen und Berechtigungen zum Anzeigen der von Ihnen abgefragten Zielgruppen, Ziele, Quellen, Identitäten und Aktivierungsressourcen. |
 | Experience Platform | Beta | Aktive Experience Platform-Lizenz, Beta-Aktivierung für Ihr Adobe-Unternehmen und Berechtigungen zum Anzeigen der von Ihnen abgefragten Schemata, Datensätze, Governance, Abfrage-Service, Audit und Sandbox-Ressourcen. |
-| Journey Optimizer | Beta | Aktive Journey Optimizer-Lizenz, Beta-Aktivierung für Ihr Adobe-Unternehmen und Berechtigungen zum Anzeigen von Kampagnen und Kanalkonfigurationen. |
+| Journey Optimizer | Beta | Aktive Journey Optimizer-Lizenz, Beta-Aktivierung für Ihr Adobe-Unternehmen und Berechtigungen zum Anzeigen von Kampagnen, Journey und Kanalkonfigurationen. |
 | Customer Journey Analytics | Verfügbar | Aktive Customer Journey Analytics-Lizenz und ein Produktprofil, das das Berechtigungselement **MCP-Zugriff** in Adobe Admin Console enthält. Produktberechtigungen steuern weiterhin, auf welche Datenansichten, Komponenten, Berichte, Projekte und Zielgruppen Sie zugreifen oder sie ändern können. |
 | Adobe Analytics | Verfügbar | Aktive Adobe Analytics-Lizenz und ein Produktprofil, das das Berechtigungselement **MCP-Zugriff** in Adobe Admin Console enthält. Produktberechtigungen steuern weiterhin, auf welche Report Suites, Komponenten, Berichte, Segmente, Datumsbereiche und Projekte Sie zugreifen oder sie ändern können. |
-| Workfront | Vorschau | Aktive Workfront-Lizenz und Aktivierung von Workfront MCP. Siehe die [Workfront MCP-Dokumentation](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview). |
-| Target | Beta | Active Target-Lizenz mit einer Adobe Experience Platform-Organisation. Siehe die [Target MCP-Dokumentation](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp-get-started). |
+| Workfront | Vorschau | Aktive Workfront-Lizenz und Aktivierung von Workfront MCP. Siehe die [Workfront MCP-Dokumentation](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview). |
+| Target | Beta | Active Target-Lizenz mit einer Adobe Experience Platform-Organisation. Siehe die [Target MCP-Dokumentation](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp-get-started). |
 
 
 

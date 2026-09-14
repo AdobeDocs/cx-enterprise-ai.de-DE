@@ -1,13 +1,11 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Erfahren Sie, wie Sie die Adobe Marketing Agent for Microsoft 365 Copilot verwenden können.
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
 source-wordcount: '1832'
 ht-degree: 0%
-
 ---
-
 # Adobe Marketing Agent für [!DNL Microsoft 365 Copilot]
 
 Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] ist ein KI-gestütztes Tool, das Adobe Experience Platform direkt mit [!DNL Microsoft 365 Copilot] verbindet. Mit diesem Agenten können Sie Fragen in natürlicher Sprache in [!DNL Microsoft 365] Anwendungen wie [!DNL Teams], [!DNL Word], [!DNL Powerpoint] und [!DNL Excel] stellen, um sofort Marketing-Erkenntnisse aus Experience Platform abzurufen, ohne Ihren Workflow zu unterbrechen. Derselbe Agent ist in diesen Apps verfügbar, und Ihr Chat-Verlauf mit der Adobe Marketing Agent wird übernommen. So können Sie z. B. in [!DNL Copilot] in [!DNL Teams] recherchieren und das Gespräch in [!DNL Word] oder [!DNL Powerpoint] fortsetzen, während Sie einen Kampagnenbericht entwerfen oder eine Präsentation überprüfen.
@@ -22,7 +20,7 @@ Mit Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] können Marketing-Man
 
 >[!IMPORTANT]
 >
->Adobe Marketing Agent für [!DNL Microsoft 365 Copilot] unterstützt derzeit Experience Platform Operational Insights, Customer Journey Analytics Data Insights, Audience Agent und Journey Agent.
+>Adobe Marketing Agent für [!DNL Microsoft 365 Copilot] unterstützt derzeit Experience Platform Operational Insights, Customer Journey Analytics Data Insights, [Audience Agent](./audience.md) und die [Journey Agent](./ajo-agent.md).
 
 Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] bietet ein integriertes Erlebnis zwischen Experience Platform und [!DNL Microsoft 365]:
 
@@ -152,7 +150,7 @@ Bevor Sie externe Agenten bereitstellen können, muss die Richtlinie Ihrer Organ
 Normalerweise finden Sie externe Agenten im [[!DNL Microsoft Commercial Marketplace]](https://appsource.microsoft.com/).
 
 - **Vom Marketplace**: Suchen Sie den gewünschten Agenten und wählen Sie **Jetzt abrufen**. Dadurch werden Sie oft zurück zur Seite „Integrierte Apps **Ihres Admin Centers**.
-- **Berechtigungen überprüfen**: Wählen Sie in der Liste [Integrierte &#x200B;](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide)&quot; den externen Agenten aus.
+- **Berechtigungen überprüfen**: Wählen Sie in der Liste [Integrierte ](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide)&quot; den externen Agenten aus.
 - Überprüfen Sie die **Daten und Tools** und **Sicherheit und**), um zu sehen, auf welche Daten der externe Anbieter zugreifen wird.
 - Wählen Sie **Genehmigen** oder **Aktivieren** aus, um es in das Inventar Ihrer Organisation zu verschieben.
 
@@ -160,7 +158,7 @@ Normalerweise finden Sie externe Agenten im [[!DNL Microsoft Commercial Marketpl
 
 Nach der Genehmigung können Sie genau steuern, wer den Agenten in der Seitenleiste des Copiloten sehen kann.
 
-- Navigieren [[!DNL Microsoft 365]  im &#x200B;](https://admin.microsoft.com/) zu **Agenten** > **Alle Agenten**.
+- Navigieren [[!DNL Microsoft 365]  im ](https://admin.microsoft.com/) zu **Agenten** > **Alle Agenten**.
 - Wählen Sie den externen Agenten aus der Liste aus.
 - Wählen **Bereitstellen** (oder **Zuweisung bearbeiten**) aus.
 - Wählen Sie **Spezifische Benutzer/Gruppen** und suchen Sie nach den Einzelpersonen oder [!DNL Entra ID] Gruppen, die es haben sollen.

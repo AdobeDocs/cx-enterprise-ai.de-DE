@@ -4,22 +4,28 @@ description: Erfahren Sie mehr über die verschiedenen Arten von Eingabeaufforde
 TQID: https://experienceleague.adobe.com/QICjh9cNBT3XeKObkXqSDEGQT26zpv86V36L0tqvSgo
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+    internal-label: Privacy
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 813
+source-wordcount: '841'
 ht-degree: 17%
-
 ---
-
 # Bibliothek mit Eingabeaufforderungen des KI-Assistenten
 
 Lesen Sie dieses Handbuch für verschiedene Arten von Eingabeaufforderungen, die Sie im KI-Assistenten verwenden können.
@@ -71,7 +77,9 @@ Die folgenden Beispielaufforderungen können mit dem Data Insights Agent verwend
 
 ## Journey Agent
 
-Die folgenden Beispielaufforderungen können mit der Journey Agent verwendet werden, um Sie bei der Analyse von Journey-Lebenszyklen, der Verwaltung von Journey-Ressourcen, dem Erhalten von Einblicken in Zielgruppen- und Journey-Beziehungen und der Erkennung von Konflikten zwischen Journey zu unterstützen. Verwenden Sie diese Eingabeaufforderungen, um Ihre Journey-Orchestrierung zu optimieren und Probleme effizient zu beheben.
+Mit den folgenden Beispielaufforderungen können Sie mit der [Journey Agent](../agents/ajo-agent.md) Journey-Lebenszyklen analysieren, Journey-Ressourcen verwalten, Einblicke in Zielgruppen- und Journey-Beziehungen erhalten und Konflikte zwischen Journey erkennen. Verwenden Sie diese Eingabeaufforderungen, um Ihre Journey-Orchestrierung zu optimieren und Probleme effizient zu beheben.
+
+Beispielaufforderungen zur Journey-Erstellung, zur Erstellung von Kanalinhalten und zur Fallout-Analyse finden Sie in den Abschnitten [Journey-Erstellung](../agents/ajo-agent.md#journey-create), [Kanalinhalt erstellen](../agents/ajo-agent.md#channel-content-create) und [Journey-Analyse](../agents/ajo-agent.md#journey-analyze) des Journey Agent-Handbuchs.
 
 ### Fragen zum Journey-Lebenszyklus
 
