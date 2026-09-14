@@ -3,15 +3,15 @@ description: Durchsuchen Sie die Anwendungsfälle und Beispielaufforderungen des
 title: Anwendungsfälle für den Chat mit Kollegen
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
 workflow-type: tm+mt
-source-wordcount: 4624
+source-wordcount: '4795'
 ht-degree: 6%
-
 ---
-
 # Anwendungsfälle für den Chat mit Kollegen{#use-cases}
 
 Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natürlicher Sprache abfragen, analysieren und bearbeiten, anstatt mehrere Benutzeroberflächen zu durchsuchen oder Abfragen manuell zu schreiben. Auf dieser Seite werden die Anwendungsfälle katalogisiert, auf die sich die Fachleute am meisten verlassen, sortiert nach Arbeitsbereich: Dateneinblicke, Zielgruppen, Journey, Grundlegende Elemente und Sandbox-Tools. Jeder Eintrag beinhaltet die Qualifikation, die er aufruft, die Anwendungen, mit denen er arbeitet, und Beispielaufforderungen, die Sie kopieren, an Ihre eigenen Daten anpassen und durch Konversation verfeinern können.
@@ -144,10 +144,12 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 | Anwendungsfall | Beschreibung | Skills | Anwendung | Eingabeaufforderungen |
 | --- | --- | --- | --- | --- |
 | [Erschaffe Journey aus natürlicher Sprache](journeys/create-journey-from-natural-language.md) | Orchestrieren der Journey-Erstellung in AJO über eine Textaufforderung oder ein hochgeladenes Bild/Flussdiagramm | `journey-create` | Adobe Journey Optimizer (AJO) | „Erstellen Sie eine Begrüßungs-Journey, die nach der Anmeldung eine E-Mail sendet, 3 Tage wartet und dann eine Folgenachricht sendet“ <br> „Erstellen Sie eine Journey aus diesem hochgeladenen Flussdiagrammbild“ |
-| Journey-Konflikte analysieren | Erkennung von Zielgruppenüberschneidungen, Terminkollisionen und Deduplizierungsproblemen zwischen aktiven Journeys | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | „Steht mein Journey bei Warenkorbabbruch in Konflikt mit anderen Journey?“ <br> „Prüfen Sie, ob sich die Zielgruppen meiner aktiven Journey überschneiden.“ |
-| Analysieren von Journey-Fallout | Identifizieren Sie, wo und warum Kunden während eines Journey abbrechen, und erkennen Sie Verhaltensmuster, die zu einer Abmeldung führen | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | „Wo kommen die Leute auf meiner Re-Engagement-Journey hin?“ <br> „Welche Knoten in Journey X haben den höchsten Fallout?“ |
-| Analysieren von Fehlern bei benutzerdefinierten Aktionen | Ermitteln Sie, wann benutzerdefinierte Aktionen fehlschlagen oder Fehlerquoten innerhalb eines Journey in die Höhe schießen, und diagnostizieren Sie die Grundursachen, bevor Fehler in umfassendere Unterbrechungen übergehen. | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | „Warum schlagen benutzerdefinierte Aktionen in meiner Treue-Anmelde-Journey fehl?“ <br> „Fehlerrate für benutzerdefinierte Aktion „ExternalPush“ in meiner Begrüßungs-Journey anzeigen.“ |
+| [Analysieren von Journey-Konflikten](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Erkennung von Zielgruppenüberschneidungen, Terminkollisionen und Deduplizierungsproblemen zwischen aktiven Journeys | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | „Steht mein Journey bei Warenkorbabbruch in Konflikt mit anderen Journey?“ <br> „Prüfen Sie, ob sich die Zielgruppen meiner aktiven Journey überschneiden.“ |
+| [Analysieren des Journey-Fallouts](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Identifizieren Sie, wo und warum Kunden während eines Journey abbrechen, und erkennen Sie Verhaltensmuster, die zu einer Abmeldung führen | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | „Wo kommen die Leute auf meiner Re-Engagement-Journey hin?“ <br> „Welche Knoten in Journey X haben den höchsten Fallout?“ |
+| [Analysieren von Fehlern bei benutzerdefinierten Aktionen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Ermitteln Sie, wann benutzerdefinierte Aktionen fehlschlagen oder Fehlerquoten innerhalb eines Journey in die Höhe schießen, und diagnostizieren Sie die Grundursachen, bevor Fehler in umfassendere Unterbrechungen übergehen. | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | „Warum schlagen benutzerdefinierte Aktionen in meiner Treue-Anmelde-Journey fehl?“ <br> „Fehlerrate für benutzerdefinierte Aktion „ExternalPush“ in meiner Begrüßungs-Journey anzeigen.“ |
+| [Erkennen von Journey-Anomalien](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Erkennen und bestätigen Sie unerwartete Spitzen, Stürze oder Ausrundungen in einer Journey, Verlassen oder Senden von Zählungen anhand historischer Baselines und ermitteln Sie eine wahrscheinliche Grundursache | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | „Warum sind gestern Einträge für meine Begrüßungs-Journey abgelegt worden?“ <br> „Hat die Spitze der Ausstiege für die Journey zu Warenkorbabbrüchen diese Woche erreicht?“ |
 | [Erstellen, Bearbeiten und Verwalten von Herausforderungen im Zusammenhang mit der Treue](journeys/create-loyalty-challenge.md) | Vereinfachen und Beschleunigen der Verwaltung von Treueprogrammen | `loyalty` | Adobe Journey Optimizer (AJO) | „Erstellen Sie eine Herausforderung, die Mitglieder dazu ermutigt, ein neues saisonales Getränk auszuprobieren“ <br> „Herausforderungen bezüglich der Treue mit den höchsten Abbruchraten für Mitglieder zeigen“. |
+| [Analysieren der Leistung von Treueprogrammen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-data-insight){target="_blank"} | Fragen Sie mithilfe natürlicher Sprache Treuepunkte, Mitgliedsstufen, Einlösungen und Umsatzmetriken ab und analysieren Sie sie | `loyalty-insights` | Adobe Journey Optimizer (AJO) | „Wie viele Treuepunkte wurden im August 2026 gewährt?“ <br> „Die Gesamteinnahmen des Treueprogramms aufgeschlüsselt nach Tagen im August 2026 anzeigen.“ |
 
 ## Optimierung
 
