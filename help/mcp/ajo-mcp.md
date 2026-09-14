@@ -10,7 +10,7 @@ ht-degree: 5%
 
 Verwenden Sie die Adobe Journey Optimizer-Produkt-Tools, um Kampagnen, Journey- und Kanalkonfigurationen von einem MCP-kompatiblen Client aus zu überprüfen. Diese Tools sind über das [CX Coworker Gateway](overview.md) verfügbar, wenn Ihr Unternehmen aktiviert ist und Ihr Benutzerkonto über die erforderlichen Journey Optimizer-Berechtigungen verfügt.
 
-Weitere Informationen finden Sie unter [Arbeiten mit MCP](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"}Clients in der Adobe Journey Optimizer-Dokumentation.
+Weitere Informationen finden Sie unter [Arbeiten mit MCP](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"}Clients in der Adobe Journey Optimizer-Dokumentation.
 
 Ein konversatives, agentisches Erlebnis zum Erstellen, Analysieren und Simulieren von Journey finden Sie unter [Journey Agent](../agents/ajo-agent.md).
 
@@ -66,7 +66,7 @@ Journey Optimizer-Tools bieten eine schreibgeschützte Oberfläche für die Übe
 
 Zusätzlich zu den oben genannten schreibgeschützten Produkt-Tools können Journey Optimizer-Benutzende Inhaltselemente - Inhaltsvorlagen, Fragmente, Landingpages und Inline-Nachrichteninhalte von Journey- oder Kampagnen - direkt von CX Coworker aus über natürliche Sprachaufforderungen ermitteln und verwalten. Diese Funktion basiert auf einem separaten Satz von Lese- und Schreib-fähigen MCP-Tools für Journey Optimizer-Inhalte und steht allen Kunden zur Verfügung, die Zugriff auf CX Coworker haben.
 
-Weitere Informationen finden Sie unter [Content-Management-Tools](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"} in der Dokumentation zu Adobe Journey Optimizer.
+Weitere Informationen finden Sie unter [Content-Management-Tools](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"} in der Dokumentation zu Adobe Journey Optimizer.
 
 Content-Management-Tools ermöglichen Ihnen Folgendes:
 
