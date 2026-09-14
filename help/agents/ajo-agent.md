@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
 workflow-type: tm+mt
-source-wordcount: '3801'
+source-wordcount: '3820'
 ht-degree: 10%
 ---
 
@@ -66,7 +66,7 @@ Journey Agent umfasst vier Hauptaufgaben, die zu erfüllen sind:
 - **Kanalinhalt erstellen**: Generieren, Bearbeiten und Verwalten kanalspezifischer Inhalte (E-Mail, Push, SMS) für Journey mithilfe von KI-gestützter Inhaltserstellung
 - **Journey Analyze**: Analysieren Sie Journey, erkennen Sie Probleme, entdecken Sie Erkenntnisse und optimieren Sie die Kundeninteraktion
 
-Darüber hinaus ist **Journey Simulation** eine Journey Optimizer-Funktion, die [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs){target="_blank"}, eine produktinterne, nicht-konversationale KI-Funktion mit drei Unterfunktionen, umfasst:
+Darüber hinaus ist **Journey Simulation** eine Journey Optimizer-Funktion, die [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}, eine produktinterne, nicht-konversationale KI-Funktion mit drei Unterfunktionen, umfasst:
 
 - Generieren simulierter Benutzer
 - Generieren von Ereigniswerten
@@ -78,7 +78,7 @@ Darüber hinaus ist **Journey Simulation** eine Journey Optimizer-Funktion, die 
 
 Mit Journey Create können Journey Optimizer-Benutzer Marketing-Journey über eine natürliche Sprachschnittstelle erstellen und konfigurieren. Mit Journey Create können Anwender schnell Journey erstellen, indem sie ihre Anforderungen in Gesprächshinweisen beschreiben. Der Agent optimiert die Journey-Erstellung, sodass sich Marketing-Fachleute auf die Strategie konzentrieren können, statt sich um die technische Konfiguration kümmern zu müssen.
 
-Weitere Informationen finden Sie unter [Journey erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-create){target="_blank"} in der Dokumentation zu Adobe Journey Optimizer.
+Weitere Informationen finden Sie unter [Journey erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"} in der Dokumentation zu Adobe Journey Optimizer.
 
 >[!AVAILABILITY]
 >
@@ -230,7 +230,7 @@ Wenn ein(e) Benutzende(r) meinen Store-Speicherort betritt, senden Sie eine Will
 
 Mit der Erstellung von Kanalinhalten können Journey Optimizer-Benutzende kanalspezifische Inhalte für Journey generieren, bearbeiten und verwalten, indem sie die KI-gestützte Inhaltserstellung verwenden.
 
-Weitere Informationen finden Sie unter [Kanalinhalt erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#channel-content-create){target="_blank"} in der Adobe Journey Optimizer-Dokumentation.
+Weitere Informationen finden Sie unter [Kanalinhalt erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"} in der Adobe Journey Optimizer-Dokumentation.
 
 ## Anwendungsszenarien
 
@@ -310,9 +310,9 @@ Die folgenden Möglichkeiten werden derzeit nicht unterstützt:
 
 Journey Analyze ermöglicht es Journey Optimizer-Anwendern, Journey mithilfe einer natürlichen Sprachschnittstelle zu analysieren und zu optimieren. Mit Journey Analyze können Anwender Zeitplankonflikte und Zielgruppenkonflikte schnell identifizieren und lösen, Punkte für Benutzerabbrüche auf einer Journey erkennen und Einblicke oder Empfehlungen zur Leistungsverbesserung erhalten.
 
-Erfahren Sie mehr und entdecken Sie den Agenten auf einen Blick in dieser [Übersicht](https://experienceleague.adobe.com/de/slides/journey-agent-overview).
+Erfahren Sie mehr und entdecken Sie den Agenten auf einen Blick in dieser [Übersicht](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
-Weitere Informationen finden Sie unter [Journey Analyze](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"} in der Adobe Journey Optimizer-Dokumentation.
+Weitere Informationen finden Sie unter [Journey Analyze](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} in der Adobe Journey Optimizer-Dokumentation.
 
 >[!AVAILABILITY]
 >
@@ -440,8 +440,8 @@ Nutzen Sie diese Prompts, um mögliche Konflikte zwischen Journeys zu analysiere
 - „Identifizieren Sie Konflikttypen für Journey [Journey-Name] im Vergleich zu laufenden Journey.“
 - „Überschneidende Zielgruppen für das Journey von [Journey-Name] und anderen Journey anzeigen.“
 - „Zeitplanüberschneidungen zwischen Journey [Journey-Name] und Live-Journey hervorheben.“
-- „Steht die Ausführung von Journey [Journey]Name&rbrace; im Konflikt mit einer anderen Journey?“
-- „Bitte Konflikte für [Journey-Name&rbrace; erkennen und ].“
+- „Steht die Ausführung von Journey [Journey]Name} im Konflikt mit einer anderen Journey?“
+- „Bitte Konflikte für [Journey-Name} erkennen und ].“
 - „Melden Sie alle Konflikttypen für das Journey [Journey-Name].“
 - „Geben Sie mir eine Konfliktaufschlüsselung (Planung und Zielgruppe) für [Journey-Name].“
 - „Gibt es für [Journey-] Konflikte, die sich auf die Leistung auswirken können?“
@@ -500,7 +500,7 @@ Journey-Simulation steht allen Journey Optimizer-Kunden zur Verfügung. Journey 
 
 Um KI in **[!UICONTROL Simulation]** (**[!UICONTROL Schnellsimulation]**, Generieren simulierter Benutzer mit KI, **[!UICONTROL Ereigniswerte generieren]**) zu verwenden, benötigen Benutzer die Berechtigung **[!UICONTROL Inhalt generieren]** des **[!UICONTROL KI-Assistenten]**.
 
-[Erfahren Sie mehr über Berechtigungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions).
+[Erfahren Sie mehr über Berechtigungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions).
 
 >[!ENDSHADEBOX]
 
@@ -562,7 +562,7 @@ Darüber hinaus werden die folgenden Funktionen von der Journey-KI-Simulation un
 
 Die Simulation unterstützt möglicherweise nicht alle Aktivitäten, Kanäle oder Integrationen, die der Testmodus oder eine Live-Journey unterstützt, und das Verhalten kann sich mit zunehmender Reife der Funktion ändern.
 
-➡️ Weitere Informationen zu [Simulationsbeschränkungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs#limitations){target="_blank"} finden Sie in der Dokumentation zu Journey Optimizer.
+➡️ Weitere Informationen zu [Simulationsbeschränkungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"} finden Sie in der Dokumentation zu Journey Optimizer.
 
 ## Siehe auch
 
