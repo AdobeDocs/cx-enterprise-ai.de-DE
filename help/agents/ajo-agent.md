@@ -310,7 +310,7 @@ Die folgenden Möglichkeiten werden derzeit nicht unterstützt:
 
 Journey Analyze ermöglicht es Journey Optimizer-Anwendern, Journey mithilfe einer natürlichen Sprachschnittstelle zu analysieren und zu optimieren. Mit Journey Analyze können Anwender Zeitplankonflikte und Zielgruppenkonflikte schnell identifizieren und lösen, Punkte für Benutzerabbrüche auf einer Journey erkennen und Einblicke oder Empfehlungen zur Leistungsverbesserung erhalten.
 
-Erfahren Sie mehr und entdecken Sie den Agenten auf einen Blick in dieser [Übersicht](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Erfahren Sie mehr und entdecken Sie den Agenten auf einen Blick in dieser [Übersicht](https://experienceleague.adobe.com/de/slides/journey-agent-overview).
 
 Weitere Informationen finden Sie unter [Journey Analyze](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"} in der Adobe Journey Optimizer-Dokumentation.
 
