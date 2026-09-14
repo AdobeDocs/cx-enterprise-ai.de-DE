@@ -42,9 +42,9 @@ SCREENSHOT
 
 SCREENSHOT
 
->>
+&#x200B;>>
 >
-Eine Kampagne mit einer (nicht realen) Beispielzielgruppe, nicht geprüften E-Mail-Entwürfen oder nicht konfigurierten Versandeinstellungen kann nicht gestartet werden
+>Eine Kampagne mit einer (nicht realen) Beispielzielgruppe, nicht geprüften E-Mail-Entwürfen oder nicht konfigurierten Versandeinstellungen kann nicht gestartet werden
 
 ### Zu beachtende Punkte
 
