@@ -3,15 +3,15 @@ description: Die Beschreibung ist hier zu finden.
 title: Stoppen einer Kampagne
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 410
-ht-degree: 1%
-
+source-wordcount: '349'
+ht-degree: 0%
 ---
-
 # Stoppen einer Kampagne {#stop-campaign}
 
 Benutzer können jetzt eine Kampagne, die aktiv eine „Live“-Kampagne sendet, direkt über die Seite mit den Kampagnendetails stoppen. Das Stoppen einer Kampagne ist dauerhaft: Empfänger und Empfängerinnen hören sofort auf, die Kampagne zu durchlaufen, und die Kampagne kann danach nicht fortgesetzt oder neu gestartet werden.
@@ -33,13 +33,7 @@ Eine Aktion „Kampagne stoppen“ wird in der Kopfzeile „Kampagnendetails“ 
 - Nach dem Stoppen wird das Status-Badge der Kampagne auf „Gestoppt“ aktualisiert.
 - Wenn die Stopp-Anfrage fehlschlägt, wird eine Fehlermeldung angezeigt und die Kampagne bleibt live.
 
-## Verwendung
 
-1. Öffnen Sie eine Kampagne, die derzeit live ist (aktiv sendet).
-2. Klicken Sie in der Kopfzeile der Kampagnendetails auf **Kampagne stoppen**.
-3. Überprüfen Sie im Bestätigungsdialog die Warnung: „Das Stoppen der Kampagne ist dauerhaft. Alle Empfänger werden nicht mehr weiterentwickelt, und die Kampagne kann nicht fortgesetzt werden.“
-4. Klicken Sie zur Bestätigung auf **Stoppen**.
-5. Eine „Kampagne gestoppt“. Eine Bestätigungsmeldung wird angezeigt und der Status der Kampagne wird auf „Angehalten“ aktualisiert.
 
 ### Eingabefelder/Parameter
 

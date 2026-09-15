@@ -3,15 +3,15 @@ description: Die Beschreibung ist hier zu finden.
 title: Planen einer Kampagne
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 1%
-
+source-wordcount: '589'
+ht-degree: 2%
 ---
-
 # Planen einer Kampagne {#schedule-campaign}
 
 Beim Starten einer Kampagne können Benutzende jetzt genau auswählen, wann sie ausgeführt wird: sofort, zu einem bestimmten Datum und zu einer bestimmten Uhrzeit in der Zukunft oder nach einem sich wiederholenden (wiederkehrenden) Zeitplan. Benutzer können auch zu einem späteren Zeitpunkt zurückkehren und den Zeitplan einer Kampagne ändern, die bereits gestartet oder geplant wurde.
@@ -39,7 +39,7 @@ Wenn ein(e) Benutzende(r) eine Kampagne startet, wählt er/sie einen von drei Ze
 
 **So planen Sie eine Kampagne beim Start:**
 
-1. Klicken Sie in der Kampagne auf **Startbereit**.
+1. Klicken Sie in der Kampagne auf **Überprüfen und starten**.
 2. Wählen Sie im Launch-Dialogfeld die Option Zeitplan aus:
    - **Jetzt** - Die Kampagne wird sofort nach dem Start gesendet.
    - **Einmal planen** - Wählen Sie ein **Startdatum** (Datum und Uhrzeit zusammen).
@@ -66,17 +66,7 @@ Wenn ein(e) Benutzende(r) eine Kampagne startet, wählt er/sie einen von drei Ze
 | Tag des Monats | An welchem Tag des Monats wird die Kampagne wiederholt | Ja, für die monatliche Häufigkeit |
 | Kampagne beenden | Nie oder an einem bestimmten Enddatum | Ja, für wiederkehrend |
 
-## Hinweise zur Benutzeroberfläche
 
-> **Tech Writer Hinweis**: Für Folgendes sind Screenshots erforderlich:
-
-- [ ] Das Launch-Dialogfeld mit den Optionen Jetzt / Zeitplan einmal / Wiederkehrend
-- [ ] Die Datumsauswahl und die Zeitauswahl für den Zeitplan
-- [ ] Die wiederkehrenden Optionen: Häufigkeitsauswahl, Wöchentliche Tag-Umschalter, Monatliches Tag-des-Monats-Raster
-- [ ] Die Auswahl „Kampagne beenden“ Niemals/An einem Datum
-- [ ] Das Status-Badge „Geplant“ für eine Kampagne, die auf ihren Start wartet
-- [ ] Das Status-Badge „Live“ mit einer Wiederholungszusammenfassung (z. B. „Wöchentlich am Dienstag, Do um 9:00 Uhr„)
-- [ ] In den Kampagneneinstellungen wird im Bereich Planung der Einstiegspunkt für die Bearbeitung angezeigt
 
 ## Was diese Funktion nicht tut
 
