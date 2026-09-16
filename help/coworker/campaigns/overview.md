@@ -3,26 +3,26 @@ description: Erfahren Sie mehr über Adobe CX Enterprise Coworker Campaign, eine
 title: Adobe CX Enterprise-Mitarbeiter - Übersicht
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 21d2304c94d68d7800283b46e2a15012ffe55810
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 0%
-
 ---
-
 # Adobe CX Enterprise Coworker Campaign - Übersicht {#overview}
 
 Coworker Campaign ist eine KI-native Marketing-Anwendung, die Sie von einer einzigen Eingabeaufforderung zu einer vollständigen Kampagne für die Bearbeitung bis zur vollständigen Überprüfung führt.
 
-Zu diesem Zeitpunkt werden Sie bei allen Interaktionen mit der KI auf die [Kampagnenerstellung] (./) geleitet. Weitere Funktionen folgen in Kürze.
+Zu diesem Zeitpunkt werden Sie bei allen Interaktionen mit der KI auf die [Kampagnenerstellung](/help/coworker/campaigns/create-an-email-campaign.md) geleitet. Weitere Funktionen folgen in Kürze.
 
 ## Zugriff
 
 >[!NOTE]
 >
->Coworker Campaign ist über eine kostenlose Testversion bis zum 1. Oktober 2026 verfügbar. Während der Testphase sind alle Assets und Aktivitäten benutzerspezifisch.
+>Coworker Campaign ist über eine kostenlose Testversion bis zum 31. Dezember 2026 verfügbar. Während der Testphase sind alle Assets und Aktivitäten benutzerspezifisch.
 
 1. Navigieren Sie zu coworker-campaigns.experience.adobe.com.
 
@@ -104,7 +104,7 @@ Einige Dinge, die frühe Nutzer erkannt haben, machen einen echten Unterschied:
 
 Coworker Campaign ist ein Produkt, das sich in der aktiven Entwicklung befindet. Hier finden Sie Informationen zum Einstieg:
 
-- **Testfenster**: Jetzt bis zum 1. Oktober 2026.
+- **Testfenster**: Jetzt bis zum 31. Dezember 2026.
 - **Annahme erforderlich**: Sie müssen die Testbedingungen überprüfen und akzeptieren, bevor Sie auf das Produkt zugreifen können.
 - **Region**: Die kostenlose Testversion steht derzeit nur Nutzern in Nordamerika zur Verfügung.
 - **Zielgruppen**: Zielgruppen werden über CSV hochgeladen. Alle Audiences sind spezifisch für ihre jeweiligen Kampagnen (sie werden derzeit nirgendwo anders in Ihrer Umgebung gespeichert).
@@ -114,7 +114,7 @@ Coworker Campaign ist ein Produkt, das sich in der aktiven Entwicklung befindet.
 
 ## Videoüberblick
 
->[!VIDEO](https://video.tv.adobe.com/v/3492814?captions=ger&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 Während der Testphase werden neue Funktionen bereitgestellt. Ihr Feedback prägt das weitere Vorgehen. Senden Sie Feedback über das Symbol für produktinternes Feedback in der Kopfzeile.
