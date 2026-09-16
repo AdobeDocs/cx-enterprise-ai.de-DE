@@ -6,10 +6,10 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f16706f2bf434e77743bfe17cd18c0f2e6b0f6ad
+source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 19%
+source-wordcount: '333'
+ht-degree: 20%
 ---
 
 # KI in CX Enterprise {#experience-cloud-ai}
@@ -22,7 +22,7 @@ ht-degree: 19%
   - [Über den Konsum von KI-Guthaben](./overview/ai-credit-consumption.md)
   - [Agent-KI-Überwachungs-Dashboard](./overview/monitoring.md)
   - [Agent-basierte Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
-  - [Transparenz des generativen KI-Inhalts](content-transparency.md)
+  - [Transparenz von Inhalten generativer KI](content-transparency.md)
 - CX Enterprise Coworker {#coworker}
   - [Über einen Kollegen](./coworker/overview.md)
   - Kampagnen {#campaigns}
@@ -40,6 +40,7 @@ ht-degree: 19%
       - [Was sind Fähigkeiten?](./coworker/customizations/skills/what-are-skills.md)
       - [Erstellen Ihrer ersten Kenntnisse](./coworker/customizations/skills/create-your-first-skill.md)
       - [Erstellen und Ausführen einer Quality Gate-Qualifikation](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [Kenntnisse verwalten und iterieren](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - Chat {#chat}
     - [Überblick](./coworker/chat/overview.md)
     - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
@@ -97,6 +98,6 @@ ht-degree: 19%
     - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 

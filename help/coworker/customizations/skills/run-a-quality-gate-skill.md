@@ -5,15 +5,13 @@ role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 101
-last-substantial-update: 2026-09-08T00:00:00Z
+last-substantial-update: 2026-09-08
 jira: KT-22379
-source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
+source-git-commit: 4cb104d919b71cb8c0e71ec5c747b23020c102ca
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
-
 ---
-
 
 # Erstellen und Ausführen einer Quality Gate-Qualifikation mithilfe benutzerdefinierter KI-Fähigkeiten
 
@@ -23,7 +21,7 @@ Die Herausforderung besteht darin, dass diese Kontrollen häufig auf dem Wissen 
 
 In diesem Video erfahren Sie, wie benutzerdefinierte Kollegen als Aktivierungs-Gate fungieren und Zielgruppen automatisch anhand der Aktivierungsstandards Ihres Unternehmens validieren, bevor sie nachgelagert werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503172/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503162/?learn=on&enablevpops)
 
 ## Beispiel-Aktivierungs-Qualitäts-Gate-Kenntnisse
  
@@ -80,9 +78,6 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
-&#x200B;---
- 
-
 ## Tor 1: Unterdrückung/Einverständnis
  
 > Bearbeiten Sie diesen Abschnitt entsprechend den Unterdrückungs- und Einverständnisanforderungen Ihrer Organisation.
@@ -110,9 +105,6 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
-&#x200B;---
- 
-
 ## Gatter 2: Frequenzbegrenzung
 
 > Bearbeiten Sie diesen Abschnitt entsprechend den Häufigkeitsanforderungen für Sendungen Ihrer Organisation.
@@ -136,8 +128,6 @@ Our standard:
 
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
-
-&#x200B;---
 
 ## Gatter 3: Namenskonvention
  
@@ -178,10 +168,6 @@ Mortgage – High Propensity Prospects
 When blocked on naming, always propose a compliant replacement name.
 ```
 
- 
-
-&#x200B;---
-
 ## Leitlinien
 
 ### &#x200B;1. Nur die in Klammern eingeschlossenen Abschnitte anpassen
@@ -196,8 +182,6 @@ Alles andere sollte unverändert bleiben:
 - Gate-Auswertung
 - Scorecard-Rendering
 - Urteilslogik
-
-&#x200B;---
 
 
 ### &#x200B;2. Voraussetzungen überprüfen
@@ -214,8 +198,6 @@ Diese Qualifikation hängt von Folgendem ab:
 - DataTable-Rendering
 
 Wenn diese Funktionen in der Umgebung des Kunden nicht verfügbar sind, kann die Kenntnisse nicht wie vorgesehen ausgeführt werden.
-
-&#x200B;---
 
 ### &#x200B;3. Qualifikation schreibgeschützt beibehalten
 
