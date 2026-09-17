@@ -1,7 +1,8 @@
 ---
 title: Adobe CX Coworker Gateway - Übersicht
-description: Adobe CX Coworker Gateway ist das einheitliche MCP für Adobe CX Enterprise, das MCP-Clients eine einzige Verbindung zu unterstützten Produkt-Tools bietet.
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+description: Adobe CX Coworker Gateway ist der einheitliche MCP für Adobe CX Enterprise, der MCP-Clients eine einzige Verbindung zu unterstützten Produkt-Tools bietet.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
@@ -12,11 +13,11 @@ Adobe CX Coworker Gateway ist das Unified Model Context Protocol (MCP) für Adob
 
 >[!IMPORTANT]
 >
->Ihre Adobe-Organisation muss aktiviert sein, bevor Sie **CX Coworker Gateway**-Tools verwenden können.
+>Ihre Adobe-Organisation muss aktiviert sein, damit Sie die Tools **CX Coworker Gateway** verwenden können.
 >
 >Wenn Ihre Organisation noch keinen Zugriff hat, senden Sie eine E-Mail an [cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com), um die Aktivierung für Ihre Organisation anzufordern.
 
-Verwenden Sie den CX Coworker Gateway-Endpunkt für alle MCP-Client-Setups:
+Verwenden Sie den Gateway-Endpunkt von CX Coworker für alle MCP-Client-Setups:
 
 ```
 https://cx-coworker-gateway.adobe.io/mcp

@@ -6,10 +6,10 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 20%
+source-wordcount: '339'
+ht-degree: 19%
 ---
 
 # KI in CX Enterprise {#experience-cloud-ai}
@@ -25,22 +25,6 @@ ht-degree: 20%
   - [Transparenz von Inhalten generativer KI](content-transparency.md)
 - CX Enterprise Coworker {#coworker}
   - [Über einen Kollegen](./coworker/overview.md)
-  - Kampagnen {#campaigns}
-    - [Überblick](./coworker/campaigns/overview.md)
-    - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
-    - [Anwendungsszenarien](./coworker/campaigns/use-cases.md)
-    - [Best Practices bei der Eingabeaufforderung](./coworker/campaigns/prompting-best-practices.md)
-    - [C2PA-Metadaten](./coworker/campaigns/c2pa-metadata.md)
-    - Connectoren {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [HubSpot](./coworker/campaigns/connectors/hubspot.md)
-    - [Versionshinweise](./coworker/campaigns/release-notes.md)
-  - Anpassungen {#customizations}
-    - Skills {#skills}
-      - [Was sind Fähigkeiten?](./coworker/customizations/skills/what-are-skills.md)
-      - [Erstellen Ihrer ersten Kenntnisse](./coworker/customizations/skills/create-your-first-skill.md)
-      - [Erstellen und Ausführen einer Quality Gate-Qualifikation](./coworker/customizations/skills/run-a-quality-gate-skill.md)
-      - [Kenntnisse verwalten und iterieren](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - Chat {#chat}
     - [Überblick](./coworker/chat/overview.md)
     - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
@@ -51,6 +35,7 @@ ht-degree: 20%
         - [Analysieren von CJA-Daten](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Trends und Grundursachen untersuchen](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validieren von AA zu CJA-Daten beim Upgrade](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Validieren der Datensatzqualität für CJA-Berichte](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - Zielgruppen {#audiences}
         - [Plattformintegrität bewerten und Zielgruppen erstellen](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Journeys {#journeys}
@@ -66,6 +51,22 @@ ht-degree: 20%
       - Inhaltsratgeber {#content-advisor}
         - [Generieren von Marketing-Assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Prüfung der Markenkonformität](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+  - Anpassungen {#customizations}
+    - Skills {#skills}
+      - [Was sind Fähigkeiten?](./coworker/customizations/skills/what-are-skills.md)
+      - [Erstellen Ihrer ersten Kenntnisse](./coworker/customizations/skills/create-your-first-skill.md)
+      - [Erstellen und Ausführen einer Quality Gate-Qualifikation](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [Kenntnisse verwalten und iterieren](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+  - Kampagnen {#campaigns}
+    - [Überblick](./coworker/campaigns/overview.md)
+    - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
+    - [Anwendungsszenarien](./coworker/campaigns/use-cases.md)
+    - [Best Practices bei der Eingabeaufforderung](./coworker/campaigns/prompting-best-practices.md)
+    - [C2PA-Metadaten](./coworker/campaigns/c2pa-metadata.md)
+    - Connectoren {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [HubSpot](./coworker/campaigns/connectors/hubspot.md)
+    - [Versionshinweise](./coworker/campaigns/release-notes.md)
 - KI-Assistent {#ai-assistant}
   - [Handbuch zur Benutzeroberfläche des KI-Assistenten](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothek der Eingabeaufforderung](./ai-assistant/prompt-library.md)
@@ -86,18 +87,18 @@ ht-degree: 20%
   - Data Engineering {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Adobe CX Coworker Gateway](./mcp/overview.md)
+  - {hide-from-toc}[Adobe CX Coworker-Gateway](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP-Betaversion](./mcp/beta/rtcdp-mcp.md)
   - Erste Schritte {#mcp-get-started}
-    - [Zugriff auf CX Coworker Gateway-Tools](./mcp/access.md)
-    - [Installieren von CX Coworker Gateway](./mcp/install.md)
-    - [Sitzungskontext-Tools in CX Coworker Gateway](./mcp/context-tools.md)
+    - {hide-from-toc}[Zugriff auf CX Coworker Gateway-Tools](./mcp/access.md)
+    - {hide-from-toc}[Installieren von CX Coworker Gateway](./mcp/install.md)
+    - {hide-from-toc}[Sitzungskontext-Tools im CX Coworker-Gateway](./mcp/context-tools.md)
   - Produkt-Tools {#mcp-product-tools}
-    - [Real-Time CDP-Tools](./mcp/rtcdp-mcp.md)
-    - [Experience Platform-Tools](./mcp/aep-mcp.md)
-    - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
-    - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
-    - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
+    - {hide-from-toc}[Real-Time CDP-Tools](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Experience Platform-Tools](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Journey Optimizer-Tools](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Adobe Analytics-Tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
 

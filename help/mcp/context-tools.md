@@ -1,16 +1,15 @@
 ---
-title: Session Context Tools in CX Coworker Gateway
-description: Erfahren Sie mehr über die wichtigsten Tools, die den Organisations-, Sandbox- und Datenansichtskontext für alle Aufrufe des CX Coworker Gateway-Tools festlegen.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+title: Sitzungskontext-Tools in CX Coworker Gateway
+description: Erfahren Sie mehr über die wichtigsten Tools, die den Organisations-, Sandbox- und Datenansichtskontext für alle CX Coworker Gateway-Tool-Aufrufe festlegen.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 0%
-
+ht-degree: 1%
 ---
-
 # Sitzungskontext-Tools in Adobe CX Coworker Gateway {#mcp-core}
 
-Adobe CX Coworker Gateway enthält eine Reihe von Sitzungskontext-Tools, die die Adobe-Organisation, die Adobe Experience Platform-Sandbox und die Customer Journey Analytics-Datenansicht festlegen, in der alle anderen Produkt-Tools ausgeführt werden. Es ist keine zusätzliche Lizenz oder Aktivierung erforderlich. Diese Tools stehen jedem authentifizierten Benutzer nach der Verbindung mit dem [CX Coworker Gateway-Server](overview.md) zur Verfügung.
+Adobe CX Coworker Gateway enthält eine Reihe von Sitzungskontext-Tools, die die Adobe-Organisation, die Adobe Experience Platform-Sandbox und die Customer Journey Analytics-Datenansicht festlegen, in der alle anderen Produkttools ausgeführt werden. Es ist keine zusätzliche Lizenz oder Aktivierung erforderlich. Diese Tools stehen allen authentifizierten Benutzenden nach der Verbindung mit dem [CX Coworker Gateway Server](overview.md) zur Verfügung.
 
 ## Funktionsweise des Kontexts {#mcp-core-how}
 
@@ -52,7 +51,7 @@ Der Client ruft die entsprechenden Tools auf und bestätigt, sobald der Kontext 
 
 ## Beispiel-Eingabeaufforderungen {#mcp-core-examples}
 
-| Ziel | Beispiel-Eingabeaufforderung |
+| Ziel | Prompt-Beispiel |
 | --- | --- |
 | Verfügbare Organisationen entdecken | „Auf welche Adobe-Organisationen habe ich Zugriff?“ |
 | Festlegen des Organisationskontexts | „Zu Organisation `My Org (1234ABCD@AdobeOrg)` wechseln.“ |

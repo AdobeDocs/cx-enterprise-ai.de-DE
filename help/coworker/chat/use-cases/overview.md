@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 2f1f6aa3aa3eff13fa932bb8500476371e9be705
+source-git-commit: db8f6b723110d86fc3bd65f2e1f5ab3047157e8f
 workflow-type: tm+mt
-source-wordcount: '4802'
+source-wordcount: '4800'
 ht-degree: 6%
 ---
 # Anwendungsfälle für den Chat mit Kollegen{#use-cases}
@@ -149,7 +149,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 | Analysieren von Fehlern bei benutzerdefinierten Aktionen | Ermitteln Sie, wann benutzerdefinierte Aktionen fehlschlagen oder Fehlerquoten innerhalb eines Journey in die Höhe schießen, und diagnostizieren Sie die Grundursachen, bevor Fehler in umfassendere Unterbrechungen übergehen. | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | „Warum schlagen benutzerdefinierte Aktionen in meiner Treue-Anmelde-Journey fehl?“ <br> „Fehlerrate für benutzerdefinierte Aktion „ExternalPush“ in meiner Begrüßungs-Journey anzeigen.“ |
 | Journey-Anomalien erkennen | Erkennen und bestätigen Sie unerwartete Spitzen, Stürze oder Ausrundungen in einer Journey, Verlassen oder Senden von Zählungen anhand historischer Baselines und ermitteln Sie eine wahrscheinliche Grundursache | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | „Warum sind gestern Einträge für meine Begrüßungs-Journey abgelegt worden?“ <br> „Hat die Spitze der Ausstiege für die Journey zu Warenkorbabbrüchen diese Woche erreicht?“ |
 
-Weitere Informationen zu CX Coworker-Kenntnissen für Journey finden Sie in der Dokumentation zu [Adobe Journey Optimizer-Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/journeys-coworker-skills){target="_blank"}.
+Weitere Informationen zu CX Coworker-Kenntnissen für Journey finden Sie in der Dokumentation zu [Adobe Journey Optimizer-Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
 
 ## Treue
 
@@ -158,7 +158,7 @@ Weitere Informationen zu CX Coworker-Kenntnissen für Journey finden Sie in der 
 | Herausforderungen im Zusammenhang mit Treueprogrammen erstellen, bearbeiten und verwalten | Vereinfachen und Beschleunigen der Verwaltung von Treueprogrammen | `loyalty` | Adobe Journey Optimizer (AJO) | „Erstellen Sie eine Herausforderung, die Mitglieder dazu ermutigt, ein neues saisonales Getränk auszuprobieren“ <br> „Herausforderungen bezüglich der Treue mit den höchsten Abbruchraten für Mitglieder zeigen“. |
 | Leistung des Treueprogramms analysieren | Fragen Sie mithilfe natürlicher Sprache Treuepunkte, Mitgliedsstufen, Einlösungen und Umsatzmetriken ab und analysieren Sie sie | `loyalty-insights` | Adobe Journey Optimizer (AJO) | „Wie viele Treuepunkte wurden im August 2026 gewährt?“ <br> „Die Gesamteinnahmen des Treueprogramms aufgeschlüsselt nach Tagen im August 2026 anzeigen.“ |
 
-Weitere Informationen zu CX Coworker-Fähigkeiten für Treueprogramm finden Sie in der [Dokumentation zu Adobe Journey Optimizer-Treueprogrammen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/loyalty-coworker-skills){target="_blank"}.
+Weitere Informationen zu CX Coworker-Fähigkeiten für Treueprogramm finden Sie in der [Dokumentation zu Adobe Journey Optimizer-Treueprogrammen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}.
 
 ## Optimierung
 

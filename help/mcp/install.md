@@ -1,13 +1,12 @@
 ---
 title: Installieren von Adobe CX Coworker Gateway
 description: Erfahren Sie, wie Sie MCP-kompatible Clients mit dem Adobe CX Coworker Gateway verbinden.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
-
 ---
-
 # Installieren von Adobe CX Coworker Gateway {#mcp-install}
 
 Lesen Sie dieses Handbuch, um zu erfahren, wie Sie einen MCP-kompatiblen Client mit dem Adobe CX Coworker Gateway verbinden.  CX Coworker Gateway verwendet einen Endpunkt für alle dokumentierten Produkt-Tools:
@@ -104,7 +103,7 @@ Für `claude.ai` und [!DNL Claude] Desktop in einem individuellen Plan:
 3. Geben Sie `https://cx-coworker-gateway.adobe.io/mcp` als Server-URL ein.
 4. Wählen Sie **Verbinden** aus und schließen Sie den Anmeldevorgang für Adobe ab.
 
-Nach der Verbindung stehen die Adobe for CX Coworker Gateway-Tools im Cursor Composer- und Agent-Modus zur Verfügung.
+Nach dem Verbinden sind die Adobe für CX Coworker Gateway-Tools im Cursor Composer- und Agent-Modus verfügbar.
 
 ### Claude Code {#mcp-install-individual-claude-code}
 
@@ -184,7 +183,7 @@ Verwenden Sie für Clients, die eine JSON-basierte MCP-Server-Konfiguration akze
 
 ### Andere Clients {#mcp-install-individual-other}
 
-Für andere Desktop- oder Web-Clients mit Remote-MCP-Unterstützung fügen Sie Adobe for CX Coworker Gateway als Remote-HTTP-Server mit `https://cx-coworker-gateway.adobe.io/mcp` hinzu. Lassen Sie die optionalen Felder für Kopfzeilen, Bearer-Token, Client-ID und Client-Geheimnis leer, es sei denn, Ihr Client erfordert einen Platzhalterwert.
+Für andere Desktop- oder Webclients mit Remote-MCP-Unterstützung fügen Sie Adobe für CX Coworker Gateway als Remote-HTTP-Server mit `https://cx-coworker-gateway.adobe.io/mcp` hinzu. Lassen Sie die optionalen Felder für Kopfzeilen, Bearer-Token, Client-ID und Client-Geheimnis leer, es sei denn, Ihr Client erfordert einen Platzhalterwert.
 
 ## Produktkontext für Tool-Aufrufe {#mcp-connect-params}
 

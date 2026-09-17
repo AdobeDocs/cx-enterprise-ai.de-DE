@@ -1,7 +1,8 @@
 ---
 title: Zugriff auf CX Coworker Gateway-Tools
-description: Überprüfen Sie die Produktverfügbarkeit, die Aktivierung für das Unternehmen und die Berechtigungen, bevor Sie die Adobe CX Coworker Gateway-Tools verwenden.
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+description: Überprüfen Sie die Produktverfügbarkeit, die Aktivierung des Unternehmens und die Berechtigungen, bevor Sie die Adobe CX Coworker Gateway-Tools verwenden.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 4%
@@ -12,7 +13,7 @@ Adobe CX Enterprise stellt Produkttools über eine einzige MCP bereit. Der Zugri
 
 >[!IMPORTANT]
 >
->Ihr Adobe-Unternehmen muss aktiviert sein, bevor Sie die CX Coworker Gateway-Tools verwenden können. Wenn Ihr Unternehmen noch keinen Zugriff hat, wenden Sie sich an Ihr Adobe Account Team , um die Aktivierung für Ihr Unternehmen anzufordern.
+>Ihre Adobe-Organisation muss aktiviert sein, damit Sie die CX Coworker-Gateway-Tools verwenden können. Wenn Ihr Unternehmen noch keinen Zugriff hat, wenden Sie sich an Ihr Adobe Account Team , um die Aktivierung für Ihr Unternehmen anzufordern.
 
 ## Zugriffsanforderungen {#mcp-requirements}
 

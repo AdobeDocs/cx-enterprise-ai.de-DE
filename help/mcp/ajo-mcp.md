@@ -1,7 +1,8 @@
 ---
 title: Journey Optimizer-Tools in CX Coworker Gateway
 description: Erfahren Sie, welche Adobe Journey Optimizer-Tools über das CX Coworker Gateway verfügbar sind.
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 5%
@@ -66,7 +67,7 @@ Journey Optimizer-Tools bieten eine schreibgeschützte Oberfläche für die Übe
 
 Zusätzlich zu den oben genannten schreibgeschützten Produkt-Tools können Journey Optimizer-Benutzende Inhaltselemente - Inhaltsvorlagen, Fragmente, Landingpages und Inline-Nachrichteninhalte von Journey- oder Kampagnen - direkt von CX Coworker aus über natürliche Sprachaufforderungen ermitteln und verwalten. Diese Funktion basiert auf einem separaten Satz von Lese- und Schreib-fähigen MCP-Tools für Journey Optimizer-Inhalte und steht allen Kunden zur Verfügung, die Zugriff auf CX Coworker haben.
 
-Weitere Informationen finden Sie unter [Content-Management-Tools](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"} in der Dokumentation zu Adobe Journey Optimizer.
+Weitere Informationen finden Sie unter [Content-Management-Tools](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"} in der Dokumentation zu Adobe Journey Optimizer.
 
 Content-Management-Tools ermöglichen Ihnen Folgendes:
 
