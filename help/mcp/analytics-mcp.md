@@ -1,13 +1,12 @@
 ---
 title: Adobe Analytics-Tools in CX Coworker Gateway
 description: Erfahren Sie, welche Adobe Analytics-Tools über das Adobe CX Coworker Gateway verfügbar sind.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
-
 ---
-
 # Adobe Analytics-Tools in Adobe CX Coworker Gateway {#aa-mcp}
 
 Sie können Adobe Analytics-Tools verwenden, um Report Suites zu untersuchen, Dimensionen und Metriken zu ermitteln, Berichte auszuführen und ausgewählte Analytics-Komponenten über einen MCP-kompatiblen Client zu verwalten. Diese Tools sind über das einheitliche [Adobe CX Coworker Gateway verfügbar](overview.md) wenn Ihr Konto über die erforderliche Adobe Analytics-Lizenz und -Berechtigungen verfügt.
@@ -44,7 +43,7 @@ Die vollständige, aktuelle Liste der Tools finden Sie in der [Adobe Analytics M
 
 ## Beispiel-Eingabeaufforderungen {#mcp-use-cases}
 
-| Ziel | Beispiel-Eingabeaufforderung |
+| Ziel | Prompt-Beispiel |
 | --- | --- |
 | Entdecken von Report Suites | „Listen Sie die Report Suites auf, auf die ich zugreifen kann.“ |
 | Komponenten suchen | „Suchen Sie Metriken zum Umsatz.“ |

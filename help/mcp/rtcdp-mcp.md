@@ -1,13 +1,12 @@
 ---
 title: Real-Time CDP-Tools in CX Coworker Gateway
 description: Erfahren Sie, wie Sie Adobe Real-Time CDP mithilfe des MCP-Servers mit MCP-Clients verbinden.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 4%
-
 ---
-
 # Real-Time CDP-Tools in CX Coworker Gateway {#rtcdp-mcp}
 
 Sie können die Real-Time CDP MCP-Produkt-Tools verwenden, um Zielgruppen, Ziele, Quellen, Identity-Namespaces und den Aktivierungszustand von einem MCP-kompatiblen Client aus zu überprüfen. Diese Tools sind über das Unified [CX Coworker Gateway verfügbar](overview.md) wenn Ihr Unternehmen aktiviert ist und Ihr Benutzerkonto über die erforderlichen Real-Time CDP-Berechtigungen verfügt.
@@ -54,7 +53,7 @@ Real-Time CDP-Tools bieten eine schreibgeschützte Überwachungs- und Triage-Obe
 
 ## Beispiel-Eingabeaufforderungen {#mcp-use-cases}
 
-| Ziel | Beispiel-Eingabeaufforderung |
+| Ziel | Prompt-Beispiel |
 | --- | --- |
 | Audiences auflisten | „Listen Sie meine Zielgruppen in der `prod` Sandbox auf.“ |
 | Überprüfen einer Zielgruppe | „Zeigen Sie mir die Details und den Lebenszyklusstatus für die Zielgruppen-ID `abc123`.“ |

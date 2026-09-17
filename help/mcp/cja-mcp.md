@@ -1,17 +1,16 @@
 ---
 title: Customer Journey Analytics-Tools in CX Coworker Gateway
-description: Erfahren Sie, welche Adobe Customer Journey Analytics-Tools über das Adobe CX Coworker Gateway verfügbar sind.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+description: Erfahren Sie, welche Adobe Customer Journey Analytics-Tools über Adobe CX Coworker Gateway verfügbar sind.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 3%
-
+ht-degree: 4%
 ---
-
 
 # Customer Journey Analytics-Tools in Adobe CX Coworker Gateway {#cja-mcp}
 
-Verwenden Sie die Customer Journey Analytics-Produkt-Tools, um Datenansichten zu untersuchen, Dimensionen und Metriken zu ermitteln, Berichte auszuführen und ausgewählte Analytics-Komponenten über einen MCP-kompatiblen Client zu verwalten. Diese Tools sind über das [CX Coworker Gateway](overview.md) verfügbar, wenn Ihr Konto über die erforderliche Customer Journey Analytics-Lizenz und -Berechtigungen verfügt.
+Verwenden Sie die Customer Journey Analytics-Produkt-Tools, um Datenansichten zu untersuchen, Dimensionen und Metriken zu ermitteln, Berichte auszuführen und ausgewählte Analytics-Komponenten über einen MCP-kompatiblen Client zu verwalten. Diese Tools sind über das [CX Coworker-Gateway verfügbar](overview.md) wenn Ihr Konto über die erforderliche Customer Journey Analytics-Lizenz und -Berechtigungen verfügt.
 
 >[!AVAILABILITY]
 >
@@ -64,7 +63,7 @@ Customer Journey Analytics-Tools unterstützen gesteuerte Analytics-Workflows vo
 
 ## Beispiel-Eingabeaufforderungen {#mcp-use-cases}
 
-| Ziel | Beispiel-Eingabeaufforderung |
+| Ziel | Prompt-Beispiel |
 | --- | --- |
 | Auflisten von Datenansichten | „Listen Sie die Datenansichten auf, die mir in Customer Journey Analytics zur Verfügung stehen.“ |
 | Entdecken von Komponenten | „Ermitteln Sie Metriken zum Umsatz in der `[data view name]`.“ |
@@ -84,11 +83,11 @@ Produktberechtigungen sind weiterhin gültig. Ihr Konto muss in der Lage sein, d
 
 **Übersicht**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486323/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486313/?learn=on&enablevpops)
 
 **In Aktion**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486334/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486314/?learn=on&enablevpops)
 
 ## Weitere Informationen {#mcp-more}
 

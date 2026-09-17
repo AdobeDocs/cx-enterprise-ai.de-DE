@@ -1,13 +1,12 @@
 ---
 title: Experience Platform-Tools in CX Coworker Gateway
 description: Erfahren Sie, welche Adobe Experience Platform-Tools über CX Coworker Gateway verfügbar sind.
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1947'
 ht-degree: 6%
-
 ---
-
 
 # Adobe Experience Platform-Tools in Adobe CX Coworker Gateway {#aep-mcp}
 
@@ -256,7 +255,7 @@ Rufen Sie die neuesten Ergebnisse der Konsistenzprüfungs-Ausführung und -Opera
 
 >[!NOTE]
 >
->Dieses Tool ruft nur die Bewertungsergebnisse ab. Um ein gekennzeichnetes Problem zu beheben, verwenden Sie das Bedienfeld „Konsistenzprüfungsdetails“ in der [!DNL Experience Platform]-Benutzeroberfläche. Siehe [Konsistenzprüfungen](https://experienceleague.adobe.com/de/docs/experience-platform/run-and-operate/health-checks). Eine automatische Anleitung zur Behebung unterstützter Konsistenzprüfungen ist als Qualifikation im (CX[Coworker Chat) &#x200B;](../coworker/chat/overview.md).
+>Dieses Tool ruft nur die Bewertungsergebnisse ab. Um ein gekennzeichnetes Problem zu beheben, verwenden Sie das Bedienfeld „Konsistenzprüfungsdetails“ in der [!DNL Experience Platform]-Benutzeroberfläche. Siehe [Konsistenzprüfungen](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Die automatische Anleitung zur Behebung unterstützter Konsistenzprüfungen ist als Qualifikation im [CX Coworker-Chat](../coworker/chat/overview.md) verfügbar.
 
 **Funktionen:** alle Ergebnisse der Konsistenzprüfung für die aktuelle Sandbox auflisten, Ergebnisse für eine spezifische Prüfung abrufen
 

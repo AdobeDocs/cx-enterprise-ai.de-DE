@@ -6,7 +6,7 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 19%
@@ -87,18 +87,18 @@ ht-degree: 19%
   - Data Engineering {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Adobe CX Coworker Gateway](./mcp/overview.md)
+  - {hide-from-toc}[Adobe CX Coworker-Gateway](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP-Betaversion](./mcp/beta/rtcdp-mcp.md)
   - Erste Schritte {#mcp-get-started}
-    - [Zugriff auf CX Coworker Gateway-Tools](./mcp/access.md)
-    - [Installieren von CX Coworker Gateway](./mcp/install.md)
-    - [Sitzungskontext-Tools in CX Coworker Gateway](./mcp/context-tools.md)
+    - {hide-from-toc}[Zugriff auf CX Coworker Gateway-Tools](./mcp/access.md)
+    - {hide-from-toc}[Installieren von CX Coworker Gateway](./mcp/install.md)
+    - {hide-from-toc}[Sitzungskontext-Tools im CX Coworker-Gateway](./mcp/context-tools.md)
   - Produkt-Tools {#mcp-product-tools}
-    - [Real-Time CDP-Tools](./mcp/rtcdp-mcp.md)
-    - [Experience Platform-Tools](./mcp/aep-mcp.md)
-    - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
-    - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
-    - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Real-Time CDP-Tools](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Experience Platform-Tools](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Journey Optimizer-Tools](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Adobe Analytics-Tools](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
