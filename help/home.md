@@ -1,7 +1,10 @@
 ---
 title: KI in CX Enterprise-Anwendungen
-description: Erfahren Sie, wie CX Enterprise-Anwendungen generative KI (GenAI), CX Enterprise Coworker, KI Assistant, agentische KI und MCP-Tools verwenden.
+description: Erfahren Sie, wie CX Enterprise-Programme generative KI (GenAI), CX Enterprise Coworker, KI-Assistent, agentische KI und MCP-Tools verwenden.
 TQID: 'https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds'
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,34 +25,34 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 76356e79bb8608a65c3140c9990a5a4fcbc76a0e
+source-git-commit: fccf9111460413fe5b89229564a682827152b1ab
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 3%
+source-wordcount: '962'
+ht-degree: 2%
 ---
-# KI in CX Enterprise
+# KI in CX Enterprise-Anwendungen
 
-Dieses Handbuch behandelt die KI-Funktionen in Adobe CX Enterprise: generative KI, CX Enterprise Coworker, KI Assistant, Agent Orchestrator, Experience Platform Agents und MCP.
+In diesem Handbuch werden die KI-Funktionen in Adobe CX Enterprise behandelt: generative KI, CX Enterprise Coworker, KI-Assistent, Agent Orchestrator und MCP.
 
 ## KI-Funktionen - Übersicht
 
 Beginnen Sie hier mit einem Überblick darüber, wo und wie KI in CX Enterprise verwendet wird:
 
-- [Über generative KI](./overview/generative-ai.md) beschreibt, welche CX Enterprise-Anwendungen generative KI und KI-Assistent unterstützen und wie sie sich vergleichen.
+- [Über generative KI](./overview/generative-ai.md) beschreibt, welche CX Enterprise-Programme generative KI und den KI-Assistenten unterstützen und wie sie sich vergleichen.
 - [Über die agentische KI](./overview/agentic-ai.md) erläutert, wie die agentische KI in bestehenden CX Enterprise-Programmen und KI-First-Programmen funktioniert, und listet die in den einzelnen Programmen verfügbaren Agenten auf.
 - [KI-Überwachung](./overview/monitoring.md) umfasst die Dashboards, die die Akzeptanz, Nutzung, Feedback und Nutzung von KI-Krediten durch Agenten verfolgen.
 - [Verbrauch von KI](./overview/ai-credit-consumption.md)Guthaben: Erläutert, wie Agentenaufträge KI-Guthaben verwenden, wobei die geschätzten Verbrauchsraten nach Agent und Vorgangstyp aufgeschlüsselt sind.
-- [Generative KI-Inhaltstransparenz](./content-transparency.md) erklärt, wie Adobe automatisch C2PA-Metadaten an GenAI-generierte und GenAI-bearbeitete Inhalte in CX Enterprise-Anwendungen anhängt.
-- [CX Enterprise Agent Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview) decken zusätzliche agentische Fähigkeiten und Tools ab, die CX Enterprise Agents erweitern (Video-Tutorials).
+- [Generative KI-Inhaltstransparenz](./content-transparency.md) erklärt, wie Adobe automatisch C2PA-Metadaten an GenAI-generierte und GenAI-bearbeitete Inhalte in CX Enterprise-Programmen anhängt.
+- [CX Enterprise Agent-Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview) Behandeln Sie zusätzliche Agentenkompetenzen und -Tools, die CX Enterprise-Agenten erweitern (Video-Tutorials).
 
 ## Coworker
 
-Bei Coworker handelt es sich um eine agentenorientierte Weiterentwicklung des KI-Assistenten, der Kundenerlebnis- und Marketing-Workflows automatisiert, sodass sich Ihr Team auf Geschäftsziele anstatt auf die routinemäßige Ausführung konzentrieren kann. Anstatt eine Frage nach der anderen zu stellen, beschreibt man ein Ziel. Mitarbeiter plant, führt aus, validiert und gibt die abgeschlossene Arbeit zur Genehmigung zurück. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/de/products/cx-enterprise-coworker.html).
+Bei Coworker handelt es sich um eine agentenorientierte Weiterentwicklung des KI-Assistenten, der Kundenerlebnis- und Marketing-Workflows automatisiert, sodass sich Ihr Team auf Geschäftsziele anstatt auf die routinemäßige Ausführung konzentrieren kann. Anstatt eine Frage nach der anderen zu stellen, beschreibt man ein Ziel. Mitarbeiter plant, führt aus, validiert und gibt die abgeschlossene Arbeit zur Genehmigung zurück. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
 Coworker includes:
 
-- **[Coworker Chat](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Eine Gesprächsoberfläche, mit der Sie Ihre Daten untersuchen, Zielgruppen und Journey validieren und mehrstufige Aufgaben in allen CX Enterprise-Anwendungen ausführen können.
-- **[Coworker for Teams](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)** (früher _Coworker Campaign_): Eine KI-native Anwendung, die Kampagnen-Briefing, Audience-Erstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html).
+- **[Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Eine Gesprächsoberfläche, mit der Sie Ihre Daten untersuchen, Zielgruppen und Journey validieren und mehrstufige Aufgaben in allen CX Enterprise-Anwendungen ausführen können.
+- **[Coworker for Teams](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)** (früher _Coworker Campaign_): Eine KI-native Anwendung, die Kampagnen-Briefing, Audience-Erstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html).
 - **Coworker Projects** (in Kürze verfügbar): Ein einheitlicher Arbeitsbereich zur Automatisierung von End-to-End-Orchestrierungs-Workflows für das Kundenerlebnis, der Teams bei der Koordinierung von Aufgaben, Genehmigungen und Ausführungen unterstützt, um Ergebnisse von der Strategie bis zur Bereitstellung zu erzielen. Die Dokumentation für Projekte wird in Kürze verfügbar sein.
 
 Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-Agenten auf den Coworker Chat umgestellt. Lesen Sie [Coworker Trial](./agents/trial.md), um mehr über die Testeignung, die Verwendung von KI-Guthaben und den Zugriff darauf zu erfahren.
@@ -91,20 +94,12 @@ Eine vollständige Liste der Agenten, der von ihnen unterstützten Programme und
 - [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
 - [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
 - [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-- [!DNL Workfront] Tools, dokumentiert im [Workfront MCP-Server-Handbuch](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- [!DNL Target] Tools, dokumentiert im [Target MCP Server Guide](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+- [!DNL Workfront] Tools, dokumentiert im [Workfront MCP-Server-Handbuch](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] Tools, dokumentiert im [Target MCP Server Guide](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
 Neu bei CX Coworker Gateway? Siehe [Zugriff auf CX Coworker Gateway-Tools](./mcp/access.md) und [Installieren von CX Coworker Gateway](./mcp/install.md), um eine Verbindung herzustellen. Verwenden Sie nach der Verbindung die [Sitzungskontext-Tools](./mcp/context-tools.md), um die aktive Organisation, Sandbox und Datenansicht festzulegen, bevor Sie die Produkt-Tools aufrufen.
 
-## Erste Schritte
-
-### Zugriffsanforderungen
-
-Ihr Adobe-Administrator muss Ihnen die entsprechenden Berechtigungen erteilen, bevor Sie den KI-Assistenten und die Experience Platform-Agenten verwenden können. Die Anforderungen variieren je nach Anwendung. Weitere Informationen finden [&#x200B; unter &#x200B;](./agents/agent-orchestrator.md#access) im Agent Orchestrator-Handbuch.
-
-### Datenschutz und Sicherheit
-
-KI-Assistent und Experience Platform-Agenten priorisieren Datenschutz, Sicherheit und Governance, einschließlich Sandbox-spezifischer Datenisolierung und Ihrer bestehenden Zugriffssteuerungsrichtlinien. Ausführliche Informationen finden Sie unter [Datenschutz, Sicherheit und Governance im KI-Assistenten](./ai-assistant/privacy.md).
+Bevor Sie eines dieser Tools verwenden, lesen Sie [Bevor Sie beginnen](./overview/overview-ai-cxe.md#before-you-begin) für Zugriffsanforderungen sowie Überlegungen zum Datenschutz und zur Sicherheit.
 
 ## Best Practices
 
