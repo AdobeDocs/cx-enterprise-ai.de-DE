@@ -3,18 +3,22 @@ description: Erfahren Sie mehr über Coworker-Kampagnen mit Best Practices - das
 title: Best Practices für das Prompting
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: 532
-ht-degree: 37%
-
+source-wordcount: '687'
+ht-degree: 27%
 ---
-
 # Best Practices bei der Eingabeaufforderung {#best-practices}
 
 Die optimale Nutzung von Coworker-Kampagnen beginnt damit, wie Sie eine Eingabeaufforderung eingeben. Erfahren Sie mehr über die Praktiken, die die besten Ergebnisse erzielen: das CO-STAR-Framework zur Strukturierung Ihrer Eingabeaufforderungen, einzuschließende und zu vermeidende Maßnahmen sowie Szenario-basierte Beispiele, die der KI den Kontext geben, den sie benötigt, um relevante, zielgerichtete Inhalte zu generieren.
+
+>[!NOTE]
+>
+>Derzeit können Sie nur eine Verbindung zu Adobe Campaign-unterstützten Integrationen herstellen.  Wenn Sie bereits über Adobe Enterprise-Anwendungen verfügen, in denen Sie Zielgruppen speichern oder Journey erstellen, empfehlen wir Ihnen, stattdessen [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md) zu verwenden.
 
 ## Verwenden des CO-STAR-Frameworks {#costar-framework}
 
@@ -56,9 +60,21 @@ Um optimale Ergebnisse zu erzielen, sollten Sie die Eingabeaufforderungen mit de
 </tbody>
 </table>
 
+### In Eingabeaufforderungen unterstützte Inhalte
+
+Verwenden Sie den **E-Mail-Editor** oder **Adobe Express** für Änderungen an visuellen Komponenten/Bildern. Die folgenden Anfragetypen werden unterstützt.
+
+- **Geben Sie die Häufigkeit und die Kadenz Ihrer Kampagne an**: „Erstellen Sie eine E-Mail-Kampagne, die wöchentlich gesendet wird …“
+
+- **Targeting einer bestimmten Zielgruppe aus einer größeren Liste**: „Erstellen Sie eine Kampagne nur für Teilnehmer mit Hunden für das _Rinde im Park_-Ereignis von &#39;all-attendees.csv&#39;&quot;
+
+- **HTML-Datei hochladen**: „Verwenden Sie meine angehängte HTML-Datei als Grundlage für die Erstellung einer E-Mail-Kampagne.“
+
+- **Änderungen während der Konversation vornehmen**: „Ändern Sie die Anzahl der Tage vor dem Start dieser Kampagne von zwei auf drei.“
+
 ### In Prompts nicht unterstützte Inhalte
 
-Verwenden Sie den **E-Mail-Editor** oder **Adobe Express** für Änderungen an visuellen Komponenten/Bildern. Diese Anfragen werden nicht unterstützt und sollten über andere Tools verarbeitet werden:
+Diese Anfragen werden **nicht** unterstützt und sollten über andere Tools verarbeitet werden:
 
 <table style="table-layout: fixed; border: 0;">
 <thead style="border: 0; background-color: #FFFFFF">
@@ -114,6 +130,10 @@ Stellen Sie vor dem Generieren von Inhalten Folgendes sicher:
 
 Geben Sie immer den Kontext und das Wertversprechen an, damit die KI relevante Inhalte generieren kann.
 
+>[!NOTE]
+>
+>Obwohl Sie derzeit nur E-Mail-Kampagnen generieren und starten können, können Sie Ihren Kollegen jederzeit bitten, eine Kopie für Social Media, WhatsApp oder SMS zu generieren.
+
 <table style="table-layout: fixed; border-collapse: collapse; border: 0;">
 <thead>
 <tr style="border: 0;background-color: #FFFFFF;">
@@ -124,19 +144,19 @@ Geben Sie immer den Kontext und das Wertversprechen an, damit die KI relevante I
 <tbody>
 <tr>
 <td><strong>B2B-Technologie</strong></td>
-<td>„Durchführung einer Kampagne zur Demonstration des ROI und der technischen Spezifikationen bei gleichzeitiger Berücksichtigung von Sicherheitsbelangen für IT-Entscheidungsträger, die unsere Cloud-Infrastrukturlösung bewerten, mit Schwerpunkt auf einer Verfügbarkeit von 99,9 % für SLA, SOC 2-Konformität und Kosteneinsparungen von 40 %.“</td>
+<td>„Erstellen Sie eine Vier-Touch-E-Mail-Kampagne, um den ROI und technische Spezifikationen zu demonstrieren und gleichzeitig Sicherheitsbedenken für IT-Entscheidungsträger zu adressieren, die unsere Cloud-Infrastrukturlösung bewerten. Hervorgehoben werden 99,9 % Verfügbarkeit von SLA, SOC 2-Konformität und 40 % Kosteneinsparungen.“</td>
 </tr>
 <tr>
 <td><strong>E-Commerce – Einzelhandel</strong></td>
-<td>„Generieren Sie eine Kampagne, um Dringlichkeit für Urlaubsartikel mit begrenztem Lagerbestand zu schaffen und gleichzeitig den kostenlosen Versand und die einfache Rückgabe für Last-Minute-Käufer hervorzuheben, wobei Sie begrenzte Mengen (weniger als 50 verbleibende) und den 24-Stunden-Versand-Stichtag betonen.“</td>
+<td>„Generieren Sie eine Single-Touch-Kampagne, um Dringlichkeit für Urlaubsartikel mit begrenztem Lagerbestand zu schaffen und gleichzeitig den kostenlosen Versand und die einfache Rückgabe für Last-Minute-Käufer hervorzuheben, wobei Sie begrenzte Mengen (weniger als 50 verbleibende) und den 24-Stunden-Versand-Stichtag betonen.“</td>
 </tr>
 <tr>
 <td><strong>Allgemeine und berufliche Bildung</strong></td>
-<td>„Schaffen Sie eine Kampagne, die den Schwerpunkt auf Karriereverbesserungsergebnisse und Branchenzertifizierungen legt und gleichzeitig das Know-how der Kursleiter präsentiert, eine Jobvermittlung von 92 % hervorhebt und einen projektbasierten Lehrplan aufstellt.“</td>
+<td>„Erstellen Sie eine Kampagne mit zwei Kontakten, die auf Karriereverbesserungsergebnissen und Branchenzertifizierungen basiert und gleichzeitig das Know-how der Kursleiter präsentiert, eine Stellenbesetzungsquote von 92 % hervorhebt und einen projektbasierten Lehrplan erstellt.“</td>
 </tr>
 <tr>
 <td><strong>Beratung</strong></td>
-<td>„Erstellen Sie eine Kampagne zur Förderung von Unternehmensperspektiven, indem Sie drei Kundenerfolgsgeschichten mit detaillierten ROI-Metriken präsentieren (IBM: 45 % Kostensenkung, Accenture: 200 % Lead-Steigerung, Microsoft: 60 % Zeiteinsparung), die sich an IT-Direktoren in Unternehmen mit mehr als 1000 Mitarbeitern richtet.“</td>
+<td>„Erstellen Sie eine Drei-Touch-Kampagne zur Förderung von Unternehmensperspektiven, indem Sie drei Kundenerfolgsgeschichten mit detaillierten ROI-Metriken präsentieren (IBM: 45 % Kostensenkung, Accenture: 200 % Lead-Steigerung, Microsoft: 60 % Zeitersparnis), die sich an IT-Direktoren in Unternehmen mit mehr als 1000 Mitarbeitern richtet.“</td>
 </tr>
 </tbody>
 </table>

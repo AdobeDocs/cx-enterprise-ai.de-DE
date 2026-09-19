@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 19%
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 19%
   - Kampagnen {#campaigns}
     - [Überblick](./coworker/campaigns/overview.md)
     - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
+    - [Starten und Verwalten einer Kampagne](./coworker/campaigns/launch-manage-campaign.md)
     - [Anwendungsszenarien](./coworker/campaigns/use-cases.md)
     - [Best Practices bei der Eingabeaufforderung](./coworker/campaigns/prompting-best-practices.md)
     - [C2PA-Metadaten](./coworker/campaigns/c2pa-metadata.md)
