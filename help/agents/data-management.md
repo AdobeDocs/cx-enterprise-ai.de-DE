@@ -47,7 +47,7 @@ Diese Fähigkeiten verwalten nicht die folgenden zugehörigen Funktionen:
 Bevor Sie beginnen, stellen Sie Folgendes sicher:
 
 - Zugriff auf Adobe Experience Platform und die Sandbox, die die Datensätze enthält, die Sie überprüfen möchten.
-- Die Adobe Experience Platform-Berechtigungen, die für die Datensätze und Aufbewahrungsaktionen erforderlich sind, die Sie verwenden möchten. Der Data Management Agent verwendet Ihre bestehenden Experience Platform-Berechtigungen und gewährt keinen zusätzlichen Zugriff. Informationen zur Funktionsweise von [ und Rollen finden ](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) in der Übersicht zur Zugriffskontrolle .
+- Die Adobe Experience Platform-Berechtigungen, die für die Datensätze und Aufbewahrungsaktionen erforderlich sind, die Sie verwenden möchten. Der Data Management Agent verwendet Ihre bestehenden Experience Platform-Berechtigungen und gewährt keinen zusätzlichen Zugriff. Informationen zur Funktionsweise von [&#x200B; und Rollen finden &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) in der Übersicht zur Zugriffskontrolle .
 - Das in CX Coworker installierte Adobe CXO-Plug-in.
 
 Anweisungen zum Installieren von Plug-ins finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
@@ -82,4 +82,4 @@ Der Data Management-Agent kann Datensätze identifizieren, die sich gut für ein
 
 Eine Anleitung zur Verwendung der einzelnen Kenntnisse zum Suchen, Analysieren und Verwalten der Data Lake-Aufbewahrung in Ihren Experience Event-Datensätzen finden Sie [Verwalten der Data Lake-Aufbewahrung](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
 
-Weitere Informationen zur Funktionsweise von Data-Lake-Aufbewahrungsrichtlinien in Adobe Experience Platform, einschließlich Aufbewahrungsverhalten und Konfiguration, finden Sie [ Handbuch zur Erlebnisereignis-Datensatzaufbewahrung (TTL)](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
+Weitere Informationen zur Funktionsweise von Data-Lake-Aufbewahrungsrichtlinien in Adobe Experience Platform, einschließlich Aufbewahrungsverhalten und Konfiguration, finden Sie [&#x200B; Handbuch zur Erlebnisereignis-Datensatzaufbewahrung (TTL)](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
