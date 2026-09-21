@@ -33,14 +33,14 @@ Der Data Management Agent bietet vier Fähigkeiten.
 
 Verwenden Sie den Data Management-Agenten, wenn Sie Erlebnisereignis-Datensätze suchen und analysieren und eine Data-Lake-Aufbewahrungsrichtlinie festlegen, ändern oder entfernen möchten.
 
-Wenn Sie nicht sicher sind, ob eine Data-Lake-Aufbewahrungsrichtlinie die richtige Option für Ihr Ziel ist, finden Sie unter [Wählen der richtigen Data-Lifecycle-Management-Funktion](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/choose-a-capability) einen Vergleich der verfügbaren Aufbewahrungs- und Löschoptionen.
+Wenn Sie nicht sicher sind, ob eine Data-Lake-Aufbewahrungsrichtlinie die richtige Option für Ihr Ziel ist, finden Sie unter [Wählen der richtigen Data-Lifecycle-Management-Funktion](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/choose-a-capability) einen Vergleich der verfügbaren Aufbewahrungs- und Löschoptionen.
 
 Diese Fähigkeiten verwalten nicht die folgenden zugehörigen Funktionen:
 
 - **Richtlinie zur Aufbewahrung von Profilspeichern.** Um zu verwalten, wie lange Erlebnisereignisse im Profilspeicher verbleiben, konfigurieren Sie eine Gültigkeitsrichtlinie für Erlebnisereignisse in profilaktivierten Erlebnisereignis-Datensätzen. Siehe [Ablauf von Erlebnisereignissen](https://experienceleague.adobe.com/de/docs/experience-platform/profile/event-expirations).
 - **Ablauf von Daten pseudonymer Profile über Sandbox.** Informationen zum automatischen Löschen pseudonymer Profildaten in einer Sandbox, sobald sie die konfigurierten Bedingungen erfüllen, finden Sie unter [Pseudonyme Profile](https://experienceleague.adobe.com/de/docs/experience-platform/profile/pseudonymous-profiles).
-- **Datensatzgültigkeit.** Informationen zum Planen des Löschens eines gesamten Datensatzes für ein künftiges Datum finden Sie unter [Datensatzgültigkeit](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration).
-- **Datensatz löschen.** Informationen zum Entfernen einzelner Profildatensätze aus Datenschutz- oder Hygienegründen finden Sie unter [Löschen von Datensätzen](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/record-delete).
+- **Datensatzgültigkeit.** Informationen zum Planen des Löschens eines gesamten Datensatzes für ein künftiges Datum finden Sie unter [Datensatzgültigkeit](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/ui/dataset-expiration).
+- **Datensatz löschen.** Informationen zum Entfernen einzelner Profildatensätze aus Datenschutz- oder Hygienegründen finden Sie unter [Löschen von Datensätzen](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/ui/record-delete).
 
 ## Voraussetzungen {#prerequisites}
 
@@ -50,7 +50,7 @@ Bevor Sie beginnen, stellen Sie Folgendes sicher:
 - Die Adobe Experience Platform-Berechtigungen, die für die Datensätze und Aufbewahrungsaktionen erforderlich sind, die Sie verwenden möchten. Der Data Management Agent verwendet Ihre bestehenden Experience Platform-Berechtigungen und gewährt keinen zusätzlichen Zugriff. Informationen zur Funktionsweise von [&#x200B; und Rollen finden &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) in der Übersicht zur Zugriffskontrolle .
 - Das in CX Coworker installierte Adobe CXO-Plug-in.
 
-Anweisungen zum Installieren von Plug-ins finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Anweisungen zum Installieren von Plug-ins finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Verwenden des Daten-Management-Agenten {#use-the-data-management-agent}
 
@@ -62,7 +62,7 @@ Interagieren Sie mit dem Data Management Agent über CX Coworker in natürlicher
 
 So verwenden Sie den Data Management-Agenten:
 
-1. Navigieren Sie zu **[!UICONTROL CX Coworker]**. Weitere Informationen zum Zugriff finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+1. Navigieren Sie zu **[!UICONTROL CX Coworker]**. Weitere Informationen zum Zugriff finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 1. Geben Sie eine Anforderung ein, die beschreibt, was Sie erreichen möchten.
 1. Überprüfen Sie die Ergebnisse und verwenden Sie Folgefragen, um Ihre Untersuchung fortzusetzen.
 
@@ -82,4 +82,4 @@ Der Data Management-Agent kann Datensätze identifizieren, die sich gut für ein
 
 Eine Anleitung zur Verwendung der einzelnen Kenntnisse zum Suchen, Analysieren und Verwalten der Data Lake-Aufbewahrung in Ihren Experience Event-Datensätzen finden Sie [Verwalten der Data Lake-Aufbewahrung](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
 
-Weitere Informationen zur Funktionsweise von Data-Lake-Aufbewahrungsrichtlinien in Adobe Experience Platform, einschließlich Aufbewahrungsverhalten und Konfiguration, finden Sie [&#x200B; Handbuch zur Erlebnisereignis-Datensatzaufbewahrung (TTL)](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
+Weitere Informationen zur Funktionsweise von Data-Lake-Aufbewahrungsrichtlinien in Adobe Experience Platform, einschließlich Aufbewahrungsverhalten und Konfiguration, finden Sie [&#x200B; Handbuch zur Erlebnisereignis-Datensatzaufbewahrung (TTL)](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
