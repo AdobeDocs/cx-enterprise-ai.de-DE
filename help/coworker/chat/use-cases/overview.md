@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 92553b9b27ee38ba31ccd00b443502e990e625be
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '4876'
+source-wordcount: '5040'
 ht-degree: 6%
 ---
 # Anwendungsfälle für den Chat mit Kollegen{#use-cases}
@@ -216,6 +216,13 @@ Verwenden Sie den Kollegen-Chat, um Experimente zu durchsuchen, zu analysieren u
 | Überwachen von Streaming-Kapazität und Sicherheitslücken | Überprüfen Sie die aktuelle und frühere Streaming-Nutzung, -Kapazität und den Status der Unterbrechung in allen Sandboxes | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | „Wie hoch ist meine aktuelle Streaming-Kapazität in meiner aktuellen Sandbox?“ <br> „Überschreitet meine aktuelle Sandbox in der letzten Woche die Kapazitätsbeschränkungen?“ |
 | [Anzeigen der Ergebnisse der Konsistenzprüfungen](https://experienceleague.adobe.com/de/docs/experience-platform/run-and-operate/health-checks/overview) | Zeigen Sie die neueste Bewertung der Konsistenzprüfung für Ihre Sandbox an, führen Sie eine Fehlerprüfung durch und sehen Sie sich die betroffenen Entitäten an | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | „Was ist los in meiner Sandbox?“ <br> „Erzählen Sie mir von meiner neuesten Bewertung der Konsistenzprüfung“ <br> „Was sind die Probleme bei der benutzerdefinierten Namespace-Beschreibungsüberprüfung?“ |
 | Beheben von Problemen mit Konsistenzprüfungen | Beheben Sie gekennzeichnete Identity-Namespaces, Zusammenführungsrichtlinien und Schemaprobleme direkt im Chat mit Ihrer Genehmigung, bevor Änderungen vorgenommen werden | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | „Identity-Namespace-Beschreibungen korrigieren“ <br> „Doppelte Zusammenführungsrichtlinien-Namen korrigieren“ <br> „Fehlende Überwachungsfeldgruppe in Schemas beheben“ <br> „Standardbenennung der Zusammenführungsrichtlinie korrigieren“ |
+
+## Daten-Management
+
+| Anwendungsfall | Beschreibung | Skills | Anwendung | Eingabeaufforderungen |
+| --- | --- | --- | --- | --- |
+| [Finden Sie Daten, die optimiert oder bereinigt werden sollten](./data-management/manage-data-lake-retention.md#find-data-worth-optimizing) | Erfahren Sie, ob Ihre Erlebnisereignisdaten optimiert werden können, indem Sie Ihre größten, am wenigsten verwendeten oder vergessenen Datensätze als Kandidaten für eine Bereinigung oder eine Data-Lake-Aufbewahrungsrichtlinie einblenden | `List datasets` | Adobe Experience Platform | „Ich habe das Gefühl, dass meine Daten optimiert werden können“ <br> „Helfen Sie mir, den Wert meiner Daten zu verstehen“ <br> „Optimieren meiner Sandbox-Daten“ <br> „Bereinigen meiner Sandbox-Datensätze“ |
+| [Untersuchung der Nutzung und Verwaltung der Aufbewahrung eines Datensatzes](./data-management/manage-data-lake-retention.md#check-how-actively-a-dataset-is-used) | Wenn Sie einen Datensatz gefunden haben, der einen genaueren Blick wert ist, finden Sie heraus, wie aktiv er verwendet wird. Modellieren Sie die Auswirkungen einer potenziellen Data Lake-Aufbewahrungsrichtlinie und legen Sie diese Richtlinie fest, ändern oder entfernen Sie sie, wenn Sie bereit sind, mit Ihrer Überprüfung und Genehmigung, bevor sich etwas ändert | `Analyze dataset usage`, `Analyze dataset retention`, `Manage dataset retention` | Adobe Experience Platform | „Wie aktiv wird mein Web-Ereignis-Datensatz verwendet?“ <br> „Was wären die Auswirkungen, wenn ich für diesen Datensatz eine Aufbewahrungsfrist von 60 Tagen festlegen würde?“ |
 
 ## Sandbox-Werkzeuge
 
