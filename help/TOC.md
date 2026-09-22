@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 19%
 ---
 
@@ -59,6 +59,8 @@ ht-degree: 19%
       - [Erstellen Ihrer ersten Kenntnisse](./coworker/customizations/skills/create-your-first-skill.md)
       - [Erstellen und Ausführen einer Quality Gate-Qualifikation](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [Kenntnisse verwalten und iterieren](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - Integrationen {#integrations}
+      - [Was sind Integrationen?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - Plug-ins {#plugins}
       - [Was sind Plug-ins?](./coworker/customizations/plugins/what-are-plugins.md)
     - Speicher {#memory}
@@ -107,6 +109,6 @@ ht-degree: 19%
     - {hide-from-toc}[Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
