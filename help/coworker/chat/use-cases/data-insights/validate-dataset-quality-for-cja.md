@@ -8,7 +8,7 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
+source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
@@ -110,3 +110,4 @@ Die Validierung von Datensätzen vor dem Erstellen von Berichten hilft Teams bei
 - Effizientere Fehlerbehebung bei unerwarteten Metriken
 
 Mit Coworker können diese Prüfungen mit Eingabeaufforderungen in natürlicher Sprache initiiert werden, was die Datenvalidierung für technische und nicht-technische Benutzende leichter zugänglich macht.
+

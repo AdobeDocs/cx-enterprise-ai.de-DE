@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '365'
 ht-degree: 19%
 ---
 
@@ -59,6 +59,12 @@ ht-degree: 19%
       - [Erstellen Ihrer ersten Kenntnisse](./coworker/customizations/skills/create-your-first-skill.md)
       - [Erstellen und Ausführen einer Quality Gate-Qualifikation](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [Kenntnisse verwalten und iterieren](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - Integrationen {#integrations}
+      - [Was sind Integrationen?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
+    - Plug-ins {#plugins}
+      - [Was sind Plug-ins?](./coworker/customizations/plugins/what-are-plugins.md)
+    - Speicher {#memory}
+      - [Was ist Speicher?](./coworker/customizations/memory/what-is-memory.md)
   - Kampagnen {#campaigns}
     - [Überblick](./coworker/campaigns/overview.md)
     - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
