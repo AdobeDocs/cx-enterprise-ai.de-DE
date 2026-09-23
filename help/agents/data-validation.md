@@ -1,13 +1,11 @@
 ---
 title: Validieren Ihrer Daten im KI-Assistenten
 description: Erfahren Sie, wie Sie mit der Agent Orchestrator-gestützten Datenvalidierung im KI-Assistenten statistische und semantische Validierungen für Ihre Datensätze durchführen können.
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1602'
 ht-degree: 0%
-
 ---
-
 # Validieren Ihrer Daten im KI-Assistenten
 
 Sie können den KI-Assistenten verwenden, um die Datenqualität Ihrer Adobe Experience Platform-Datensätze zu überprüfen. Basierend auf Agent Orchestrator kann die Datenvalidierungsfunktion statistische und semantische Validierungen für Datensätze durchführen, Datensatzfelder analysieren, Datenqualitätsprobleme identifizieren und Zusammenfassungen natürlicher Sprachen mit umsetzbaren Einblicken zurückgeben. Dateningenieure, Analysten und Datenverwalter können diese Funktion über den KI-Assistenten nutzen, um schnelle Bewertungen der Datenqualität durchzuführen, ohne SQL-Abfragen zu schreiben oder durch komplexe Schemahierarchien zu navigieren.
@@ -23,6 +21,10 @@ Lesen Sie diese Dokumentation, um zu erfahren, wie Sie Ihre Daten im KI-Assisten
 >[!NOTE]
 >
 >Der KI-Assistent ist die Gesprächsoberfläche für diesen Workflow. Agent Orchestrator führt die Logik durch und koordiniert die Validierungsschritte im Hintergrund.
+
+>[!NOTE]
+>
+>Die Datenvalidierung ist auch als Kollegen verfügbar. Siehe [Validieren Ihrer Experience Platform-Daten mit Coworker](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md).
 
 ## Anwendungsszenarien
 
@@ -115,7 +117,7 @@ Für jedes validierte Feld zeigt der KI-Assistent die vom Validierungs-Workflow 
 | Vollständigkeit | `nullCount = 9,532 (95.3%)` |
 | Einzigartigkeit | `uniqueCount = 3` |
 | Top-Werte | `"True" (255), "False" (243)` |
-| Ausgangswerte | `"abc@, reason: "not a valid email address"` |
+| Anfangswerte | `"abc@, reason: "not a valid email address"` |
 
 ## Validierungstypen
 
