@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 279e33861b08f5644678a3498acf0fd3e7bca1fc
 workflow-type: tm+mt
-source-wordcount: '5301'
-ht-degree: 5%
+source-wordcount: '5341'
+ht-degree: 6%
 ---
 # Anwendungsfälle für den Chat mit Kollegen{#use-cases}
 
@@ -24,7 +24,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 >
 >Alle berechtigten Kundinnen und Kunden erhalten fortlaufend Zugriff auf die Funktionen der Adobe Experience Manager-Agenten in Coworker.
 >
->Siehe auch [KI in AEM - Überblick über die Agentenfunktionen in AEM](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Siehe auch [KI in AEM - Überblick über die Agentenfunktionen in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Markenerlebnis
 
@@ -43,9 +43,9 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Sites](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Forms](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Agentenfunktionen in AEM: Markenerlebnis - Erlebnisproduktion - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Entwicklung
 
@@ -58,7 +58,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenerlebnis - Entwicklung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Agentenfunktionen in AEM: Markenerlebnis - Entwicklung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Einstieg
 
@@ -71,7 +71,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agenturfunktionen in AEM: Markenerlebnis - Onboarding](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Agenturfunktionen in AEM: Markenerlebnis - Onboarding](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Inhaltsratgeber
 
@@ -86,7 +86,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Content Advisor - Content Discovery](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Agentenfunktionen in AEM: Content Advisor - Content Discovery](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Inhaltsoptimierung
 
@@ -98,7 +98,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Inhaltsberater - Inhaltsoptimierung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Agentenfunktionen in AEM: Inhaltsberater - Inhaltsoptimierung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Marken-Governance
 
@@ -110,7 +110,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 **Verwandte Informationen**
 
-* [Agentenfunktionen in AEM: Markenverwaltung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Agentenfunktionen in AEM: Markenverwaltung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Dateneinblicke
 
@@ -149,8 +149,9 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 | Analysieren von Journey-Fallout | Identifizieren Sie, wo und warum Kunden während eines Journey abbrechen, und erkennen Sie Verhaltensmuster, die zu einer Abmeldung führen | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | „Wo kommen die Leute auf meiner Re-Engagement-Journey hin?“ <br> „Welche Knoten in Journey X haben den höchsten Fallout?“ |
 | Analysieren von Fehlern bei benutzerdefinierten Aktionen | Ermitteln Sie, wann benutzerdefinierte Aktionen fehlschlagen oder Fehlerquoten innerhalb eines Journey in die Höhe schießen, und diagnostizieren Sie die Grundursachen, bevor Fehler in umfassendere Unterbrechungen übergehen. | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | „Warum schlagen benutzerdefinierte Aktionen in meiner Treue-Anmelde-Journey fehl?“ <br> „Fehlerrate für benutzerdefinierte Aktion „ExternalPush“ in meiner Begrüßungs-Journey anzeigen.“ |
 | Journey-Anomalien erkennen | Erkennen und bestätigen Sie unerwartete Spitzen, Stürze oder Ausrundungen in einer Journey, Verlassen oder Senden von Zählungen anhand historischer Baselines und ermitteln Sie eine wahrscheinliche Grundursache | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | „Warum sind gestern Einträge für meine Begrüßungs-Journey abgelegt worden?“ <br> „Hat die Spitze der Ausstiege für die Journey zu Warenkorbabbrüchen diese Woche erreicht?“ |
+| Journey-Versionen vergleichen | Vergleichen Sie zwei Journey-Versionen und prüfen Sie einen strukturierten Unterschied zwischen den Eigenschaftsänderungen auf Knoten-, Verbindungs- und Journey-Ebene | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | „Vergleichen Sie die Versionen 2 und 3 meiner Begrüßungs-Journey&quot; <br> „Was hat sich zwischen diesen beiden Journey-Versionen geändert?“ |
 
-Weitere Informationen zu CX Coworker-Kenntnissen für Journey finden Sie in der Dokumentation zu [Adobe Journey Optimizer-Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
+Weitere Informationen zu CX Coworker-Kenntnissen für Journey finden Sie in der Dokumentation zu [Adobe Journey Optimizer-Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
 
 ## Marketing-Programme
 
@@ -168,7 +169,7 @@ Weitere Informationen zu CX Coworker-Kenntnissen für Journey finden Sie in der 
 | Herausforderungen im Zusammenhang mit Treueprogrammen erstellen, bearbeiten und verwalten | Vereinfachen und Beschleunigen der Verwaltung von Treueprogrammen | `loyalty` | Adobe Journey Optimizer (AJO) | „Erstellen Sie eine Herausforderung, die Mitglieder dazu ermutigt, ein neues saisonales Getränk auszuprobieren“ <br> „Herausforderungen bezüglich der Treue mit den höchsten Abbruchraten für Mitglieder zeigen“. |
 | Leistung des Treueprogramms analysieren | Fragen Sie mithilfe natürlicher Sprache Treuepunkte, Mitgliedsstufen, Einlösungen und Umsatzmetriken ab und analysieren Sie sie | `loyalty-insights` | Adobe Journey Optimizer (AJO) | „Wie viele Treuepunkte wurden im August 2026 gewährt?“ <br> „Die Gesamteinnahmen des Treueprogramms aufgeschlüsselt nach Tagen im August 2026 anzeigen.“ |
 
-Weitere Informationen zu CX Coworker-Fähigkeiten für Treueprogramm finden Sie in der [Dokumentation zu Adobe Journey Optimizer-Treueprogrammen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}.
+Weitere Informationen zu CX Coworker-Fähigkeiten für Treueprogramm finden Sie in der [Dokumentation zu Adobe Journey Optimizer-Treueprogrammen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}.
 
 ## Optimierung
 
@@ -218,7 +219,7 @@ Verwenden Sie den Kollegen-Chat, um Experimente zu durchsuchen, zu analysieren u
 | Auflösung und Verknüpfung von Entitäten | Verwenden Sie die semantische und lexikalische Suche, um Entitätsbezeichnungen in tatsächliche Experience Platform-Entitäten aufzulösen und XDM-Felder zu erkennen | `entity-linking` | Adobe Experience Platform | „Auflösen von „Holiday Shoppers“ in eine tatsächliche Zielgruppe“ <br> „Felder für „Mich finden“ im Zusammenhang mit dem Kaufverlauf“ |
 | Benutzerdefinierte Fähigkeiten verwalten | Speichern, Ändern oder Löschen von benutzereigenen wiederverwendbaren Fähigkeiten, die sitzungsübergreifend bestehen bleiben | `manage-skill` | Alle infrage kommenden Anträge | „Diesen Workflow als Qualifikation speichern“ <br> „Meine wöchentlichen Berichtsqualifikationen löschen“ <br> „Diese Qualifikation wiederverwendbar machen“ |
 | Überwachen von Streaming-Kapazität und Sicherheitslücken | Überprüfen Sie die aktuelle und frühere Streaming-Nutzung, -Kapazität und den Status der Unterbrechung in allen Sandboxes | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | „Wie hoch ist meine aktuelle Streaming-Kapazität in meiner aktuellen Sandbox?“ <br> „Überschreitet meine aktuelle Sandbox in der letzten Woche die Kapazitätsbeschränkungen?“ |
-| [Anzeigen der Ergebnisse der Konsistenzprüfungen](https://experienceleague.adobe.com/de/docs/experience-platform/run-and-operate/health-checks/overview) | Zeigen Sie die neueste Bewertung der Konsistenzprüfung für Ihre Sandbox an, führen Sie eine Fehlerprüfung durch und sehen Sie sich die betroffenen Entitäten an | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | „Was ist los in meiner Sandbox?“ <br> „Erzählen Sie mir von meiner neuesten Bewertung der Konsistenzprüfung“ <br> „Was sind die Probleme bei der benutzerdefinierten Namespace-Beschreibungsüberprüfung?“ |
+| [Anzeigen der Ergebnisse der Konsistenzprüfungen](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Zeigen Sie die neueste Bewertung der Konsistenzprüfung für Ihre Sandbox an, führen Sie eine Fehlerprüfung durch und sehen Sie sich die betroffenen Entitäten an | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | „Was ist los in meiner Sandbox?“ <br> „Erzählen Sie mir von meiner neuesten Bewertung der Konsistenzprüfung“ <br> „Was sind die Probleme bei der benutzerdefinierten Namespace-Beschreibungsüberprüfung?“ |
 | Beheben von Problemen mit Konsistenzprüfungen | Beheben Sie gekennzeichnete Identity-Namespaces, Zusammenführungsrichtlinien und Schemaprobleme direkt im Chat mit Ihrer Genehmigung, bevor Änderungen vorgenommen werden | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | „Identity-Namespace-Beschreibungen korrigieren“ <br> „Doppelte Zusammenführungsrichtlinien-Namen korrigieren“ <br> „Fehlende Überwachungsfeldgruppe in Schemas beheben“ <br> „Standardbenennung der Zusammenführungsrichtlinie korrigieren“ |
 
 ## Daten-Management
