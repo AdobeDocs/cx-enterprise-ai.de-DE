@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 279e33861b08f5644678a3498acf0fd3e7bca1fc
 workflow-type: tm+mt
-source-wordcount: '5301'
-ht-degree: 5%
+source-wordcount: '5341'
+ht-degree: 6%
 ---
 # Anwendungsfälle für den Chat mit Kollegen{#use-cases}
 
@@ -149,6 +149,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 | Analysieren von Journey-Fallout | Identifizieren Sie, wo und warum Kunden während eines Journey abbrechen, und erkennen Sie Verhaltensmuster, die zu einer Abmeldung führen | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | „Wo kommen die Leute auf meiner Re-Engagement-Journey hin?“ <br> „Welche Knoten in Journey X haben den höchsten Fallout?“ |
 | Analysieren von Fehlern bei benutzerdefinierten Aktionen | Ermitteln Sie, wann benutzerdefinierte Aktionen fehlschlagen oder Fehlerquoten innerhalb eines Journey in die Höhe schießen, und diagnostizieren Sie die Grundursachen, bevor Fehler in umfassendere Unterbrechungen übergehen. | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | „Warum schlagen benutzerdefinierte Aktionen in meiner Treue-Anmelde-Journey fehl?“ <br> „Fehlerrate für benutzerdefinierte Aktion „ExternalPush“ in meiner Begrüßungs-Journey anzeigen.“ |
 | Journey-Anomalien erkennen | Erkennen und bestätigen Sie unerwartete Spitzen, Stürze oder Ausrundungen in einer Journey, Verlassen oder Senden von Zählungen anhand historischer Baselines und ermitteln Sie eine wahrscheinliche Grundursache | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | „Warum sind gestern Einträge für meine Begrüßungs-Journey abgelegt worden?“ <br> „Hat die Spitze der Ausstiege für die Journey zu Warenkorbabbrüchen diese Woche erreicht?“ |
+| Journey-Versionen vergleichen | Vergleichen Sie zwei Journey-Versionen und prüfen Sie einen strukturierten Unterschied zwischen den Eigenschaftsänderungen auf Knoten-, Verbindungs- und Journey-Ebene | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | „Vergleichen Sie die Versionen 2 und 3 meiner Begrüßungs-Journey&quot; <br> „Was hat sich zwischen diesen beiden Journey-Versionen geändert?“ |
 
 Weitere Informationen zu CX Coworker-Kenntnissen für Journey finden Sie in der Dokumentation zu [Adobe Journey Optimizer-Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
 
