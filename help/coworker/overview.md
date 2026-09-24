@@ -40,7 +40,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide" title="Handbuch für die -Benutzeroberfläche" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg&nocache=1790258761614" alt="Handbuch für die -Benutzeroberfläche"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498574?captions=ger&format=jpeg&nocache=1790258761614" alt="Handbuch für die -Benutzeroberfläche"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -63,7 +63,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" title="Validieren von Customer Journey Analytics-Daten" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3496846/?format=jpeg&nocache=1790258762238" alt="Validieren von Customer Journey Analytics-Daten"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3496864/?captions=ger&format=jpeg&nocache=1790258762238" alt="Validieren von Customer Journey Analytics-Daten"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
