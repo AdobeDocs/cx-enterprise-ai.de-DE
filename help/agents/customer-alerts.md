@@ -1,23 +1,21 @@
 ---
 title: Customer Alert Skills
-description: Erfahren Sie, wie Sie mithilfe von Customer Alert Skills in CX Coworker Warnhinweise prüfen, Warnhinweisaktivitäten analysieren, Abonnements verwalten und operative Probleme durch Gespräche in natürlicher Sprache priorisieren können.
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+description: Erfahren Sie, wie Sie die Warnhinweisfähigkeiten von Kunden in CX Coworker verwenden können, um Warnhinweisaktivitäten durch Gespräche in natürlicher Sprache zu überprüfen, zu analysieren und zu priorisieren.
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1022'
 ht-degree: 4%
-
 ---
 
-
-# Customer Alert Skills
+# Warnhinweise für Kunden
 
 >[!AVAILABILITY]
 >
-> Customer Alert Skills stehen allen Kunden zur Verfügung, die Zugriff auf Adobe CX Enterprise Coworker haben.
+> Warnhinweise für Kunden stehen allen Kunden zur Verfügung, die Zugriff auf Adobe CX Enterprise Coworker haben.
 >
 > Um Warnhinweise für Kunden verwenden zu können, müssen Sie Zugriff auf Warnhinweise für Adobe Experience Platform und die mit diesen Warnhinweisen verknüpften Ressourcen haben.
 
-Verwenden Sie die Warnhinweis-Fähigkeiten von Kunden in CX Coworker, um eine Warnhinweisaktivität in ein personalisiertes operatives Briefing zu verwandeln. Überprüfen Sie aktuelle Warnhinweise, identifizieren Sie Probleme von hoher Priorität, verstehen Sie, welche Ressourcen betroffen sind, und konzentrieren Sie Ihre Ermittlungsbemühungen über Gespräche in natürlicher Sprache.
+Verwenden Sie Warnhinweiskenntnisse in CX Coworker, um die Warnhinweisaktivität in ein personalisiertes operatives Briefing umzuwandeln. Überprüfen Sie aktuelle Warnhinweise, identifizieren Sie Probleme von hoher Priorität, verstehen Sie, welche Ressourcen betroffen sind, und konzentrieren Sie Ihre Ermittlungsbemühungen über Gespräche in natürlicher Sprache.
 
 Die Fähigkeiten zu Warnhinweisen für Kunden helfen Ihnen, von Warnhinweisen zu umsetzbaren Einblicken zu wechseln, ohne die Warnhinweisansichten manuell zu überprüfen oder Informationen über mehrere Schnittstellen hinweg zu korrelieren. Beginnen Sie mit einer allgemeinen Frage zur letzten Aktivität von Warnhinweisen und verwenden Sie Folgefragen, um Muster von wiederkehrenden Warnhinweisen zu identifizieren, betroffene Objekte zu analysieren und sich auf die Warnhinweise zu konzentrieren, deren Inhaber Sie sind.
 
@@ -31,11 +29,11 @@ Bevor Sie beginnen, stellen Sie Folgendes sicher:
 - Berechtigung zum Anzeigen von Warnhinweisen, die für Ihre Organisation relevant sind.
 - Das in CX Coworker installierte Adobe CXO-Plug-in.
 
-Anleitungen für die Installation von Plug-ins finden Sie unter https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/chat/ui-guide.
+Anleitungen für die Installation von Plug-ins finden Sie unter https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide.
 
 ## Verwendung von Warnhinweisen für Kunden {#use-customer-alert-skills}
 
-Interagieren Sie über CX Coworker mit Warnhinweisen für Kunden und verwenden Sie Anforderungen in natürlicher Sprache. Stellen Sie Fragen zu Warnhinweisaktivitäten, Abonnements, Warnhinweistrends oder betroffenen Objekten. Setzen Sie das Gespräch mit Folgefragen fort, um die Ergebnisse zu verfeinern und Ihre Analyse zu fokussieren.
+Interagieren Sie über CX Coworker mit Warnhinweisen für Kunden, indem Sie Anforderungen in natürlicher Sprache verwenden. Stellen Sie Fragen zu Warnhinweisaktivitäten, Abonnements, Warnhinweistrends oder betroffenen Objekten. Setzen Sie das Gespräch mit Folgefragen fort, um die Ergebnisse zu verfeinern und Ihre Analyse zu fokussieren.
 
 So verwenden Sie Warnhinweise für Kunden:
 
@@ -186,6 +184,6 @@ Verwenden Sie die folgenden Eingabeaufforderungen als Beispiele für die Interak
 
 ## Nächste Schritte {#next-steps}
 
-Nach dem Lesen dieses Handbuchs sollten Sie wissen, wie Sie mithilfe von Customer Alert Skills in CX Coworker Warnhinweisaktivitäten überprüfen, Warnhinweistrends analysieren, Warnhinweisabonnements verwalten und operative Probleme durch Gespräche in natürlicher Sprache untersuchen können.
+Nach dem Lesen dieses Handbuchs sollten Sie wissen, wie Sie mithilfe von Warnhinweiskenntnissen in CX Coworker die Warnhinweisaktivität überprüfen, Warnhinweistrends analysieren, Warnhinweisabonnements verwalten und operative Probleme mithilfe von Gesprächen in natürlicher Sprache untersuchen können.
 
-Weitere Informationen zu Warnhinweisen finden Sie unter [Übersicht über &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview).
+Weitere Informationen zu Warnhinweisen finden Sie unter [Übersicht über ](https://experienceleague.adobe.com/de/docs/experience-platform/observability/alerts/overview).

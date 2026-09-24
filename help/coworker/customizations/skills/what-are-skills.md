@@ -1,6 +1,6 @@
 ---
 title: Was sind Fähigkeiten?
-description: Erfahren Sie, wie Sie mit den Kenntnissen in Adobe CX Coworker Teams dabei helfen, die Orchestrierung von Kundenerlebnissen zu standardisieren, wiederkehrende Workflows zu automatisieren und konsistente Ergebnisse mithilfe wiederverwendbarer KI-gestützter Playbooks zu liefern.
+description: Erfahren Sie mehr über Kenntnisse in Adobe CX Coworker und wiederverwendbare Playbooks, die Workflows standardisieren und konsistente Ergebnisse für Konversationen und Anwender liefern.
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -9,21 +9,20 @@ last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 220
+source-wordcount: '215'
 ht-degree: 0%
-
 ---
 
-
-# Was sind Fähigkeiten in Kollegen?
+# Was sind Fähigkeiten in Coworker?
 
 Kenntnisse sind wiederverwendbare Playbooks, mit denen Adobe CX Coworker Kundenerlebnis-Orchestrierungsaufgaben konsistent und effizient durchführen können. Anstatt den gleichen Prozess wiederholt zu erklären, können Teams Fähigkeiten verwenden, um gängige Workflows, Berichtsmethoden und Analyseansätze über Konversationen und Benutzer hinweg zu standardisieren.
  
 In diesem Video erfahren Sie, wie Fähigkeiten funktionieren, wann sie verwendet werden und wie sie Teams dabei helfen, wiederholbare Praktiken für Kundenerlebnisse zu skalieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502330/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502322/?learn=on&enablevpops)
 
 Eine Qualifikation bietet:
 
@@ -46,7 +45,6 @@ Viele Unternehmen führen dieselben Aufgaben wiederholt aus, darunter:
 
 Mithilfe von Kenntnissen können Teams diese Best Practices erfassen und wiederverwenden, ohne den Prozess jedes Mal manuell neu zu erklären.
  
-
 ## Qualifikationen und Data Governance
 
 Skills speichern keine Kundendaten.
