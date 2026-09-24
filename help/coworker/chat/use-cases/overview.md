@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '5040'
-ht-degree: 6%
+source-wordcount: '5301'
+ht-degree: 5%
 ---
 # Anwendungsfälle für den Chat mit Kollegen{#use-cases}
 
@@ -124,6 +124,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 | [Ursachenanalyse](data-insights/root-cause-analysis.md) | Finden Sie heraus, warum sich eine Metrik geändert hat: Diagnostizieren von Abfällen, Spitzen und Anomalien | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | „Warum sind die Konversionen letzte Woche zurückgegangen?“ <br> „Was verursachte die Umsatzspitze am 15. Januar?“ |
 | Zusammenfassung für Führungskräfte und KPI-Zusammenfassung | Erstellung von einsatzbereiten Leistungszusammenfassungen für Stakeholder, präskriptiven Empfehlungen und Folienübersichten | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics (CJA) | „Gib mir eine Zusammenfassung des letzten Monats“ <br> „Erstellen eines Folien-Decks aus den Daten dieses Quartals“ |
 | [AA ↔ CJA-Datenvalidierung](data-insights/data-validation-aa-cja.md) | Vergleichen, Überprüfen und Abstimmung von Daten zwischen Adobe Analytics und Customer Journey Analytics, insbesondere beim Upgrade von Adobe Analytics auf Customer Journey Analytics | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | „Meine AA Report Suite mit meiner CJA-Datenansicht vergleichen“ <br> „Seitenansichten zwischen AA und CJA validieren“ |
+| [Validieren der Datensatz- und Feldqualität](data-insights/data-validation-aep.md) | Führen Sie eine statistische und semantische Validierung für Experience Platform-Datensätze und -Felder aus, um Datenqualitätsprobleme nach der Implementierung oder fortlaufend zu <!--TODO: confirm skill ID(s) with engineering before publishing--> | `data-validation` | Adobe Experience Platform | „Validieren des Datensatzes Electronics Sample 1000“ <br> „Validieren des E-Mail-Felds im Datensatz Customers_2024“ |
 | Operative Zeitreihen- und Kausalanalyse | Abfragen und Analysieren historischer Zeitreihendaten für Zielgruppen, Datensätze und Journey mit kausaler Attribution | `operational-stats-causal-analysis` | Alle infrage kommenden Anträge | „Trends bei der Zielgruppengröße in den letzten 90 Tagen anzeigen“ <br> „Warum hat die Anzahl meiner Datensatzzeilen am 3. März angezogen?“ |
 | Erstellen benutzerdefinierter CJA-Kenntnisse | Verwandeln Sie analytische Muster in wiederverwendbare, wiederholbare Fähigkeiten, die sitzungsübergreifend bestehen bleiben | `cja-skill-creator` | Customer Journey Analytics (CJA) | „Diese wöchentliche Umsatzanalyse in wiederverwendbare Kenntnisse umwandeln“ <br> „Als Kenntnisse für monatliches funnel-Reporting speichern“ |
 
@@ -153,9 +154,12 @@ Weitere Informationen zu CX Coworker-Kenntnissen für Journey finden Sie in der 
 
 ## Marketing-Programme
 
-| Anwendungsfall | Beschreibung | Skills | Anwendung | Eingabeaufforderungen |
-|---|---|---|---|---|
-| Erstellen eines Programms | Anpassen einer vorhandenen Programmvorlage in ein neues Programm, Generieren intelligenter Kampagnen, Planung und Platzhalter-E-Mails aus einer einfachen Kampagnenbeschreibung oder einer hochgeladenen Kampagnenbeschreibung | `build-programs` | Adobe Marketo Engage | „Erstellen Sie ein Webinar-Registrierungsprogramm für unsere August-Produktdemo“<br><br>„Erstellen Sie ein Programm, das Trigger verursacht, wenn ein Lead die Punktzahl 50 erreicht“<br><br>„Erstellen Sie eine 3-E-Mail-Rückgewinnungsserie für Leads, die 90 Tage inaktiv sind“ |
+| Anwendungsfall | Beschreibung | Kenntnisse | Anwendung | Eingabeaufforderungen |
+| --- | --- | --- | --- | --- |
+| Erstellen eines Programms | Anpassen einer vorhandenen Programmvorlage in ein neues Programm, wobei intelligente Kampagnen, Planung und Platzhalter-E-Mails aus einer einfachen Beschreibung oder einer hochgeladenen Zusammenfassung generiert werden | `build-programs` | Adobe Marketo Engage | „Erstellen Sie ein Webinar-Registrierungsprogramm für unsere August-Produktdemo“<br><br>„Erstellen Sie ein Programm, das Trigger verursacht, wenn ein Lead die Punktzahl 50 erreicht“<br><br>„Erstellen Sie eine 3-E-Mail-Rückgewinnungsserie für Leads, die 90 Tage inaktiv sind“ |
+| Ein Programm aus einer kurzen Perspektive aufrichten | Umwandeln eines einfachen oder hochgeladenen Kampagnendokuments in ein Arbeitsprogramm: Klonen Sie die am ehesten übereinstimmende Vorlage, übertragen Sie intelligente Kampagnen und Token und aktualisieren Sie die Ereignisdetails. Neue Smart-Kampagnen bleiben für Ihre Überprüfung deaktiviert | `build-programs` | Adobe Marketo Engage | „Ich veranstalte ein Webinar am 10. September in Chicago. Richten Sie das Programm für mich ein<br><br>„Richten Sie das Roadshow-Programm für den nächsten Monat aus dieser Zusammenfassung ein und aktualisieren Sie die Event-Token“ |
+| Klonen und Anpassen eines vorhandenen Programms | Kopieren Sie ein vorheriges Programm für eine neue Stadt, ein neues Quartal oder eine neue Region und aktualisieren Sie Daten, Token und Namen. Untergeordnete Smart-Kampagnen werden übernommen und deaktiviert, bis Sie sie aktivieren | `build-programs` | Adobe Marketo Engage | „Klonen Sie das Veranstaltungsprogramm des letzten Quartals für unseren New Yorker Stopp am 17. Oktober und aktualisieren Sie die Daten und Token“<br><br>„Duplizieren Sie das Chicago Roadshow-Programm für unser britisches Publikum“ |
+| Erstellen einer Smart Campaign mit Qualifizierungslogik | Erstellen Sie eine Smart-Trigger- oder Batch-Kampagne, fügen Sie Smart-Listen-Regeln wie Formularausfüllungen oder Score-Reichweiten hinzu und konfigurieren Sie Flussschritte wie den Versand von E-Mails | `build-programs` | Adobe Marketo Engage | „Erstellen Sie eine Trigger-Kampagne, die unsere Begrüßungs-E-Mail sendet, wenn ein Lead das Kontaktformular ausfüllt“<br><br>„Erstellen Sie eine Batch-Kampagne für Leads, die einen Wert von 50 erreichen, und fügen Sie den Schritt „E-Mail senden“ hinzu. |
 
 ## Treue
 

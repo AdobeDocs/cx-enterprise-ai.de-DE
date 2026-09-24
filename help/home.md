@@ -1,6 +1,6 @@
 ---
 title: KI in CX Enterprise-Anwendungen
-description: Erfahren Sie, wie CX Enterprise-Anwendungen generative KI (GenAI), CX Enterprise Coworker, KI Assistant, agentische KI und MCP-Tools verwenden.
+description: Erfahren Sie, wie CX Enterprise-Programme generative KI (GenAI), CX Enterprise Coworker, KI-Assistent, agentische KI und MCP-Tools verwenden.
 TQID: 'https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds'
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 81c51c896a10559db58c6389a08f9c84b96ef73c
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '965'
 ht-degree: 2%
 ---
 # KI in CX Enterprise-Anwendungen
@@ -38,12 +38,12 @@ In diesem Handbuch werden die KI-Funktionen in Adobe CX Enterprise behandelt: ge
 
 Beginnen Sie hier mit einem Überblick darüber, wo und wie KI in CX Enterprise verwendet wird:
 
-- [Über generative KI](./overview/generative-ai.md) beschreibt, welche CX Enterprise-Anwendungen generative KI und KI-Assistent unterstützen und wie sie sich vergleichen.
+- [Über generative KI](./overview/generative-ai.md) beschreibt, welche CX Enterprise-Programme generative KI und den KI-Assistenten unterstützen und wie sie sich vergleichen.
 - [Über die agentische KI](./overview/agentic-ai.md) erläutert, wie die agentische KI in bestehenden CX Enterprise-Programmen und KI-First-Programmen funktioniert, und listet die in den einzelnen Programmen verfügbaren Agenten auf.
 - [KI-Überwachung](./overview/monitoring.md) umfasst die Dashboards, die die Akzeptanz, Nutzung, Feedback und Nutzung von KI-Krediten durch Agenten verfolgen.
 - [Verbrauch von KI](./overview/ai-credit-consumption.md)Guthaben: Erläutert, wie Agentenaufträge KI-Guthaben verwenden, wobei die geschätzten Verbrauchsraten nach Agent und Vorgangstyp aufgeschlüsselt sind.
-- [Generative KI-Inhaltstransparenz](./content-transparency.md) erklärt, wie Adobe automatisch C2PA-Metadaten an GenAI-generierte und GenAI-bearbeitete Inhalte in CX Enterprise-Anwendungen anhängt.
-- [CX Enterprise Agent Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview) decken zusätzliche agentische Fähigkeiten und Tools ab, die CX Enterprise Agents erweitern (Video-Tutorials).
+- [Generative KI-Inhaltstransparenz](./content-transparency.md) erklärt, wie Adobe automatisch C2PA-Metadaten an GenAI-generierte und GenAI-bearbeitete Inhalte in CX Enterprise-Programmen anhängt.
+- [CX Enterprise Agent-Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview) Behandeln Sie zusätzliche Agentenkompetenzen und -Tools, die CX Enterprise-Agenten erweitern (Video-Tutorials).
 
 ## Coworker
 
@@ -52,12 +52,12 @@ Bei Coworker handelt es sich um eine agentenorientierte Weiterentwicklung des KI
 Coworker includes:
 
 - **[Coworker Chat](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Eine Gesprächsoberfläche, mit der Sie Ihre Daten untersuchen, Zielgruppen und Journey validieren und mehrstufige Aufgaben in allen CX Enterprise-Anwendungen ausführen können.
-- **[Coworker Campaign](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: Eine KI-native Anwendung, die Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html).
+- **[Coworker Campaign](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: Eine KI-native Anwendung, die Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/de/products/cx-enterprise-coworker/teams.html).
 - **Coworker Projects** (in Kürze verfügbar): Ein einheitlicher Arbeitsbereich zur Automatisierung von End-to-End-Orchestrierungs-Workflows für das Kundenerlebnis, der Teams bei der Koordinierung von Aufgaben, Genehmigungen und Ausführungen unterstützt, um Ergebnisse von der Strategie bis zur Bereitstellung zu erzielen. Die Dokumentation für Projekte wird in Kürze verfügbar sein.
 
 Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-Agenten auf den Coworker Chat umgestellt. Lesen Sie [Coworker Trial](./agents/trial.md), um mehr über die Testeignung, die Verwendung von KI-Guthaben und den Zugriff darauf zu erfahren.
 
-Um den Coworker Chat in Aktion zu sehen, gehen Sie durch [Coworker Chat in Playground](./coworker/playground-coworker-chat.md) oder lesen Sie reale Anwendungsfälle wie [Validieren von AA zu CJA-](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md) und [Analysieren von CJA-Daten](./coworker/chat/use-cases/data-insights/analytics-chat.md).
+Um den Coworker Chat in Aktion zu sehen, gehen Sie durch [Coworker Chat in Playground](./coworker/playground-coworker-chat.md) oder lesen Sie reale Anwendungsfälle wie [Validieren von AA zu CJA-](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md), [Validieren Ihrer Experience Platform-Daten](./coworker/chat/use-cases/data-insights/data-validation-aep.md) und [Analysieren von CJA-Daten](./coworker/chat/use-cases/data-insights/analytics-chat.md).
 
 Eine vollständige Produktdokumentation zu Coworker Chat, Coworker for Teams (Coworker-Kampagnen) und Projekten finden Sie unter [Coworker](./coworker/overview.md). Informationen zur Replikation von Sandbox-zu-Sandbox-Objekten finden Sie unter [Sandbox Tooling Agent Skills](./agents/sandbox-tooling.md).
 
