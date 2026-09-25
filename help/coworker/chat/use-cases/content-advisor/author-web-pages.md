@@ -30,4 +30,4 @@ In diesem Video fügt Coworker mithilfe einer Chat-Eingabeaufforderung eine neue
 >
 >In diesem Video wird gezeigt, wie ein Kollege eine Seite auf einer Seite erstellt, die auf dem Seiteneditor basiert. Coworker arbeitet auf die gleiche Weise auf Sites, die mit Edge Delivery Services bereitgestellt werden.
 
-Siehe [Übersicht über den &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)-Chat), um mit dem Coworker-Chat zu beginnen.
+Siehe [Übersicht über den &#x200B;](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)-Chat), um mit dem Coworker-Chat zu beginnen.
