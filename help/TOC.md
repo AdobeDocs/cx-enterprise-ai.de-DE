@@ -6,10 +6,10 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 19%
+source-wordcount: '374'
+ht-degree: 18%
 ---
 
 # KI in CX Enterprise {#experience-cloud-ai}
@@ -23,8 +23,8 @@ ht-degree: 19%
   - [Agent-KI-Überwachungs-Dashboard](./overview/monitoring.md)
   - [Agent-basierte Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
   - [Transparenz von Inhalten generativer KI](content-transparency.md)
-- CX Enterprise Coworker {#coworker}
-  - [Über einen Kollegen](./coworker/overview.md)
+- Handbuch zu CX Enterprise Coworker {#coworker}
+  - [Übersicht über Kollegen](./coworker/overview.md)
   - Chat {#chat}
     - [Überblick](./coworker/chat/overview.md)
     - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
@@ -55,6 +55,7 @@ ht-degree: 19%
         - [Generieren von Marketing-Assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Prüfung der Markenkonformität](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
   - Anpassungen {#customizations}
+    - [Überblick](./coworker/customizations/overview.md)
     - Skills {#skills}
       - [Was sind Fähigkeiten?](./coworker/customizations/skills/what-are-skills.md)
       - [Erstellen Ihrer ersten Kenntnisse](./coworker/customizations/skills/create-your-first-skill.md)
@@ -77,12 +78,12 @@ ht-degree: 19%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [HubSpot](./coworker/campaigns/connectors/hubspot.md)
     - [Versionshinweise](./coworker/campaigns/release-notes.md)
-- KI-Assistent {#ai-assistant}
+- Handbuch zum KI-Assistenten {#ai-assistant}
   - [Handbuch zur Benutzeroberfläche des KI-Assistenten](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothek der Eingabeaufforderung](./ai-assistant/prompt-library.md)
   - [Datenschutz](./ai-assistant/privacy.md)
   - [Haftungsausschluss](./ai-assistant/legal-disclaimer.md)
-- Agenten {#agents}
+- Agent-KI {#agents}
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience Agent](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)

@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics und Mitarbeiter - Ursachenanalyse
-description: Erfahren Sie, wie ein Mitarbeiter Analysefragen in natürlicher Sprache beantwortet, Trends visualisiert, Muster erkennt und ohne manuelle Abfragen Ursachenanalysen durchführt.
+description: Erfahren Sie, wie Sie mit natürlicher Sprache und Coworker Trends und Grundursachen in Ihren Analytics-Daten untersuchen können, ohne manuelle Abfragen zu schreiben.
 feature: AI Tools
 role: User
 level: Beginner
@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: '106'
 ht-degree: 0%
-
 ---
-
 
 # Customer Journey Analytics &amp; Coworker - erkunden Sie Trends und Ursachen mit natürlicher Sprache
 

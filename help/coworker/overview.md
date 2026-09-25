@@ -1,18 +1,18 @@
 ---
 title: Über Adobe CX Enterprise Coworker
-description: Erfahren Sie, wie Sie Ihr Marketing mit Adobe CX Enterprise Coworker auf ein höheres Niveau bringen können.
+description: Erfahren Sie mehr über Adobe CX Enterprise Coworker, ein KI-gestütztes Team, das die Erlebnis- und Marketing-Workflows Ihres Unternehmens automatisiert.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 14da4b0adb24ef6ebea3ebcd0a88ac7856b35a1c
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 20%
+source-wordcount: '499'
+ht-degree: 18%
 ---
-# Über Adobe CX Enterprise Coworker
+# Übersicht über CX Enterprise Coworker {#overview}
 
 Coworker ist ein KI-basierter Teamkollege, der die Art der Arbeit für Organisationen, Teams und Einzelpersonen neu definiert. Coworker automatisiert auf elegante Weise Kundenerlebnis- und Marketing-Workflows, damit sich Unternehmen auf die Umsetzung ihrer Geschäftsziele und die Transformation von Ergebnissen konzentrieren können, anstatt Aufgaben zu koordinieren. Als Agent-Engine verfolgt Coworker einen neuen innovativen Ansatz zur Automatisierung von Geschäftsprozessen. Es erhöht die Leistung und Genauigkeit des KI-Modells, indem Daten, Intelligenz, Zusammenarbeit und agentische Fähigkeiten mit dem Unternehmenskontext, der Governance und der integrierten menschlichen Aufsicht zusammengeführt werden.
 
@@ -84,15 +84,17 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-**In diesem Handbuch**
+## Anpassungen
 
-* [Überblick](./chat/overview.md)
-* [Anwendungsfälle](./chat/use-cases/overview.md)
-* [Handbuch für die -Benutzeroberfläche](./chat/ui-guide.md)
+Mit Anpassungen können Sie Coworker mit Kenntnissen, Integrationen, Plug-ins und Arbeitsspeicher erweitern und personalisieren.
 
-## Projekte (in Kürze verfügbar)
-
-Coworker Projects ist ein einheitlicher Arbeitsbereich zur Automatisierung von End-to-End-Workflows zur Orchestrierung von Kundenerlebnissen, der Teams dabei hilft, Aufgaben, Genehmigungen und Ausführungen zu koordinieren, um Ergebnisse von der Strategie bis zur Bereitstellung zu erzielen.
+* [Was sind Fähigkeiten?](./customizations/skills/what-are-skills.md)
+* [Erstellen Ihrer ersten Kenntnisse](./customizations/skills/create-your-first-skill.md)
+* [Erstellen und Ausführen einer Quality Gate-Qualifikation](./customizations/skills/run-a-quality-gate-skill.md)
+* [Kenntnisse verwalten und iterieren](./customizations/skills/manage-and-iterate-on-skills.md)
+* [Was sind Integrationen?](./customizations/integrations/understanding-integrations-in-coworker.md)
+* [Was sind Plug-ins?](./customizations/plugins/what-are-plugins.md)
+* [Was ist Speicher?](./customizations/memory/what-is-memory.md)
 
 ## Kampagnen
 
@@ -104,3 +106,7 @@ Coworker Campaign ist eine Vorlagenfunktion, mit der kleine agile Teams Kampagne
 * [Best Practices bei der Eingabeaufforderung](./campaigns/prompting-best-practices.md)
 * [Verbindung mit Marketo Engage herstellen](./campaigns/connectors/marketo.md)
 * [Mit HubSpot verbinden](./campaigns/connectors/hubspot.md)
+
+## Projekte (in Kürze verfügbar)
+
+Coworker Projects ist ein einheitlicher Arbeitsbereich zur Automatisierung von End-to-End-Workflows zur Orchestrierung von Kundenerlebnissen, der Teams dabei hilft, Aufgaben, Genehmigungen und Ausführungen zu koordinieren, um Ergebnisse von der Strategie bis zur Bereitstellung zu erzielen.

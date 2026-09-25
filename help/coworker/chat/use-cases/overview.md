@@ -7,12 +7,12 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 279e33861b08f5644678a3498acf0fd3e7bca1fc
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
 source-wordcount: '5341'
 ht-degree: 6%
 ---
-# Anwendungsfälle für den Chat mit Kollegen{#use-cases}
+# Anwendungsfälle für den Chat mit Kollegen {#use-cases}
 
 Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natürlicher Sprache abfragen, analysieren und bearbeiten, anstatt mehrere Benutzeroberflächen zu durchsuchen oder Abfragen manuell zu schreiben. Auf dieser Seite werden die Anwendungsfälle katalogisiert, auf die sich die Fachleute am meisten verlassen, sortiert nach Arbeitsbereich: Dateneinblicke, Zielgruppen, Journey, Treue, Grundlegende Elemente und Sandbox-Tools. Jeder Eintrag beinhaltet die Qualifikation, die er aufruft, die Anwendungen, mit denen er arbeitet, und Beispielaufforderungen, die Sie kopieren, an Ihre eigenen Daten anpassen und durch Konversation verfeinern können.
 

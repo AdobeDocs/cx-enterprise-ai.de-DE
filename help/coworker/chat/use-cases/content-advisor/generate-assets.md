@@ -1,6 +1,6 @@
 ---
 title: Marketing-Asset-Generierung für Kollegen
-description: Entdecken Sie, wie Coworker die Asset-Erstellung für Social-Media-Kanäle optimiert und Zeit und Aufwand spart.
+description: Erfahren Sie, wie Sie mit dem Coworker Chat markeninterne Marketing-Assets für Social-Media-Kanäle generieren und so Zeit und Aufwand sparen können.
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
@@ -9,15 +9,15 @@ last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22502
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 
 # Generieren von Marketing-Assets mit dem Kollegen-Chat
 

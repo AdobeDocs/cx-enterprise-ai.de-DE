@@ -1,15 +1,13 @@
 ---
 title: Sandbox Tooling Agent Skills
 description: Erfahren Sie, wie Sie mit Sandbox Tooling Agent Skills Objektmetadaten in Sandbox-Umgebungen replizieren können.
-source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
-
 ---
 
-
-# Sandbox Tooling Agent Skills
+# Sandbox Tooling Agent Kenntnisse
 
 >[!AVAILABILITY]
 >
@@ -64,7 +62,7 @@ So verwenden Sie Agentenfertigkeiten der Sandbox-Tools:
 
    ![Seite „Transfer abgeschlossen“ mit dem Anforderungsstatus.](./assets/sandbox-tooling/transfer-complete.png)
 
-Weitere Informationen zur Verwendung von CX Coworker finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Weitere Informationen zur Verwendung von CX Coworker finden Sie im [Handbuch zur Benutzeroberfläche für Kollegen](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Unterstützte Anwendungsfälle {#supported-use-cases}
 
@@ -74,7 +72,7 @@ Entdecken Sie gängige Möglichkeiten, Sandbox Tooling Agent Skills zu verwenden
 
 Als Sandbox-Administrator, der mehrere Adobe Experience Platform-Sandboxes verwaltet, können Sie Objektmetadaten mithilfe von Anforderungen in natürlicher Sprache migrieren, anstatt manuell in der Benutzeroberfläche zu navigieren.
 
-Mithilfe von CX Coworker können Sie Objektmetadaten - einschließlich Schemata, Zielgruppen und zugehörigen Konfigurations-Assets - von einer Sandbox in eine andere migrieren, indem Sie die Migration in natürlicher Sprache beschreiben. Sandbox Tooling Agent Skills identifizieren und verpacken automatisch die erforderlichen Abhängigkeiten, um eine zuverlässige Migration sicherzustellen.
+Mit CX Coworker können Sie Objektmetadaten - einschließlich Schemata, Zielgruppen und zugehörigen Konfigurations-Assets - von einer Sandbox in eine andere migrieren, indem Sie die Migration in natürlicher Sprache beschreiben. Sandbox Tooling Agent Skills identifizieren und verpacken automatisch die erforderlichen Abhängigkeiten, um eine zuverlässige Migration sicherzustellen.
 
 Beispiel:
 

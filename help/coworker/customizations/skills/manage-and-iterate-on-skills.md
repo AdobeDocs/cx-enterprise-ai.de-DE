@@ -1,15 +1,15 @@
 ---
 title: Kenntnisse in Kollegen verwalten und iterieren
-description: Erfahren Sie, wie Sie wiederverwendbare KI-Fähigkeiten mit einem bewährten Governance-Workflow verwalten. Entdecken Sie, wie Sie eine Baseline einrichten, kontrollierte Kompetenzaktualisierungen vornehmen, Ergebnisse vergleichen, Verbesserungen validieren und veraltete Fähigkeiten sicher einstellen, während Sie konsistente, zuverlässige Ausgaben beibehalten.
+description: Erfahren Sie, wie Sie wiederverwendbare KI-Fähigkeiten mit einem Governance-Workflow verwalten, eine Grundlinie festlegen, kontrollierte Aktualisierungen vornehmen, Verbesserungen validieren und veraltete Fähigkeiten einstellen.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 258
 last-substantial-update: 2026-09-16
 jira: KT-22445
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: 3c68c4d087141956c290a1d665d6f9eeaca3300f
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 

@@ -1,15 +1,15 @@
 ---
 title: Coworker plugins - was sie sind, wie sie funktionieren und wie sie installiert werden
-description: Erfahren Sie, wie Adobe CX Coworker-Plug-ins die Funktionalität von mit Skills und MCP-Servern erweitern.
+description: Erfahren Sie mehr über Adobe CX Coworker-Plug-ins, installierbare Pakete, die Kenntnisse und MCP-Server bündeln, um die Funktionalität für eine bestimmte Geschäftsanforderung zu erweitern.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 210
 last-substantial-update: 2026-09-22
 jira: KT-22449
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '500'
 ht-degree: 4%
 ---
 
