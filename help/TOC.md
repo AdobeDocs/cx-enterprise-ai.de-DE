@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 792890c00265d0319e8eee3c1008ef5ce155b0ec
+source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '385'
 ht-degree: 18%
 ---
 
@@ -54,6 +54,8 @@ ht-degree: 18%
       - Inhaltsratgeber {#content-advisor}
         - [Generieren von Marketing-Assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Prüfung der Markenkonformität](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+      - Workflow und Planung {#workflow-and-planning}
+        - [Planen eines Launches einer digitalen Kampagne](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
         - [Erstellen von AEM Sites-Seiten](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - Anpassungen {#customizations}
     - [Überblick](./coworker/customizations/overview.md)
@@ -112,5 +114,5 @@ ht-degree: 18%
     - {hide-from-toc}[Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
