@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
+source-git-commit: 792890c00265d0319e8eee3c1008ef5ce155b0ec
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '378'
 ht-degree: 18%
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 18%
   - [Über den Konsum von KI-Guthaben](./overview/ai-credit-consumption.md)
   - [Agent-KI-Überwachungs-Dashboard](./overview/monitoring.md)
   - [Agent-basierte Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
-  - [Transparenz von Inhalten generativer KI](content-transparency.md)
+  - [Transparenz von Inhalt generativer KI](content-transparency.md)
 - Handbuch zu CX Enterprise Coworker {#coworker}
   - [Übersicht über Kollegen](./coworker/overview.md)
   - Chat {#chat}
@@ -54,6 +54,7 @@ ht-degree: 18%
       - Inhaltsratgeber {#content-advisor}
         - [Generieren von Marketing-Assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Prüfung der Markenkonformität](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+        - [Erstellen von AEM Sites-Seiten](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - Anpassungen {#customizations}
     - [Überblick](./coworker/customizations/overview.md)
     - Skills {#skills}
@@ -111,5 +112,5 @@ ht-degree: 18%
     - {hide-from-toc}[Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
