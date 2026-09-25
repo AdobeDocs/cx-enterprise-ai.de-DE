@@ -13,16 +13,14 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 93cccf40d67507df59e07ed016253dbf1d6b3b2e
+source-git-commit: a599e1533e586b256ffc4d3253b51e3c3fafabce
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '103'
 ht-degree: 0%
 ---
 # Erstellen von AEM Sites-Seiten mit einem Kollegen
 
-Verwenden Sie [Coworker](./overview.md), die Konversations-KI von Adobe, um AEM Sites-Seiten zu erstellen, indem Sie beschreiben, was Sie möchten, in einfacher Sprache, anstatt durch den Seiteneditor zu klicken.
-
-In diesem Video fügt Coworker mithilfe einer Chat-Eingabeaufforderung eine neue Promotion zur WKND-Homepage hinzu, die aus einem visuellen Inhaltsfragment erstellt wurde.
+Verwenden Sie Adobe CX Enterprise Coworker, um AEM Sites-Seiten zu erstellen, indem Sie beschreiben, was Sie möchten. In diesem Video fügt Coworker mithilfe einer Chat-Eingabeaufforderung eine neue Promotion zur WKND-Homepage hinzu, die aus einem visuellen Inhaltsfragment erstellt wurde.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3503863/?learn=on)
 
@@ -30,4 +28,3 @@ In diesem Video fügt Coworker mithilfe einer Chat-Eingabeaufforderung eine neue
 >
 >In diesem Video wird gezeigt, wie ein Kollege eine Seite auf einer Seite erstellt, die auf dem Seiteneditor basiert. Coworker arbeitet auf die gleiche Weise auf Sites, die mit Edge Delivery Services bereitgestellt werden.
 
-Siehe [Übersicht über den &#x200B;](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)-Chat), um mit dem Coworker-Chat zu beginnen.
