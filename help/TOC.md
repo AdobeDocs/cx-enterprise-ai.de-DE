@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
+source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '385'
 ht-degree: 18%
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 18%
   - [Über den Konsum von KI-Guthaben](./overview/ai-credit-consumption.md)
   - [Agent-KI-Überwachungs-Dashboard](./overview/monitoring.md)
   - [Agent-basierte Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
-  - [Transparenz von Inhalten generativer KI](content-transparency.md)
+  - [Transparenz von Inhalt generativer KI](content-transparency.md)
 - Handbuch zu CX Enterprise Coworker {#coworker}
   - [Übersicht über Kollegen](./coworker/overview.md)
   - Chat {#chat}
@@ -54,6 +54,9 @@ ht-degree: 18%
       - Inhaltsratgeber {#content-advisor}
         - [Generieren von Marketing-Assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Prüfung der Markenkonformität](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+      - Workflow und Planung {#workflow-and-planning}
+        - [Planen eines Launches einer digitalen Kampagne](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
+        - [Erstellen von AEM Sites-Seiten](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - Anpassungen {#customizations}
     - [Überblick](./coworker/customizations/overview.md)
     - Skills {#skills}

@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 792890c00265d0319e8eee3c1008ef5ce155b0ec
 workflow-type: tm+mt
 source-wordcount: '5341'
 ht-degree: 6%
@@ -30,7 +30,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 | Anwendungsfall | Beschreibung | Kenntnisse | Anwendung | Eingabeaufforderungen |
 | --- | --- | --- | --- | --- |
-| Aktualisieren von AEM-Seiten | Führen Sie Aktionen wie das Aktualisieren, Entfernen, Ersetzen oder Hinzufügen von Inhaltselementen durch, um Erlebnisse genau und aktuell zu halten. Eingaben können natürliche Sprache oder visuelle Anmerkungen wie PDFs oder Screenshots sein. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | Aktualisieren Sie auf &lt;URL> die Überschrift zu Hello World<br><br>on &lt;URL> und ändern Sie die Schaltfläche „Take our Coffee Quiz“ in eine ansprechendere Version<br><br>Update &lt;URL> basierend auf dem angehängten <br><br>on &lt;URL> Ich möchte einen neuen Teaser-Abschnitt am Ende der Seite über eine Promotion hinzufügen, die wir im Monat August durchführen, nämlich eine Kaffeemaschine kaufen und zwei Tüten Kaffee kostenlos erhalten. Finde auch Bild von Freunden, die Kaffee trinken und verwende das im Teaser |
+| [Aktualisieren von AEM-Seiten](content-advisor/author-web-pages.md) | Führen Sie Aktionen wie das Aktualisieren, Entfernen, Ersetzen oder Hinzufügen von Inhaltselementen durch, um Erlebnisse genau und aktuell zu halten. Eingaben können natürliche Sprache oder visuelle Anmerkungen wie PDFs oder Screenshots sein. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | Aktualisieren Sie auf &lt;URL> die Überschrift zu Hello World<br><br>on &lt;URL> und ändern Sie die Schaltfläche „Take our Coffee Quiz“ in eine ansprechendere Version<br><br>Update &lt;URL> basierend auf dem angehängten <br><br>on &lt;URL> Ich möchte einen neuen Teaser-Abschnitt am Ende der Seite über eine Promotion hinzufügen, die wir im Monat August durchführen, nämlich eine Kaffeemaschine kaufen und zwei Tüten Kaffee kostenlos erhalten. Finde auch Bild von Freunden, die Kaffee trinken und verwende das im Teaser |
 | AEM stapelweise aktualisieren | Führen Sie Massenaktionen auf mehreren Seiten gleichzeitig durch, z. B. Entfernen, Ersetzen oder Hinzufügen von Inhaltselementen, um Erlebnisse genau und aktuell zu halten. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) - AEM Sites | Aktualisieren Sie auf &lt;aem path> alle Seiten, die die Kopie „MyBarista“ enthalten, auf „BrewPass“. |
 | Wechseln von Figma zu visuellem Inhaltsfragment | Importieren Sie Designs direkt aus Figma in Adobe Experience Manager mit natürlicher Sprache. Die SKILL erstellt automatisch das erforderliche Inhaltsmodell, Inhaltsfragment, Assets und Visualisierungsvorlage, sodass Business-Anwender innerhalb von Minuten ohne manuelle Einrichtung vom Design zum Web-fähigen Inhalt wechseln können. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) - AEM Sites | Import aus &lt;FIGMA_URL> |
 
@@ -60,7 +60,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 
 * [Agentenfunktionen in AEM: Markenerlebnis - Entwicklung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
-### Einstieg
+### Onboarding
 
 | Anwendungsfall | Beschreibung | Kenntnisse | Anwendung | Eingabeaufforderungen |
 | --- | --- | --- | --- | --- |
