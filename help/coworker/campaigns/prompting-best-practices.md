@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: d037ab69c5d03cba18dcfcdd8745c8f331765214
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 27%
+source-wordcount: '781'
+ht-degree: 23%
 ---
 # Best Practices bei der Eingabeaufforderung {#best-practices}
 
@@ -18,9 +18,9 @@ Die optimale Nutzung von Coworker-Kampagnen beginnt damit, wie Sie eine Eingabea
 
 >[!NOTE]
 >
->Derzeit können Sie nur eine Verbindung zu Adobe Campaign-unterstützten Integrationen herstellen.  Wenn Sie bereits über Adobe Enterprise-Anwendungen verfügen, in denen Sie Zielgruppen speichern oder Journey erstellen, empfehlen wir Ihnen, stattdessen [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md) zu verwenden.
+>Derzeit können Sie nur eine Verbindung zu Integrationen herstellen, die von Adobe Campaign unterstützt werden. Wenn Sie bereits über Adobe Enterprise-Anwendungen verfügen, in denen Sie Zielgruppen speichern oder Journey erstellen, empfehlen wir Ihnen, stattdessen [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md) zu verwenden.
 
-## Verwenden des CO-STAR-Frameworks {#costar-framework}
+## Verwenden des CO-STAR-Frameworks
 
 Um optimale Ergebnisse zu erzielen, sollten Sie die Eingabeaufforderungen mit dem CO-STAR-Framework organisieren. Dieser strukturierte Ansatz stellt sicher, dass die KI genau versteht, was Sie benötigen.
 
@@ -33,7 +33,7 @@ Um optimale Ergebnisse zu erzielen, sollten Sie die Eingabeaufforderungen mit de
 | **A – Zielgruppe** | Die angesprochene Zielgruppe | Stellt sicher, dass die Nachricht bei den richtigen Personen Anklang findet |
 | **R – Anforderungen** | Spezifische Einschränkungen oder unverzichtbare Komponenten | Definiert Grenzen und kritische Elemente |
 
-## Grundlagen zu KI-Prompts {#key-takeaways}
+## Grundlagen der KI-Eingabeaufforderung
 
 ### Worauf Sie achten müssen
 
@@ -106,7 +106,7 @@ Diese Anfragen werden **nicht** unterstützt und sollten über andere Tools vera
 <ul>
 <li>Hintergrundänderungen</li>
 <li>Hinzufügen von Textüberlagerungen oder Logos</li>
-<li>Zuschneiden oder Ändern der Größe von Bildern</li>
+<li>Beschneiden oder Ändern der Größe von Bildern</li>
 <li>Farbkorrekturen</li>
 </ul>
 </td>
@@ -114,7 +114,7 @@ Diese Anfragen werden **nicht** unterstützt und sollten über andere Tools vera
 </tbody>
 </table>
 
-### Qualitäts-Checkliste {#quality-checklist}
+### Qualitäts-Checkliste
 
 Stellen Sie vor dem Generieren von Inhalten Folgendes sicher:
 
@@ -138,7 +138,7 @@ Geben Sie immer den Kontext und das Wertversprechen an, damit die KI relevante I
 <thead>
 <tr style="border: 0;background-color: #FFFFFF;">
 <th>Branche</th>
-<th>Beispiel-Prompt</th>
+<th>Prompt-Beispiel</th>
 </tr>
 </thead>
 <tbody>
@@ -160,6 +160,22 @@ Geben Sie immer den Kontext und das Wertversprechen an, damit die KI relevante I
 </tr>
 </tbody>
 </table>
+
+## Ideen für allgemeine Marketing-Eingabeaufforderungen
+
+### Content-Marketing
+
+- „Generieren Sie 20 Blog-Themen, die häufig gestellte Fragen von Erstkäufern von Privathaushalten beantworten.“
+- „Brainstorm über LinkedIn-Post-Ideen für ein B2B-Cybersecurity-Startup.“
+- „Erstellen Sie einen dreimonatigen Inhaltskalender, der sich auf die Schulung von Neukunden konzentriert.“
+- „Schlagen Sie Inhaltsthemen vor, die in Blogs, Videos, Newslettern und Social-Media-Beiträgen wiederverwendet werden können.“
+
+### E-Mail-Marketing
+
+- „Erstellen Sie eine Begrüßungs-E-Mail-Sequenz für neue Abonnentinnen und Abonnenten, die an nachhaltiger Mode interessiert sind.“
+- „Brainstorming-Betreffzeilen, die Neugier erzeugen, ohne wie Klick-Köder zu klingen.“
+- „Vorschläge für Kampagnentideen zur Rückgewinnung von Interaktionen für inaktive Kunden.“
+- „Erstellen Sie Lebenszyklus-E-Mail-Ideen für Benutzer, die das Onboarding abgeschlossen haben.“
 
 >[!MORELIKETHIS]
 >
