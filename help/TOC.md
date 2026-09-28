@@ -6,7 +6,7 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a4beeda8283b677a72ec4e276276998cd0df5b01
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 18%
@@ -51,10 +51,10 @@ ht-degree: 18%
         - [Sandbox Tooling Agent Kenntnisse](./agents/sandbox-tooling.md)
       - Warnhinweise {#alerts}
         - [Warnhinweise für Kunden](./agents/customer-alerts.md)
-      - Inhaltsratgeber {#content-advisor}
-        - [Generieren von Marketing-Assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [Prüfung der Markenkonformität](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
-        - [Erstellen von AEM Sites-Seiten](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
+      - Brand Visibility {#brand-visibility}
+        - [Generieren von Marketing-Assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
+        - [Prüfung der Markenkonformität](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
+        - [Erstellen von AEM Sites-Seiten](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
       - Workflow und Planung {#workflow-and-planning}
         - [Planen eines Launches einer digitalen Kampagne](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Anpassungen {#customizations}
@@ -114,5 +114,5 @@ ht-degree: 18%
     - {hide-from-toc}[Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
