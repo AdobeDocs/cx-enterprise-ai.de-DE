@@ -3,15 +3,15 @@ description: Eine schrittweise Anleitung zum Generieren einer E-Mail-Kampagne in
 title: Erstellen einer E-Mail-Kampagne
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
 workflow-type: tm+mt
-source-wordcount: 976
+source-wordcount: '976'
 ht-degree: 0%
-
 ---
-
 # Erstellen einer E-Mail-Kampagne {#create-an-email-campaign}
 
 Erfahren Sie, wie Sie in Minuten vollständige E-Mail-Kampagnen generieren und überprüfen können.
@@ -24,7 +24,7 @@ Erfahren Sie, wie Sie in Minuten vollständige E-Mail-Kampagnen generieren und �
 
 Vergewissern Sie sich, dass Sie Folgendes haben:
 
-* Ein gültiges Adobe CX Enterprise Coworker Campaign-Konto ([hier anmelden](https://coworker-campaigns.experience.adobe.com/){target="_blank"} falls noch nicht geschehen).
+* Ein gültiges Adobe CX Enterprise Coworker-Kampagnenkonto ([hier anmelden](https://coworker-campaigns.experience.adobe.com/){target="_blank"} falls noch nicht geschehen).
 
 * Ihre Marke wurde unter **Ihre**&quot; > **Marken** hinzugefügt.
 
@@ -113,7 +113,7 @@ Es gibt zwei Möglichkeiten, Ihre Inhalte zu aktualisieren.
 
 * Nehmen Sie die gewünschten Änderungen manuell vor, indem Sie verschiedene Abschnitte in der E-Mail auswählen (z. B. Betreffzeile ersetzen, Bild aktualisieren usw.).
 
-&#x200B;- oder -
+- oder -
 
 * Verwenden Sie die Benutzeroberfläche „Konversation“, um Änderungen vorzunehmen, indem Sie direkt mit Kollegen-Kampagnen sprechen. Einige Beispiele:
 

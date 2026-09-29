@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
+source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 1%
@@ -24,11 +24,11 @@ Nachdem die Kampagne erstellt und geplant wurde, erfahren Sie, wie Sie sie start
 
 1. Klicken Sie in Ihrer abgeschlossenen Kampagne auf **Überprüfen und starten**.
 
-SCREENSHOT
+   SCREENSHOT
 
->[!NOTE]
->
->Wenn etwas fehlt, wird ein Dialogfeld angezeigt, in dem Sie auflisten können, was Sie vervollständigen müssen. Nehmen Sie die Korrekturen vor und wählen Sie erneut **Überprüfen und starten** aus.
+   >[!NOTE]
+   >
+   >Wenn etwas fehlt, wird ein Dialogfeld angezeigt, in dem Sie auflisten können, was Sie vervollständigen müssen. Nehmen Sie die Korrekturen vor und wählen Sie erneut **Überprüfen und starten** aus.
 
 1. Nachdem die Kampagne die Bereitschaftsprüfung bestanden hat, wird das Launch-Dialogfeld geöffnet, in dem eine Vorschau der E-Mail und der Audience angezeigt wird.
 
@@ -42,9 +42,7 @@ SCREENSHOT
 
 SCREENSHOT
 
-&#x200B;>>
->
->Eine Kampagne mit einer (nicht realen) Beispielzielgruppe, nicht geprüften E-Mail-Entwürfen oder nicht konfigurierten Versandeinstellungen kann nicht gestartet werden
+Eine Kampagne mit einer (nicht realen) Beispielzielgruppe, nicht geprüften E-Mail-Entwürfen oder nicht konfigurierten Versandeinstellungen kann nicht gestartet werden
 
 ### Zu beachtende Punkte
 
