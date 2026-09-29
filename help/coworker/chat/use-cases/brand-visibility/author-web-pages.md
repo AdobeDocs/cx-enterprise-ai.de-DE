@@ -13,7 +13,7 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: a599e1533e586b256ffc4d3253b51e3c3fafabce
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Verwenden Sie Adobe CX Enterprise Coworker, um AEM Sites-Seiten zu erstellen, indem Sie beschreiben, was Sie möchten. In diesem Video fügt Coworker mithilfe einer Chat-Eingabeaufforderung eine neue Promotion zur WKND-Homepage hinzu, die aus einem visuellen Inhaltsfragment erstellt wurde.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503863/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503870/?captions=ger&learn=on)
 
 >[!NOTE]
 >

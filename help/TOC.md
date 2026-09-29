@@ -6,7 +6,7 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 18%
@@ -51,12 +51,12 @@ ht-degree: 18%
         - [Sandbox Tooling Agent Kenntnisse](./agents/sandbox-tooling.md)
       - Warnhinweise {#alerts}
         - [Warnhinweise für Kunden](./agents/customer-alerts.md)
-      - Inhaltsratgeber {#content-advisor}
-        - [Generieren von Marketing-Assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [Prüfung der Markenkonformität](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+      - Brand Visibility {#brand-visibility}
+        - [Generieren von Marketing-Assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
+        - [Prüfung der Markenkonformität](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
+        - [Erstellen von AEM Sites-Seiten](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
       - Workflow und Planung {#workflow-and-planning}
         - [Planen eines Launches einer digitalen Kampagne](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-        - [Erstellen von AEM Sites-Seiten](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - Anpassungen {#customizations}
     - [Überblick](./coworker/customizations/overview.md)
     - Skills {#skills}

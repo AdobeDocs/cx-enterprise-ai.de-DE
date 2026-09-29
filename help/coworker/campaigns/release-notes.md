@@ -1,22 +1,47 @@
 ---
 description: Erfahren Sie mehr über Funktionsverbesserungen und -korrekturen in den Versionshinweisen zu Adobe CX Enterprise Coworker Campaign.
-title: CX Enterprise Coworker Campaign - Versionshinweise
+title: Versionshinweise zu CX Enterprise Coworker Campaign
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: dcd2c251357930ae31f78e2d9460d038a0710e3d
+    internal-label: CX Enterprise Coworker
+source-git-commit: 25e4b0b917fec566b7f85f6914817d3d038abf0e
 workflow-type: tm+mt
-source-wordcount: 3291
+source-wordcount: '3590'
 ht-degree: 0%
-
 ---
-
 # Versionshinweise zu Adobe CX Enterprise Coworker Campaign {#release-notes}
 
 Coworker Campaign-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht.
 
 ## September 2026 {#sep-2026}
+
+**Veröffentlichungsdatum: 17. September 2026**
+
+* Verbinden eines auf Azure, GCP oder einer benutzerdefinierten Domain gehosteten Databricks-Arbeitsbereichs
+* Kampagnen können erst dann gestartet werden, wenn ihr Workflow vollständig eingerichtet ist
+* Kampagnenvorlagen wurden mit aktualisierten Inhalten aktualisiert
+* Direktes Auswählen eines Connectors beim Hochladen der CSV-Datei Ihrer Kontaktliste
+* Es wurde ein Absturz behoben, der nach dem Scrollen durch eine lange Liste von Testanmeldungen auftreten konnte
+* Fehlerkorrektur - Beim Hochladen einer Zielgruppen-CSV mit leeren oder doppelten Kopfzeilen kann die Seite jetzt abstürzen
+* Es wurde ein Platzhaltertext in einer Kampagnenaufforderung korrigiert, der nach der Auflösung nicht ausgefüllt angezeigt wurde
+* Es wurde ein Absturz auf der Seite Kenntnisse behoben, der durch einen fehlenden Farbverlauf verursacht wurde
+* Es wurde ein Problem behoben, bei dem der Chat dieselbe Frage wiederholt, nachdem Sie sie bereits beantwortet hatten
+* Chat-Antworten zeigen nicht mehr ein streunendes ID-Präfix vor der ausgewählten Antwort
+* Der Chat schlägt jetzt schnelle Antworten für den nächsten Schritt vor, die Sie tippen können, um das Feld „Zusammenstellen“ auszufüllen
+* Kampagnenvorlagen werden jetzt in einer optimierten Seitenansicht anstelle eines separaten Dialogfelds geöffnet
+* Die erweiterte Fortschrittsleiste des Chats scrollt jetzt intern, anstatt Ihre Unterhaltung aus dem Blickfeld zu schieben
+* Die Kampagneneinstellungen spiegeln jetzt die neuesten Board-Details genauer wider
+* Das Dialogfeld für den Upgrade-Plan verwendet jetzt ein einheitlicheres Erscheinungsbild
+* Redundante Statusanzeige aus der Kopfzeile des Kampagnenplans entfernt, um ein klareres Erscheinungsbild zu erzielen
+* Schnelle E-Mail-Bearbeitungen werden jetzt als einzelner Eintrag im Versionsverlauf gespeichert, anstatt als viele
+* Fehlerkorrektur - Markenkit-Titel werden gelegentlich ausgeblendet, während ein Entwurf generiert wird
+* Bearbeiten eines Bildes mit Adobe Express direkt über die Bildsymbolleiste
+* Grundlegende Daten der Agent-Zielgruppe bleiben jetzt ohne manuelle Aktualisierung auf dem Campaign-Board synchron
+* Markenlogos auf dem Kampagnenboard werden passender für ihren Platz zugeschnitten
+* Reibungslosere visuelle Übergabe, wenn ein Kampagnenplan auf das Kampagnenboard verschoben wird
 
 **Veröffentlichungsdatum: 3. September 2026**
 
