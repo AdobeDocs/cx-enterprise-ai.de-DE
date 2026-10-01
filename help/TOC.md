@@ -2,11 +2,11 @@
 audience: user
 user-guide-title: KI in CX Enterprise
 user-guide-description: Erfahren Sie anhand praktischer Dokumentation, Implementierungshandbücher und Referenzmaterialien, wie Sie KI-Assistent, Mitarbeiter, Agenten und MCPs erstellen, konfigurieren, integrieren und erweitern.
-description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie Ihr Produktwissen und gewinnen Sie operative Einblicke mithilfe von KI in CX Enterprise.
+description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie Ihr Produktwissen und erhalten Sie operative Erkenntnisse mithilfe von KI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 18%
@@ -48,9 +48,9 @@ ht-degree: 18%
       - Optimierung {#optimization}
         - [Target-Aktivitäten starten](./coworker/chat/use-cases/optimization/target.md)
       - Sandbox-Werkzeuge {#sandbox-tooling}
-        - [Sandbox Tooling Agent Kenntnisse](./agents/sandbox-tooling.md)
+        - [Sandbox Tooling Agent Kenntnisse](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - Warnhinweise {#alerts}
-        - [Warnhinweise für Kunden](./agents/customer-alerts.md)
+        - [Warnhinweise für Kunden](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Brand Visibility {#brand-visibility}
         - [Generieren von Marketing-Assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Prüfung der Markenkonformität](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
@@ -114,5 +114,5 @@ ht-degree: 18%
     - {hide-from-toc}[Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
