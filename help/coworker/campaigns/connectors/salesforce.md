@@ -26,7 +26,7 @@ Adobe Coworker Campaign ermöglicht es Ihnen, Ihr Salesforce-Konto mit…
 
 ## So verbinden Sie sich
 
-1. Klicken Sie auf der [Startseite von ](https://coworker-campaigns.experience.adobe.com/)-Kampagnen auf **Anpassen** und wählen Sie **Connectoren**.
+1. Klicken Sie auf der [Startseite von &#x200B;](https://coworker-campaigns.experience.adobe.com/)-Kampagnen auf **Anpassen** und wählen Sie **Connectoren**.
 
    ![Coworker-Kampagnen - linker Navigationsbereich mit hervorgehobener Option „Anpassen“ und „Connectoren“](./assets/salesforce-1.png)
 
