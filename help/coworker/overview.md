@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f3430820a49a690ef43b23347495653a41294ca9
+source-git-commit: 80dec3229f0855df4b9211858e6e5d27b5974c89
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 6%
+source-wordcount: '772'
+ht-degree: 5%
 ---
 # Übersicht über CX Enterprise Coworker {#overview}
 
@@ -20,7 +20,9 @@ Coworker ist ein KI-basierter Teamkollege, der die Art der Arbeit für Organisat
 
 Der Coworker Chat ermöglicht es Teams, Adobe-Produktaufgaben mithilfe natürlicher Sprache zu automatisieren und Ideen schnell in Maßnahmen mit flexibler Planung, anpassbaren Fähigkeiten und intelligenter Ausführung zu verwandeln.
 
-## Kuratiertes Lernen im Coworker Chat
+## Coworker Chat Essentials
+
+Unabhängig davon, ob Sie gerade erst anfangen oder Ihr Fachwissen vertiefen möchten, bieten diese Wiedergabelisten eine Einführung in den CX Enterprise Coworker-Chat. Erfahren Sie, wie Sie durch wichtige Funktionen navigieren, effektive Eingabeaufforderungen erstellen und praktische Beispiele sehen, wie Coworker Teams dabei hilft, effizienter in allen Adobe Experience Cloud-Produkten zu arbeiten.
 
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop" aria-label="Get started with CX Enterprise Coworker Chat">
@@ -56,10 +58,10 @@ Der Coworker Chat ermöglicht es Teams, Adobe-Produktaufgaben mithilfe natürlic
             </div>
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="Anpassen des CX Enterprise Coworker-Chats">CX Enterprise Coworker-Chat anpassen</a>
+                        <a href="https://experienceleague.adobe.com/de/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="Anpassen des CX Enterprise Coworker-Chats">CX Enterprise Coworker-Chat anpassen</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/de/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Wiedergabeliste</span>
                 </a>
             </div>
@@ -68,6 +70,8 @@ Der Coworker Chat ermöglicht es Teams, Adobe-Produktaufgaben mithilfe natürlic
 </div>
 
 ## Experience League LIVE: Entsperrte Serie für Kollegen
+
+Nehmen Sie an der CX Enterprise Coworker Unlocked-Serie teil, um zu sehen, wie Unternehmen KI-gestützte Unterstützung verwenden, um die Arbeit mit Kundenerlebnissen zu optimieren. In jeder Sitzung werden praktische Anwendungsfälle, Live-Demonstrationen und Expertenanleitungen untersucht, mit denen Teams Workflows beschleunigen, Einblicke gewinnen und Aufgaben in allen Adobe Experience Cloud-Programmen automatisieren können. Durchsuchen Sie frühere Folgen oder registrieren Sie sich für bevorstehende Veranstaltungen, um neue Möglichkeiten zur Steigerung der Produktivität und zur Steigerung der Kundenerlebnisergebnisse zu erfahren.
 
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop" aria-label="Transforming CX Workflows with Adobe CX Enterprise Coworker">
