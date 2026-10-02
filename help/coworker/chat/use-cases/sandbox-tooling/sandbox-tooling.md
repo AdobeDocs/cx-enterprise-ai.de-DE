@@ -1,7 +1,7 @@
 ---
 title: Sandbox Tooling Agent Skills
 description: Erfahren Sie, wie Sie mit Sandbox Tooling Agent Skills Objektmetadaten in Sandbox-Umgebungen replizieren können.
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >Sie können derzeit Sandbox Tooling Agent Skills verwenden, um Schema- und Zielgruppenobjekte zu entdecken, zu verpacken und zu migrieren. In zukünftigen Versionen wird die Unterstützung für zusätzliche Objekttypen hinzugefügt.
 
-Verwenden Sie die Agentenfertigkeiten der Sandbox-Werkzeuge, um Objektmetadaten - einschließlich Schemata und Zielgruppen - in Adobe Experience Platform-Umgebungen zu verschieben, indem Sie beschreiben, was Sie in natürlicher Sprache erreichen möchten. Mithilfe von CX Coworker können Sie die erforderlichen Metadaten ermitteln, Abhängigkeiten automatisch identifizieren, Migrationspakete erstellen und Objekte durch ein Gesprächserlebnis migrieren.
+Verwenden Sie die Agentenfertigkeiten der Sandbox-Werkzeuge, um Objektmetadaten - einschließlich Schemata und Zielgruppen - in Adobe Experience Platform-Umgebungen zu verschieben, indem Sie beschreiben, was Sie in natürlicher Sprache erreichen möchten. Mithilfe von CX Coworker können Sie die erforderlichen Metadaten ermitteln, Abhängigkeiten automatisch identifizieren, Migrationspakete erstellen und Objekte im Rahmen eines Gesprächserlebnisses migrieren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496715?captions=ger&learn=on)
 
@@ -31,13 +31,13 @@ Bevor Sie beginnen, stellen Sie Folgendes sicher:
 
 - Zugriff auf Adobe Experience Platform und die entsprechende Organisation und Sandbox.
 - Zugriff auf die Objekte, die Sie suchen oder migrieren möchten.
-- Das in CX Coworker installierte Adobe CXO-Plug-in.
+- Das in CX Coworker installierte CRX-Plug-in für Adobe.
 
 Anweisungen zum Installieren von Plug-ins finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Sandbox-Tools für agentische Fähigkeiten verwenden {#use-sandbox-tooling-agentic-skills}
 
-Interagieren Sie mit Sandbox Tooling Agent Skills über CX Coworker mit natürlicher Sprache. Beschreiben Sie Ihr Ziel so klar wie möglich. Spezifische Anfragen liefern die besten Ergebnisse, während vage oder zu kurze Eingabeaufforderungen Ergebnisse von schlechterer Qualität zurückgeben oder den Agenten nicht aufrufen können.
+Interagieren Sie mit Sandbox Tooling Agent Skills über CX Coworker in natürlicher Sprache. Beschreiben Sie Ihr Ziel so klar wie möglich. Spezifische Anfragen liefern die besten Ergebnisse, während vage oder zu kurze Eingabeaufforderungen Ergebnisse von schlechterer Qualität zurückgeben oder den Agenten nicht aufrufen können.
 
 So verwenden Sie Agentenfertigkeiten der Sandbox-Tools:
 
@@ -88,7 +88,7 @@ Beispiel:
 
 Sandbox Tooling Agent Skills identifizieren die angegebene Zielgruppe, validieren deren Abhängigkeiten und migrieren alle erforderlichen Objekte in die Ziel-Sandbox.
 
-## Beispiel-Eingabeaufforderungen {#example-prompts}
+## Beispiel-Prompts {#example-prompts}
 
 Verwenden Sie die folgenden Eingabeaufforderungen als Beispiele für die Interaktion mit Sandbox Tooling Agent Skills.
 

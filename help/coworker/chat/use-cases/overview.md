@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 802606e964d117abb57dabb772679a6b157352a0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '7039'
 ht-degree: 6%
@@ -293,7 +293,7 @@ Verwenden Sie den Kollegen-Chat, um Experimente zu durchsuchen, zu analysieren u
 
 | Anwendungsfall | Beschreibung | Skills | Anwendung | Eingabeaufforderungen |
 | --- | --- | --- | --- | --- |
-| [Objekte über Sandboxes hinweg verschieben](/help/agents/sandbox-tooling.md) | Nahtlose Migration von Schemas, Zielgruppen und anderen Objektkonfigurationen über Sandboxes hinweg, wobei Abhängigkeiten automatisch aufgelöst werden | `sandbox-tooling-workflow` | Adobe Experience Platform | „Verschieben des Schemas Luma Loyalty Members Platinum von der aktuellen Sandbox in die Produktions-Sandbox“ <br> „Heraufstufen der Zielgruppe der US-Gold-Loyalty Members zur Staging-Umgebung“ |
+| [Objekte über Sandboxes hinweg verschieben](/help/coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md) | Nahtlose Migration von Schemas, Zielgruppen und anderen Objektkonfigurationen über Sandboxes hinweg, wobei Abhängigkeiten automatisch aufgelöst werden | `sandbox-tooling-workflow` | Adobe Experience Platform | „Verschieben des Schemas Luma Loyalty Members Platinum von der aktuellen Sandbox in die Produktions-Sandbox“ <br> „Heraufstufen der Zielgruppe der US-Gold-Loyalty Members zur Staging-Umgebung“ |
 
 ## Warnhinweise für Kunden
 

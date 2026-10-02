@@ -1,7 +1,7 @@
 ---
 title: Customer Alert Skills
 description: Erfahren Sie, wie Sie die Warnhinweisfähigkeiten von Kunden in CX Coworker verwenden können, um Warnhinweisaktivitäten durch Gespräche in natürlicher Sprache zu überprüfen, zu analysieren und zu priorisieren.
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 4%
@@ -27,7 +27,7 @@ Bevor Sie beginnen, stellen Sie Folgendes sicher:
 
 - Zugriff auf Adobe Experience Platform.
 - Berechtigung zum Anzeigen von Warnhinweisen, die für Ihre Organisation relevant sind.
-- Das in CX Coworker installierte Adobe CXO-Plug-in.
+- Das in CX Coworker installierte CRX-Plug-in für Adobe.
 
 Anleitungen für die Installation von Plug-ins finden Sie unter https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/chat/ui-guide.
 
@@ -139,7 +139,7 @@ Beispiel:
 - „Melde mich für diesen Warnhinweis an.“
 - „Entfernen Sie mein Abonnement für diesen Warnhinweis.“
 
-## Beispiel-Eingabeaufforderungen {#example-prompts}
+## Beispiel-Prompts {#example-prompts}
 
 Verwenden Sie die folgenden Eingabeaufforderungen als Beispiele für die Interaktion mit Warnhinweisen für Kunden.
 
