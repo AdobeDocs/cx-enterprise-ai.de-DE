@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
+source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 1%
@@ -32,15 +32,15 @@ Nachdem die Kampagne erstellt und geplant wurde, erfahren Sie, wie Sie sie start
 
 1. Nachdem die Kampagne die Bereitschaftsprüfung bestanden hat, wird das Launch-Dialogfeld geöffnet, in dem eine Vorschau der E-Mail und der Audience angezeigt wird.
 
-SCREENSHOT
+   SCREENSHOT
 
 1. Überprüfen Sie den im Dialogfeld angezeigten Zeitplan. Um sie zu ändern, verwenden Sie die Zeitplanoptionen, die unter [Bei Kampagnenstart planen](/help/coworker/campaigns/schedule-campaign.md) beschrieben sind, und klicken Sie dann auf **Speichern**.
 
-SCREENSHOT
+   SCREENSHOT
 
 1. Klicken Sie **abschließend auf** Kampagne starten“.
 
-SCREENSHOT
+   SCREENSHOT
 
 Eine Kampagne mit einer (nicht realen) Beispielzielgruppe, nicht geprüften E-Mail-Entwürfen oder nicht konfigurierten Versandeinstellungen kann nicht gestartet werden
 
