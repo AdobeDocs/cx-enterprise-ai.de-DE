@@ -29,7 +29,7 @@ Unabhängig davon, ob Sie gerade erst anfangen oder Ihr Fachwissen vertiefen mö
         <div class="card" style="height: 100%; display: flex; flex-direction: column;">
         <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="Erste Schritte mit dem CX Enterprise Coworker-Chat" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/de/playlists/coworker-get-started-with-chat" title="Erste Schritte mit dem CX Enterprise Coworker-Chat" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="Experience League LIVE: Zielgruppen- und Journey-B2C-Funktionen in Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -37,10 +37,10 @@ Unabhängig davon, ob Sie gerade erst anfangen oder Ihr Fachwissen vertiefen mö
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="Erste Schritte mit dem CX Enterprise Coworker-Chat">Erste Schritte mit dem CX Enterprise Coworker-Chat</a>
+                        <a href="https://experienceleague.adobe.com/de/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="Erste Schritte mit dem CX Enterprise Coworker-Chat">Erste Schritte mit dem CX Enterprise Coworker-Chat</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/de/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Wiedergabeliste</span>
                 </a>
             </div>
@@ -58,10 +58,10 @@ Unabhängig davon, ob Sie gerade erst anfangen oder Ihr Fachwissen vertiefen mö
             </div>
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="Anpassen des CX Enterprise Coworker-Chats">CX Enterprise Coworker-Chat anpassen</a>
+                        <a href="https://experienceleague.adobe.com/de/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="Anpassen des CX Enterprise Coworker-Chats">CX Enterprise Coworker-Chat anpassen</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/de/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Wiedergabeliste</span>
                 </a>
             </div>
