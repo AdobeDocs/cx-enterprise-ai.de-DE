@@ -1,37 +1,37 @@
 ---
 title: Analysieren von Customer Journey Analytics-Daten mit dem Coworker Chat
-description: Erfahren Sie, wie Sie mit dem Adobe CX Enterprise Coworker Chat Customer Journey Analytics-Daten analysieren, Trichter erstellen und herausfinden können, wo Kundinnen und Kunden ihre Journey abgeben.
+description: Erfahren Sie, wie Sie mit dem Adobe CX Enterprise Coworker-Chat Customer Journey Analytics-Daten analysieren, Trichter erstellen und herausfinden können, wo Kundinnen und Kunden auf der Journey abbrechen.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a235d262125070fd8655543d0ae35c6b2465e8cc
 workflow-type: tm+mt
-source-wordcount: 3210
-ht-degree: 4%
-
+source-wordcount: '3338'
+ht-degree: 3%
 ---
+# Analysieren von Adobe CX Analytics-Daten mit dem Coworker Chat
 
-# Analysieren von Customer Journey Analytics-Daten mit dem Coworker Chat
-
-Adobe CX Enterprise Coworker Chat kann erweiterte Datenanalysen durchführen, die zuvor nur in Analysis Workspace möglich waren. Coworker Chat greift auf Daten aus Ihren Customer Journey Analytics-Datenansichten zu, sodass Sie diese Daten untersuchen und Antworten auf Eingabeaufforderungen in natürlicher Sprache erhalten können.
+Adobe CX Enterprise Coworker Chat kann erweiterte Datenanalysen durchführen, die zuvor nur in Analysis Workspace möglich waren. Coworker Chat greift auf Daten aus Ihren Customer Journey Analytics-Datenansichten oder Adobe Analytics-Report Suites zu, sodass Sie diese Daten untersuchen und Antworten auf Eingabeaufforderungen in natürlicher Sprache erhalten können.
 
 Sie können den Coworker Chat auf zwei Arten verwenden, je nachdem, wie viel Analyse Sie benötigen:
 
 * **Schnelle Antworten** - Stellen Sie eine direkte, verständliche Frage und erhalten Sie eine sofortige Antwort. Business-Anwender nutzen den Coworker Chat oft auf diese Weise, und Analysten verwenden ihn auch, wenn sie eine schnelle Antwort für einen Stakeholder benötigen.
 * **Tief greifende Gedankenarbeit** - Führen Sie ein ausgedehntes, mehrgängiges Gespräch mit Coworker Chat, um ein Geschäftsproblem zu untersuchen, Ursachen auszuschließen und eine Empfehlung zu erhalten. Analysten verwenden diesen Ansatz normalerweise, um Daten eingehend zu untersuchen, bevor sie eine Empfehlung abgeben.
 
-Bevor Sie beginnen, machen Sie sich mit der Oberfläche und den Konfigurationsoptionen des Coworker Chat vertraut und stellen Sie dann sicher, dass Coworker mit Customer Journey Analytics und der relevanten Datenansicht verbunden ist.
+Bevor Sie beginnen, machen Sie sich mit der Oberfläche und den Konfigurationsoptionen des Coworker Chat vertraut und stellen Sie dann sicher, dass Coworker mit Customer Journey Analytics oder Adobe Analytics und den relevanten Datenansichten oder Report Suites verbunden ist.
 
 ## Erste Schritte mit dem Coworker Chat
 
 ### Datenzugriff und Berechtigungen
 
-Coworker Chat erbt Berechtigungen von Customer Journey Analytics. Sie können nur auf die Datenansichten, Dimensionen, Metriken und Segmente zugreifen, die Ihnen in Analysis Workspace zur Verfügung stehen.
+Der Coworker Chat erbt Berechtigungen von Customer Journey Analytics oder Adobe Analytics. Sie können nur auf die Datenansichten, Report Suites, Dimensionen, Metriken und Segmente zugreifen, die Ihnen in Analysis Workspace zur Verfügung stehen.
 
 ### Schnittstellen- und Konfigurationsoptionen
 
-Bevor Sie den Coworker Chat mit Ihren Customer Journey Analytics-Daten verwenden, erfahren Sie, wie Sie sich anmelden und Konfigurationsoptionen für die folgenden Funktionen verwalten:
+Bevor Sie den Coworker Chat mit Ihren Customer Journey Analytics- oder Adobe Analytics-Daten verwenden, erfahren Sie, wie Sie sich anmelden und Konfigurationsoptionen für die folgenden Funktionen verwalten können:
 
 * Chat-Eingaben
 * Konversationen
@@ -65,7 +65,7 @@ Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche für den C
 * Achten Sie beim Erstellen einer Eingabeaufforderung auf eine möglichst präzise Vorgehensweise:
 
   * Benennen Sie die Dimensionen, Metriken und den Datumsbereich, die analysiert werden sollen.
-  * Verweisen Sie auf Datenansichtskomponenten anhand ihres genauen Namens.
+  * Referenzieren Sie Komponenten anhand ihres genauen Namens.
   * Geben Sie alle Segmente, Zielgruppen, Kanäle oder Geräte an, die Sie einbeziehen, ausschließen oder vergleichen möchten.
   * Geben Sie an, ob Sie einen bestimmten Visualisierungstyp wünschen, z. B. eine funnel-, Trend- oder Kohortentabelle.
   * Fragen Sie nach den empfohlenen nächsten Schritten, wenn Sie im Coworker Chat weitere Fragen vorschlagen möchten.
@@ -76,7 +76,7 @@ Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche für den C
   * Benennen Sie die spezifische Report Suite und Datenansicht, die Sie bei der Datenvalidierung vergleichen möchten.
   * Führen Sie zuerst eine Analyse durch und bitten Sie dann den Coworker Chat, diese als Qualifikation zu speichern, ihr einen klaren, beschreibenden Namen zu geben und zu notieren, wie oft Sie sie wiederverwenden möchten.
 
-* Fügen Sie Standardanweisungen zum Arbeitsspeicher des Kollegen-Chats hinzu. Wenn Sie beispielsweise immer Daten aus denselben Datenansichten verwenden, fügen Sie diese dem Speicher hinzu.
+* Fügen Sie Standardanweisungen zum Arbeitsspeicher des Kollegen-Chats hinzu. Wenn Sie beispielsweise immer Daten aus denselben Datenansichten oder Report Suites verwenden, fügen Sie diese dem Speicher hinzu.
 
 ## Überprüfen, ob der Coworker Chat mit Customer Journey Analytics verbunden ist
 
@@ -88,15 +88,15 @@ Stellen Sie im Coworker Chat sicher, dass Coworker mit Customer Journey Analytic
 
 1. (Bedingt) Wenn [!UICONTROL **cja-mcp**] noch nicht verbunden ist, wählen Sie [!UICONTROL **MCP-Server hinzufügen**], geben Sie cja im Feld [!UICONTROL **Server-Name**] an und wählen Sie es aus, wenn es angezeigt wird. Wählen Sie dann [!UICONTROL **Server hinzufügen**].
 
-## Herstellen einer Verbindung zur rechten Datenansicht
+## Herstellen einer Verbindung zur richtigen Datenansicht oder Report Suite
 
-Eine Datenansicht ist ein Container in Customer Journey Analytics, der bestimmt, wie Daten interpretiert werden.
+Eine Datenansicht ist ein Container in Customer Journey Analytics, der bestimmt, wie Daten interpretiert werden. Eine Report Suite ist ein Container in Adobe Analytics, der die Daten enthält, die von Ihren Sites und Programmen erfasst werden.
 
-Möglicherweise haben Sie Zugriff auf verschiedene Datenansichten in Customer Journey Analytics, die jeweils unterschiedliche Dimensionen und Metriken enthalten, die Coworker bei der Datenanalyse verwenden kann.
+Möglicherweise haben Sie Zugriff auf verschiedene Datenansichten in Customer Journey Analytics oder Report Suites in Adobe Analytics. Jeder Knoten kann verschiedene Dimensionen und Metriken enthalten, die Coworker bei der Datenanalyse verwenden kann.
 
-### Festlegen, welche Datenansichten verwendet werden sollen
+### Festlegen, welche Datenansichten oder Report Suites Sie verwenden möchten
 
-Teilen Sie Coworker mit, welche Arten von Fragen Sie beantwortet haben möchten, und fragen Sie, auf welche Datenansichten Sie Zugriff haben, die diese Informationen liefern. Sie können [&#x200B; auch „Ihre Datenansicht als Voreinstellung im Speicher festlegen](#add-a-data-view-preference-in-memory).
+Teilen Sie Ihrem Mitarbeiter die Arten von Fragen mit, die Sie beantwortet haben möchten, und fragen Sie ihn, auf welche Datenansichten oder Report Suites Sie Zugriff haben, die diese Informationen bereitstellen. Sie können auch [Datenansicht oder Report Suite als Voreinstellung im Speicher festlegen](#add-a-data-view-or-report-suite-preference-in-memory).
 
 **Sie:**
 
@@ -130,13 +130,13 @@ Okay, ich werde die `Customer lifecycle` Datenansicht verwenden, um zukünftige 
 
 >[!ENDSHADEBOX]
 
-### Hinzufügen einer Datenansichtseinstellung im Speicher
+### Datenansicht oder Report Suite-Voreinstellung im Speicher hinzufügen
 
-Der Coworker Chat enthält eine Speicherfunktion, mit der Sie Zugriff auf Informationen erhalten, die sich über alle Chats erstrecken. Es empfiehlt sich, die von Ihnen bevorzugten Datenansichten im Arbeitsspeicher des Kollegen als Voreinstellungen hinzuzufügen.
+Der Coworker Chat enthält eine Speicherfunktion, mit der Sie Zugriff auf Informationen erhalten, die sich über alle Chats erstrecken. Es empfiehlt sich, die von Ihnen bevorzugten Datenansichten oder Report Suites als Voreinstellungen im Arbeitsspeicher des Kollegen hinzuzufügen.
 
 1. Wählen Sie im Coworker Chat in der linken Navigationsleiste das Speichersymbol aus.
 
-1. Geben Sie auf der Speicherseite im Abschnitt [!UICONTROL **Gespeicherte Voreinstellungen**] eine oder mehrere Datenansichten an, die der Coworker Chat in Ihren Chats verwenden soll.
+1. Geben Sie auf der Speicherseite im Abschnitt [!UICONTROL **Gespeicherte Voreinstellungen**] eine oder mehrere Datenansichten oder Report Suites an, die der Coworker Chat in Ihren Chats verwenden soll.
 
    ![Speicherabschnitt in der linken Leiste](../../assets/coworker-memory.png)
 
@@ -154,51 +154,57 @@ Nachdem ein Kollege eine Visualisierung erstellt hat, können Sie sie in Analysi
 
 ### Anwendungsbeispiele für Customer Journey Analytics
 
-Sie können Customer Journey Analytics-Anwendungsfälle und Beispielaufforderungen sehen, die Anwender im Adobe CX Enterprise Coworker Chat verwenden, von schnellen Antworten bis hin zu gründlichen Überlegungen und Untersuchungen. Jede Eingabeaufforderung wird so erstellt, dass sie kopiert, mit Ihren eigenen Daten und Kontexten angepasst und durch Konversation verfeinert wird.
+Sie können Customer Journey Analytics-Anwendungsfälle und Beispiel-Eingabeaufforderungen sehen, die Anwender im Adobe CX Enterprise Coworker-Chat verwenden, von schnellen Antworten bis hin zu gründlichen Überlegungen zur Arbeit. Jede Eingabeaufforderung wird so erstellt, dass sie kopiert, mit Ihren eigenen Daten und Kontexten angepasst und durch Konversation verfeinert wird.
 
 Weitere Informationen finden Sie unter [Anwendungsbeispiele](/help/coworker/chat/use-cases/overview.md).
 
 ## Analytics-Fähigkeiten
 
-Die folgenden Kenntnisse stehen für die Analyse von Customer Journey Analytics-Daten zur Verfügung.
+Die folgenden Kenntnisse stehen für die Analyse von Customer Journey Analytics- oder Adobe Analytics-Daten zur Verfügung.
 
 ### Abfragen und Analysieren von Daten
 
-Mit dieser Fähigkeit (`cja`) können Sie Customer Journey Analytics in Echtzeit abfragen und die Ergebnisse analysieren, ohne die Anfrage selbst in Analysis Workspace zu erstellen.
+Mit diesen Fähigkeiten können Sie Ihre Daten in Echtzeit abfragen und die Ergebnisse analysieren, ohne die Anfrage selbst in Analysis Workspace zu erstellen:
+
+* `cja` - Abfragen von Customer Journey Analytics-Datenansichten
+* `aa` - Abfragen von Adobe Analytics Report Suites
 
 #### Erforderliche Berechtigungen
 
-* Anzeigen des Zugriffs auf die Datenansicht, die Sie abfragen möchten
+* Anzeigen des Zugriffs auf die Datenansicht oder Report Suite, die Sie abfragen möchten
 
 #### Häufige Anwendungsfälle
 
 | Anwendungsfall | Funktion | Eingabeaufforderungen im Beispiel |
 |---------|----------|---------|
-| **Abrufen von Berichten und Metriken** | Abfragen von Customer Journey Analytics in Echtzeit, um Metriken, Dimensionen, Segmente und Datenansichten abzurufen. | <ul><li>„Anzeigen der Seitenansichten für die letzten 30 Tage“</li><li>„Auflisten der wichtigsten Segmente in der Master-Datenansicht“</li></ul> |
+| **Abrufen von Berichten und Metriken** | Abfragen von Customer Journey Analytics oder Adobe Analytics in Echtzeit, um Metriken, Dimensionen, Segmente, Datenansichten und Report Suites abzurufen. | <ul><li>„Anzeigen der Seitenansichten für die letzten 30 Tage“</li><li>„Auflisten der wichtigsten Segmente in der Master-Datenansicht“</li></ul> |
 | **Vergleichende Analyse** | Vergleichen Sie Metriken kanalübergreifend, über Zeiträume hinweg oder segmentübergreifend. | <ul><li>„Umsatz nach Kanal und Monat vergleichen“</li><li>„Wie sieht die Konversion von Mobilgeräten und Desktops in diesem Quartal aus?“</li></ul> |
 | **Funnel-Analyse** | Gehen Sie in jedem Schritt durch mehrstufige Konversionstrichter mit Abbruch. | <ul><li>„Führen Sie mich durch die Kasse funnel&quot;</li><li>„Konversions-funnel von PDP zu Kauf anzeigen“</li></ul> |
 | **Prognosen** | Zukünftige Metrikwerte des Projekts auf der Grundlage historischer Daten | <ul><li>„Prognostizierte Sitzungen für die nächsten 30 Tage“</li><li>„Sind wir auf dem richtigen Weg, um unser Umsatzziel zu erreichen?“</li></ul> |
 
 #### Im Umfang
 
-* Echtzeitabfragen von Metriken, Dimensionen, Segmenten und Datenansichten
+* Echtzeitabfragen von Metriken, Dimensionen, Segmenten, Datenansichten und Report Suites
 * Parallele Vergleiche über Kanäle, Zeiträume oder Segmente hinweg
 * Mehrstufige funnel- und Fallout-Analyse
 * Metrikprognosen basierend auf historischen Trends
 
 #### Außerhalb des Geltungsbereichs
 
-* Erstellen oder Bearbeiten von Datenansichtskomponenten
-* Daten außerhalb der Datenansichten, auf die Sie Zugriff haben
+* Erstellen oder Bearbeiten von Datenansichts- oder Report Suite-Komponenten
+* Daten außerhalb der Datenansichten oder Report Suites, auf die Sie Zugriff haben
 * Prädiktive Modellierung über Metrikvorhersagen hinaus
 
 ### Ursachenanalyse
 
-Diese Fähigkeit (`cja-root-cause-analysis`) untersucht, warum sich eine Metrik geändert hat, anstatt nur die Änderung zu melden.
+Diese Fähigkeiten untersuchen, warum sich eine Metrik geändert hat, anstatt nur eine Änderung zu melden:
+
+* `cja-root-cause-analysis` - Analysieren von Metrikänderungen in Customer Journey Analytics-Datenansichten
+* `aa-root-cause-analysis` - Analysieren von Metrikänderungen in Adobe Analytics Report Suites
 
 #### Erforderliche Berechtigungen
 
-* Ansichtszugriff auf die zu analysierende Datenansicht
+* Anzeigen des Zugriffs auf die zu analysierende Datenansicht oder Report Suite
 
 #### Häufige Anwendungsfälle
 
@@ -214,15 +220,15 @@ Diese Fähigkeit (`cja-root-cause-analysis`) untersucht, warum sich eine Metrik 
 #### Außerhalb des Geltungsbereichs
 
 * Erkennen von Anomalien, nach denen Sie nicht gefragt haben (keine automatisierten oder Echtzeitwarnungen)
-* Ursachenanalyse für Metriken außerhalb einer Datenansicht, auf die Sie Zugriff haben
+* Ursachenanalyse für Metriken außerhalb einer Datenansicht oder Report Suite, auf die Sie Zugriff haben
 
 ### Zusammenfassung für Führungskräfte und Leistungsauszüge
 
-Diese Qualifikation (`cja-executive-summary`) erstellt für Stakeholder geeignete Zusammenfassungen Ihrer Customer Journey Analytics-Daten.
+Mit dieser Qualifikation (`cja-executive-summary`) können Stakeholder-fähige Zusammenfassungen Ihrer Customer Journey Analytics- oder Adobe Analytics-Daten erstellt werden.
 
 #### Erforderliche Berechtigungen
 
-* Anzeigen des Zugriffs auf die Datenansicht oder die Datenansichten, die in der Zusammenfassung behandelt werden
+* Anzeigen des Zugriffs auf die Datenansichten oder Report Suites, die in der Zusammenfassung behandelt werden
 
 #### Häufige Anwendungsfälle
 
@@ -239,7 +245,7 @@ Diese Qualifikation (`cja-executive-summary`) erstellt für Stakeholder geeignet
 #### Außerhalb des Geltungsbereichs
 
 * Erstellen des endgültigen Foliendecks oder der Präsentationsdatei
-* Zusammenfassungen, die sich über Datenansichten erstrecken, auf die Sie keinen Zugriff haben
+* Zusammenfassungen, die Datenansichten oder Report Suites umfassen, auf die Sie keinen Zugriff haben
 
 ### Datenvalidierung mit Adobe Analytics
 
@@ -287,7 +293,7 @@ Diese Fähigkeit (`cja-skill-creator`) wandelt eine Analyse, die Sie bereits dur
 #### Außerhalb des Geltungsbereichs
 
 * Automatisches Freigeben einer gespeicherten Qualifikation für andere Benutzer (Qualifikationsbibliotheken auf Unternehmensebene erfordern die Einrichtung durch Administratoren)
-* Bearbeiten der Datenansichtskomponenten, auf die eine Qualifikation verweist
+* Bearbeiten der Datenansichts- oder Report Suite-Komponenten, auf die eine Qualifikation verweist
 
 ## Beispiel: Finden Sie heraus, wo Kunden abbrechen
 
