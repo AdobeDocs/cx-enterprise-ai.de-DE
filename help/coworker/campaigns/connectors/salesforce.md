@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 13961eecbb862bf40cf86e892001392c72aae36c
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '221'
 ht-degree: 1%
 ---
 # Verbindung mit Salesforce herstellen {#salesforce}
 
-Adobe Coworker Campaign ermöglicht es Ihnen, Ihr Salesforce-Konto mit…
+Mit Adobe Coworker-Kampagnen können Sie eine Verbindung zu Ihrem Salesforce-Konto herstellen, um auf Ihre Leads und Kontakte zuzugreifen.
 
 >[!PREREQUISITES]
 >
@@ -26,7 +26,7 @@ Adobe Coworker Campaign ermöglicht es Ihnen, Ihr Salesforce-Konto mit…
 
 ## So verbinden Sie sich
 
-1. Klicken Sie auf der [Startseite von &#x200B;](https://coworker-campaigns.experience.adobe.com/)-Kampagnen auf **Anpassen** und wählen Sie **Connectoren**.
+1. Klicken Sie auf der [Startseite von ](https://coworker-campaigns.experience.adobe.com/)-Kampagnen auf **Anpassen** und wählen Sie **Connectoren**.
 
    ![Coworker-Kampagnen - linker Navigationsbereich mit hervorgehobener Option „Anpassen“ und „Connectoren“](./assets/salesforce-1.png)
 
@@ -52,7 +52,7 @@ Adobe Coworker Campaign ermöglicht es Ihnen, Ihr Salesforce-Konto mit…
 
    ![](./assets/salesforce-4.png)
 
-Nach dem Verbinden wird Salesforce in der Connector-Liste angezeigt UND WAS NOCH EINMAL?
+Nach dem Verbinden wird Salesforce in der Connectoren-Liste angezeigt und kann beim Verknüpfen einer Lead- oder Kontaktliste mit der Synchronisierung aus Salesforce ausgewählt werden.
 
 **Verbindung trennen:**
 
