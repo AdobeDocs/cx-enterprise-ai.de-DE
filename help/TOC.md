@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6397e3d8e40511dfc261757046b216fa37e4162e
+source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '396'
 ht-degree: 20%
 ---
 
@@ -69,6 +69,7 @@ ht-degree: 20%
       - [Was sind Integrationen?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - Plug-ins {#plugins}
       - [Was sind Plug-ins?](./coworker/customizations/plugins/what-are-plugins.md)
+      - [Verwalten von Plug-ins für Ihre Organisation](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
     - Speicher {#memory}
       - [Was ist Speicher?](./coworker/customizations/memory/what-is-memory.md)
   - Kampagnen {#campaigns}
@@ -116,5 +117,5 @@ ht-degree: 20%
     - {hide-from-toc}[Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
