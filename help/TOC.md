@@ -6,17 +6,17 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 6397e3d8e40511dfc261757046b216fa37e4162e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 18%
+source-wordcount: '391'
+ht-degree: 20%
 ---
 
 # KI in CX Enterprise {#experience-cloud-ai}
 
 - [KI in CX Enterprise](home.md)
-- Über KI in CX Enterprise {#overview}
-  - [Über KI in CX Enterprise](./overview/overview-ai-cxe.md)
+- Informationen zu KI in CX Enterprise {#overview}
+  - [Informationen zu KI in CX Enterprise](./overview/overview-ai-cxe.md)
   - [Über generative KI](./overview/generative-ai.md)
   - [Über die agentische KI](./overview/agentic-ai.md)
   - [Über den Konsum von KI-Guthaben](./overview/ai-credit-consumption.md)
@@ -52,9 +52,10 @@ ht-degree: 18%
       - Warnhinweise {#alerts}
         - [Warnhinweise für Kunden](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Brand Visibility {#brand-visibility}
-        - [Generieren von Marketing-Assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Prüfung der Markenkonformität](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [Erstellen von AEM Sites-Seiten](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [Integrieren von AEM Assets](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [Generieren von Marketing-Assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - Workflow und Planung {#workflow-and-planning}
         - [Planen eines Launches einer digitalen Kampagne](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Anpassungen {#customizations}
@@ -71,7 +72,7 @@ ht-degree: 18%
     - Speicher {#memory}
       - [Was ist Speicher?](./coworker/customizations/memory/what-is-memory.md)
   - Kampagnen {#campaigns}
-    - [Überblick](./coworker/campaigns/overview.md)
+    - [Übersicht](./coworker/campaigns/overview.md)
     - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
     - [Starten und Verwalten einer Kampagne](./coworker/campaigns/launch-manage-campaign.md)
     - [Anwendungsszenarien](./coworker/campaigns/use-cases.md)
@@ -115,5 +116,5 @@ ht-degree: 18%
     - {hide-from-toc}[Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
