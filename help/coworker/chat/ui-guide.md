@@ -4,15 +4,15 @@ title: Handbuch zur Benutzeroberfläche für den Chat mit Kollegen
 jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: 1719
+source-wordcount: '1719'
 ht-degree: 4%
-
 ---
-
 # Handbuch für die -Benutzeroberfläche {#ui-guide}
 
 Orientieren Sie sich an der Oberfläche des Coworker Chat . In diesem Handbuch wird alles behandelt, vom Zugriff auf die App und der Navigation im Arbeitsbereich bis hin zur optimalen Nutzung von Unterhaltungen, der Verwaltung des Verlaufs und der Anpassung des Setups.
@@ -27,7 +27,7 @@ Wenn Ihr Unternehmen Zugriff auf Kollegen erhält, können Sie seine Funktionen 
 >
 >Auf das produktinterne Erlebnis kann über das Symbol „Mitarbeiter![&#x200B; (Symbol „Mitarbeiter](./assets/icon-coworker.png) oben rechts zugegriffen werden. Die Details des immersiven Erlebnisses sind [&#x200B; unten beschrieben](#immersive).
 
-Die folgende Tabelle erfasst, wann diese Erlebnisse für jede CX Enterprise-Anwendung verfügbar sein werden.
+In der folgenden Tabelle wird erfasst, wann diese Erlebnisse für jedes CX Enterprise-Programm verfügbar sein werden.
 
 | CX Enterprise-Anwendung | immersives Erlebnis | Produkterlebnis |
 |---|---|---|
@@ -36,16 +36,16 @@ Die folgende Tabelle erfasst, wann diese Erlebnisse für jede CX Enterprise-Anwe
 | CJA | Jetzt verfügbar | Bald verfügbar |
 | Workfront | Jetzt verfügbar | Bald verfügbar:<br><br>* Anfang September 2026 in der Vorschauinstanz für ausgewählte geeignete Workfront-Systemadministratoren<br><br>* Mitte September 2026 in der Produktionsinstanz für geeignete Kunden von Workfront mit Schnellveröffentlichung<br><br>* Mitte Oktober 2026 in der Produktionsinstanz für geeignete Kunden von Workfront mit vierteljährlicher Veröffentlichung |
 | Target | Jetzt verfügbar | Jetzt verfügbar |
-| AEM | Jetzt verfügbar | Bald verfügbar |
+| AEM | Jetzt verfügbar | Jetzt verfügbar |
 | Marketo Engage | Jetzt verfügbar | Bald verfügbar |
 
 ### immersives Erlebnis {#immersive}
 
 Greifen Sie auf den Coworker Chat zu, indem Sie zu [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker) navigieren und sich mit Ihren Adobe-Anmeldeinformationen anmelden.
 
-Sie können auch darauf zugreifen, indem Sie **Coworker** aus der Programmauswahl in der oberen Kopfzeile von CX Enterprise auswählen.
+Sie können auch darauf zugreifen, indem Sie **Mitarbeiter** aus der Programmauswahl in der oberen Kopfzeile von CX Enterprise auswählen.
 
-![Zugriff auf Coworker über den CX Enterprise-Anwendungsselektor](./assets/ui-guide-1.png)
+![Zugriff auf den -Mitarbeiter über den CX Enterprise-Anwendungsselektor](./assets/ui-guide-1.png)
 
 ## Organisation und Sandbox auswählen
 
@@ -68,7 +68,7 @@ Wählen Sie Ihren Namen aus, um das Kontomenü zu öffnen, in dem Sie den Kontex
 
 ## Navigieren in der Benutzeroberfläche
 
-Die Benutzeroberfläche von CX Coworker besteht aus zwei Hauptbereichen: der Navigationsleiste auf der linken Seite und der Unterhaltungs-Arbeitsfläche, die den Rest des Fensters ausfüllt.
+Die CX Coworker-Benutzeroberfläche umfasst zwei Hauptbereiche: die Navigationsleiste auf der linken Seite und die Unterhaltungsarbeitsfläche, die den Rest des Fensters ausfüllt.
 
 ![Der Startbildschirm](./assets/ui-guide-4.png)
 

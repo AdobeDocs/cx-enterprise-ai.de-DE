@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 18%
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 18%
 - Handbuch zu CX Enterprise Coworker {#coworker}
   - [Übersicht über Kollegen](./coworker/overview.md)
   - Chat {#chat}
-    - [Überblick](./coworker/chat/overview.md)
+    - [Übersicht](./coworker/chat/overview.md)
     - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
     - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
     - Anwendungsszenarien {#use-cases}
@@ -58,7 +58,7 @@ ht-degree: 18%
       - Workflow und Planung {#workflow-and-planning}
         - [Planen eines Launches einer digitalen Kampagne](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Anpassungen {#customizations}
-    - [Überblick](./coworker/customizations/overview.md)
+    - [Übersicht](./coworker/customizations/overview.md)
     - Skills {#skills}
       - [Was sind Fähigkeiten?](./coworker/customizations/skills/what-are-skills.md)
       - [Erstellen Ihrer ersten Kenntnisse](./coworker/customizations/skills/create-your-first-skill.md)
@@ -95,6 +95,7 @@ ht-degree: 18%
   - [Field Discovery Agent](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [Produktsupport-Agent](./agents/product-support.md)
+  - [SQL-Datenvorbereitung](./agents/sql-data-prep.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Benachrichtigungsagent](./agents/notifications.md)
   - [Amtsgericht](./agents/trial.md)
