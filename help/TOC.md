@@ -6,10 +6,10 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
+source-git-commit: 76cf3aae7e2749c3d1318625c4938cc8fc2eeec6
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 20%
+source-wordcount: '398'
+ht-degree: 21%
 ---
 
 # KI in CX Enterprise {#experience-cloud-ai}
@@ -32,6 +32,8 @@ ht-degree: 20%
     - Anwendungsszenarien {#use-cases}
       - [Anwendungsfälle für den Chat mit Kollegen](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
+        - {hide-from-toc}[Übersicht](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
+        - {hide-from-toc}[Übersicht](./coworker/chat/use-cases/data-insights/analytics-overview.md)
         - [Analysieren von CJA-Daten](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Trends und Grundursachen untersuchen](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validieren von AA zu CJA-Daten beim Upgrade](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
@@ -117,5 +119,5 @@ ht-degree: 20%
     - {hide-from-toc}[Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
