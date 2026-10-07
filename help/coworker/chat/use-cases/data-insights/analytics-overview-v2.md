@@ -66,7 +66,7 @@ Die folgenden Anwendungsfälle sind nach dem gruppiert, was Sie erreichen möcht
 
 | Anwendungsfall | Funktion |
 | --- | --- |
-| [Erstellen von Zusammenfassungen und KPI-Übersichten](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#executive-summaries-and-performance-digests) | Erstellen Sie für die Stakeholder geeignete Leistungszusammenfassungen, Empfehlungen und Folienübersichten.<p>**Beispielaufforderung:** „Geben Sie mir eine Zusammenfassung des letzten Monats“</p><p>Weitere Informationen finden Sie unter [ und Leistungsübersichten ](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#executive-summaries-and-performance-digests) Analysieren von Adobe CX Analytics-Daten mit dem Coworker Chat.</p> |
+| [Erstellen von Zusammenfassungen und KPI-Übersichten](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#executive-summaries-and-performance-digests) | Erstellen Sie für die Stakeholder geeignete Leistungszusammenfassungen, Empfehlungen und Folienübersichten.<p>**Beispielaufforderung:** „Geben Sie mir eine Zusammenfassung des letzten Monats“</p><p>Weitere Informationen finden Sie unter [&#x200B; und Leistungsübersichten &#x200B;](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#executive-summaries-and-performance-digests) Analysieren von Adobe CX Analytics-Daten mit dem Coworker Chat.</p> |
 
 ### Implementierung oder Upgrade planen
 
