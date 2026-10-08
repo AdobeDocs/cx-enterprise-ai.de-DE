@@ -29,7 +29,7 @@ Sie können die Datensätze identifizieren, die Sie in Ihrer Anfrage verwenden m
 
 Nachdem ein Mitarbeiter die SQL generiert oder aktualisiert hat, können Sie die Konversation fortsetzen, um eine Vorschau der Ergebnisse anzuzeigen, die Abfrage zu verfeinern, sie zu speichern oder sie für die wiederkehrende Ausführung zu planen.
 
-Eine Anleitung zur Verwendung der Benutzeroberfläche für Kollegen finden Sie im [Handbuch zur Benutzeroberfläche für Kollegen](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide).
+Eine Anleitung zur Verwendung der Benutzeroberfläche für Kollegen finden Sie im [Handbuch zur Benutzeroberfläche für Kollegen](https://experienceleague.adobe.com/de/docs/coworker/content/chat/ui-guide).
 
 ## Unterstützte Funktionen {#supported-capabilities}
 
@@ -56,7 +56,7 @@ Sie können zum Beispiel:
 
 Mitarbeiter können Folgefragen stellen, wenn zusätzliche Informationen erforderlich sind, z. B. um den entsprechenden Datensatz zu identifizieren oder die Zeitzone für einen Zeitplan zu bestätigen.
 
-Eine Abfragevorschau gibt bis zu fünf Zeilen zurück. Informationen zum Ausführen von Abfragen und zum Arbeiten mit Abfragen direkt in Experience Platform finden Sie im [Handbuch zur Benutzeroberfläche des Abfrage-Editors](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide).
+Eine Abfragevorschau gibt bis zu fünf Zeilen zurück. Informationen zum Ausführen von Abfragen und zum Arbeiten mit Abfragen direkt in Experience Platform finden Sie im [Handbuch zur Benutzeroberfläche des Abfrage-Editors](https://experienceleague.adobe.com/de/docs/experience-platform/query/ui/user-guide).
 
 ![Eine Coworker-Antwort zeigt eine fünfzeilige Vorschau der SQL-Abfrageergebnisse und Optionen, um die Abfrage als Vorlage zu speichern oder für die wiederkehrende Ausführung zu planen.](./assets/sql-data-prep/query-preview.png)
 
@@ -74,7 +74,7 @@ Ein Mitarbeiter gibt die generierte SQL zurück und kann die Abfrage ausführen,
 
 ![Coworker-Antwort, die die generierte SQL-Abfrage für die Zusammenfassung der Kundeninteraktion nach Ereignistyp zeigt, gefolgt von einer Tabellenvorschau der Gesamtzahl der Ereignisse und Unique Customers und einer Analyse der Ergebnisse.](./assets/sql-data-prep/authoring-result.png)
 
-Informationen zum Erstellen und Ausführen von Abfragen direkt in Experience Platform finden Sie im [Handbuch zur Benutzeroberfläche des Abfrage-Editors](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide).
+Informationen zum Erstellen und Ausführen von Abfragen direkt in Experience Platform finden Sie im [Handbuch zur Benutzeroberfläche des Abfrage-Editors](https://experienceleague.adobe.com/de/docs/experience-platform/query/ui/user-guide).
 
 ### Vorhandene SQL optimieren {#optimize-sql}
 
@@ -113,7 +113,7 @@ Wenn die bereitgestellte Abfrage bereits optimiert wurde, kann ein Mitarbeiter f
 
 Die über die SQL-Authoring-Funktion generierte SQL ist bereits optimiert. Es ist nicht erforderlich, neu generierte SQL zur Optimierung separat einzureichen.
 
-Informationen zur SQL-Syntax und zu unterstützten Befehlen finden Sie [SQL-Referenz zum Abfrage-Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview).
+Informationen zur SQL-Syntax und zu unterstützten Befehlen finden Sie [SQL-Referenz zum Abfrage-Service](https://experienceleague.adobe.com/de/docs/experience-platform/query/sql/overview).
 
 ### SQL-Fehler diagnostizieren und beheben {#diagnose-sql-errors}
 
@@ -156,13 +156,13 @@ Nachdem Sie die erforderlichen Zeitplandetails bestätigt haben, gibt der Mitarb
 
 ![Antwort eines Kollegen, die eine geplante SQL-Abfrage bestätigt, einschließlich der gespeicherten Vorlage, des Zeitplans, der Zeitzone, des Enddatums, des Zeitplanstatus und des Fehlerwarnhinweises.](./assets/sql-data-prep/schedule-query.png)
 
-Ausführliche Informationen zu Abfrageplänen, Wiederholungseinstellungen, Ausgabedatensätzen und Warnhinweisen finden Sie unter [Abfragepläne](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules).
+Ausführliche Informationen zu Abfrageplänen, Wiederholungseinstellungen, Ausgabedatensätzen und Warnhinweisen finden Sie unter [Abfragepläne](https://experienceleague.adobe.com/de/docs/experience-platform/query/ui/query-schedules).
 
 ## Nächste Schritte {#next-steps}
 
 Weitere Informationen zu den Funktionen von Data Distiller und Query Service, die von der SQL-Datenvorbereitung verwendet werden, finden Sie in der folgenden Dokumentation:
 
 - [Übersicht über Data Distiller](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/overview)
-- [Handbuch zur Benutzeroberfläche des Abfrage-Editors](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)
-- [Abfragepläne](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)
-- [SQL-Referenz für Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)
+- [Handbuch zur Benutzeroberfläche des Abfrage-Editors](https://experienceleague.adobe.com/de/docs/experience-platform/query/ui/user-guide)
+- [Abfragepläne](https://experienceleague.adobe.com/de/docs/experience-platform/query/ui/query-schedules)
+- [SQL-Referenz für Query Service](https://experienceleague.adobe.com/de/docs/experience-platform/query/sql/overview)

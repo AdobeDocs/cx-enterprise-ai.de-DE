@@ -24,7 +24,7 @@ Lesen Sie diese Dokumentation, um zu erfahren, wie Sie Ihre Daten im KI-Assisten
 
 >[!NOTE]
 >
->Die Datenvalidierung ist auch als Kollegen verfügbar. Siehe [Validieren Ihrer Experience Platform-Daten mit Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep).
+>Die Datenvalidierung ist auch als Kollegen verfügbar. Siehe [Validieren Ihrer Experience Platform-Daten mit Coworker](https://experienceleague.adobe.com/de/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep).
 
 ## Anwendungsszenarien
 
