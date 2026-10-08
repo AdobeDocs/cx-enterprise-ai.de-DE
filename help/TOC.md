@@ -6,9 +6,9 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '222'
 ht-degree: 21%
 ---
 
@@ -23,69 +23,6 @@ ht-degree: 21%
   - [Agent-KI-Überwachungs-Dashboard](./overview/monitoring.md)
   - [Agent-basierte Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
   - [Transparenz von Inhalt generativer KI](content-transparency.md)
-- Handbuch zu CX Enterprise Coworker {#coworker}
-  - [Übersicht über Kollegen](./coworker/overview.md)
-  - Chat {#chat}
-    - [Übersicht](./coworker/chat/overview.md)
-    - [Handbuch für die -Benutzeroberfläche](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[Coworker Chat im Playground](./coworker/playground-coworker-chat.md)
-    - Anwendungsszenarien {#use-cases}
-      - [Anwendungsfälle für den Chat mit Kollegen](./coworker/chat/use-cases/overview.md)
-      - Data Insights {#data-insights}
-        - {hide-from-toc}[Übersicht](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
-        - {hide-from-toc}[Übersicht](./coworker/chat/use-cases/data-insights/analytics-overview.md)
-        - [Erste Schritte](./coworker/chat/use-cases/data-insights/analytics-chat.md)
-        - [Trends und Grundursachen untersuchen](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
-        - [Validieren von AA zu CJA-Daten beim Upgrade](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
-        - [Validieren der Datensatzqualität für CJA-Berichte](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
-        - [Validieren der Experience Platform-Daten](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
-      - Daten-Management {#data-management}
-        - [Verwalten der Data Lake-Aufbewahrung](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
-      - Zielgruppen {#audiences}
-        - [Plattformintegrität bewerten und Zielgruppen erstellen](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
-      - Journeys {#journeys}
-        - [Erstellen von Journey in natürlicher Sprache](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
-      - Treue {#loyalty}
-        - [Erstellen einer Herausforderung zur Treue und Aufdecken von Einblicken](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-      - Optimierung {#optimization}
-        - [Target-Aktivitäten starten](./coworker/chat/use-cases/optimization/target.md)
-      - Sandbox-Werkzeuge {#sandbox-tooling}
-        - [Sandbox Tooling Agent Kenntnisse](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
-      - Warnhinweise {#alerts}
-        - [Warnhinweise für Kunden](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
-      - Brand Visibility {#brand-visibility}
-        - [Prüfung der Markenkonformität](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
-        - [Erstellen von AEM Sites-Seiten](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
-        - [Integrieren von AEM Assets](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
-        - [Generieren von Marketing-Assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
-      - Workflow und Planung {#workflow-and-planning}
-        - [Planen eines Launches einer digitalen Kampagne](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-  - Anpassungen {#customizations}
-    - [Übersicht](./coworker/customizations/overview.md)
-    - Skills {#skills}
-      - [Was sind Fähigkeiten?](./coworker/customizations/skills/what-are-skills.md)
-      - [Erstellen Ihrer ersten Kenntnisse](./coworker/customizations/skills/create-your-first-skill.md)
-      - [Erstellen und Ausführen einer Quality Gate-Qualifikation](./coworker/customizations/skills/run-a-quality-gate-skill.md)
-      - [Kenntnisse verwalten und iterieren](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
-    - Integrationen {#integrations}
-      - [Was sind Integrationen?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
-    - Plug-ins {#plugins}
-      - [Was sind Plug-ins?](./coworker/customizations/plugins/what-are-plugins.md)
-      - [Verwalten von Plug-ins für Ihre Organisation](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
-    - Speicher {#memory}
-      - [Was ist Speicher?](./coworker/customizations/memory/what-is-memory.md)
-  - Kampagnen {#campaigns}
-    - {hide-from-toc}[Neues Team-Erlebnis](./coworker/campaigns/new-teams-experience.md)
-    - [Übersicht](./coworker/campaigns/overview.md)
-    - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
-    - [Starten und Verwalten einer Kampagne](./coworker/campaigns/launch-manage-campaign.md)
-    - [Anwendungsszenarien](./coworker/campaigns/use-cases.md)
-    - [Best Practices bei der Eingabeaufforderung](./coworker/campaigns/prompting-best-practices.md)
-    - [C2PA-Metadaten](./coworker/campaigns/c2pa-metadata.md)
-    - Connectoren {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [HubSpot](./coworker/campaigns/connectors/hubspot.md)
-    - [Versionshinweise](./coworker/campaigns/release-notes.md)
 - Handbuch zum KI-Assistenten {#ai-assistant}
   - [Handbuch zur Benutzeroberfläche des KI-Assistenten](./ai-assistant/ai-assistant-ui.md)
   - [Bibliothek der Eingabeaufforderung](./ai-assistant/prompt-library.md)
@@ -103,7 +40,7 @@ ht-degree: 21%
   - [SQL-Datenvorbereitung](./agents/sql-data-prep.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Benachrichtigungsagent](./agents/notifications.md)
-  - [Amtsgericht](./agents/trial.md)
+  - [Kollegialprozess](./agents/trial.md)
   - [Daten validieren](./agents/data-validation.md)
   - Data Engineering {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -120,5 +57,5 @@ ht-degree: 21%
     - {hide-from-toc}[Journey Optimizer-Tools](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)

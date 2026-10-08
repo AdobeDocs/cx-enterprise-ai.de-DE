@@ -2,15 +2,15 @@
 title: Experience Platform-Tools in CX Coworker Gateway
 description: Erfahren Sie, welche Adobe Experience Platform-Tools über CX Coworker Gateway verfügbar sind.
 hide: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1955'
 ht-degree: 6%
 ---
 
 # Adobe Experience Platform-Tools in Adobe CX Coworker Gateway {#aep-mcp}
 
-Sie können die Adobe Experience Platform-Produkt-Tools verwenden, um Schemata, Datensätze, Data Governance-Konfigurationen, Abfrage-Service-Ressourcen und Audit-Ereignisse von einem MCP-kompatiblen Client aus zu untersuchen. Diese Tools sind über das [Adobe CX Coworker Gateway](overview.md) verfügbar, wenn Ihr Unternehmen aktiviert ist und Ihr Benutzerkonto über die erforderlichen Experience Platform-Berechtigungen verfügt.
+Sie können die Adobe Experience Platform-Produkt-Tools verwenden, um Schemata, Datensätze, Data Governance-Konfigurationen, Abfrage-Service-Ressourcen und Audit-Ereignisse von einem MCP-kompatiblen Client aus zu untersuchen. Diese Tools sind über das [Adobe CX Coworker Gateway verfügbar](overview.md) wenn Ihr Unternehmen aktiviert ist und Ihr Benutzerkonto über die erforderlichen Experience Platform-Berechtigungen verfügt.
 
 >[!AVAILABILITY]
 >
@@ -20,7 +20,7 @@ Sie können die Adobe Experience Platform-Produkt-Tools verwenden, um Schemata, 
 
 | Tool | Beschreibung | Ressource | Funktionen | Status |
 | --- | --- | --- | --- | --- |
-| `search_allowed_ip_ranges` | Abrufen von IP-Zugriffsbeschränkungen für den Abfrage-Service | Data Distiller-Authentifizierung ・ IP-Bereiche | Liste | Aktiv |
+| `search_allowed_ip_ranges` | Abrufen von IP-Zugriffsbeschränkungen für den Abfrage-Service | Data Distiller-Authentifizierung ・ IP-Bereiche | list | Aktiv |
 | `search_audit` | Auflisten von Benutzeraktivitäts-Audit-Ereignissen in Experience Platform | Audit-Abfrage ・ Audit-Ereignisse | Liste, Filtern nach Asset-Typ, Aktion, Status, Zeitbereich | Aktiv |
 | `search_datasets` | Abfragen von Datensatz- und Batch-Aufnahme-Metadaten | Katalog-API ・ Datensätze, Batches | list, get, filter, list, last, list files | Aktiv |
 | `search_class_relations` | Experience Platform Business-Class-Beziehungen durchsuchen | Klassenbeziehungen ・ statischer YAML-Index | Suche nach Token, Multi-Term, teilweise Übereinstimmung | Aktiv |
@@ -255,7 +255,7 @@ Rufen Sie die neuesten Ergebnisse der Konsistenzprüfungs-Ausführung und -Opera
 
 >[!NOTE]
 >
->Dieses Tool ruft nur die Bewertungsergebnisse ab. Um ein gekennzeichnetes Problem zu beheben, verwenden Sie das Bedienfeld „Konsistenzprüfungsdetails“ in der [!DNL Experience Platform]-Benutzeroberfläche. Siehe [Konsistenzprüfungen](https://experienceleague.adobe.com/de/docs/experience-platform/run-and-operate/health-checks). Die automatische Anleitung zur Behebung unterstützter Konsistenzprüfungen ist als Qualifikation im [CX Coworker-Chat](../coworker/chat/overview.md) verfügbar.
+>Dieses Tool ruft nur die Bewertungsergebnisse ab. Um ein gekennzeichnetes Problem zu beheben, verwenden Sie das Bedienfeld „Konsistenzprüfungsdetails“ in der [!DNL Experience Platform]-Benutzeroberfläche. Siehe [Konsistenzprüfungen](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Die automatische Anleitung zur Behebung unterstützter Konsistenzprüfungen ist als Qualifikation im [CX Coworker-Chat](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview) verfügbar.
 
 **Funktionen:** alle Ergebnisse der Konsistenzprüfung für die aktuelle Sandbox auflisten, Ergebnisse für eine spezifische Prüfung abrufen
 

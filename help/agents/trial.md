@@ -1,25 +1,30 @@
 ---
-title: CX Enterprise Coworker Trial
+title: CX Enterprise Coworker-Testversion
 description: Erfahren Sie mehr über die kostenlose Testversion für CX Enterprise Coworker.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+    internal-label: Customer experience
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 1433
-ht-degree: 1%
-
+source-wordcount: '1429'
+ht-degree: 0%
 ---
-
-# CX Enterprise Coworker Trial
+# CX Enterprise Coworker-Testversion
 
 >[!AVAILABILITY]
 >
@@ -29,7 +34,7 @@ Nach Ermessen von Adobe erhalten Kunden an der Testversion Zugriff auf **Coworke
 
 Alle berechtigten Kundinnen und Kunden werden fortlaufend von KI-Assistent und Adobe Experience Platform-Agenten zu Coworker Chat umgestellt. In der Zwischenzeit behalten bestimmte Kunden möglicherweise den Zugriff auf den KI-Assistenten und die Experience Platform-Agenten, bis sie für den Coworker Chat aktiviert sind. Bitte beachten Sie, dass Co-Worker-Kampagnen nicht in den Umfang dieser Testversion fallen.
 
-**KI-Assistent**: Eine ganzseitige, interaktive Gesprächsoberfläche, die von Agent Orchestrator unterstützt wird und produktübergreifend funktioniert. Damit können Anwender, die aktivierte CX Enterprise-Produkte verwenden, GenAI- und AgentAI-Funktionen nutzen. Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
+**KI-Assistent**: Eine ganzseitige, interaktive Gesprächsoberfläche, die von Agent Orchestrator unterstützt wird und produktübergreifend funktioniert. Dadurch können Anwender, die CX Enterprise-Produkte mit aktivierter Technologie verwenden, GenAI- und AgentAI-Funktionen nutzen. Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
 
 **Adobe Experience Platform-Agenten**: Spezifische KI-Agenten, die in der Lage sind, gängige Aufträge über Kategorien von Customer Experience Domains hinweg bereitzustellen. Sie können Agenten nutzen, um Ihre Kapazität zu erweitern und Erlebnisse schneller und mit größerer Wirkung zu erstellen und bereitzustellen, wodurch Produktivität und Effizienz der nächsten Ebene erreicht werden. Um zu verstehen, welche Agenten mit jeder CX Enterprise-Anwendung genutzt werden können, lesen Sie die Dokumentation unter [Agent AI in CX Enterprise](../overview/agentic-ai.md).
 
@@ -40,9 +45,9 @@ Die Berechtigung des Kunden für die Testversion liegt vollständig im Ermessen 
 Berechtigte Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für:
 
 - Kollege-Chat: Eingaben, die im Kollege-Chat eingegeben wurden. Für einen begrenzten Einführungszeitraum verbrauchen Eingänge KI-Credits mit einer Rate von 25 KI-Credits pro Eingabe. Dieser Tarif ist nur für begrenzte Zeit verfügbar und kann sich ändern.
-- Experience Platform-Agenten: Jede Kombination von Aufträgen, die mit Experience Platform-Agenten ausgeführt werden (je nach Ihrer bestehenden Lizenz(en) für CX Enterprise-Anwendungen), aufgeführt in der [KI-Kreditverbrauchstabelle](../overview/ai-credit-consumption.md).
+- Experience Platform-Agenten: Jede Kombination von Aufträgen, die mit Experience Platform-Agenten ausgeführt werden (je nach Ihrer/Ihren bestehenden Lizenz(en) für CX Enterprise-Anwendungen), ist in der Tabelle [KI-Kreditverbrauch“ ](../overview/ai-credit-consumption.md).
 
-Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage).
+Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 Das Dashboard für die Überwachung der Agent-KI bietet einen klaren Überblick darüber, wie Agent-KI in Ihrer gesamten Organisation übernommen und verwendet wird. Autorisierte Benutzer können Interaktionen einfach verfolgen, Feedback einholen, die KI-Kreditnutzung überwachen und Schlüsselmetriken überprüfen. Nutzen Sie diese Einblicke, um Optimierungsmöglichkeiten zu entdecken und Ihre Governance- und Adoptionsbemühungen zu unterstützen. Weitere Informationen finden Sie im [Handbuch zur Überwachung der Nutzung von Agent AI](../overview/monitoring.md).
 
@@ -56,9 +61,9 @@ Das Dashboard für die Überwachung der Agent-KI bietet einen klaren Überblick 
 
 ### Zugriff auf Coworker Chat
 
-Benutzer zugelassener Kunden haben im Rahmen der Testversion Standardzugriff auf den Coworker Chat, sodass keine Aktion erforderlich ist. Der Coworker Chat arbeitet unter der Anleitung und Aufsicht von Benutzern und respektiert die vorhandenen Zugriffssteuerungen auf Produktebene Ihres Unternehmens. Benutzer können nur Aktionen ausführen, die sie bereits innerhalb der zugrunde liegenden CX Enterprise-Produkte ihres Unternehmens ausführen dürfen.
+Benutzer zugelassener Kunden haben im Rahmen der Testversion Standardzugriff auf den Coworker Chat, sodass keine Aktion erforderlich ist. Der Coworker Chat arbeitet unter der Anleitung und Aufsicht von Benutzern und respektiert die vorhandenen Zugriffssteuerungen auf Produktebene Ihres Unternehmens. Benutzende können nur Aktionen ausführen, die sie bereits innerhalb der zugrunde liegenden CX Enterprise-Produkte ihres Unternehmens ausführen dürfen.
 
-Benutzer können auf Mitarbeiter zugreifen, indem sie ihn in der Anwendungsauswahl in der oberen Kopfzeile von CX Enterprise auswählen.
+Benutzer können auf den -Mitarbeiter zugreifen, indem sie ihn in der Programmauswahl in der oberen Kopfzeile von CX Enterprise auswählen.
 
 ![Der Anwendungsselektor, in dem sich der Coworker befindet.](../agents/assets/coworker.png)
 
@@ -68,9 +73,9 @@ Für Kunden, die noch nicht auf den Coworker Chat umgestellt wurden:
 
 ### Zugriff auf Experience Platform-Agenten über den von Agent Orchestrator unterstützten KI-Assistenten
 
-Benutzer zugelassener Kunden haben im Rahmen der Testversion Standardzugriff auf KI-Assistenten und Agenten, sodass keine Aktion erforderlich ist. Experience Platform-Agenten orientieren sich an der Benutzereingabe und der Aufsicht. Agenten berücksichtigen auch zuvor definierte Zugriffssteuerungen auf Produktebene, sodass Benutzer nur Aufträge ausführen oder Aktionen ausführen können, für die sie über Berechtigungen in den entsprechenden zugrunde liegenden CX Enterprise-Produkten verfügen.
+Benutzer zugelassener Kunden haben im Rahmen der Testversion Standardzugriff auf KI-Assistenten und Agenten, sodass keine Aktion erforderlich ist. Experience Platform-Agenten orientieren sich an der Benutzereingabe und der Aufsicht. Agenten berücksichtigen auch zuvor definierte Zugriffssteuerungen auf Produktebene, sodass Benutzende nur Aufträge ausführen oder Aktionen ausführen können, für die sie über Berechtigungen in den entsprechenden zugrunde liegenden CX Enterprise-Produkten verfügen.
 
-Sobald Sie Zugriff haben, navigieren Sie zur Startseite von Adobe CX Enterprise , um mit dem KI-Assistenten zu beginnen. Sie können die [Erkennungsaufforderungen“ verwenden](../ai-assistant/ai-assistant-ui.md#discovery-prompts) um Vorschläge für Aufforderungen und allgemeine Workflows anzuzeigen. Verwenden Sie diese Funktion, um das Onboarding mit dem KI-Assistenten zu beschleunigen. Lesen Sie außerdem die [Eingabeaufforderungsbibliothek](../ai-assistant/prompt-library.md), um eine Vielzahl von Eingabeaufforderungen anzuzeigen, die Sie mit verschiedenen Agenten verwenden können. Ausführlichere Informationen finden Sie im Handbuch [Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
+Sobald Sie Zugriff haben, navigieren Sie zur Startseite von Adobe CX Enterprise, um mit dem KI-Assistenten zu beginnen. Sie können die [Erkennungsaufforderungen“ verwenden](../ai-assistant/ai-assistant-ui.md#discovery-prompts) um Vorschläge für Aufforderungen und allgemeine Workflows anzuzeigen. Verwenden Sie diese Funktion, um das Onboarding mit dem KI-Assistenten zu beschleunigen. Lesen Sie außerdem die [Eingabeaufforderungsbibliothek](../ai-assistant/prompt-library.md), um eine Vielzahl von Eingabeaufforderungen anzuzeigen, die Sie mit verschiedenen Agenten verwenden können. Ausführlichere Informationen finden Sie im Handbuch [Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
 
 Wenn der Kunde den Zugriff auf diese Agentenfunktionen deaktivieren und den Testzugriff deaktivieren möchte, senden Sie eine Anfrage an [cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com).
 
@@ -78,7 +83,7 @@ Wenn der Kunde den Zugriff auf diese Agentenfunktionen deaktivieren und den Test
 
 Lesen Sie die folgenden Handbücher, um weitere Informationen zu Coworker, Agent Orchestrator und AI Assistant zu erhalten:
 
-- [Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [Anleitung für Mitarbeiter](https://experienceleague.adobe.com/en/docs/coworker/content/home)
 - [Übersicht über Agent Orchestrator](agent-orchestrator.md)
 - [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md)
 - [Bibliothek mit Eingabeaufforderungen des KI-Assistenten](../ai-assistant/prompt-library.md)
@@ -94,7 +99,7 @@ Mit der nutzungsgebundenen Testversion für Agenten können berechtigte Kunden d
 
 ### Welche Agenten sind in dieser Studie enthalten?
 
-Eine vollständige Liste der in [&#x200B; Testversion enthaltenen Agenten finden Sie im Handbuch &#x200B;](../overview/agentic-ai.md)Agent-KI in CX Enterprise“.
+Eine vollständige Liste der in [ Testversion enthaltenen Agenten finden Sie ](../overview/agentic-ai.md) Handbuch unter Agent-KI in CX Enterprise&quot;.
 
 ### Wer kann an dieser Studie teilnehmen?
 
@@ -110,7 +115,7 @@ Für diese Testversion ist kein zusätzlicher Kauf erforderlich. Es findet keine
 
 ### Wer kann die Nutzung sehen und wie?
 
-Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage). Verwenden Sie das Dashboard, um Ihre KI-Guthaben-Nutzung und -Berichte anzuzeigen. Nur Administratoren und Benutzer mit den entsprechenden Berechtigungen können Ihre Nutzungsinformationen anzeigen.
+Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage). Verwenden Sie das Dashboard, um Ihre KI-Guthaben-Nutzung und -Berichte anzuzeigen. Nur Administratoren und Benutzer mit den entsprechenden Berechtigungen können Ihre Nutzungsinformationen anzeigen.
 
 Kunden behalten die Kontrolle darüber, wer Nutzung und Reporting sehen kann. Nur Administratoren und Benutzer mit den entsprechenden Berechtigungen können diese Informationen sehen.
 
