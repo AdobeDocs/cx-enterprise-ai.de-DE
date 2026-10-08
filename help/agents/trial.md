@@ -45,7 +45,7 @@ Die Berechtigung des Kunden für die Testversion liegt vollständig im Ermessen 
 Berechtigte Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für:
 
 - Kollege-Chat: Eingaben, die im Kollege-Chat eingegeben wurden. Für einen begrenzten Einführungszeitraum verbrauchen Eingänge KI-Credits mit einer Rate von 25 KI-Credits pro Eingabe. Dieser Tarif ist nur für begrenzte Zeit verfügbar und kann sich ändern.
-- Experience Platform-Agenten: Jede Kombination von Aufträgen, die mit Experience Platform-Agenten ausgeführt werden (je nach Ihrer/Ihren bestehenden Lizenz(en) für CX Enterprise-Anwendungen), ist in der Tabelle [KI-Kreditverbrauch“ ](../overview/ai-credit-consumption.md).
+- Experience Platform-Agenten: Jede Kombination von Aufträgen, die mit Experience Platform-Agenten ausgeführt werden (je nach Ihrer/Ihren bestehenden Lizenz(en) für CX Enterprise-Anwendungen), ist in der Tabelle [KI-Kreditverbrauch“ &#x200B;](../overview/ai-credit-consumption.md).
 
 Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
@@ -99,7 +99,7 @@ Mit der nutzungsgebundenen Testversion für Agenten können berechtigte Kunden d
 
 ### Welche Agenten sind in dieser Studie enthalten?
 
-Eine vollständige Liste der in [ Testversion enthaltenen Agenten finden Sie ](../overview/agentic-ai.md) Handbuch unter Agent-KI in CX Enterprise&quot;.
+Eine vollständige Liste der in [&#x200B; Testversion enthaltenen Agenten finden Sie &#x200B;](../overview/agentic-ai.md) Handbuch unter Agent-KI in CX Enterprise&quot;.
 
 ### Wer kann an dieser Studie teilnehmen?
 
