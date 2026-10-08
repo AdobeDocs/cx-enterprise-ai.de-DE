@@ -61,7 +61,7 @@ Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-
 ### Ressourcen für Kollegen
 
 - Lesen Sie [Testversion für Mitarbeiter](./agents/trial.md), um mehr über die Berechtigung zur Testversion, die Verwendung von KI-Guthaben und den Zugriff darauf zu erfahren.
-- Siehe [Startseite der ](https://experienceleague.adobe.com/en/docs/coworker/content/home)-Hilfe) für alle Inhalte für Kollegen.
+- Siehe [Startseite der &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/home)-Hilfe) für alle Inhalte für Kollegen.
 - Informationen zur Replikation von Sandbox-zu-Sandbox-Objekten finden Sie unter [Sandbox Tooling Agent Skills](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
 
 ## KI-Assistent
