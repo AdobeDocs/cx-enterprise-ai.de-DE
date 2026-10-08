@@ -6,10 +6,10 @@ description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie I
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
+source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 20%
+source-wordcount: '400'
+ht-degree: 21%
 ---
 
 # KI in CX Enterprise {#experience-cloud-ai}
@@ -32,7 +32,9 @@ ht-degree: 20%
     - Anwendungsszenarien {#use-cases}
       - [Anwendungsfälle für den Chat mit Kollegen](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
-        - [Analysieren von CJA-Daten](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - {hide-from-toc}[Übersicht](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
+        - {hide-from-toc}[Übersicht](./coworker/chat/use-cases/data-insights/analytics-overview.md)
+        - [Erste Schritte](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Trends und Grundursachen untersuchen](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validieren von AA zu CJA-Daten beim Upgrade](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Validieren der Datensatzqualität für CJA-Berichte](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
@@ -73,6 +75,7 @@ ht-degree: 20%
     - Speicher {#memory}
       - [Was ist Speicher?](./coworker/customizations/memory/what-is-memory.md)
   - Kampagnen {#campaigns}
+    - {hide-from-toc}[Neues Team-Erlebnis](./coworker/campaigns/new-teams-experience.md)
     - [Übersicht](./coworker/campaigns/overview.md)
     - [Erstellen einer E-Mail-Kampagne](./coworker/campaigns/create-an-email-campaign.md)
     - [Starten und Verwalten einer Kampagne](./coworker/campaigns/launch-manage-campaign.md)

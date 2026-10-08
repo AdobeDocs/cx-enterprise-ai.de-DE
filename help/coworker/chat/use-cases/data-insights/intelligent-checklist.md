@@ -2,17 +2,15 @@
 title: Erstellen einer Implementierungs-Checkliste in Co-Worker-Projekten
 description: Erfahren Sie, wie Coworker Projects aus Ihrem Plan für Implementierungshandbücher eine vorausgefüllte Implementierungsprüfliste mit Schritten generiert, die Sie zuweisen und verfolgen können.
 hold: true
-source-git-commit: 2f110983d77a4e516e4d36ebe85373a490658d5d
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 1%
-
+source-wordcount: '703'
+ht-degree: 0%
 ---
-
 
 # Erstellen einer Implementierungs-Checkliste mit Co-Worker-Projekten
 
-Kollegen-Projekte können ein Projekt mit einer Implementierungsprüfliste erstellen, das vorab mit den in Ihrem Implementierungshandbuch für Customer Journey Analytics beschriebenen Schritten ausgefüllt wird, sowie ein Upgrade von Adobe Analytics auf Customer Journey Analytics, Content Analytics (ACA), Marketing Campaign Analytics (MCA) oder Streaming Media. Coworker automatisiert oder unterstützt so viele Schritte wie technisch möglich, sodass Sie und Ihr Team einen zentralen, nachverfolgbaren Ort für Ihre Implementierung haben.
+Adobe CX Enterprise Coworker kann ein Projekt mit einer Implementierungs-Checkliste in Co-Worker-Projekten generieren, das vorab mit den in Ihrem Implementierungshandbuch für Customer Journey Analytics beschriebenen Schritten ausgefüllt wird, sowie ein Upgrade von Adobe Analytics auf Customer Journey Analytics, Content Analytics (ACA), Marketing Campaign Analytics (MCA) oder Streaming-Medien. Coworker automatisiert oder unterstützt so viele Schritte wie technisch möglich, sodass Sie und Ihr Team einen zentralen, nachverfolgbaren Ort für Ihre Implementierung haben.
 
 Wenn Sie eine Implementierung leiten, technische Schritte ausführen oder nur Einblick in den Fortschritt benötigen, können Sie diese Checkliste verwenden, um Arbeit zuzuweisen, den Status zu verfolgen und mit Ihrem Team zusammenzuarbeiten, ohne den Kollegen zu verlassen.
 

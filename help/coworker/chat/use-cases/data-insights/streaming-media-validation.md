@@ -2,17 +2,15 @@
 title: Validieren der Implementierung von Streaming-Medien mit einem Kollegen
 description: Erfahren Sie, wie die Streaming-Medien-Validierungsfertigkeit eines Mitarbeiters Ihre Konfiguration, Sitzungen und Protokolle überprüft, um zu bestätigen, dass Ihre Implementierung korrekt verfolgt wird.
 hold: true
-source-git-commit: 2f110983d77a4e516e4d36ebe85373a490658d5d
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1304'
 ht-degree: 2%
-
 ---
-
 
 # Validieren der Implementierung von Streaming-Medien mit einem Kollegen
 
-Coworker beinhaltet eine Fähigkeit zur Validierung von Streaming-Medien, die Ihre Implementierung von Adobe-Streaming-Medien (Video und Audio-Analytics) auf der Edge Network prüft, wobei Customer Journey Analytics und/oder Adobe Analytics eingespeist werden. Anstatt manuell auf Assurance, die Datensatzkonfiguration, XDM-Schemafeldgruppen, die Customer Journey Analytics-Datenansicht und Rohnetzwerkprotokolle zu verweisen, erhalten Sie einen einzigen Validierungsbericht.
+Adobe CX Enterprise Coworker verfügt über eine Fähigkeit zur Validierung von Streaming-Medien, die Ihre Implementierung von Adobe-Streaming-Medien (Video- und Audioanalysen) auf der Edge Network überprüft und Customer Journey Analytics und/oder Adobe Analytics zuführt. Anstatt manuell auf Assurance, die Datensatzkonfiguration, XDM-Schemafeldgruppen, die Customer Journey Analytics-Datenansicht und Rohnetzwerkprotokolle zu verweisen, erhalten Sie einen einzigen Validierungsbericht.
 
 Wenn Sie das Tracking von Streaming-Medien implementieren oder Fehler beheben, können Sie diese Fähigkeit verwenden, um zu bestätigen, dass Ihre Implementierung korrekt konfiguriert ist, indem Sie wie erwartet Daten erfassen und erfassen, was Sie verfolgen möchten - alles in einem einzigen Gespräch mit Kollegen im Chat.
 

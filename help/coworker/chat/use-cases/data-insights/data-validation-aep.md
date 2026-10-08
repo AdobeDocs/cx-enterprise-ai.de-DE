@@ -10,15 +10,15 @@ jira: PLAT-302857
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1045'
 ht-degree: 0%
 ---
 
 # Validieren Ihrer Experience Platform-Daten mit einem Kollegen
 
-Ein Mitarbeiter verfügt über die Fähigkeit zur Datenvalidierung, die die Datenqualität Ihrer Experience Platform-Datensätze überprüft. Verwenden Sie es, um statistische und semantische Validierungen für Datensätze durchzuführen, Datensatzfelder zu analysieren und Datenqualitätsprobleme zu identifizieren, und zwar alles über eine einzige Konversation im Coworker Chat.
+Adobe CX Enterprise Coworker umfasst die Fähigkeit zur Datenvalidierung, die die Datenqualität Ihrer Experience Platform-Datensätze überprüft. Verwenden Sie es, um statistische und semantische Validierungen für Datensätze durchzuführen, Datensatzfelder zu analysieren und Datenqualitätsprobleme zu identifizieren, und zwar alles über eine einzige Konversation im Coworker Chat.
 
 Dateningenieure, Datenadministratoren und Implementierungstechniker verwenden es für schnelle Qualitätsprüfungen, ohne SQL-Abfragen oder komplexe Schemahierarchien.
 
@@ -157,4 +157,4 @@ Wenn Ihre Validierungsanforderungen erschöpfender sind oder komplexe Geschäfts
 * [Validieren von Adobe Analytics in Customer Journey Analytics-Daten beim Upgrade](./data-validation-aa-cja.md)
 * [Validieren von Customer Journey Analytics-Daten mit der Datenvalidierungs-Fähigkeit in Coworker](./validate-dataset-quality-for-cja.md)
 * [Validieren Ihrer Daten (KI-Assistent)](/help/agents/data-validation.md)
-* [Trust Your Customer Journey Analytics Reporting: Data Validation Skill in Adobe CX Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (Video)
+* [Trust Your Customer Journey Analytics Reporting: Data Validation Skill in Adobe CX Enterprise Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (Video)
