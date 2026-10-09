@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '3820'
+source-wordcount: '3848'
 ht-degree: 10%
 ---
 
@@ -74,11 +74,11 @@ Darüber hinaus ist **Journey Simulation** eine Journey Optimizer-Funktion, die 
 
 ## Journey Create: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch {#journey-create}
 
-## Überblick
+## Übersicht
 
 Mit Journey Create können Journey Optimizer-Benutzer Marketing-Journey über eine natürliche Sprachschnittstelle erstellen und konfigurieren. Mit Journey Create können Anwender schnell Journey erstellen, indem sie ihre Anforderungen in Gesprächshinweisen beschreiben. Der Agent optimiert die Journey-Erstellung, sodass sich Marketing-Fachleute auf die Strategie konzentrieren können, statt sich um die technische Konfiguration kümmern zu müssen.
 
-Weitere Informationen finden Sie unter [Journey erstellen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"} in der Dokumentation zu Adobe Journey Optimizer.
+Weitere Informationen finden Sie unter [Journey erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"} in der Dokumentation zu Adobe Journey Optimizer.
 
 >[!AVAILABILITY]
 >
@@ -230,9 +230,9 @@ Wenn ein(e) Benutzende(r) meinen Store-Speicherort betritt, senden Sie eine Will
 
 Mit der Erstellung von Kanalinhalten können Journey Optimizer-Benutzende kanalspezifische Inhalte für Journey generieren, bearbeiten und verwalten, indem sie die KI-gestützte Inhaltserstellung verwenden.
 
-Weitere Informationen finden Sie unter [Kanalinhalt erstellen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"} in der Adobe Journey Optimizer-Dokumentation.
+Weitere Informationen finden Sie unter [Kanalinhalt erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"} in der Adobe Journey Optimizer-Dokumentation.
 
-## Anwendungsszenarien
+## Anwendungsfälle
 
 ### Häufige Anwendungsfälle für die Erstellung von Kanalinhalten
 
@@ -306,13 +306,13 @@ Die folgenden Möglichkeiten werden derzeit nicht unterstützt:
 
 ## Journey Analyze: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch {#journey-analyze}
 
-## Überblick
+## Übersicht
 
 Journey Analyze ermöglicht es Journey Optimizer-Anwendern, Journey mithilfe einer natürlichen Sprachschnittstelle zu analysieren und zu optimieren. Mit Journey Analyze können Anwender Zeitplankonflikte und Zielgruppenkonflikte schnell identifizieren und lösen, Punkte für Benutzerabbrüche auf einer Journey erkennen und Einblicke oder Empfehlungen zur Leistungsverbesserung erhalten.
 
 Erfahren Sie mehr und entdecken Sie den Agenten auf einen Blick in dieser [Übersicht](https://experienceleague.adobe.com/de/slides/journey-agent-overview).
 
-Weitere Informationen finden Sie unter [Journey Analyze](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} in der Adobe Journey Optimizer-Dokumentation.
+Weitere Informationen finden Sie unter [Journey Analyze](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} in der Adobe Journey Optimizer-Dokumentation.
 
 >[!AVAILABILITY]
 >
@@ -486,7 +486,7 @@ Befolgen Sie die folgenden Best Practices, um die Effektivität von Journey Anal
 
 ## Journey Simulieren: Anwendungsfälle, KI-Funktionen und Benutzerhandbuch {#journey-simulate}
 
-## Überblick
+## Übersicht
 
 >[!BEGINSHADEBOX]
 
@@ -568,5 +568,5 @@ Die Simulation unterstützt möglicherweise nicht alle Aktivitäten, Kanäle ode
 
 - [Agent Orchestrator](./agent-orchestrator.md), die Agentenebene, auf der Journey Agent und andere Experience Platform-Agenten basieren.
 - [Journey Optimizer-Tools in CX Coworker Gateway](../mcp/ajo-mcp.md), einer schreibgeschützten MCP-Oberfläche zur Überprüfung der Kampagnen- und Kanalkonfiguration.
-- [Erstellen von Journey](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md) und [Erstellen, Bearbeiten und Verwalten von Herausforderungen im Zusammenhang mit der Treue](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md), Coworker Chat-Anwendungsfälle, die auf Journey Create basieren.
+- [Erstellen von Journey](https://experienceleague.adobe.com/de/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language) und [Erstellen, Bearbeiten und Verwalten von Herausforderungen im Zusammenhang mit der Treue](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge), Coworker Chat-Anwendungsfälle, die auf Journey Create basieren.
 - [Product Support Agent](./product-support.md) zur Fehlerbehebung bei Journey Optimizer-Problemen, die über den KI-Assistenten aufgetaucht sind.

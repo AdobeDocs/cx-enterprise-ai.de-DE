@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 6908bfda861a96b10950728a9f83263335f707ea
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '962'
 ht-degree: 2%
 ---
 # KI in CX Enterprise-Anwendungen
@@ -38,6 +38,7 @@ In diesem Handbuch werden die KI-Funktionen in Adobe CX Enterprise behandelt: ge
 
 Beginnen Sie hier mit einem Überblick darüber, wo und wie KI in CX Enterprise verwendet wird:
 
+- [Coworker](https://experienceleague.adobe.com/de/docs/coworker/content/home) ist ein Agent-First-Teamkollege, der Ihre Kundenerlebnis- und Marketing-Arbeit zur Genehmigung plant, ausführt, validiert und zurückgibt.
 - [Über generative KI](./overview/generative-ai.md) beschreibt, welche CX Enterprise-Programme generative KI und den KI-Assistenten unterstützen und wie sie sich vergleichen.
 - [Über die agentische KI](./overview/agentic-ai.md) erläutert, wie die agentische KI in bestehenden CX Enterprise-Programmen und KI-First-Programmen funktioniert, und listet die in den einzelnen Programmen verfügbaren Agenten auf.
 - [KI-Überwachung](./overview/monitoring.md) umfasst die Dashboards, die die Akzeptanz, Nutzung, Feedback und Nutzung von KI-Krediten durch Agenten verfolgen.
@@ -51,15 +52,17 @@ Bei Coworker handelt es sich um eine agentenorientierte Weiterentwicklung des KI
 
 Coworker includes:
 
-- **[Coworker Chat](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Eine Gesprächsoberfläche zum Untersuchen Ihrer Daten, Überprüfen von Zielgruppen und Journey und Ausführen mehrstufiger Aufgaben in CX Enterprise-Programmen.
-- **[Coworker Campaign](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: Eine KI-native Anwendung, die Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/de/products/cx-enterprise-coworker/teams.html).
+- **[Coworker Chat](https://experienceleague.adobe.com/de/docs/coworker/content/chat/overview)**: Eine Gesprächsoberfläche zum Untersuchen Ihrer Daten, Überprüfen von Zielgruppen und Journey und Ausführen mehrstufiger Aufgaben in CX Enterprise-Programmen.
+- **[Coworker Campaign](https://experienceleague.adobe.com/de/docs/coworker/content/campaigns/overview)**: Eine KI-native Anwendung, die Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/de/products/cx-enterprise-coworker/teams.html).
 - **Coworker Projects** (in Kürze verfügbar): Ein einheitlicher Arbeitsbereich zur Automatisierung von End-to-End-Orchestrierungs-Workflows für das Kundenerlebnis, der Teams bei der Koordinierung von Aufgaben, Genehmigungen und Ausführungen unterstützt, um Ergebnisse von der Strategie bis zur Bereitstellung zu erzielen. Die Dokumentation für Projekte wird in Kürze verfügbar sein.
 
-Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-Agenten auf den Coworker Chat umgestellt. Lesen Sie [Coworker Trial](./agents/trial.md), um mehr über die Testeignung, die Verwendung von KI-Guthaben und den Zugriff darauf zu erfahren.
+Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-Agenten auf den Coworker Chat umgestellt.
 
-Um den Coworker Chat in Aktion zu sehen, gehen Sie durch [Coworker Chat in Playground](./coworker/playground-coworker-chat.md) oder lesen Sie reale Anwendungsfälle wie [Validieren von AA zu CJA-](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md), [Validieren Ihrer Experience Platform-Daten](./coworker/chat/use-cases/data-insights/data-validation-aep.md) und [Analysieren von CJA-Daten](./coworker/chat/use-cases/data-insights/analytics-chat.md).
+### Ressourcen für Kollegen
 
-Eine vollständige Produktdokumentation zu Coworker Chat, Coworker for Teams (Coworker-Kampagnen) und Projekten finden Sie unter [Coworker](./coworker/overview.md). Informationen zur Replikation von Sandbox-zu-Sandbox-Objekten finden Sie unter [Sandbox Tooling Agent Skills](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md).
+- Lesen Sie [Testversion für Mitarbeiter](./agents/trial.md), um mehr über die Berechtigung zur Testversion, die Verwendung von KI-Guthaben und den Zugriff darauf zu erfahren.
+- Siehe [Startseite der &#x200B;](https://experienceleague.adobe.com/de/docs/coworker/content/home)-Hilfe) für alle Inhalte für Kollegen.
+- Informationen zur Replikation von Sandbox-zu-Sandbox-Objekten finden Sie unter [Sandbox Tooling Agent Skills](https://experienceleague.adobe.com/de/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
 
 ## KI-Assistent
 

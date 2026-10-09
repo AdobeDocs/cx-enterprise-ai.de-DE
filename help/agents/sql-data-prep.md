@@ -1,9 +1,9 @@
 ---
 title: SQL-Datenvorbereitung in Coworker
 description: Erfahren Sie, wie Sie SQL-Datenvorbereitung in Coworker verwenden, um SQL-Abfragen zu generieren, zu optimieren, zu beheben und zu planen.
-source-git-commit: dff76b520c013554276e72a3e19b5d56c16af5fa
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1126'
 ht-degree: 3%
 ---
 # SQL-Datenvorbereitung in Coworker
@@ -29,7 +29,7 @@ Sie können die Datensätze identifizieren, die Sie in Ihrer Anfrage verwenden m
 
 Nachdem ein Mitarbeiter die SQL generiert oder aktualisiert hat, können Sie die Konversation fortsetzen, um eine Vorschau der Ergebnisse anzuzeigen, die Abfrage zu verfeinern, sie zu speichern oder sie für die wiederkehrende Ausführung zu planen.
 
-Eine Anleitung zur Verwendung der Benutzeroberfläche für Kollegen finden Sie im [Handbuch zur Benutzeroberfläche für Kollegen](../coworker/chat/ui-guide.md).
+Eine Anleitung zur Verwendung der Benutzeroberfläche für Kollegen finden Sie im [Handbuch zur Benutzeroberfläche für Kollegen](https://experienceleague.adobe.com/de/docs/coworker/content/chat/ui-guide).
 
 ## Unterstützte Funktionen {#supported-capabilities}
 

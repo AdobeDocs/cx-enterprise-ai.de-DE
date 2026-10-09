@@ -1,9 +1,9 @@
 ---
 title: Validieren Ihrer Daten im KI-Assistenten
 description: Erfahren Sie, wie Sie mit der Agent Orchestrator-gestützten Datenvalidierung im KI-Assistenten statistische und semantische Validierungen für Ihre Datensätze durchführen können.
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1616'
 ht-degree: 0%
 ---
 # Validieren Ihrer Daten im KI-Assistenten
@@ -24,7 +24,7 @@ Lesen Sie diese Dokumentation, um zu erfahren, wie Sie Ihre Daten im KI-Assisten
 
 >[!NOTE]
 >
->Die Datenvalidierung ist auch als Kollegen verfügbar. Siehe [Validieren Ihrer Experience Platform-Daten mit Coworker](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md).
+>Die Datenvalidierung ist auch als Kollegen verfügbar. Siehe [Validieren Ihrer Experience Platform-Daten mit Coworker](https://experienceleague.adobe.com/de/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep).
 
 ## Anwendungsszenarien
 

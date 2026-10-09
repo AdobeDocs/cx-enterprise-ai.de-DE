@@ -1,9 +1,9 @@
 ---
 title: Data Management Agent für Adobe Experience Platform
 description: Erfahren Sie, wie Sie mit dem Data Management Agent in CX Coworker Adobe Experience Platform-Datensätze finden und analysieren und die Data Lake-Aufbewahrungsrichtlinien verwalten können.
-source-git-commit: 40f144c7a06592c78dccc6c17f19554b62f667c9
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1036'
 ht-degree: 3%
 ---
 # Data Management Agent
@@ -48,9 +48,9 @@ Bevor Sie beginnen, stellen Sie Folgendes sicher:
 
 - Zugriff auf Adobe Experience Platform und die Sandbox, die die Datensätze enthält, die Sie überprüfen möchten.
 - Die Adobe Experience Platform-Berechtigungen, die für die Datensätze und Aufbewahrungsaktionen erforderlich sind, die Sie verwenden möchten. Der Data Management Agent verwendet Ihre bestehenden Experience Platform-Berechtigungen und gewährt keinen zusätzlichen Zugriff. Informationen zur Funktionsweise von [&#x200B; und Rollen finden &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) in der Übersicht zur Zugriffskontrolle .
-- Das in CX Coworker installierte Adobe CXO-Plug-in.
+- Das in CX Coworker installierte CRX-Plug-in für Adobe.
 
-Anweisungen zum Installieren von Plug-ins finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Anweisungen zum Installieren von Plug-ins finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/coworker/content/chat/ui-guide).
 
 ## Verwenden des Daten-Management-Agenten {#use-the-data-management-agent}
 
@@ -62,13 +62,13 @@ Interagieren Sie mit dem Data Management Agent über CX Coworker in natürlicher
 
 So verwenden Sie den Data Management-Agenten:
 
-1. Navigieren Sie zu **[!UICONTROL CX Coworker]**. Weitere Informationen zum Zugriff finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+1. Navigieren Sie zu **[!UICONTROL CX Coworker]**. Weitere Informationen zum Zugriff finden Sie im [Handbuch zur Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/coworker/content/chat/ui-guide).
 1. Geben Sie eine Anforderung ein, die beschreibt, was Sie erreichen möchten.
 1. Überprüfen Sie die Ergebnisse und verwenden Sie Folgefragen, um Ihre Untersuchung fortzusetzen.
 
 Wenn eine Anfrage eine Data-Lake-Aufbewahrungsrichtlinie ändert, zeigt der Data Management-Agent die vorgeschlagenen Auswirkungen an und benötigt Ihre Bestätigung, bevor die Änderung angewendet wird.
 
-Einen End-to-End-Workflow zur Identifizierung von Datensätzen, zur Analyse der Auswirkungen auf Nutzung und Aufbewahrung und zur Verwaltung von Data Lake-Aufbewahrungsrichtlinien finden Sie [Verwalten der Data Lake-Aufbewahrung](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
+Einen End-to-End-Workflow zur Identifizierung von Datensätzen, zur Analyse der Auswirkungen auf Nutzung und Aufbewahrung und zur Verwaltung von Data Lake-Aufbewahrungsrichtlinien finden Sie [Verwalten der Data Lake-Aufbewahrung](https://experienceleague.adobe.com/de/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention).
 
 ## Funktionsweise des Data Management-Agenten {#how-the-data-management-agent-works}
 
@@ -80,6 +80,6 @@ Der Data Management-Agent kann Datensätze identifizieren, die sich gut für ein
 
 ## Nächste Schritte {#next-steps}
 
-Eine Anleitung zur Verwendung der einzelnen Kenntnisse zum Suchen, Analysieren und Verwalten der Data Lake-Aufbewahrung in Ihren Experience Event-Datensätzen finden Sie [Verwalten der Data Lake-Aufbewahrung](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
+Eine Anleitung zur Verwendung der einzelnen Kenntnisse zum Suchen, Analysieren und Verwalten der Data Lake-Aufbewahrung in Ihren Experience Event-Datensätzen finden Sie [Verwalten der Data Lake-Aufbewahrung](https://experienceleague.adobe.com/de/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention).
 
 Weitere Informationen zur Funktionsweise von Data-Lake-Aufbewahrungsrichtlinien in Adobe Experience Platform, einschließlich Aufbewahrungsverhalten und Konfiguration, finden Sie [&#x200B; Handbuch zur Erlebnisereignis-Datensatzaufbewahrung (TTL)](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).

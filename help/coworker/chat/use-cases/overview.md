@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
+source-git-commit: 29be6d986ce52cd14e4b1829d6558a4c981c8f9a
 workflow-type: tm+mt
-source-wordcount: '7086'
+source-wordcount: '7168'
 ht-degree: 6%
 ---
 # Anwendungsfälle für den Chat mit Kollegen {#use-cases}
@@ -52,6 +52,7 @@ Mit dem Coworker Chat können Sie Ihre [!DNL Experience Platform]-Daten in natü
 | Anwendungsfall | Beschreibung | Kenntnisse | Anwendung | Eingabeaufforderungen |
 | --- | --- | --- | --- | --- |
 | Verwalten von Cloud Manager-Pipelines | Erstellen, Ausführen und Überwachen von AEM Cloud Manager-Pipelines, einschließlich Protokollen, Artefakten, Variablen und Einstellungen | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM) | „Pipelines für Programm 12345 auflisten“<br><br>„Was ist der Status meiner letzten Pipeline?“ |
+| Fehlerbehebung bei fehlgeschlagenen Cloud Manager-Pipelines | Analysieren Sie eine fehlgeschlagene AEM Cloud Manager-Pipeline-Ausführung und erklären Sie im Klartext, warum sie fehlgeschlagen ist. Unterstützt Full-Stack-Pipelines (Bereitstellung und Code-Qualität), Web-Stufen-Konfigurations-Pipelines und Konfigurations-Pipelines, z. B. Bereitstellungsfehler aufgrund einer ungültigen CDN-Konfiguration | Wird als spezieller Cloud Manager Pipeline-Fehlerbehebungsagent implementiert. | Adobe Experience Manager (AEM) | „Fehlerbehebung bei fehlgeschlagener Pipeline“<br><br>„Auflisten fehlgeschlagener Pipelines für Programm &lt;Programmname>&quot;<br><br>„Analysieren der letzten fehlgeschlagenen Ausführung von &lt;Pipeline-Name> in Programm &lt;Programmname>&quot; |
 | Verwalten von Cloud Manager-Umgebungen | Erstellen, Konfigurieren und Verwalten von AEM Cloud Manager-Umgebungen, einschließlich RDEs, Umgebungsvariablen, Protokollen und Backups | `cloud-manager-environment-management` | Adobe Experience Manager (AEM) | „Meine Umgebungen für Programm 12345 auflisten“<br><br>„RDE zurücksetzen“ |
 | Verwalten von Cloud Manager-Programmen | Auflisten, Überprüfen und Löschen von AEM Cloud Manager-Programmen, einschließlich ihrer Pipelines und Umgebungen | `cloud-manager-program-management` | Adobe Experience Manager (AEM) | „Meine Cloud Manager-Programme auflisten“<br><br>„Details zu 12345 abrufen“ |
 | Verwalten von Zeitplänen für die Aktualisierung von AEM-Versionen | Konfigurieren Sie die täglichen Ruhezeiten und Freie Zeiträume für die automatisierte Wartung und sehen Sie sich die globalen Fenster zum Einfrieren von Code in Adobe an | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | „Was ist mein aktuelles Fenster für die Ruhezeiten?“<br><br>„Planen Sie einen Zeitraum ohne Updates vom 20. Dezember bis zum 2. Januar“ |
