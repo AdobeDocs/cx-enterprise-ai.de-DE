@@ -3,32 +3,43 @@ description: Erfahren Sie, wie Sie Daten mit der Data Insights Agent in Customer
 title: Visualisieren von Daten mit Data Insights Agent
 role: User, Admin
 solution: Customer Journey Analytics
-TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
+TQID: 'https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+    internal-label: Analytics dashboards
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+    internal-label: Data management
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 2686
+source-wordcount: '2686'
 ht-degree: 4%
-
 ---
-
 # Visualisieren von Daten mit Data Insights Agent
 
 >[!AVAILABILITY]
@@ -74,7 +85,7 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
   Um Berechtigungen zu erteilen, muss [Produktprofil-Administrator](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html) in der [!UICONTROL Admin Console die folgenden Schritte ausführen]:
   1. Wählen Sie in **[!UICONTROL Admin Console]** die Registerkarte **[!UICONTROL Produkte]** aus, um die Seite **[!UICONTROL Alle Produkte und Services]** anzuzeigen.
   1. **[!UICONTROL Customer Journey Analytics]**.
-  1. Wählen Sie auf **[!UICONTROL Registerkarte]** den Titel des Produktprofils aus, für das Sie Zugriff auf den [!UICONTROL KI-Assistenten: Produktkenntnisse“ &#x200B;] möchten.
+  1. Wählen Sie auf **[!UICONTROL Registerkarte]** den Titel des Produktprofils aus, für das Sie Zugriff auf den [!UICONTROL KI-Assistenten: Produktkenntnisse“ ] möchten.
   1. Wählen Sie im jeweiligen Produktprofil die Registerkarte **[!UICONTROL Berechtigungen]** aus.
 
      ![Registerkarte „Berechtigungen“ in Admin Console](/help/agents/assets/cja-agent/ai-assistant-permissions-tab.png)
@@ -89,7 +100,7 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
 
   1. Wählen **[!UICONTROL Speichern]**, um die Berechtigungen zu speichern.
 
-  Weitere Informationen zur Zugriffssteuerung finden Sie unter [Zugriffssteuerung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/access-control#access-control).
+  Weitere Informationen zur Zugriffssteuerung finden Sie unter [Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Zugriff auf Datenansicht**: Datenansichten müssen für Data Insights Agent aktiviert sein.
 
@@ -97,7 +108,7 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
   >
   >Beachten Sie beim Aktivieren von Datenansichten Folgendes:
   >* Sie können maximal 50 Datenansichten pro IMS-Organisation aktivieren. Wenn Sie für ein Unternehmen mehr als 50 Datenansichten für alle Produktprofile aktivieren, verwendet die Data Insights Agent die 50 am häufigsten verwendeten Datenansichten.
-  >  Sie können die [Info in der Spalte &quot;Data Insights Agent&quot; in Datenansichten verwenden](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) um die Anzahl der Datenansichten anzuzeigen, die für Data Insights Agent in Ihrer IMS-Organisation aktiviert sind.
+  >  Sie können die [Info in der Spalte &quot;Data Insights Agent&quot; in Datenansichten verwenden](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) um die Anzahl der Datenansichten anzuzeigen, die für Data Insights Agent in Ihrer IMS-Organisation aktiviert sind.
   >* Die Data Insights Agent kann die enthaltenen Datenansichten an einem Tag referenzieren, an dem Sie sie aktivieren.
 
   So aktivieren Sie Datenansichten für Data Insights Agent:
@@ -108,7 +119,7 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
 
      ![Aktivieren von Datenansichten für Data Insights Agent](/help/agents/assets/cja-agent/data-view-enable-dia.png)
 
-     Weitere Informationen zur Aktivierung von Datenansichten für Data Insights Agent finden Sie unter [KI-Einstellungen für eine Datenansicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md #ai-settings).
+     Weitere Informationen zur Aktivierung von Datenansichten für Data Insights Agent finden Sie unter [KI-Einstellungen für eine Datenansicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md #ai-settings).
 
   So zeigen Sie die Anzahl der Datenansichten an, die für Data Insights Agent in Ihrer IMS-Organisation aktiviert sind:
 
@@ -195,13 +206,13 @@ Adobe Experience Platform Agent Orchestrator ermöglicht den Zugriff auf die Fun
 
 Agent Orchestrator interpretiert Ihre Anfrage, bestimmt, welche spezialisierten Agenten benötigt werden, und orchestriert sie, um die richtige Antwort zu liefern. Es verfolgt den Kontext über Multi-Turn-Interaktionen hinweg, sodass Sie auf natürliche Weise auf früheren Abfragen aufbauen können.
 
-Weitere Informationen finden Sie unter [Adobe Experience Platform Agent Orchestrator &#x200B;](https://business.adobe.com/de/products/experience-platform/agent-orchestrator.html).
+Weitere Informationen finden Sie unter [Adobe Experience Platform Agent Orchestrator ](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
 
 ## Eingabeaufforderungen zur Beispieldatenvisualisierung
 
 Im Folgenden finden Sie einige Beispiele für häufige Eingabeaufforderungen und die Visualisierungen, die von Data Insights Agent verwendet werden, um auf diese Eingabeaufforderungen zu reagieren.
 
-| Beispiel-Eingabeaufforderung | Erwartete Visualisierung |
+| Prompt-Beispiel | Erwartete Visualisierung |
 | --- | --- |
 | Gewinne anzeigen in [Monat] | Zeile<p>Wenn Sie innerhalb eines bestimmten Zeitbereichs nach einem Trend oder einer Metrik fragen, wird standardmäßig eine Linienvisualisierung zurückgegeben. |
 | Trend der Bestellungen in [Monat] | Zeile |
@@ -285,8 +296,8 @@ Im Folgenden finden Sie Best Practices für Ihre Customer Journey Analytics-Konf
 
 >[!MORELIKETHIS]
 >
->[Komponenteneinstellungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Datenwörterbuch](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Berechnete Metrik genehmigen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Segmente freigeben](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Komponenteneinstellungen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Datenwörterbuch](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Berechnete Metrik genehmigen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Segmente freigeben](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
 

@@ -3,15 +3,12 @@ description: Erfahren Sie, wie Sie Ihr Marketo Engage-Konto mit Coworker Campaig
 title: Verbindung mit Marketo Engage herstellen
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 311
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # Verbindung mit Marketo Engage herstellen {#marketo}
 
 Mit Adobe Coworker-Kampagnen können Sie Ihr Marketo Engage-Konto verbinden, um intelligente und statische Listen abzurufen.
@@ -22,11 +19,11 @@ Mit Adobe Coworker-Kampagnen können Sie Ihr Marketo Engage-Konto verbinden, um 
 >
 >* Ein gültiges Marketo Engage-Konto
 >* Ihre Marketo **Instanz-URL**
->* Ein [benutzerdefinierter Service](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/rest/custom-services#custom-services-1) der für Coworker-Kampagnen in Marketo erstellt wurde, mit [Client-ID und &#x200B;](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token) Client-Geheimnis)
+>* Ein [benutzerdefinierter Service](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1) der für Coworker-Kampagnen in Marketo erstellt wurde, mit [Client-ID und ](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token) Client-Geheimnis)
 
 ## So verbinden Sie sich
 
-1. Klicken Sie auf der [Startseite von &#x200B;](https://coworker-campaigns.experience.adobe.com/)-Kampagnen auf **Anpassen** und wählen Sie **Connectoren**.
+1. Klicken Sie auf der [Startseite von ](https://coworker-campaigns.experience.adobe.com/)-Kampagnen auf **Anpassen** und wählen Sie **Connectoren**.
 
    ![Coworker-Kampagnen - linker Navigationsbereich mit hervorgehobener Option „Anpassen“ und „Connectoren“](./assets/marketo-1.png)
 

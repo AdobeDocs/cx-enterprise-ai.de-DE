@@ -4,10 +4,7 @@ title: Verbindung mit Salesforce herstellen
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -26,7 +23,7 @@ Mit Adobe Coworker-Kampagnen können Sie eine Verbindung zu Ihrem Salesforce-Kon
 
 ## So verbinden Sie sich
 
-1. Klicken Sie auf der [Startseite von &#x200B;](https://coworker-campaigns.experience.adobe.com/)-Kampagnen auf **Anpassen** und wählen Sie **Connectoren**.
+1. Klicken Sie auf der [Startseite von ](https://coworker-campaigns.experience.adobe.com/)-Kampagnen auf **Anpassen** und wählen Sie **Connectoren**.
 
    ![Coworker-Kampagnen - linker Navigationsbereich mit hervorgehobener Option „Anpassen“ und „Connectoren“](./assets/salesforce-1.png)
 

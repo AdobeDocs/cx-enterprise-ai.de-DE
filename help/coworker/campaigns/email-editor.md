@@ -3,15 +3,12 @@ description: Beschreibung.
 title: Grundlegendes zum E-Mail-Editor
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # Grundlegendes zum E-Mail-Editor {#email-editor}
 
 Mit dem E-Mail-Editor können Sie eine von KI generierte E-Mail direkt im Kampagnenboard einschränken. Bearbeiten Sie die Betreffzeile und den Preheader, formatieren Sie Text und Bilder inline oder tauschen Sie sie in einer anderen Vorlage aus.

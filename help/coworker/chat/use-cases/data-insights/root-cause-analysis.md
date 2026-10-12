@@ -11,10 +11,7 @@ jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -26,4 +23,4 @@ Um zu verstehen, warum sich Metriken häufig ändern, müssen Sie oft in mehrere
  
 In natürlicher Sprache können Analysten und Marketing-Experten Fragen zu ihren Daten stellen, visualisierte Ergebnisse erhalten, aussagekräftige Trends identifizieren und die Faktoren für die Leistung aufdecken - alles in einem einzigen Gespräch.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496859/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
