@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6908bfda861a96b10950728a9f83263335f707ea
+source-git-commit: 5810a7f782eaca7c34dda14a1eea12b435329c38
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 2%
+source-wordcount: '809'
+ht-degree: 5%
 ---
 # KI in CX Enterprise-Anwendungen
 
-In diesem Handbuch werden die KI-Funktionen in Adobe CX Enterprise behandelt: generative KI, CX Enterprise Coworker, KI-Assistent, Agent Orchestrator und MCP.
+Dieses Handbuch behandelt die KI-Funktionen in Adobe CX Enterprise: Generative KI, CX Enterprise Coworker, KI-Assistent und Agent Orchestrator.
 
 ## KI-Funktionen - Übersicht
 
@@ -48,12 +48,12 @@ Beginnen Sie hier mit einem Überblick darüber, wo und wie KI in CX Enterprise 
 
 ## Coworker
 
-Bei Coworker handelt es sich um eine agentenorientierte Weiterentwicklung des KI-Assistenten, der Kundenerlebnis- und Marketing-Workflows automatisiert, sodass sich Ihr Team auf Geschäftsziele anstatt auf die routinemäßige Ausführung konzentrieren kann. Anstatt eine Frage nach der anderen zu stellen, beschreibt man ein Ziel. Mitarbeiter plant, führt aus, validiert und gibt die abgeschlossene Arbeit zur Genehmigung zurück. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/de/products/cx-enterprise-coworker.html).
+Bei Coworker handelt es sich um eine agentenorientierte Weiterentwicklung des KI-Assistenten, der Kundenerlebnis- und Marketing-Workflows automatisiert, sodass sich Ihr Team auf Geschäftsziele anstatt auf die routinemäßige Ausführung konzentrieren kann. Anstatt eine Frage nach der anderen zu stellen, beschreibt man ein Ziel. Mitarbeiter plant, führt aus, validiert und gibt die abgeschlossene Arbeit zur Genehmigung zurück. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
 Coworker includes:
 
-- **[Coworker Chat](https://experienceleague.adobe.com/de/docs/coworker/content/chat/overview)**: Eine Gesprächsoberfläche zum Untersuchen Ihrer Daten, Überprüfen von Zielgruppen und Journey und Ausführen mehrstufiger Aufgaben in CX Enterprise-Programmen.
-- **[Coworker Campaign](https://experienceleague.adobe.com/de/docs/coworker/content/campaigns/overview)**: Eine KI-native Anwendung, die Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/de/products/cx-enterprise-coworker/teams.html).
+- **[Coworker Chat](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)**: Eine Gesprächsoberfläche zum Untersuchen Ihrer Daten, Überprüfen von Zielgruppen und Journey und Ausführen mehrstufiger Aufgaben in CX Enterprise-Programmen.
+- **[Coworker Campaign](https://experienceleague.adobe.com/en/docs/coworker/content/campaigns/overview)**: Eine KI-native Anwendung, die Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html).
 - **Coworker Projects** (in Kürze verfügbar): Ein einheitlicher Arbeitsbereich zur Automatisierung von End-to-End-Orchestrierungs-Workflows für das Kundenerlebnis, der Teams bei der Koordinierung von Aufgaben, Genehmigungen und Ausführungen unterstützt, um Ergebnisse von der Strategie bis zur Bereitstellung zu erzielen. Die Dokumentation für Projekte wird in Kürze verfügbar sein.
 
 Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-Agenten auf den Coworker Chat umgestellt.
@@ -61,8 +61,8 @@ Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-
 ### Ressourcen für Kollegen
 
 - Lesen Sie [Testversion für Mitarbeiter](./agents/trial.md), um mehr über die Berechtigung zur Testversion, die Verwendung von KI-Guthaben und den Zugriff darauf zu erfahren.
-- Siehe [Startseite der &#x200B;](https://experienceleague.adobe.com/de/docs/coworker/content/home)-Hilfe) für alle Inhalte für Kollegen.
-- Informationen zur Replikation von Sandbox-zu-Sandbox-Objekten finden Sie unter [Sandbox Tooling Agent Skills](https://experienceleague.adobe.com/de/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
+- Siehe [Startseite der ](https://experienceleague.adobe.com/de/docs/coworker/content/home)-Hilfe) für alle Inhalte für Kollegen.
+- Informationen zur Replikation von Sandbox-zu-Sandbox-Objekten finden Sie unter [Sandbox Tooling Agent Skills](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
 
 ## KI-Assistent
 
@@ -88,21 +88,23 @@ Die folgenden Experience Platform-Agenten sind in diesem Handbuch dokumentiert:
 
 Eine vollständige Liste der Agenten, der von ihnen unterstützten Programme und der Eignungsanforderungen finden Sie unter [Agent-KI in CX Enterprise](./overview/agentic-ai.md).
 
+<!--
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md) ist der Unified Model Context Protocol (MCP)-Endpunkt für CX Enterprise. Dadurch erhalten MCP-kompatible Clients wie [!DNL Claude], [!DNL ChatGPT] und [!DNL Cursor] eine einzige geregelte Verbindung zu den Produkt-Tools, die Ihr Unternehmen verwenden darf:
+[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use:
 
-- [Real-Time CDP-Tools](./mcp/rtcdp-mcp.md)
-- [Experience Platform-Tools](./mcp/aep-mcp.md)
-- [Journey Optimizer-Tools](./mcp/ajo-mcp.md)
-- [Customer Journey Analytics-Tools](./mcp/cja-mcp.md)
-- [Adobe Analytics-Tools](./mcp/analytics-mcp.md)
-- [!DNL Workfront] Tools, dokumentiert im [Workfront MCP-Server-Handbuch](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- [!DNL Target] Tools, dokumentiert im [Target MCP Server Guide](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+- [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
+- [Experience Platform tools](./mcp/aep-mcp.md)
+- [Journey Optimizer tools](./mcp/ajo-mcp.md)
+- [Customer Journey Analytics tools](./mcp/cja-mcp.md)
+- [Adobe Analytics tools](./mcp/analytics-mcp.md)
+- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
-Neu bei CX Coworker Gateway? Siehe [Zugriff auf CX Coworker Gateway-Tools](./mcp/access.md) und [Installieren von CX Coworker Gateway](./mcp/install.md), um eine Verbindung herzustellen. Verwenden Sie nach der Verbindung die [Sitzungskontext-Tools](./mcp/context-tools.md), um die aktive Organisation, Sandbox und Datenansicht festzulegen, bevor Sie die Produkt-Tools aufrufen.
+New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 
-Bevor Sie eines dieser Tools verwenden, lesen Sie [Bevor Sie beginnen](./overview/overview-ai-cxe.md#before-you-begin) für Zugriffsanforderungen sowie Überlegungen zum Datenschutz und zur Sicherheit.
+Before you use any of these tools, see [Before you begin](./overview/overview-ai-cxe.md#before-you-begin) for access requirements and privacy and security considerations.
+-->
 
 ## Best Practices
 
