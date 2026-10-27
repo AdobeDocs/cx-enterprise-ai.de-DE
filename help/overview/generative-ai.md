@@ -94,7 +94,7 @@ GenAI kann _Originalinhalt erstellen_ oder _eine Antwort generieren_ auf eine Ei
 
 * **Produktkenntnisse:** Produktkenntnisse beziehen sich auf Konzepte und Themen, die auf der CX Enterprise-Produktdokumentation zu Experience League basieren. Verwenden Sie beispielsweise [objektivbasierte Eingabeaufforderungen](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home) um schnell mehr über Experience Platform zu erfahren. Alle Antworten von Experience League sind überprüfbar und mit Links versehen.
 
-* **Operative Insights:** &quot;[ Insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) in Experience Platform beziehen sich auf generierte Antworten zu Ihren Metadatenobjekten (Attribute, Zielgruppen, Datenflüsse, Datensätze usw.). Mit [!UICONTROL AI Assistant] erreichen Sie in Sekunden, was sonst Stunden oder Tage dauert.
+* **Operative Insights:** &quot;[&#x200B; Insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) in Experience Platform beziehen sich auf generierte Antworten zu Ihren Metadatenobjekten (Attribute, Zielgruppen, Datenflüsse, Datensätze usw.). Mit [!UICONTROL AI Assistant] erreichen Sie in Sekunden, was sonst Stunden oder Tage dauert.
 
 >[!NOTE]
 >
@@ -141,7 +141,7 @@ Im Folgenden finden Sie eine Zusammenfassung [!DNL CX Enterprise] Anwendungen, d
 | [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/introduction/assistant-ai/ai-assistant) | KI-Assistent für Produktkenntnisse. | Nein |
 | [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | KI-Assistent für In-App-Informationen und -Vorschläge. | Ja |
 
-**Hinweis:** [!DNL Experience Platform Agents] werden unter [KI-Agenten in CX Enterprise&quot; ](agentic-ai.md).
+**Hinweis:** [!DNL Experience Platform Agents] werden unter [KI-Agenten in CX Enterprise&quot; &#x200B;](agentic-ai.md).
 
 ## Wie kann ich generative KI in CX Enterprise verwenden?
 
