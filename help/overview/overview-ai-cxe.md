@@ -40,7 +40,7 @@ Bevor Ihre Teams mit der Verwendung von Coworker, AI Assistant oder Agent AI beg
 
 ### Zugriffsanforderungen
 
-Ihr Adobe-Administrator muss die entsprechenden Berechtigungen erteilen, damit Benutzer auf den KI-Assistenten und die Experience Platform-Agenten zugreifen können. Die Anforderungen variieren je nach Anwendung. Weitere Informationen finden [ unter ](../agents/agent-orchestrator.md#access) im Agent Orchestrator-Handbuch. Der Zugriff auf CX Enterprise Coworker wird separat eingeführt. Dies erfolgt im Rahmen von auf der Berechtigung basierenden Tests. Unter &quot;[-Test](../agents/trial.md) erfahren Sie, wie Ihr Unternehmen Zugriff erhalten kann.
+Ihr Adobe-Administrator muss die entsprechenden Berechtigungen erteilen, damit Benutzer auf den KI-Assistenten und die Experience Platform-Agenten zugreifen können. Die Anforderungen variieren je nach Anwendung. Weitere Informationen finden [&#x200B; unter &#x200B;](../agents/agent-orchestrator.md#access) im Agent Orchestrator-Handbuch. Der Zugriff auf CX Enterprise Coworker wird separat eingeführt. Dies erfolgt im Rahmen von auf der Berechtigung basierenden Tests. Unter &quot;[-Test](../agents/trial.md) erfahren Sie, wie Ihr Unternehmen Zugriff erhalten kann.
 
 ### Datenschutz und Sicherheit
 
