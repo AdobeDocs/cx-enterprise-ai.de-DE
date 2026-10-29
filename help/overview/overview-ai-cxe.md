@@ -1,11 +1,11 @@
 ---
-title: Über KI in CX Enterprise
+title: Informationen zu KI in CX Enterprise
 description: Erfahren Sie, wo generative und agentische KI in CX Enterprise-Programmen verfügbar sind, und lesen Sie die Zugriffs-, Datenschutz- und Sicherheitsanforderungen, bevor Sie beginnen.
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
@@ -16,12 +16,12 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fccf9111460413fe5b89229564a682827152b1ab
+source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 3%
+ht-degree: 5%
 ---
-# Über KI in CX Enterprise
+# Informationen zu KI in CX Enterprise
 
 Adobe CX Enterprise-Programme verwenden KI auf zwei komplementäre Arten: **generative KI**, die Sie direkt auffordern, Inhalte zu erstellen oder eine Antwort zu erhalten, und **agentische KI**, die mehrstufige Arbeit in Ihrem Namen und unter Ihrer Aufsicht plant und durchführt. In den folgenden Themen wird allgemein beschrieben, wo die einzelnen KI-Typen in CX Enterprise verfügbar sind.
 
@@ -46,7 +46,7 @@ Ihr Adobe-Administrator muss die entsprechenden Berechtigungen erteilen, damit B
 
 KI-Assistent und Experience Platform-Agenten priorisieren Datenschutz, Sicherheit und Governance, einschließlich Sandbox-spezifischer Datenisolierung und Ihrer bestehenden Zugriffssteuerungsrichtlinien. Ausführliche Informationen finden Sie unter [Datenschutz, Sicherheit und Governance im KI-Assistenten](../ai-assistant/privacy.md).
 
-## Ausgangspunkt
+## Erste Schritte
 
 1. Lesen Sie **Über generative KI** und **Über agentische KI**, um die beiden verfügbaren KI-Formen zu verstehen und zu erfahren, wo jede bereits in Ihren lizenzierten Anwendungen verfügbar ist.
 1. Lesen Sie **KI-Guthaben - Konsum**, um zu verstehen, wie sich die Nutzung in Kosten niederschlägt, damit Sie im Finanzwesen und bei der Beschaffung Erwartungen definieren können.
