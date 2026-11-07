@@ -135,7 +135,7 @@ Im Folgenden finden Sie eine Zusammenfassung [!DNL CX Enterprise] Anwendungen, d
 | | _AJO Prime_ und _Ultimate_ bieten [Inhaltserstellung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en), um proaktive Inhaltsvariantenvorschläge für Text und Bilder einzubringen. | Ja |
 | [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | KI-Assistent für Produktkenntnisse. | Nein |
 | [[!DNL Campaign] Managed Cloud Services](https://experienceleague.adobe.com/de/docs/campaign-web/v8/content/ai-assistant/generative-gs) | KI-Assistent für Content Accelerator zur automatischen Generierung personalisierter, ansprechender und effektiver Inhalte basierend auf Marketing-Zielen über Kanäle wie E-Mail, SMS und Push hinweg. | Ja |
-| **[!DNL Customer Journey Analytics]** | GenAI wird angewendet mit:<ul><li> [Intelligente Beschriftungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): Erhalten Sie Einblicke in die am häufigsten verwendeten Workspace-Visualisierungen.</li><li>[Content Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): Zum automatischen Zuweisen von Asset-Metadaten.</li></ul> KI-Assistent für:<ul><li>[Produktkenntnisse](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[Produktsupport-Agent](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | Nein |
+| **[!DNL Customer Journey Analytics]** | GenAI wird angewendet mit:<ul><li> [Intelligente Beschriftungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): Erhalten Sie Einblicke in die am häufigsten verwendeten Workspace-Visualisierungen.</li><li>[Content Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): Zum automatischen Zuweisen von Asset-Metadaten.</li></ul> KI-Assistent für:<ul><li>[Produktkenntnisse](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[Produktsupport-Agent](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | Nein |
 | [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home) | [!DNL AI Assistant] für Produktkenntnisse von Experience League. Es bietet auch operative Einblicke. | Nein |
 | **[!DNL Marketo]** | GenAI ist in E-Mail-Designer (mit Firefly), [Dynamic Chat](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en) und [interaktiven Webinaren](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en) verfügbar<br> KI-Assistent für Marketo Engage [E-Mail-Designer](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | Ja |
 | [Adobe Target](https://experienceleague.adobe.com/de/docs/target/using/introduction/assistant-ai/ai-assistant) | KI-Assistent für Produktkenntnisse. | Nein |
@@ -315,7 +315,7 @@ Beispieleingabe:
 
 Mit Customer Journey Analytics können Sie generative KI oder den KI-Assistenten wie folgt verwenden:
 
-* [KI-Assistent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) für Produktkenntnisse.
+* [KI-Assistent](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) für Produktkenntnisse.
 * [Intelligente Beschriftungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) um wichtige Einblicke in die am häufigsten verwendeten Workspace-Visualisierungen in natürlicher Sprache zu erhalten.
 * [Content Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/content-analytics/report/report#template), um alle Asset-Metadaten automatisch zuzuweisen.
 
@@ -327,7 +327,7 @@ Entdecken Sie Produktwissen von Experience League. Wenn Sie neu sind, lernen Sie
 
 Erfahrene Anwender erhalten erweiterte Anwendungsfälle oder lernen Strategien kennen, um Aufgaben schnell auszuführen. Sie können Konzepte schnell verstehen, Probleme beheben oder nach Informationen suchen.
 
-[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="Erfahren Sie mehr über den KI-Assistenten in CJA"}
+[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="Erfahren Sie mehr über den KI-Assistenten in CJA"}
 
 **Intelligente Beschriftungen**
 
