@@ -25,35 +25,30 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
+source-git-commit: 9dab42a742d258dd7d3dea3ae555a6f8b3ecac9b
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 5%
+source-wordcount: '800'
+ht-degree: 4%
 ---
 # KI in CX Enterprise-Anwendungen
 
-Dieses Handbuch behandelt die KI-Funktionen in Adobe CX Enterprise: Generative KI, CX Enterprise Coworker, KI-Assistent und Agent Orchestrator.
+In diesem Handbuch werden die in Adobe CX Enterprise verfügbaren KI-Funktionen vorgestellt: Mitarbeiter, KI-Assistent und Agent Orchestrator mit den von ihm unterstützten Experience Platform-Agenten. Beginnen Sie mit der unten stehenden Übersicht, um zu verstehen, wie diese Funktionen zusammenhängen, und folgen Sie dann den Links, um den Zugriff einzurichten, die Nutzung zu überwachen und das Beste aus jeder einzelnen herauszuholen.
 
-## KI-Funktionen - Übersicht
-
-Beginnen Sie hier mit einem Überblick darüber, wo und wie KI in CX Enterprise verwendet wird:
-
-- [Coworker](https://experienceleague.adobe.com/de/docs/coworker/content/home) ist ein Agent-First-Teamkollege, der Ihre Kundenerlebnis- und Marketing-Arbeit zur Genehmigung plant, ausführt, validiert und zurückgibt.
 - [Über generative KI](./overview/generative-ai.md) beschreibt, welche CX Enterprise-Programme generative KI und den KI-Assistenten unterstützen und wie sie sich vergleichen.
 - [Über die agentische KI](./overview/agentic-ai.md) erläutert, wie die agentische KI in bestehenden CX Enterprise-Programmen und KI-First-Programmen funktioniert, und listet die in den einzelnen Programmen verfügbaren Agenten auf.
-- [KI-Überwachung](./overview/monitoring.md) umfasst die Dashboards, die die Akzeptanz, Nutzung, Feedback und Nutzung von KI-Krediten durch Agenten verfolgen.
+- [KI-Überwachung](./overview/monitoring.md) umfasst die Dashboards für KI-Assistenten, die die Akzeptanz, Nutzung, Feedback und Nutzung von KI-Krediten durch Agenten verfolgen.
 - [Verbrauch von KI](./overview/ai-credit-consumption.md)Guthaben: Erläutert, wie Agentenaufträge KI-Guthaben verwenden, wobei die geschätzten Verbrauchsraten nach Agent und Vorgangstyp aufgeschlüsselt sind.
 - [Generative KI-Inhaltstransparenz](./content-transparency.md) erklärt, wie Adobe automatisch C2PA-Metadaten an GenAI-generierte und GenAI-bearbeitete Inhalte in CX Enterprise-Programmen anhängt.
 - [CX Enterprise Agent-Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview) Behandeln Sie zusätzliche Agentenkompetenzen und -Tools, die CX Enterprise-Agenten erweitern (Video-Tutorials).
 
 ## Coworker
 
-Bei Coworker handelt es sich um eine agentenorientierte Weiterentwicklung des KI-Assistenten, der Kundenerlebnis- und Marketing-Workflows automatisiert, sodass sich Ihr Team auf Geschäftsziele anstatt auf die routinemäßige Ausführung konzentrieren kann. Anstatt eine Frage nach der anderen zu stellen, beschreibt man ein Ziel. Mitarbeiter plant, führt aus, validiert und gibt die abgeschlossene Arbeit zur Genehmigung zurück. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/de/products/cx-enterprise-coworker.html).
+Bei Coworker handelt es sich um eine agentenorientierte Weiterentwicklung des KI-Assistenten, der Kundenerlebnis- und Marketing-Workflows automatisiert, sodass sich Ihr Team auf Geschäftsziele anstatt auf die routinemäßige Ausführung konzentrieren kann. Anstatt eine Frage nach der anderen zu stellen, beschreibt man ein Ziel. Mitarbeiter plant, führt aus, validiert und gibt die abgeschlossene Arbeit zur Genehmigung zurück. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
 Coworker includes:
 
-- **[Coworker Chat](https://experienceleague.adobe.com/de/docs/coworker/content/chat/overview)**: Eine Gesprächsoberfläche zum Untersuchen Ihrer Daten, Überprüfen von Zielgruppen und Journey und Ausführen mehrstufiger Aufgaben in CX Enterprise-Programmen.
-- **[Coworker Campaign](https://experienceleague.adobe.com/de/docs/coworker/content/campaigns/overview)**: Eine KI-native Anwendung, die Kampagnen-Briefing, Zielgruppenerstellung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/de/products/cx-enterprise-coworker/teams.html).
+- **[Coworker Chat](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)**: Eine Gesprächsoberfläche zum Untersuchen Ihrer Daten, Überprüfen von Zielgruppen und Journey und Ausführen mehrstufiger Aufgaben in CX Enterprise-Programmen.
+- **[Mitarbeiter für Teams](https://experienceleague.adobe.com/en/docs/coworker/content/campaigns/overview)**: Eine KI-native Anwendung, die Kampagnen-Briefing, Zielgruppenbildung, Inhaltserstellung, Journey-Design und Proofing in einem einzigen Gesprächserlebnis zusammenfasst. Es verwendet integrierte Vorlagen, Best Practices und eine Eingabeaufforderung, um kleine, agile Teams bei der schnellen Durchführung von Kampagnen zu unterstützen. Weitere Informationen zu [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html).
 - **Coworker Projects** (in Kürze verfügbar): Ein einheitlicher Arbeitsbereich zur Automatisierung von End-to-End-Orchestrierungs-Workflows für das Kundenerlebnis, der Teams bei der Koordinierung von Aufgaben, Genehmigungen und Ausführungen unterstützt, um Ergebnisse von der Strategie bis zur Bereitstellung zu erzielen. Die Dokumentation für Projekte wird in Kürze verfügbar sein.
 
 Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-Agenten auf den Coworker Chat umgestellt.
@@ -61,8 +56,8 @@ Berechtigte Kunden werden schrittweise von KI-Assistent und Experience Platform-
 ### Ressourcen für Kollegen
 
 - Lesen Sie [Testversion für Mitarbeiter](./agents/trial.md), um mehr über die Berechtigung zur Testversion, die Verwendung von KI-Guthaben und den Zugriff darauf zu erfahren.
-- Siehe [Startseite der &#x200B;](https://experienceleague.adobe.com/de/docs/coworker/content/home)-Hilfe) für alle Inhalte für Kollegen.
-- Informationen zur Replikation von Sandbox-zu-Sandbox-Objekten finden Sie unter [Sandbox Tooling Agent Skills](https://experienceleague.adobe.com/de/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
+- Siehe [Startseite der ](https://experienceleague.adobe.com/de/docs/coworker/content/home)-Hilfe) für alle Inhalte für Kollegen.
+- Informationen zur Replikation von Sandbox-zu-Sandbox-Objekten finden Sie unter [Sandbox Tooling Agent Skills](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
 
 ## KI-Assistent
 
@@ -98,8 +93,8 @@ Eine vollständige Liste der Agenten, der von ihnen unterstützten Programme und
 - [Journey Optimizer tools](./mcp/ajo-mcp.md)
 - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
 - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp)
+- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
 New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 

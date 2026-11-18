@@ -17,18 +17,18 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+source-git-commit: 88ac5904cbf810a32d3cfde06c8ab18ae5f53746
 workflow-type: tm+mt
-source-wordcount: 2162
+source-wordcount: '2219'
 ht-degree: 3%
-
 ---
-
 # KI-Assistent
+
+Dieses Dokument gilt für KI-Assistenten (der nächsten Generation). Informationen zum KI-Assistenten (veraltet) finden Sie im [Handbuch zur Benutzeroberfläche des KI-Assistenten](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home) in der Dokumentation zu Adobe Experience Platform.
 
 >[!IMPORTANT]
 >
->Dieses Dokument gilt für KI-Assistenten (der nächsten Generation). Informationen zum KI-Assistenten (veraltet) finden Sie im [Handbuch zur Benutzeroberfläche des KI-Assistenten](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home) in der Dokumentation zu Adobe Experience Platform.
+>Adobe CX Enterprise Coworker ist eine leistungsfähigere Weiterentwicklung des KI-Assistenten, der Ihren Benutzenden hilft, mehr und schneller zu tun. Coworker nutzt alles, was Ihr Team derzeit für KI-Assistant nutzt, und erweitert es. So können Routineaufgaben automatisiert, die Produktivität gesteigert und intelligentere, aufschlussreichere Entscheidungen getroffen werden. [Weitere Informationen](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
 In der folgenden Tabelle finden Sie einen Vergleich von KI-Assistent (veraltet) und KI-Assistent (nächste Generation):
 
@@ -36,9 +36,9 @@ In der folgenden Tabelle finden Sie einen Vergleich von KI-Assistent (veraltet) 
 | --- | --- | --- |
 | Benutzererlebnis | Der KI-Assistent (veraltet) ist nur in einem Bereich der rechten Leiste verfügbar. | Der KI-Assistent (der nächsten Generation) ist sowohl im Bereich der rechten Leiste als auch im immersiven Vollbilderlebnis verfügbar. |
 | Funktionsumfang | Sie können den KI-Assistenten (frühere Version) sowohl für Produktkenntnisse als auch für betriebliche Einblicke verwenden. | Sie können den KI-Assistenten (der nächsten Generation) für Produktkenntnisse, operative Einblicke sowie erweiterte agentische Fähigkeiten und die Ausführung mehrstufiger Aufgaben verwenden. |
-| Architektur von Platform | Der KI-Assistent (veraltet) wurde nicht auf dem Agent Orchestrator-Stack erstellt. | Der KI-Assistent (der nächsten Generation) wird von [Adobe Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/agents/agent-orchestrator) unterstützt und ermöglicht Erweiterbarkeit und erweiterte Koordinierung über Funktionen hinweg. |
-| Anwendungsbereich | Der KI-Assistent (veraltet) ist eine anwendungsspezifische Implementierung. | Sie können den KI-Assistenten (der nächsten Generation) für ein einheitliches KI-Assistentenerlebnis in allen Adobe CX Enterprise-Anwendungen verwenden. |
-| Zugriffs- und Berechtigungsmodell | Auf einzelne Produktgrenzen abgestimmtes Zugriffsmodell für die Anwendung. | Alle Benutzer erhalten Zugriff auf den KI-Assistenten (der nächsten Generation) und die zugehörigen Experience Platform-Agenten. **Hinweis**: <ul><li>**Adobe Experience Manager**: Ihr Administrator muss Ihnen über die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) die Berechtigung für den Zugriff auf den KI-Assistenten (der nächsten Generation) erteilen.</li><li>**Customer Journey Analytics**: Ihr Administrator muss Ihnen die Berechtigung für den Zugriff auf den KI-Assistenten über die [Customer Journey Analytics-Zugriffssteuerung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/access-control?lang=en) erteilen. Auf diese Weise können Sie Fragen zu Produktwissen und Dateneinblicken stellen. |
+| Architektur von Platform | Der KI-Assistent (veraltet) wurde nicht auf dem Agent Orchestrator-Stack erstellt. | Der KI-Assistent (der nächsten Generation) wird von [Adobe Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/agent-orchestrator) unterstützt und ermöglicht Erweiterbarkeit und erweiterte Koordinierung über Funktionen hinweg. |
+| Anwendungsbereich | Der KI-Assistent (veraltet) ist eine anwendungsspezifische Implementierung. | Sie können den KI-Assistenten (der nächsten Generation) für ein einheitliches KI-Assistentenerlebnis in allen Adobe CX Enterprise-Programmen verwenden. |
+| Zugriffs- und Berechtigungsmodell | Auf einzelne Produktgrenzen abgestimmtes Zugriffsmodell für die Anwendung. | Alle Benutzer erhalten Zugriff auf den KI-Assistenten (der nächsten Generation) und die zugehörigen Experience Platform-Agenten. **Hinweis**: <ul><li>**Adobe Experience Manager**: Ihr Administrator muss Ihnen über die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) die Berechtigung für den Zugriff auf den KI-Assistenten (der nächsten Generation) erteilen.</li><li>**Customer Journey Analytics**: Ihr Administrator muss Ihnen die Berechtigung für den Zugriff auf den KI-Assistenten über die [Customer Journey Analytics-Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en) erteilen. Auf diese Weise können Sie Fragen zu Produktwissen und Dateneinblicken stellen. |
 
 AI Assistant ist ein interaktives, generatives KI-Tool, das die Produktivität steigert und die Arbeit in Adobe Experience Platform-basierten Anwendungen neu definiert. Sie können den KI-Assistenten verwenden, um auf Adobe Experience Platform-Agenten und andere KI-Funktionen zuzugreifen.
 
@@ -52,15 +52,15 @@ Lesen Sie dieses Handbuch, um zu erfahren, wie Sie den KI-Assistenten verwenden 
 
 Es gibt mehrere Möglichkeiten, auf den KI-Assistenten zuzugreifen.
 
-Wählen Sie in der Startseite von CX Enterprise die Option **[!UICONTROL KI-Assistent]** aus der linken Navigation, um eine Vollbildansicht des KI-Assistenten zu starten.
+Wählen Sie auf der CX Enterprise-Startseite **[!UICONTROL KI-Assistent]** aus der linken Navigationsleiste, um die Vollbildansicht des KI-Assistenten zu öffnen.
 
 +++Zum Anzeigen auswählen
 
-![Die Startseite von CX Enterprise mit dem im linken Navigationsbereich ausgewählten Symbol „KI-Assistent“.](./assets/ai-assistant/from-experience-cloud.png)
+![Die CX Enterprise-Startseite mit dem ausgewählten Symbol für den KI-Assistenten im linken Navigationsbereich.](./assets/ai-assistant/from-experience-cloud.png)
 
 +++
 
-Sie können den KI-Assistenten auch über die Startseiten von CX Enterprise-Anwendungen wie Experience Platform, Adobe Journey Optimizer und Customer Journey Analytics starten. Navigieren Sie zu Ihrer Produkt-Startseite und wählen Sie dann in der oberen **das Symbol** KI-Assistent“ aus, um das Chat-Bedienfeld des KI-Assistenten in der rechten Leiste zu starten.
+Sie können den KI-Assistenten auch über die Startseiten von CX Enterprise-Programmen wie Experience Platform, Adobe Journey Optimizer und Customer Journey Analytics starten. Navigieren Sie zu Ihrer Produkt-Startseite und wählen Sie dann in der oberen **das Symbol** KI-Assistent“ aus, um das Chat-Bedienfeld des KI-Assistenten in der rechten Leiste zu starten.
 
 +++Zum Anzeigen auswählen
 
@@ -224,7 +224,7 @@ Das *[!UICONTROL Antwort von…]* Popup-Fenster wird angezeigt. Verwenden Sie di
 
 | Informationsquelle | Beschreibung | Beispiele |
 | --- | --- | --- |
-| App | Die CX Enterprise-Anwendung, auf die sich Ihre Abfrage bezieht. | Experience Platform, Journey Optimizer, Customer Journey Analytics usw. |
+| App | Die CX Enterprise-Anwendung, zu der Ihre Abfrage gehört. | Experience Platform, Journey Optimizer, Customer Journey Analytics usw. |
 | Sandbox | Die Sandbox, die die Datensätze oder Informationen enthält, auf die sich Ihre Abfrage bezieht. | Prod (VA7), Dev. |
 | Datenansicht | Wenn Sie den KI-Assistenten mit Customer Journey Analytics verwenden, hilft Ihnen die Datenansichtseinstellung beim Verständnis von Data Insights Agent: <ul><li>Zu abfragende Datensätze</li><li>Welche Datenkomponenten verfügbar sind</li><li>Strukturieren von Antworten auf Ihre Daten</li><li>Welche Visualisierungen in Analysis Workspace erstellt werden sollen</li></ul> | |
 
