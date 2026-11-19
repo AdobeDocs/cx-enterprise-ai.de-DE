@@ -38,7 +38,7 @@ Für einen begrenzten Einführungszeitraum verbrauchen Coworker-Eingaben KI-Cred
 
 | Funktion | Beschreibung | Unterstützte Anwendungen | KI-Kredit |
 | --- | --- | --- | --- |
-| [Markensensitive Metadaten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | Generieren benutzerdefinierter Metadaten für die Markeninteraktion | Adobe Experience Manager [!DNL Assets] | 1 KI-Guthaben (pro 10 Metadatengenerationen) |
+| [Markensensitive Metadaten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | Generieren benutzerdefinierter Metadaten für die Markeninteraktion | Adobe Experience Manager [!DNL Assets] | 1 KI-Guthaben (pro 10 Metadatengenerationen) |
 | Digital Rights Management | Extraktion und Verwaltung von Nutzungsrechten | Adobe Experience Manager [!DNL Assets] | 6 KI-Credits (pro verarbeitetem Dokument) |
 
 ### Kreditrate für AEP-Agenten
