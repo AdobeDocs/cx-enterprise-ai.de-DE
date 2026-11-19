@@ -1,25 +1,24 @@
 ---
 title: KI-Kreditnutzung
-description: Erfahren Sie mehr über die Verwendung von KI-Guthaben in CX Enterprise-Anwendungen.
+description: Erfahren Sie mehr über die Verwendung von KI-Guthaben in CX Enterprise-Programmen.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
+last-substantial-update: 2026-19-2026
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
-source-git-commit: 28e8b218e0923c9e463cce763a182b56a660d275
+source-git-commit: 47f06af825995d14691816ff1fc3e5592ffd6250
 workflow-type: tm+mt
-source-wordcount: 967
-ht-degree: 5%
-
+source-wordcount: '1033'
+ht-degree: 6%
 ---
-
 # Konsum von KI-Guthaben
 
-Erfahren Sie mehr über die Verwendung von KI-Guthaben in CX Enterprise-Anwendungen.
+Erfahren Sie mehr über die Verwendung von KI-Guthaben in CX Enterprise-Programmen.
 
 ## KI-Credits
 
@@ -28,17 +27,25 @@ Ein _KI-_) ist eine nutzungsbasierte Metrik, die die Ausführung von Aktionen od
 ## Mögliche Services, die KI-Gutschriften nutzen
 
 * [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [CX Enterprise-KI-Funktionen](#cx-enterprise-ai-capabilities)
 * [AEP-Agenten](#aep-agents-credit-rate)
 
-### Kreditzinssatz für CX Enterprise-Mitarbeiter
+### CX Enterprise Coworker-Kreditzinssatz
 
 Für einen begrenzten Einführungszeitraum verbrauchen Coworker-Eingaben KI-Credits mit einer Rate von 25 KI-Credits pro Eingabe. Dieser Tarif ist nur für begrenzte Zeit verfügbar und kann sich ändern.
+
+### CX Enterprise-KI-Funktionen
+
+| Funktion | Beschreibung | Unterstützte Anwendungen | KI-Kredit |
+| --- | --- | --- | --- |
+| [Markensensitive Metadaten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | Generieren benutzerdefinierter Metadaten für die Markeninteraktion | Adobe Experience Manager [!DNL Assets] | 1 KI-Guthaben (pro 10 Metadatengenerationen) |
+| Digital Rights Management | Extraktion und Verwaltung von Nutzungsrechten | Adobe Experience Manager [!DNL Assets] | 6 KI-Credits (pro verarbeitetem Dokument) |
 
 ### Kreditrate für AEP-Agenten
 
 Ein _Agentenauftrag_ ist eine Reihe von Aufgaben und Aktionen, die ein AEP-Agent ausführt, um ein bestimmtes Ergebnis zu erzielen, wie durch Kundeneingaben angewiesen.
 
-Mithilfe natürlicher Eingabeaufforderungen über den KI-Assistenten können Sie Agenten bitten, bestimmte Aufträge auszuführen. Basierend auf diesen Eingaben koordiniert Agent Orchestrator die entsprechenden Agenten, um jeden Schritt in den entsprechenden CX Enterprise-Anwendungen auszuführen.
+Mithilfe natürlicher Eingabeaufforderungen über den KI-Assistenten können Sie Agenten bitten, bestimmte Aufträge auszuführen. Basierend auf diesen Eingaben koordiniert Agent Orchestrator die entsprechenden Agenten, um jeden Schritt in den entsprechenden CX Enterprise-Programmen auszuführen.
 
 Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführten Auftrags variieren:
 
@@ -46,7 +53,7 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 * Komplexe (oft mehrstufige) Aufgaben verbrauchen mehr Guthaben
 * Aufgaben mit erweitertem Argumentieren, Validierung, Koordination mit mehreren Agenten oder Integration verbrauchen mehr Credits
 
-Informationen dazu, welche AEP-Agenten und Agentenaufträge in den lizenzierten CX Enterprise-Apps verfügbar sind, finden Sie im [CX Enterprise Agent AI-Funktionskatalog](https://agentic-capability-explorer.entapp.adproto.com/).
+Informationen dazu, welche AEP-Agenten und Agentenaufträge in Ihren lizenzierten CX Enterprise-Apps verfügbar sind, finden Sie im [CX Enterprise Agent AI-Funktionskatalog](https://agentic-capability-explorer.entapp.adproto.com/).
 
 #### Geschätzte Kreditraten für Agentenaufträge
 
