@@ -3,10 +3,9 @@ audience: user
 user-guide-title: KI in CX Enterprise
 user-guide-description: Erfahren Sie anhand praktischer Dokumentation, Implementierungshandbücher und Referenzmaterialien, wie Sie KI-Assistent, Mitarbeiter, Agenten und MCPs erstellen, konfigurieren, integrieren und erweitern.
 description: Erfahren Sie mehr über KI-Tools in CX Enterprise. Verbessern Sie Ihr Produktwissen und erhalten Sie operative Erkenntnisse mithilfe von KI in CX Enterprise.
-solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
+source-git-commit: e37384909f970135bf01575808b27d0283b6e951
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 21%
